@@ -1,0 +1,158 @@
+name: PCB CI
+
+on:
+  push:
+    branches: [dev, release]
+  workflow_dispatch:
+    inputs:
+      full_outputs:
+        description: Full KiBot outputs (STEP, ray-traced 3D, iBOM, review PDF)
+        type: boolean
+        default: false
+      publish_release:
+        description: Publish a GitHub release
+        type: boolean
+        default: false
+
+concurrency:
+  group: pcb-ci-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  SETTINGS_FILE: settings.env
+  KIBOT_CONFIG: .github/kibot.yaml
+
+jobs:
+  kibot:
+    name: KiBot — ${{ matrix.board }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - board: power
+            pcb: boards/01-power/power.kicad_pcb
+            sch: boards/01-power/power.kicad_sch
+          - board: fpga_control
+            pcb: boards/02-fpga-control/fpga_control.kicad_pcb
+            sch: boards/02-fpga-control/fpga_control.kicad_sch
+          - board: camera
+            pcb: boards/03-camera/camera.kicad_pcb
+            sch: boards/03-camera/camera.kicad_sch
+          - board: ir_led
+            pcb: boards/04-ir-led/ir_led.kicad_pcb
+            sch: boards/04-ir-led/ir_led.kicad_sch
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: target
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.full_outputs }}" == "true" ]]; then
+            echo "group=release" >> "$GITHUB_OUTPUT"
+          else
+            echo "group=ci" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: INTI-CMNB/KiBot@v2_dk10
+        env:
+          BOARD_NAME: ${{ matrix.board }}
+        with:
+          config: ${{ env.KIBOT_CONFIG }}
+          board: ${{ matrix.pcb }}
+          schema: ${{ matrix.sch }}
+          dir: .
+          skip: erc,drc
+          targets: ${{ steps.target.outputs.group }}
+          cache3D: NO
+
+      - run: sudo chown -R "$USER:$USER" build
+        if: success()
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: board-${{ matrix.board }}
+          path: build/
+          compression-level: 1
+          if-no-files-found: error
+
+  package:
+    name: Package
+    needs: kibot
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: board-*
+          path: build
+          merge-multiple: true
+
+      - run: python3 -m pip install --quiet pillow
+
+      - run: python3 .github/package.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: woki-cam-outputs
+          path: build/
+          compression-level: 1
+          if-no-files-found: error
+
+  release:
+    name: Release
+    needs: package
+    if: >-
+      github.ref == 'refs/heads/release' ||
+      (github.event_name == 'workflow_dispatch' && inputs.publish_release)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      RELEASE_ZIP: build/release/woki-cam.zip
+      SCHEMATIC_PDF: build/docs/woki-cam-schematic.pdf
+      RENDER_COLLAGE: build/images/woki-cam-3d.png
+      RELEASE_NOTES: build/release/release-notes.md
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - run: set -a && source settings.env && set +a && env >> "$GITHUB_ENV"
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: woki-cam-outputs
+          path: build/
+
+      - id: tag
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          tag="${RELEASE_TAG_PREFIX}-$(date -u +%Y%m%d)-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}"
+          git tag "$tag" && git push origin "$tag"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Release notes
+        env:
+          RELEASE_TAG: ${{ steps.tag.outputs.tag }}
+        run: bash .github/release-notes.sh
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          files=("${RELEASE_ZIP}#Manufacturing package")
+          [[ -s "${SCHEMATIC_PDF}" ]] && files+=("${SCHEMATIC_PDF}#Schematic PDF")
+          [[ -s "${RENDER_COLLAGE}" ]] && files+=("${RENDER_COLLAGE}#3D collage")
+          gh release create "${{ steps.tag.outputs.tag }}" "${files[@]}" \
+            --title "${RELEASE_TITLE}" --notes-file "${RELEASE_NOTES}"

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Woki")(type "KiCad")
+    (uri "${KIPRJMOD}/footprints/woki.pretty")
+    (options "")(descr "Woki Cam footprints"))
+)

@@ -1,0 +1,57 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.venv*/
+venv/
+ENV/
+
+# KiCad local history, backups, autosaves, and locks
+.history/
+*-backups/
+\#auto_saved_files#/
+_autosave-*
+*.bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.kicad_pcb-bak
+*.kicad_prl-bak
+*.lck
+~*.lck
+
+# KiCad local UI/session caches
+*.kicad_prl
+fp-info-cache
+*.ini
+
+# KiBot/generated outputs
+build/
+kibot_run*.log
+kibot_*.kicad_pcb
+kibot_*.kicad_dru
+kibot_*.kicad_prl
+kibot_*.kicad_pro
+
+# KiCad CLI droppings
+*-drc.rpt
+*-drc.json
+*Zone.Identifier
+.agents/
+.codex/
+scaffold.py
+# Generated STEP exports (export.py)
+mechanical/freecad/*.step
+mechanical/freecad/*.stp
+mechanical/step/exports/

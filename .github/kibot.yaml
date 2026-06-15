@@ -1,0 +1,281 @@
+kibot:
+  version: 1
+
+global:
+  use_os_env_for_expand: true
+
+preflight:
+  run_erc: false
+  run_drc: false
+
+groups:
+  - name: ci
+    outputs:
+      - pdf_schematic
+      - png_3d_preview
+      - png_3d_preview_iso
+      - png_3d_preview_bottom
+      - csv_bom
+      - csv_cpl
+      - gbr_gerbers
+      - drl_excellon
+
+  - name: release
+    outputs:
+      - pdf_schematic
+      - pdf_review
+      - png_3d_top
+      - png_3d_bottom
+      - csv_bom
+      - csv_cpl
+      - gbr_gerbers
+      - drl_excellon
+      - html_ibom
+      - step_3d_model
+
+outputs:
+  - name: pdf_schematic
+    type: pdf_sch_print
+    dir: build/${BOARD_NAME}/docs
+    category: docs
+    options:
+      output: '${BOARD_NAME}-schematic.%x'
+      background_color: false
+
+  - name: pdf_review
+    type: pcb_print
+    dir: build/${BOARD_NAME}/docs
+    category: docs
+    options:
+      output: '${BOARD_NAME}-review.%x'
+      format: PDF
+      title: PCB Review
+      colored_pads: false
+      colored_vias: false
+      realistic_solder_mask: false
+      dpi: 300
+      frame_plot_mechanism: internal
+      pages:
+        - title: Top
+          sheet: Top
+          layers:
+            - {layer: Edge.Cuts, color: '#111111'}
+            - {layer: F.Cu, color: '#c99a3d'}
+            - {layer: F.Mask, color: '#050505'}
+            - {layer: F.Paste, color: '#d8dde3'}
+            - {layer: F.Silkscreen, color: '#f7f2e8'}
+            - {layer: F.Fab, color: '#7f8c99'}
+        - title: Bottom
+          sheet: Bottom
+          mirror: true
+          mirror_pcb_text: true
+          layers:
+            - {layer: Edge.Cuts, color: '#111111'}
+            - {layer: B.Cu, color: '#c99a3d'}
+            - {layer: B.Mask, color: '#050505'}
+            - {layer: B.Paste, color: '#d8dde3'}
+            - {layer: B.Silkscreen, color: '#f7f2e8'}
+            - {layer: B.Fab, color: '#7f8c99'}
+
+  - name: png_3d_preview
+    comment: CI collage source (transparent, no crop)
+    type: render_3d
+    dir: build/${BOARD_NAME}/images
+    category: images
+    options:
+      output: '${BOARD_NAME}-3d.%x'
+      view: top
+      rotate_x: 3
+      rotate_z: -3
+      zoom: -3
+      auto_crop: false
+      enable_crop_workaround: false
+      orthographic: true
+      ray_tracing: false
+      transparent_background: true
+      board: '#050505'
+      copper: '#c99a3d'
+      silk: '#f7f2e8'
+      solder_mask: '#050505'
+      solder_paste: '#d8dde3'
+      width: 1280
+      height: 960
+
+  - name: png_3d_preview_iso
+    comment: CI collage — isometric power board view
+    type: render_3d
+    dir: build/${BOARD_NAME}/images
+    category: images
+    options:
+      output: '${BOARD_NAME}-3d-iso.%x'
+      view: top
+      rotate_x: 4
+      rotate_z: -4
+      zoom: -3
+      auto_crop: false
+      enable_crop_workaround: false
+      orthographic: true
+      ray_tracing: false
+      transparent_background: true
+      board: '#050505'
+      copper: '#c99a3d'
+      silk: '#f7f2e8'
+      solder_mask: '#050505'
+      solder_paste: '#d8dde3'
+      width: 1280
+      height: 960
+
+  - name: png_3d_preview_bottom
+    comment: CI collage — bottom view of power board (B.Cu / connectors)
+    type: render_3d
+    dir: build/${BOARD_NAME}/images
+    category: images
+    options:
+      output: '${BOARD_NAME}-3d-bottom.%x'
+      view: bottom
+      rotate_x: 3
+      rotate_z: -3
+      zoom: -3
+      auto_crop: false
+      enable_crop_workaround: false
+      orthographic: true
+      ray_tracing: false
+      transparent_background: true
+      board: '#050505'
+      copper: '#c99a3d'
+      silk: '#f7f2e8'
+      solder_mask: '#050505'
+      solder_paste: '#d8dde3'
+      width: 1280
+      height: 960
+
+  - name: png_3d_top
+    type: render_3d
+    dir: build/${BOARD_NAME}/images
+    category: images
+    options:
+      output: '${BOARD_NAME}-3d-top.%x'
+      view: top
+      auto_crop: true
+      enable_crop_workaround: true
+      orthographic: true
+      ray_tracing: true
+      background1: '#f6f0e7'
+      background2: '#dce8ef'
+      board: '#050505'
+      copper: '#c99a3d'
+      silk: '#f7f2e8'
+      solder_mask: '#050505'
+      solder_paste: '#d8dde3'
+      transparent_background: true
+      width: 1800
+      height: 1800
+
+  - name: png_3d_bottom
+    type: render_3d
+    dir: build/${BOARD_NAME}/images
+    category: images
+    options:
+      output: '${BOARD_NAME}-3d-bottom.%x'
+      view: bottom
+      auto_crop: true
+      enable_crop_workaround: true
+      orthographic: true
+      ray_tracing: true
+      background1: '#f6f0e7'
+      background2: '#dce8ef'
+      board: '#050505'
+      copper: '#c99a3d'
+      silk: '#f7f2e8'
+      solder_mask: '#050505'
+      solder_paste: '#d8dde3'
+      transparent_background: true
+      width: 1800
+      height: 1800
+
+  - name: html_ibom
+    type: ibom
+    dir: build/${BOARD_NAME}/assembly
+    category: assembly
+    options:
+      output: '${BOARD_NAME}-ibom.%x'
+      dark_mode: true
+      show_fields: Value,Footprint,LCSC
+      group_fields: Value,Footprint,LCSC
+      show_fabrication: true
+      highlight_pin1: selected
+      hide_excluded: true
+      mark_when_checked: Placed
+
+  - name: step_3d_model
+    type: export_3d
+    dir: build/${BOARD_NAME}/models
+    category: models
+    options:
+      output: '${BOARD_NAME}-3d.%x'
+      format: step
+      download: true
+      subst_models: true
+      origin: grid
+      units: millimeters
+      include_silkscreen: true
+      include_soldermask: true
+
+  - name: csv_bom
+    type: bom
+    dir: build/${BOARD_NAME}/assembly
+    category: assembly
+    options:
+      output: '${BOARD_NAME}-bom.%x'
+      format: CSV
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+      exclude_marked_in_sch: true
+      group_fields: [Value, Footprint, LCSC]
+      columns:
+        - {field: Value, name: Comment}
+        - {field: References, name: Designator}
+        - {field: Footprint, name: Footprint}
+        - {field: LCSC, name: LCSC}
+
+  - name: csv_cpl
+    type: position
+    dir: build/${BOARD_NAME}/assembly
+    category: assembly
+    options:
+      output: '${BOARD_NAME}-cpl.%x'
+      format: CSV
+      units: millimeters
+      only_smd: true
+      include_virtual: false
+      separate_files_for_front_and_back: false
+      use_aux_axis_as_origin: false
+
+  - name: gbr_gerbers
+    type: gerber
+    dir: build/${BOARD_NAME}/fabrication/gerbers
+    category: fabrication
+    layers:
+      - copper
+      - Edge.Cuts
+      - F.Silkscreen
+      - F.Mask
+      - F.Paste
+      - B.Silkscreen
+      - B.Mask
+      - B.Paste
+    options:
+      subtract_mask_from_silk: true
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      create_gerber_job_file: true
+
+  - name: drl_excellon
+    type: excellon
+    dir: build/${BOARD_NAME}/fabrication/drill
+    category: fabrication
+    options:
+      generate_drill_files: true
+      pth_and_npth_single_file: false
+      map: None
