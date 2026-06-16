@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "de291139-592d-56bb-a3cc-5961c2880226")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Board 1 - Power and Ethernet")
 		(comment 1 "Connector placeholders")
@@ -5649,6 +5649,168 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 330.2 34.29) (xy 334.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037eb4d9-9863-4da4-bffd-9253d7fb0dca")
+	)
+	(wire
+		(pts
+			(xy 363.22 41.91) (xy 365.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1d1acd-715b-4cd3-98f8-0b41a9498df0")
+	)
+	(wire
+		(pts
+			(xy 363.22 31.75) (xy 365.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c51b7f1-3002-4c6e-a331-043423be491b")
+	)
+	(wire
+		(pts
+			(xy 330.2 31.75) (xy 334.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9033f193-e84b-4d97-b9e5-b3ea2e3843af")
+	)
+	(wire
+		(pts
+			(xy 330.2 39.37) (xy 334.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f390ba1-534b-4688-bd6b-358a12575f34")
+	)
+	(wire
+		(pts
+			(xy 330.2 36.83) (xy 334.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f1a768-a04e-48ea-a131-506d095e5eaa")
+	)
+	(label "local3"
+		(at 365.76 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "537846aa-90e0-45cb-b483-ff3a1c53d9b9")
+	)
+	(label "local1"
+		(at 330.2 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96a7a44f-f050-496d-9fc8-69a496954398")
+	)
+	(label "local2"
+		(at 330.2 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5408a23-9f08-43e3-b3ae-9aeff42ad8fb")
+	)
+	(global_label "shared1"
+		(shape input)
+		(at 365.76 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "157f6da9-4be9-4222-a582-2c991d7bb7f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 376.3046 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "shared1"
+		(shape input)
+		(at 330.2 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4194af83-6ada-4ed9-a1c7-4e77b4717d80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.6554 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "shared2"
+		(shape input)
+		(at 330.2 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c25d714-304d-4089-892c-a97ca2c521f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.6554 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "CONN_USB_C_M:CONN_USB_C_M")
 		(at 49.53 54.61 0)
@@ -6010,7 +6172,7 @@
 	)
 	(symbol
 		(lib_id "CONN_DF40_100P_F:CONN_DF40_100P_F")
-		(at 230.505 33.02 0)
+		(at 348.615 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6020,7 +6182,7 @@
 		(dnp no)
 		(uuid "e020e067-a43d-5a5f-8221-9593cdde46cc")
 		(property "Reference" "J1"
-			(at 233.045 30.48 0)
+			(at 351.155 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6030,7 +6192,7 @@
 			)
 		)
 		(property "Value" "CONN_DF40_100P_F"
-			(at 231.902 161.036 0)
+			(at 350.012 159.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6040,7 +6202,7 @@
 			)
 		)
 		(property "Footprint" "Woki:CONN_DF40_100P_F"
-			(at 230.505 33.02 0)
+			(at 348.615 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 230.505 33.02 0)
+			(at 348.615 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6061,7 +6223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 230.505 33.02 0)
+			(at 348.615 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
