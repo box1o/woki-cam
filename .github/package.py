@@ -59,16 +59,18 @@ def zip_build(package_name: str) -> Path:
 def main() -> None:
     settings = load_settings()
     release_board = settings.get("RELEASE_BOARD", "power")
+    board_dir = settings.get("RELEASE_BOARD_DIR", "01-power")
     package_name = settings.get("PACKAGE_NAME", "woki-cam")
 
     subprocess.run([sys.executable, str(ROOT / ".github/collage.py")], check=True)
 
     schematic = BUILD / release_board / "docs" / f"{release_board}-schematic.pdf"
     if schematic.is_file() and schematic.stat().st_size > 0:
-        dest = BUILD / "docs" / "woki-cam-schematic.pdf"
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(schematic.read_bytes())
-        print(f"COPY: {dest}")
+        docs = BUILD / "docs"
+        docs.mkdir(parents=True, exist_ok=True)
+        indexed = docs / f"{board_dir}-schematic.pdf"
+        indexed.write_bytes(schematic.read_bytes())
+        print(f"COPY: {indexed}")
 
     zip_build(package_name)
 

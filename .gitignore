@@ -50,6 +50,7 @@ kibot_*.kicad_pro
 *Zone.Identifier
 .agents/
 .codex/
+.cursor/
 scaffold.py
 # Generated STEP exports (export.py)
 mechanical/freecad/*.step

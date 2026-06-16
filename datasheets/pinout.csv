@@ -1,0 +1,102 @@
+
+interface,pin,net,group,direction,shared,notes
+Board 1 ↔ Board 2,1,STACK_GND0,Ground,—,YES,Shared return
+Board 1 ↔ Board 2,2,STACK_3V3_AUX,Power,B1→all,YES,Low-current control rail
+Board 1 ↔ Board 2,3,STACK_GND1,Ground,—,YES,Shared return
+Board 1 ↔ Board 2,4,STACK_I2C_SCL,Shared I2C,STM32→all,YES,Management clock
+Board 1 ↔ Board 2,5,STACK_I2C_SDA,Shared I2C,STM32↔all,YES,Management data
+Board 1 ↔ Board 2,6,STACK_GND2,Ground,—,YES,I2C return
+Board 1 ↔ Board 2,7,STACK_SPI_SCK,Shared SPI,STM32→all,YES,Control SPI
+Board 1 ↔ Board 2,8,STACK_SPI_MOSI,Shared SPI,STM32→all,YES,Control SPI
+Board 1 ↔ Board 2,9,STACK_SPI_MISO,Shared SPI,all→STM32,YES,Tri-state required
+Board 1 ↔ Board 2,10,STACK_GND3,Ground,—,YES,SPI return
+Board 1 ↔ Board 2,11,STACK_CS_FPGA_N,Chip select,STM32→FPGA,YES,FPGA register access
+Board 1 ↔ Board 2,12,STACK_CS_CAMERA_N,Chip select,STM32→camera,YES,Camera peripheral access
+Board 1 ↔ Board 2,13,STACK_CS_LED_N,Chip select,STM32→LED,YES,LED peripheral access
+Board 1 ↔ Board 2,14,STACK_GND4,Ground,—,YES,Control return
+Board 1 ↔ Board 2,15,STACK_UART_TX,Shared UART,STM32→all,YES,Service/debug
+Board 1 ↔ Board 2,16,STACK_UART_RX,Shared UART,all→STM32,YES,Only one active responder
+Board 1 ↔ Board 2,17,STACK_GND5,Ground,—,YES,UART return
+Board 1 ↔ Board 2,18,STACK_SYNC_OUT,Timing,STM32/FPGA→all,YES,Global sync
+Board 1 ↔ Board 2,19,STACK_SYNC_IN,Timing,external/all→STM32/FPGA,YES,External sync
+Board 1 ↔ Board 2,20,STACK_LED_TRIGGER,Timing,FPGA/STM32→LED,YES,IR strobe trigger
+Board 1 ↔ Board 2,21,STACK_CAM_TRIGGER,Timing,FPGA/STM32→camera,YES,Camera trigger
+Board 1 ↔ Board 2,22,STACK_FAULT_N,Fault,all→STM32,YES,Open-drain wired-OR
+Board 1 ↔ Board 2,23,STACK_RESET_N,Reset,STM32→all,YES,Global reset
+Board 1 ↔ Board 2,24,STACK_GND6,Ground,—,YES,Shared return
+Board 1 ↔ Board 2,25,FPGA_JTAG_TCK,FPGA JTAG,B1 header→FPGA,NO,
+Board 1 ↔ Board 2,26,FPGA_JTAG_TMS,FPGA JTAG,B1 header→FPGA,NO,
+Board 1 ↔ Board 2,27,FPGA_JTAG_TDI,FPGA JTAG,B1 header→FPGA,NO,
+Board 1 ↔ Board 2,28,FPGA_JTAG_TDO,FPGA JTAG,FPGA→B1 header,NO,
+Board 1 ↔ Board 2,29,FPGA_JTAG_VREF,FPGA JTAG,B2→B1 header,NO,
+Board 1 ↔ Board 2,30,FPGA_JTAG_GND,Ground,—,NO,
+Board 1 ↔ Board 2,31,STM_SWDIO,STM32 SWD,B1 header↔STM32,NO,
+Board 1 ↔ Board 2,32,STM_SWCLK,STM32 SWD,B1 header→STM32,NO,
+Board 1 ↔ Board 2,33,STM_NRST,STM32 SWD,B1 header→STM32,NO,
+Board 1 ↔ Board 2,34,STM_SWO,STM32 SWD,STM32→B1 header,NO,
+Board 1 ↔ Board 2,35,STM_VREF,STM32 SWD,B2→B1 header,NO,
+Board 1 ↔ Board 2,36,STM_GND,Ground,—,NO,
+Board 1 ↔ Board 2,37,RGMII_TXC,Ethernet RGMII,FPGA→PHY,NO,
+Board 1 ↔ Board 2,38,RGMII_TX_CTL,Ethernet RGMII,FPGA→PHY,NO,
+Board 1 ↔ Board 2,39,RGMII_TXD0,Ethernet RGMII,FPGA→PHY,NO,
+Board 1 ↔ Board 2,40,RGMII_TXD1,Ethernet RGMII,FPGA→PHY,NO,
+Board 1 ↔ Board 2,41,RGMII_TXD2,Ethernet RGMII,FPGA→PHY,NO,
+Board 1 ↔ Board 2,42,RGMII_TXD3,Ethernet RGMII,FPGA→PHY,NO,
+Board 1 ↔ Board 2,43,ETH_GND0,Ground,—,NO,
+Board 1 ↔ Board 2,44,RGMII_RXC,Ethernet RGMII,PHY→FPGA,NO,
+Board 1 ↔ Board 2,45,RGMII_RX_CTL,Ethernet RGMII,PHY→FPGA,NO,
+Board 1 ↔ Board 2,46,RGMII_RXD0,Ethernet RGMII,PHY→FPGA,NO,
+Board 1 ↔ Board 2,47,RGMII_RXD1,Ethernet RGMII,PHY→FPGA,NO,
+Board 1 ↔ Board 2,48,RGMII_RXD2,Ethernet RGMII,PHY→FPGA,NO,
+Board 1 ↔ Board 2,49,RGMII_RXD3,Ethernet RGMII,PHY→FPGA,NO,
+Board 1 ↔ Board 2,50,ETH_GND1,Ground,—,NO,
+Board 1 ↔ Board 2,51,ETH_MDC,Ethernet management,FPGA→PHY,NO,
+Board 1 ↔ Board 2,52,ETH_MDIO,Ethernet management,FPGA↔PHY,NO,
+Board 1 ↔ Board 2,53,ETH_PHY_RESET_N,Ethernet control,FPGA/STM32→PHY,NO,
+Board 1 ↔ Board 2,54,ETH_PHY_INT_N,Ethernet control,PHY→FPGA,NO,
+Board 1 ↔ Board 2,55,ETH_REFCLK_125M,Ethernet clock,PHY→FPGA,NO,
+Board 1 ↔ Board 2,56,ETH_GND2,Ground,—,NO,
+Board 1 ↔ Board 2,57,FPGA_PROGRAM_B,FPGA config,STM32/B1 header→FPGA,NO,
+Board 1 ↔ Board 2,58,FPGA_INIT_B,FPGA config,FPGA→STM32/B1 header,NO,
+Board 1 ↔ Board 2,59,FPGA_DONE,FPGA config,FPGA→STM32/B1 header,NO,
+Board 1 ↔ Board 2,60,FPGA_CFG_CLK,FPGA config,update logic→FPGA,NO,
+Board 1 ↔ Board 2,61,FPGA_CFG_DATA,FPGA config,update logic→FPGA,NO,
+Board 1 ↔ Board 2,62,FPGA_DEBUG0,FPGA debug,FPGA↔B1 test header,NO,
+Board 1 ↔ Board 2,63,FPGA_DEBUG1,FPGA debug,FPGA↔B1 test header,NO,
+Board 1 ↔ Board 2,64,FPGA_DEBUG2,FPGA debug,FPGA↔B1 test header,NO,
+Board 1 ↔ Board 2,65,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,66,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,67,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,68,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,69,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,70,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,71,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,72,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,73,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,74,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,75,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,76,+12V_BULK,Power,B1→B2,NO,Generate FPGA rails locally
+Board 1 ↔ Board 2,77,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,78,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,79,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,80,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,81,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,82,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,83,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,84,+5V_AUX,Power,B1→B2,NO,
+Board 1 ↔ Board 2,85,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,86,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,87,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,88,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,89,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,90,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,91,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,92,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,93,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,94,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,95,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,96,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,97,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,98,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,99,GND,Ground,—,NO,Distributed return
+Board 1 ↔ Board 2,100,GND,Ground,—,NO,Distributed return

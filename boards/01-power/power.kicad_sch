@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Board 1 - Power and Ethernet")
-		(comment 1 "Connector placeholders")
+		(comment 1 "01-power")
+		(comment 2 "Connector placeholders")
 	)
 	(lib_symbols
 		(symbol "CONN_DF40_100P_F:CONN_DF40_100P_F"

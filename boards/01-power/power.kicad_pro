@@ -938,7 +938,7 @@
     "top_level_sheets": [
       {
         "filename": "power.kicad_sch",
-        "name": "power",
+        "name": "01-power",
         "uuid": "de291139-592d-56bb-a3cc-5961c2880226"
       }
     ],
@@ -948,7 +948,7 @@
   "sheets": [
     [
       "de291139-592d-56bb-a3cc-5961c2880226",
-      "power"
+      "01-power"
     ]
   ],
   "text_variables": {

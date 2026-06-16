@@ -8,10 +8,10 @@ Modular Ethernet-powered infrared optical tracking camera. Four stacked PCBs det
 
 ## Boards
 
-| Directory | Role |
-|-----------|------|
-| `boards/01-power` | Power rails, Ethernet |
-| `boards/02-fpga-control` | Artix-7 processing, STM32 control |
-| `boards/03-camera` | Global-shutter sensor, M12 lens |
-| `boards/04-ir-led` | Pulsed 850 nm illumination |
+| # | Directory | Role |
+|---|-----------|------|
+| 1 | `boards/01-power` | Power rails, Ethernet |
+| 2 | `boards/02-fpga-control` | Artix-7 processing, STM32 control |
+| 3 | `boards/03-camera` | Global-shutter sensor, M12 lens |
+| 4 | `boards/04-ir-led` | Pulsed 850 nm illumination |
 

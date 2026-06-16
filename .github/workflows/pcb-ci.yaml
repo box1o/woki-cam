@@ -118,7 +118,7 @@ jobs:
 
     env:
       RELEASE_ZIP: build/release/woki-cam.zip
-      SCHEMATIC_PDF: build/docs/woki-cam-schematic.pdf
+      SCHEMATIC_PDF: build/docs/01-power-schematic.pdf
       RENDER_COLLAGE: build/images/woki-cam-3d.png
       RELEASE_NOTES: build/release/release-notes.md
 
