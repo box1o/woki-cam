@@ -24,6 +24,9 @@ groups:
     outputs:
       - pdf_schematic
       - pdf_review
+      - png_3d_preview
+      - png_3d_preview_iso
+      - png_3d_preview_bottom
       - png_3d_top
       - png_3d_bottom
       - csv_bom
