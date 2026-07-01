@@ -52,7 +52,9 @@ jobs:
 
       - id: target
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.full_outputs }}" == "true" ]]; then
+          if [[ "${{ github.ref }}" == "refs/heads/main" || "${{ github.ref }}" == "refs/heads/release" ]]; then
+            echo "group=release" >> "$GITHUB_OUTPUT"
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.full_outputs }}" == "true" ]]; then
             echo "group=release" >> "$GITHUB_OUTPUT"
           else
             echo "group=ci" >> "$GITHUB_OUTPUT"
@@ -110,6 +112,7 @@ jobs:
     name: Release
     needs: package
     if: >-
+      github.ref == 'refs/heads/main' ||
       github.ref == 'refs/heads/release' ||
       (github.event_name == 'workflow_dispatch' && inputs.publish_release)
     runs-on: ubuntu-latest
