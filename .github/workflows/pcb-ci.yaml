@@ -2,7 +2,7 @@ name: PCB CI
 
 on:
   push:
-    branches: [dev, release]
+    branches: [main, dev, release]
   workflow_dispatch:
     inputs:
       full_outputs:

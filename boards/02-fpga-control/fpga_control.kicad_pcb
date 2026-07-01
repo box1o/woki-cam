@@ -17,6 +17,8 @@
 		(6 "In2.Cu" signal "SIG2")
 		(8 "In3.Cu" power "PWR")
 		(10 "In4.Cu" power "GND2")
+		(12 "In5.Cu" signal "SIG3")
+		(14 "In6.Cu" power "GND3")
 		(2 "B.Cu" signal)
 		(5 "F.SilkS" user "F.Silkscreen")
 		(7 "B.SilkS" user "B.Silkscreen")
@@ -50,7 +52,7 @@
 			(layer "dielectric 2"
 				(type "core")
 				(color "#FF9B30FF")
-				(thickness 0.545)
+				(thickness 0.18)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -74,7 +76,7 @@
 			(layer "dielectric 4"
 				(type "core")
 				(color "#FF7030FF")
-				(thickness 0.545)
+				(thickness 0.56)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -86,6 +88,30 @@
 			(layer "dielectric 5"
 				(type "prepreg")
 				(color "#30FF9BFF")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In5.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 6"
+				(type "core")
+				(color "#FF9B30FF")
+				(thickness 0.18)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In6.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 7"
+				(type "prepreg")
+				(color "#30FF19FF")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
