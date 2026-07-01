@@ -938,17 +938,25 @@
     "top_level_sheets": [
       {
         "filename": "power.kicad_sch",
-        "name": "power",
+        "name": "01-power",
         "uuid": "de291139-592d-56bb-a3cc-5961c2880226"
       }
     ],
-    "used_designators": "P1,J2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "de291139-592d-56bb-a3cc-5961c2880226",
-      "power"
+      "01-power"
+    ],
+    [
+      "490fb466-bf11-41d8-b18f-65ef852c7baf",
+      "USB"
+    ],
+    [
+      "c70ce39d-69a4-460d-bc53-bac390a88578",
+      "STM32"
     ]
   ],
   "text_variables": {

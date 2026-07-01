@@ -1534,7 +1534,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/de291139-592d-56bb-a3cc-5961c2880226/b5a29cde-f67f-480f-a69d-438072cedb3a")
 		(sheetname "/")
 		(sheetfile "power.kicad_sch")
 		(units
@@ -1852,7 +1851,6 @@
 			)
 		)
 		(property ki_fp_filters "CONN_USB_C_M")
-		(path "/de291139-592d-56bb-a3cc-5961c2880226/3c38dde4-b302-4983-8fda-7c17ceff72bd")
 		(sheetname "/")
 		(sheetfile "power.kicad_sch")
 		(units
