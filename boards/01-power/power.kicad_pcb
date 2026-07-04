@@ -2792,7 +2792,7 @@
 		(at 43.05 96.25 180)
 		(descr "Generated from CONN_TC2030_JTAG.kicad_mod; TC2030 pitch 1.27 mm, C5157236 tip 0.80 mm leaves 0.47 mm between tips, barrel 1.20 mm leaves 0.07 mm between barrels")
 		(tags "tc2030 jtag swd pogo probe card-edge")
-		(property "Reference" "JTAG"
+		(property "Reference" "J5"
 			(at 0 6.875 0)
 			(layer "F.SilkS")
 			(uuid "5a7b2611-e216-4af2-8bc4-3e5e8ec56efc")
@@ -3186,7 +3186,7 @@
 			(uuid "3d4ae573-8865-4c78-be8d-b0fb1138656f")
 		)
 		(embedded_fonts no)
-		(model "/home/pixel/dev/woki-cam/lib/cad/CONN_TC2030_JTAG_PROBE.step"
+		(model "${KIPRJMOD}/../../lib/cad/CONN_TC2030_JTAG_PROBE.step"
 			(offset
 				(xyz 0 -0.65 0)
 			)
