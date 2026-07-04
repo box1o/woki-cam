@@ -165,7 +165,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.125,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.18,
         "use_height_for_length_calcs": true
@@ -249,6 +249,10 @@
         }
       },
       "via_dimensions": [
+        {
+          "diameter": 0.5,
+          "drill": 0.4
+        },
         {
           "diameter": 0.5,
           "drill": 0.25
