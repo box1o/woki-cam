@@ -3126,16 +3126,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "022070a4-e472-47bc-9564-b9cbf0070294")
-	)
-	(wire
-		(pts
 			(xy 116.84 121.92) (xy 116.84 123.19)
 		)
 		(stroke
@@ -3526,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0283cd-855c-417b-ae95-ee2759c8c5d3")
+	)
+	(wire
+		(pts
 			(xy 127 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -3746,6 +3746,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb26e81-19f5-492e-972c-3166be259aad")
+	)
+	(wire
+		(pts
 			(xy 87.63 72.39) (xy 87.63 66.04)
 		)
 		(stroke
@@ -3763,16 +3773,6 @@
 			(type default)
 		)
 		(uuid "b3ae07ee-5ac2-443d-80e5-d69aff0f6d51")
-	)
-	(wire
-		(pts
-			(xy 127 104.14) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b748bd4c-0109-43eb-9d8e-3448503c61ac")
 	)
 	(wire
 		(pts
@@ -4035,26 +4035,6 @@
 		(uuid "fc9e1a73-5563-4da8-b09d-777f4d5cd5bf")
 	)
 	(label "LED_STATUS"
-		(at 127 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1275a71f-d61f-4aba-9bad-28439d735f3d")
-	)
-	(label "LED_ERROR"
-		(at 127 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ce03ed9-659c-4551-932f-30b37947481f")
-	)
-	(label "LED_STATUS"
 		(at 29.21 72.39 180)
 		(effects
 			(font
@@ -4073,6 +4053,16 @@
 			(justify left bottom)
 		)
 		(uuid "8b6835d9-459a-4093-9f00-c77166fa7450")
+	)
+	(label "LED_ERROR"
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dcc3c87-7885-481b-b146-b34da7994ba0")
 	)
 	(label "~{STM_RESET}"
 		(at 107.95 43.18 180)
@@ -4123,6 +4113,16 @@
 			(justify left bottom)
 		)
 		(uuid "a680f624-61af-4bb7-8bad-74c40051b261")
+	)
+	(label "LED_STATUS"
+		(at 127 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0c2cbf9-134d-4572-b9a7-3440e265eaac")
 	)
 	(label "~{STM_RESET}"
 		(at 248.92 49.53 0)
