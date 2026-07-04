@@ -55,3 +55,4 @@ scaffold.py
 mechanical/freecad/*.step
 mechanical/freecad/*.stp
 mechanical/step/exports/
+/scripts/generate_tc2030_jtag_probe_footprint.py

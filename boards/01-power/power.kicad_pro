@@ -942,7 +942,7 @@
         "uuid": "de291139-592d-56bb-a3cc-5961c2880226"
       }
     ],
-    "used_designators": "J4",
+    "used_designators": "U5,J4-5",
     "variants": []
   },
   "sheets": [
@@ -961,6 +961,10 @@
     [
       "fd4c3c76-56b9-45a4-8b27-f7283f470981",
       "POE"
+    ],
+    [
+      "c07e285b-4cab-4f49-92c9-e73ba9ce9040",
+      "JTAG"
     ]
   ],
   "text_variables": {

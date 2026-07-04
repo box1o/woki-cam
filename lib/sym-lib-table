@@ -1,4 +1,7 @@
 (sym_lib_table
+  (lib (name "CONN_TC2030_JTAG")(type "KiCad")
+    (uri "${KIPRJMOD}/symbols/CONN_TC2030_JTAG.kicad_sym")
+    (options "")(descr "Woki Cam TC2030 JTAG symbol"))
   (lib (name "CONN_DF40_100P_M")(type "KiCad")
     (uri "${KIPRJMOD}/symbols/CONN_DF40_100P_M.kicad_sym")
     (options "")(descr "Woki Cam symbol"))
