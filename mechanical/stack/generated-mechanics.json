@@ -1,0 +1,146 @@
+{
+  "source_dxf": "mechanical/dxf/outline.dxf",
+  "translation_mm": [
+    75.0,
+    75.0
+  ],
+  "board_bounds_kicad_mm": {
+    "left": 50.0,
+    "bottom": 50.0,
+    "right": 100.0,
+    "top": 100.0
+  },
+  "mounting_hole_drill_mm": 3.0,
+  "mounting_hole_pad_mm": 3.8,
+  "model_transforms": {
+    "male": {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotate_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "female": {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotate_deg": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "perimeter_copper_ring": false,
+  "placements": [
+    {
+      "board": "01-power",
+      "reference": "J1",
+      "kind": "female",
+      "side": "F.Cu",
+      "anchor": "center",
+      "x_mm": 75,
+      "y_mm": 55,
+      "rotation_deg": 0.0,
+      "edge": "y_min",
+      "center_to_edge_mm": 5,
+      "footprint": "lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod",
+      "model": "lib/cad/DF40_F_normalized.step",
+      "model_offset_mm": "0,0,0",
+      "model_rotate_deg": "0,0,0"
+    },
+    {
+      "board": "02-fpga-control",
+      "reference": "J1",
+      "kind": "male",
+      "side": "B.Cu",
+      "anchor": "center",
+      "x_mm": 75,
+      "y_mm": 55,
+      "rotation_deg": -0.0,
+      "edge": "y_min",
+      "center_to_edge_mm": 5,
+      "footprint": "lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod",
+      "model": "lib/cad/DF40_M_normalized.step",
+      "model_offset_mm": "0,0,0",
+      "model_rotate_deg": "0,0,0"
+    },
+    {
+      "board": "02-fpga-control",
+      "reference": "J2",
+      "kind": "female",
+      "side": "F.Cu",
+      "anchor": "center",
+      "x_mm": 75,
+      "y_mm": 55,
+      "rotation_deg": 0.0,
+      "edge": "y_min",
+      "center_to_edge_mm": 5,
+      "footprint": "lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod",
+      "model": "lib/cad/DF40_F_normalized.step",
+      "model_offset_mm": "0,0,0",
+      "model_rotate_deg": "0,0,0"
+    },
+    {
+      "board": "03-camera",
+      "reference": "J1",
+      "kind": "male",
+      "side": "B.Cu",
+      "anchor": "center",
+      "x_mm": 75,
+      "y_mm": 55,
+      "rotation_deg": -0.0,
+      "edge": "y_min",
+      "center_to_edge_mm": 5,
+      "footprint": "lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod",
+      "model": "lib/cad/DF40_M_normalized.step",
+      "model_offset_mm": "0,0,0",
+      "model_rotate_deg": "0,0,0"
+    },
+    {
+      "board": "03-camera",
+      "reference": "J2",
+      "kind": "female",
+      "side": "F.Cu",
+      "anchor": "center",
+      "x_mm": 75,
+      "y_mm": 55,
+      "rotation_deg": 0.0,
+      "edge": "y_min",
+      "center_to_edge_mm": 5,
+      "footprint": "lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod",
+      "model": "lib/cad/DF40_F_normalized.step",
+      "model_offset_mm": "0,0,0",
+      "model_rotate_deg": "0,0,0"
+    },
+    {
+      "board": "04-ir-led",
+      "reference": "J1",
+      "kind": "male",
+      "side": "B.Cu",
+      "anchor": "center",
+      "x_mm": 75,
+      "y_mm": 55,
+      "rotation_deg": -0.0,
+      "edge": "y_min",
+      "center_to_edge_mm": 5,
+      "footprint": "lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod",
+      "model": "lib/cad/DF40_M_normalized.step",
+      "model_offset_mm": "0,0,0",
+      "model_rotate_deg": "0,0,0"
+    }
+  ],
+  "connector_center_to_edge_mm": 5,
+  "copper_layers": 8,
+  "nominal_board_thickness_mm": 1.6,
+  "mated_surface_gap_mm": 3,
+  "board_pitch_mm": 4.6,
+  "electrical_assignments": "Unassigned; mechanical restart; no pass-through nets or routing."
+}

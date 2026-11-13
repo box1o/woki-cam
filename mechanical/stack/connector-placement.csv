@@ -1,0 +1,7 @@
+board,reference,kind,side,anchor,x_mm,y_mm,rotation_deg,edge,center_to_edge_mm,footprint,model,model_offset_mm,model_rotate_deg
+01-power,J1,female,F.Cu,center,75,55,0.0,y_min,5,lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod,lib/cad/DF40_F_normalized.step,"0,0,0","0,0,0"
+02-fpga-control,J1,male,B.Cu,center,75,55,-0.0,y_min,5,lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod,lib/cad/DF40_M_normalized.step,"0,0,0","0,0,0"
+02-fpga-control,J2,female,F.Cu,center,75,55,0.0,y_min,5,lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod,lib/cad/DF40_F_normalized.step,"0,0,0","0,0,0"
+03-camera,J1,male,B.Cu,center,75,55,-0.0,y_min,5,lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod,lib/cad/DF40_M_normalized.step,"0,0,0","0,0,0"
+03-camera,J2,female,F.Cu,center,75,55,0.0,y_min,5,lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod,lib/cad/DF40_F_normalized.step,"0,0,0","0,0,0"
+04-ir-led,J1,male,B.Cu,center,75,55,-0.0,y_min,5,lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod,lib/cad/DF40_M_normalized.step,"0,0,0","0,0,0"
