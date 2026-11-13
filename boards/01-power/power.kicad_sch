@@ -2261,8 +2261,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 50.8)
-		(size 38.1 25.4)
+		(at 128.27 125.73)
+		(size 62.23 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2275,9 +2275,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "aa309a18-b34b-4038-b327-55e61c5cea30")
-		(property "Sheetname" "ETH"
-			(at 63.5 50.0884 0)
+		(uuid "19ebe678-2677-4192-98af-316caef3c347")
+		(property "Sheetname" "ETH_POE"
+			(at 128.27 125.0184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2287,8 +2287,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "eth.kicad_sch"
-			(at 63.5 76.7846 0)
+		(property "Sheetfile" "poe.kicad_sch"
+			(at 128.27 165.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

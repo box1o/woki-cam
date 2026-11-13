@@ -1,1 +1,3 @@
-(sym_lib_table)
+(sym_lib_table
+  (lib (name "eth") (type "KiCad") (uri "${KIPRJMOD}/../../lib/symbols/eth.kicad_sym") (options "") (descr "Ethernet MagJack symbols"))
+)

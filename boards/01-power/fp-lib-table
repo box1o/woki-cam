@@ -1,1 +1,3 @@
-(fp_lib_table)
+(fp_lib_table
+  (lib (name "eth") (type "KiCad") (uri "${KIPRJMOD}/../../lib/footprints/eth.pretty") (options "") (descr "Ethernet MagJack footprints"))
+)
