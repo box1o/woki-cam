@@ -3019,7 +3019,7 @@
 		)
 		(uuid "779ca293-1517-4008-bf85-b8080ca354ed")
 	)
-	(text "Default: yellow 100M activity, green 1000M activity.\nSet LED1 link10/100 + activity in firmware for 10M indication.\nLeft antiparallel green die unused."
+	(text "Default: orange 100M activity, yellow 1000M activity.\nSet LED1 link10/100 + activity in firmware for 10M indication.\nLeft antiparallel green die unused."
 		(exclude_from_sim no)
 		(at 25.4 378.46 0)
 		(effects

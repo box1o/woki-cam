@@ -12,7 +12,7 @@ prev="$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || true)"
   echo
   echo "[Package](${url}/${PACKAGE_NAME}.zip) · [Schematic](${url}/woki-cam-schematic.pdf) · [3D collage](${url}/woki-cam-3d.png)"
   echo
-  echo "Per-board outputs: \`power/\`, \`fpga_control/\`, \`camera/\`, \`ir_led/\` inside the zip."
+  echo "Per-board outputs: \`power/\`, \`fpga-control/\`, \`camera/\`, \`ir-led/\` inside the zip."
   echo
   echo "## Preview"
   echo

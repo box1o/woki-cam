@@ -14,15 +14,15 @@ Custom libraries contain only symbols unavailable in the installed KiCad library
 
 ## 3D models
 
-No model geometry was generated. Existing model files are reused unchanged; footprint transforms set their position and orientation.
+No model geometry was generated. Manufacturer STEP geometry is reused unchanged; downloaded WRL meshes may be converted to a supported syntax without changing their geometry. Footprint transforms set position and orientation.
 
 - **Original manufacturer CAD**: Hirose DF40 male/female; TI RMT0045A, RPW0010A and DSG0008A; Coilcraft LPS4018 and POE51Q; Würth WE-SL5 family model assigned by Würth to 744272251. File hashes and source links are in `3dmodels/manufacturer/index.csv`. The Coilcraft LPS4018 model was extracted unchanged from its original PCB library. Downloads used the manufacturer's public Azure mirror where its main download endpoint rejected access.
 - **RTL8211F**: existing [Protoflow C187932 model](https://www.protoflow.ai/library/parts/C187932/files/WQFN-40_L5.0-W5.0-P0.4-BL-EP.wrl), downloaded as WRL; third-party CAD, not verified Realtek-original CAD. The footprint applies a −90° Z rotation.
 - **FDMS86252**: existing [KiCad Vishay PowerPAK SO-8 model](https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_SO.3dshapes/Vishay_PowerPAK_SO-8.step), compatible generic package representation; not original onsemi part CAD.
 - **FOD817DS and Panasonic FK capacitors**: installed KiCad generic package models. Capacitor models are package approximations (10.5 mm model height versus 10.2 mm nominal part height), not exact manufacturer originals.
 - **Other standard parts**: installed KiCad generic package models; these do not establish exact manufacturer body tolerances.
-- **0826-1X1T-HS-F**: exact original 3D model remains unavailable. No substitute RJ45 model is attached. Bare test pads need no solid model.
+- **0826-1X1T-HS-F**: complete downloaded Bel/CADENAS mesh. The incomplete OEM STEP export is archived outside the project to prevent incorrect STEP substitution. Conversion and placement details are recorded in `../documentation/board-1/bel-hs-model-source.json`. Bare test pads need no solid model.
 
-`3dmodels/model-coverage.csv` indexes all 228 physical Board 1 schematic components: 8 references with original manufacturer CAD, 204 with generic KiCad package models, 1 with downloaded third-party CAD, 14 bare test pads, and 1 jack with its model missing. Original-model downloads and unsuccessful exact-model searches are also recorded in `../documentation/board-1/model-download-sources.json`.
+`3dmodels/model-coverage.csv` indexes the current physical Board 1 components and model associations. Source URLs and attribution are retained in `../documentation/board-1/model-download-sources.json`.
 
-Unused custom symbol definitions and the obsolete LDT9055 footprint were archived outside the project at `/home/woki/dev/woki-schematic-backups/library-cleanup-20261121`. Existing PCB mounting holes remain intentional mechanical objects even though duplicate schematic hole symbols were removed. Historical PDFs describe earlier revisions.
+Unused custom symbol definitions and the obsolete LDT9055 footprint were archived outside the project at `/home/woki/dev/woki-schematic-backups/library-cleanup-20261121`. Existing PCB mounting holes remain intentional mechanical objects even though duplicate schematic hole symbols were removed. The current schematic export is `../documentation/board-1.pdf`.

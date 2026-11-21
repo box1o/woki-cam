@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/woki/dev/woki-cam/boards/01-power/power.kicad_sch</source>
-    <date>2026-11-21T08:59:37</date>
+    <date>2026-11-21T13:29:20</date>
     <tool>Eeschema 10.0.8</tool>
     <textvar name="PROJECT_TITLE">Board 1 - Power and Ethernet</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -47,7 +47,7 @@
         <company>Woki Cam</company>
         <rev>draft</rev>
         <date/>
-        <source>ethernet-power.kicad_sch</source>
+        <source>ethernet-supplies.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -83,7 +83,7 @@
         <company>Woki Cam</company>
         <rev>custom board 1 draft</rev>
         <date>2026-11-13</date>
-        <source>ftdi.kicad_sch</source>
+        <source>usb-programmer.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -658,13 +658,13 @@
       <value>0826-1X1T-HS-F</value>
       <footprint>Woki:Bel_0826_1X1T_HS_F</footprint>
       <datasheet>https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x1t-hs-f.pdf</datasheet>
-      <description>UDE Gigabit PoE MagJack; units: data / PoE / green / yellow-green</description>
+      <description>Bel 1G 4-pair 100W MagJack; units: data / PoE / yellow / orange-green</description>
       <fields>
         <field name="Footprint">Woki:Bel_0826_1X1T_HS_F</field>
         <field name="Datasheet">https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x1t-hs-f.pdf</field>
-        <field name="Description">UDE Gigabit PoE MagJack; units: data / PoE / green / yellow-green</field>
+        <field name="Description">Bel 1G 4-pair 100W MagJack; units: data / PoE / yellow / orange-green</field>
       </fields>
-      <libsource lib="WokiBoard1" part="Bel_0826_1X1T_HS_F" description="UDE Gigabit PoE MagJack; units: data / PoE / green / yellow-green"/>
+      <libsource lib="WokiBoard1" part="Bel_0826_1X1T_HS_F" description="Bel 1G 4-pair 100W MagJack; units: data / PoE / yellow / orange-green"/>
       <property name="Sheetname" value="Gigabit Ethernet"/>
       <property name="Sheetfile" value="sheets/ethernet.kicad_sch"/>
       <sheetpath names="/Gigabit Ethernet/" tstamps="/abf471d5-85a4-5268-9f35-779cdee2be26/"/>
@@ -1406,7 +1406,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1430,7 +1430,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1454,7 +1454,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1478,7 +1478,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1502,7 +1502,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1526,7 +1526,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1550,7 +1550,7 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1574,7 +1574,7 @@
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1598,7 +1598,7 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1622,7 +1622,7 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1646,7 +1646,7 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1670,7 +1670,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1694,7 +1694,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1718,7 +1718,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1741,7 +1741,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1764,7 +1764,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1787,7 +1787,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1811,7 +1811,7 @@
       </fields>
       <libsource lib="Regulator_Switching" part="TPS62160DSG" description="1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, WSON-8"/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <property name="ki_keywords" value="step-down dc-dc buck regulator"/>
       <property name="ki_fp_filters" value="*WSON*EP*2x2mm*P0.5mm*"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
@@ -1843,7 +1843,7 @@
       </fields>
       <libsource lib="WokiSupplies" part="TPS22918DBVR" description=""/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
       <tstamps>057b0809-0840-43c9-8e78-edab4d4aaa98</tstamps>
       <units>
@@ -1870,7 +1870,7 @@
       </fields>
       <libsource lib="WokiSupplies" part="TLV803EA29DBZR" description=""/>
       <property name="Sheetname" value="3.3V supply / reset"/>
-      <property name="Sheetfile" value="sheets/ethernet-power.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/ethernet-supplies.kicad_sch"/>
       <sheetpath names="/3.3V supply / reset/" tstamps="/9e91d675-6b20-558a-b489-8c5d2e022cea/"/>
       <tstamps>7913d31a-50b4-4911-bffc-94c95bdb3fac</tstamps>
       <units>
@@ -3622,7 +3622,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3647,7 +3647,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3672,7 +3672,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3697,7 +3697,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3722,7 +3722,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3747,7 +3747,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3772,7 +3772,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3797,7 +3797,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3822,7 +3822,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3847,7 +3847,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3872,7 +3872,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3897,7 +3897,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3922,7 +3922,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3947,7 +3947,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3972,7 +3972,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -3997,7 +3997,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4022,7 +4022,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4047,7 +4047,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4072,7 +4072,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4097,7 +4097,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4122,7 +4122,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4147,7 +4147,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4172,7 +4172,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4197,7 +4197,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4222,7 +4222,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4247,7 +4247,7 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4272,7 +4272,7 @@
       </fields>
       <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
       <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4297,7 +4297,7 @@
       </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
       <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4322,7 +4322,7 @@
       </fields>
       <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="L ferrite bead inductor filter"/>
       <property name="ki_fp_filters" value="Inductor_* L_* *Ferrite*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4347,7 +4347,7 @@
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4386,7 +4386,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4410,7 +4410,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4435,7 +4435,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4460,7 +4460,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4485,7 +4485,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4510,7 +4510,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4535,7 +4535,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4560,7 +4560,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4585,7 +4585,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4609,7 +4609,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4633,7 +4633,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4657,7 +4657,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4681,7 +4681,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4706,7 +4706,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4731,7 +4731,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4756,7 +4756,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4781,7 +4781,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4806,7 +4806,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4831,7 +4831,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4856,7 +4856,7 @@
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -4881,7 +4881,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -4906,7 +4906,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -4931,7 +4931,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -4956,7 +4956,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -4981,7 +4981,7 @@
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
@@ -5008,7 +5008,7 @@
       <libsource lib="Interface_USB" part="FT2232HL" description="Hi Speed Double Channel USB UART/FIFO, LQFP-64"/>
       <property name="Manufacturer_URL" value="https://ftdichip.com/products/ft2232hl/"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="USB Double UART FIFO"/>
       <property name="ki_fp_filters" value="LQFP*10x10mm*P0.5mm*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -5097,7 +5097,7 @@
       <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
       <property name="Manufacturer_URL" value="https://www.st.com/en/protection-devices/usblc6-2sc6.html"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="usb ethernet video"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -5128,7 +5128,7 @@
       <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
       <property name="Manufacturer_URL" value="https://www.diodes.com/part/view/AP2112"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
       <property name="ki_fp_filters" value="SOT?23?5*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -5158,7 +5158,7 @@
       <libsource lib="WokiFTDI" part="SN74AXC4T245PWR" description="4-bit dual-supply translator, two direction controls; body 1 outbound, body 2 inbound"/>
       <property name="Manufacturer_URL" value="https://www.ti.com/product/SN74AXC4T245"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="Noninverting Bidirectional"/>
       <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -5199,7 +5199,7 @@
       <libsource lib="WokiFTDI" part="SN74AXC4T245PWR" description="4-bit dual-supply translator, two direction controls; body 1 outbound, body 2 inbound"/>
       <property name="Manufacturer_URL" value="https://www.ti.com/product/SN74AXC4T245"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="Noninverting Bidirectional"/>
       <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -5240,7 +5240,7 @@
       <libsource lib="Memory_EEPROM" part="93LCxxB" description="Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8"/>
       <property name="Manufacturer_URL" value="https://www.microchip.com/en-us/product/93LC46B"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="EEPROM memory Microwire"/>
       <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x4.9mm*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -5274,7 +5274,7 @@
       <libsource lib="WokiSupplies" part="TPS22918DBVR" description=""/>
       <property name="Manufacturer_URL" value="https://www.ti.com/product/TPS22918"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
       <tstamps>bf147d8f-947e-4101-8215-baba9fe9ea52</tstamps>
       <units>
@@ -5304,7 +5304,7 @@
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
       <property name="MPN" value="ABM8-12.000MHZ-12-B1U-T"/>
       <property name="Sheetname" value="USB JTAG / UART"/>
-      <property name="Sheetfile" value="sheets/ftdi.kicad_sch"/>
+      <property name="Sheetfile" value="sheets/usb-programmer.kicad_sch"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <property name="ki_fp_filters" value="Crystal*"/>
       <sheetpath names="/USB JTAG / UART/" tstamps="/8a4c9235-545b-5ce5-9630-532d00656de9/"/>
@@ -6795,14 +6795,14 @@
       </pins>
     </libpart>
     <libpart lib="WokiBoard1" part="Bel_0826_1X1T_HS_F">
-      <description>UDE Gigabit PoE MagJack; units: data / PoE / green / yellow-green</description>
+      <description>Bel 1G 4-pair 100W MagJack; units: data / PoE / yellow / orange-green</description>
       <docs>https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x1t-hs-f.pdf</docs>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">0826-1X1T-HS-F</field>
         <field name="Footprint">Woki:Bel_0826_1X1T_HS_F</field>
         <field name="Datasheet">https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x1t-hs-f.pdf</field>
-        <field name="Description">UDE Gigabit PoE MagJack; units: data / PoE / green / yellow-green</field>
+        <field name="Description">Bel 1G 4-pair 100W MagJack; units: data / PoE / yellow / orange-green</field>
         <field name="Manufacturer_URL">https://www.ude-corp.com/</field>
         <field name="LCSC">C2934914</field>
       </fields>

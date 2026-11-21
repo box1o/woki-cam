@@ -1,0 +1,18 @@
+{
+  "fpga_control": "fpga-control",
+  "ir_led": "ir-led",
+  "ftdi.kicad_sch": "usb-programmer.kicad_sch",
+  "ethernet-power.kicad_sch": "ethernet-supplies.kicad_sch",
+  "CONN_DF40_100P_F.stp": "hirose-df40hc-3.0-100ds-0.4v-51.step",
+  "CONN_DF40_100P_M.stp": "hirose-df40c-100dp-0.4v-51.step",
+  "LPS4018.step": "coilcraft-lps4018.step",
+  "RPW0010A.stp": "ti-rpw0010a.step",
+  "RMT0045A.stp": "ti-rmt0045a.step",
+  "DSG0008A.stp": "ti-dsg0008a.step",
+  "L_Wurth_WE-SL5-744272x.step": "wurth-744272251.step",
+  "POE51Q-XXX.STEP": "coilcraft-poe51q-12ed.step",
+  "Bel_0826-1X1T-HS-F.wrl": "bel-0826-1x1t-hs-f.wrl",
+  "RTL8211F_C187932.wrl": "realtek-rtl8211f-cg.wrl",
+  "Vishay_PowerPAK_SO-8.step": "vishay-powerpak-so-8.step",
+  "Bel_CADENAS_terms.txt": "bel-cadenas-terms.txt"
+}

@@ -1,0 +1,254 @@
+{
+  "manufacturer_drawing": "datasheets/bel-0826-1x1t-hs-f-drawing.pdf, page4 component-side footprint",
+  "all_20_pins_match": true,
+  "max_model_pin_center_error_mm": 0.0008001000000001923,
+  "checks": [
+    {
+      "pin": 1,
+      "footprint_mm": [
+        -5.08,
+        15.24
+      ],
+      "manufacturer_model_mm": [
+        -5.08,
+        15.239999999999998
+      ],
+      "max_error_mm": 1.7763568394002505e-15
+    },
+    {
+      "pin": 2,
+      "footprint_mm": [
+        -3.048,
+        15.24
+      ],
+      "manufacturer_model_mm": [
+        -3.0479999999999996,
+        15.239999999999998
+      ],
+      "max_error_mm": 1.7763568394002505e-15
+    },
+    {
+      "pin": 3,
+      "footprint_mm": [
+        -1.016,
+        15.24
+      ],
+      "manufacturer_model_mm": [
+        -1.016,
+        15.239999999999998
+      ],
+      "max_error_mm": 1.7763568394002505e-15
+    },
+    {
+      "pin": 4,
+      "footprint_mm": [
+        1.016,
+        15.24
+      ],
+      "manufacturer_model_mm": [
+        1.016,
+        15.239999999999998
+      ],
+      "max_error_mm": 1.7763568394002505e-15
+    },
+    {
+      "pin": 5,
+      "footprint_mm": [
+        3.048,
+        15.24
+      ],
+      "manufacturer_model_mm": [
+        3.0479999999999996,
+        15.239999999999998
+      ],
+      "max_error_mm": 1.7763568394002505e-15
+    },
+    {
+      "pin": 6,
+      "footprint_mm": [
+        5.08,
+        15.24
+      ],
+      "manufacturer_model_mm": [
+        5.08,
+        15.239999999999998
+      ],
+      "max_error_mm": 1.7763568394002505e-15
+    },
+    {
+      "pin": 7,
+      "footprint_mm": [
+        -6.096,
+        17.78
+      ],
+      "manufacturer_model_mm": [
+        -6.095999999999999,
+        17.78
+      ],
+      "max_error_mm": 8.881784197001252e-16
+    },
+    {
+      "pin": 8,
+      "footprint_mm": [
+        -4.064,
+        17.78
+      ],
+      "manufacturer_model_mm": [
+        -4.064,
+        17.78
+      ],
+      "max_error_mm": 0.0
+    },
+    {
+      "pin": 9,
+      "footprint_mm": [
+        -2.032,
+        17.78
+      ],
+      "manufacturer_model_mm": [
+        -2.0319999999999996,
+        17.78
+      ],
+      "max_error_mm": 4.440892098500626e-16
+    },
+    {
+      "pin": 10,
+      "footprint_mm": [
+        2.032,
+        17.78
+      ],
+      "manufacturer_model_mm": [
+        2.0319999999999996,
+        17.78
+      ],
+      "max_error_mm": 4.440892098500626e-16
+    },
+    {
+      "pin": 11,
+      "footprint_mm": [
+        4.064,
+        17.78
+      ],
+      "manufacturer_model_mm": [
+        4.064,
+        17.78
+      ],
+      "max_error_mm": 0.0
+    },
+    {
+      "pin": 12,
+      "footprint_mm": [
+        6.096,
+        17.78
+      ],
+      "manufacturer_model_mm": [
+        6.095999999999999,
+        17.78
+      ],
+      "max_error_mm": 8.881784197001252e-16
+    },
+    {
+      "pin": 13,
+      "footprint_mm": [
+        -5.588,
+        8.128
+      ],
+      "manufacturer_model_mm": [
+        -5.588,
+        8.1271999
+      ],
+      "max_error_mm": 0.0008000999999993041
+    },
+    {
+      "pin": 14,
+      "footprint_mm": [
+        5.588,
+        8.128
+      ],
+      "manufacturer_model_mm": [
+        5.588,
+        8.1271999
+      ],
+      "max_error_mm": 0.0008000999999993041
+    },
+    {
+      "pin": 15,
+      "footprint_mm": [
+        -5.588,
+        6.604
+      ],
+      "manufacturer_model_mm": [
+        -5.588,
+        6.6031999
+      ],
+      "max_error_mm": 0.0008001000000001923
+    },
+    {
+      "pin": 16,
+      "footprint_mm": [
+        5.588,
+        6.604
+      ],
+      "manufacturer_model_mm": [
+        5.588,
+        6.6031999
+      ],
+      "max_error_mm": 0.0008001000000001923
+    },
+    {
+      "pin": 17,
+      "footprint_mm": [
+        -6.096,
+        20.32
+      ],
+      "manufacturer_model_mm": [
+        -6.095999999999999,
+        20.319999999999997
+      ],
+      "max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "pin": 18,
+      "footprint_mm": [
+        -3.556,
+        20.32
+      ],
+      "manufacturer_model_mm": [
+        -3.556,
+        20.319999999999997
+      ],
+      "max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "pin": 19,
+      "footprint_mm": [
+        3.556,
+        20.32
+      ],
+      "manufacturer_model_mm": [
+        3.556,
+        20.319999999999997
+      ],
+      "max_error_mm": 3.552713678800501e-15
+    },
+    {
+      "pin": 20,
+      "footprint_mm": [
+        6.096,
+        20.32
+      ],
+      "manufacturer_model_mm": [
+        6.095999999999999,
+        20.319999999999997
+      ],
+      "max_error_mm": 3.552713678800501e-15
+    }
+  ],
+  "footprint_poses_and_net_assignments_preserved": true,
+  "changed_pads": [
+    "10",
+    "11",
+    "12"
+  ],
+  "corrected_footprint_note": "Pins10-12 shift+2.032mm inX; pin9-to10gap4.064mm. Corresponding pad12 keepout-notch restored on both copper sides."
+}

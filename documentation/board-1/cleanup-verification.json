@@ -1,0 +1,56 @@
+{
+  "connectivity": {
+    "power": {
+      "groups": 229,
+      "unchanged": true
+    },
+    "fpga": {
+      "groups": 82,
+      "unchanged": true
+    },
+    "camera": {
+      "groups": 82,
+      "unchanged": true
+    },
+    "ir": {
+      "groups": 50,
+      "unchanged": true
+    }
+  },
+  "missing_sheet_files": [],
+  "missing_local_models": [],
+  "model_associations": 234,
+  "erc": {
+    "power": 0,
+    "fpga": 0,
+    "camera": 0,
+    "ir": 0
+  },
+  "pcb_pad_net_comparisons": 762,
+  "pcb_unique_pin_net_comparisons": 744,
+  "pcb_pin_net_mismatches": 0,
+  "footprint_placement_preserved": true,
+  "pulled_commit": "073cffc",
+  "pcb_drc": {
+    "power": {
+      "violations": 262,
+      "unconnected_items": 499
+    },
+    "fpga": {
+      "violations": 0,
+      "unconnected_items": 118
+    },
+    "camera": {
+      "violations": 0,
+      "unconnected_items": 118
+    },
+    "ir": {
+      "violations": 0,
+      "unconnected_items": 50
+    }
+  },
+  "backup": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121",
+  "jack_model": "Complete manufacturer mesh converted to supported VRML2; 20 pin positions verified against footprint",
+  "model_formats": "STEP (.step) for solid CAD; VRML2 (.wrl) for the two mesh-only models",
+  "scope": "File cleanup and reference validation. PCB layout remains unfinished."
+}

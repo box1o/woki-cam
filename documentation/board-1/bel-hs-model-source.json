@@ -7,7 +7,6 @@
   "service_catalog": "belfuse",
   "model_url": "https://webapi.partcommunity.com/partserver/preview/0202611210759339034916510e898ce/PARTserver0202611210759339034916510e898ce.zip",
   "original_archive_entry": "0826-1X1T-HS-F.stp",
-  "model_file": "lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.stp",
   "sha256": "f7866b6b57e61e447ba76ef1bd74a94cb12967e0c7738dad45c13940be59fa67",
   "bytes": 187365,
   "download_method": "Manufacturer embedded Cadenas catalog exact part reverse mapping, STEP AP214 export. No geometry created or edited locally.",
@@ -31,10 +30,10 @@
     "LEDT": "GO/Y"
   },
   "vrml_model": {
-    "file": "lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl",
-    "sha256": "37d4484b1947d7eacea772d5904db46e08fdd749091c355e34a099e95c2e45ea",
-    "bytes": 3096048,
-    "format": "VRML1",
+    "file": "lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl",
+    "sha256": "19ea0beb22a4cca895e43aeee0ca29d6c344998702ce9921d7b4ba1781bc0e12",
+    "bytes": 4716800,
+    "format": "VRML2",
     "native_units": "inch",
     "raw_bounds": [
       -0.375983,
@@ -45,6 +44,41 @@
       0.034888
     ],
     "full_housing_present": true,
-    "terms_file": "lib/3dmodels/manufacturer/Bel_CADENAS_terms.txt"
-  }
+    "terms_file": "lib/3dmodels/manufacturer/bel-cadenas-terms.txt",
+    "original_sha256": "37d4484b1947d7eacea772d5904db46e08fdd749091c355e34a099e95c2e45ea",
+    "normalization": "Removed unsupported CADENAS metadata and changed abstract Shape wrappers to Separator, then converted using Coin SoToVRML2Action and SoWriteAction. No geometry generated. Face-index arrays identical; vertex coordinates differ only by float serialization rounding up to 1e-7 inch (2.54 nanometers). Trailing whitespace removed; tokens unchanged.",
+    "kicad_transform": {
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "rotation_deg": [
+        270,
+        0,
+        180
+      ],
+      "offset_mm": [
+        0,
+        10.668,
+        0.9906
+      ]
+    },
+    "alignment": "Raw inch coordinates map to footprint millimeters: Xpcb=-25.4*Xraw; Ypcb=-25.4*Zraw-10.668; ZabovePCB=25.4*Yraw+0.9906. Seating plane Yraw=-0.039 in. Peg row Zraw=-0.420 in. Pin1=(+0.200,-1.020) in raw X/Z maps to (-5.080,15.240) mm PCB X/Y.",
+    "geometry_arrays_unchanged": false,
+    "geometry_equivalent": true,
+    "face_index_arrays_unchanged": true,
+    "max_vertex_coordinate_error_inch": 1.0000000005838672e-07,
+    "validation": {
+      "coin_parse": true,
+      "kicad_cli_native_render": true,
+      "render_file_outside_project": "/tmp/bel-model-check-v2-270.png",
+      "body_and_rear_led_pin_alignment": "visually verified",
+      "vertex_count": 26847,
+      "all_20_external_pin_centers_match_footprint": true,
+      "max_pin_center_error_mm": 0.0008001000000001923,
+      "all_pcb_footprint_poses_and_pad_net_assignments_unchanged": true
+    }
+  },
+  "archived_incomplete_step_file": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121/removed/lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.stp"
 }

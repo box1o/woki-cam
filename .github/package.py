@@ -75,7 +75,7 @@ def main() -> None:
 
     # Bind the published preview to its exact board/model sources.
     preview = BUILD / "images" / "woki-cam-3d.png"
-    model = ROOT / "lib" / "3dmodels" / "manufacturer" / "Bel_0826-1X1T-HS-F.wrl"
+    model = ROOT / "lib" / "3dmodels" / "manufacturer" / "bel-0826-1x1t-hs-f.wrl"
     board = ROOT / "boards" / "01-power" / "power.kicad_pcb"
     def digest(path: Path) -> str:
         return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -85,7 +85,7 @@ def main() -> None:
         "source_commit": os.environ.get("GITHUB_SHA", "local"),
         "preview": {"path": "images/woki-cam-3d.png", "sha256": digest(preview)},
         "power_board": {"path": "boards/01-power/power.kicad_pcb", "sha256": digest(board)},
-        "magjack_model": {"path": "lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl", "sha256": digest(model)},
+        "magjack_model": {"path": "lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl", "sha256": digest(model)},
         "note": "Preview is a KiBot-rendered four-board collage; the MagJack is part of the power-board source."
     }
     manifest_path = BUILD / "release" / "preview-sources.json"

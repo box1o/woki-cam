@@ -11,9 +11,9 @@ OUTPUT = BUILD / "images" / "woki-cam-3d.png"
 
 HERO = ("power", "01 Power")
 SIDE = (
-    ("fpga_control", "02 FPGA"),
+    ("fpga-control", "02 FPGA"),
     ("camera", "03 Camera"),
-    ("ir_led", "04 IR LED"),
+    ("ir-led", "04 IR LED"),
 )
 
 W, H = 1800, 1100

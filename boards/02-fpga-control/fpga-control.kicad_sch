@@ -8397,7 +8397,7 @@
 			(uuid "dc304018-f92f-4f9c-906d-f8d8786b021b")
 		)
 		(instances
-			(project "fpga_control"
+			(project "fpga-control"
 				(path "/b1bf42ec-2d0a-4606-82d7-09fc447c57de"
 					(reference "J1")
 					(unit 1)
@@ -8769,7 +8769,7 @@
 			(uuid "426d71f5-04b9-4173-99fd-e02a8cb219e7")
 		)
 		(instances
-			(project "fpga_control"
+			(project "fpga-control"
 				(path "/b1bf42ec-2d0a-4606-82d7-09fc447c57de"
 					(reference "J2")
 					(unit 1)

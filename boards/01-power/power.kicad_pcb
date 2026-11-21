@@ -686,7 +686,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/dd84345f-6efa-44b5-958d-3e833952dd51")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -844,7 +844,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/e5b06d15-576a-4623-9efc-d77eb12e609d")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1318,7 +1318,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/55dd465b-5117-4513-8e56-cd5238a4daac")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2155,7 +2155,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/b616dd2f-d087-4c70-bdd0-4634bf3fbf2a")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2567,7 +2567,7 @@
 			(uuid "bd23325f-dc5c-47e0-b86a-eb7a886e1e00")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/LPS4018.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/coilcraft-lps4018.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2960,7 +2960,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/46943e2d-926f-4fd6-8e56-94a3b8b27956")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3131,7 +3131,7 @@
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/9f55a5bd-f199-4c98-81df-d79276512e37")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4266,7 +4266,7 @@
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/e545aa6a-5276-43e0-9084-0e8456be82b1")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5780,7 +5780,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/ccd603d9-5b97-4207-98c2-98f4349876b9")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5938,7 +5938,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/e7fb65e1-79be-4997-9525-038745166572")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6096,7 +6096,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/aa3af527-f7b1-48da-a50c-f4f875d61953")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6412,7 +6412,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/e3368595-98c4-4034-b40a-d1df0b9c0028")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6728,7 +6728,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/2f7132e8-bcaa-48da-b6e7-1ef3dfe634fd")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7202,7 +7202,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/b99abab8-1b76-4c01-9b0c-c215e542647b")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7834,7 +7834,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/3f6e99cd-9d15-4484-9160-fd259fc3e154")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8005,7 +8005,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/379f22ac-467f-4f8a-992f-8ed677140047")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8639,7 +8639,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/dfcc707b-f5e0-4ee8-93ef-64de3b2837a6")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8756,7 +8756,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/fe28140d-dca3-443d-8ed6-59bf1f266d23")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8914,7 +8914,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/598e57e2-babf-446e-81de-77ced1ab86ca")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9388,7 +9388,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/5817c3d2-7b49-40ea-a91a-3a5cea75054e")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9558,7 +9558,7 @@
 		)
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/bf147d8f-947e-4101-8215-baba9fe9ea52")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9920,7 +9920,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/59b51063-b3c0-4468-b25b-260fc73aff1c")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10394,7 +10394,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/a4cbc1ec-e898-4d0e-950c-a3074c09f8a3")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11031,7 +11031,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/0b99d2de-a267-4e17-829a-ef404a35adf5")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11663,7 +11663,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/556ff0c1-7f57-42bc-a204-9b8d438a3180")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11813,7 +11813,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/53e78923-664a-447d-b512-5ef75c14f3a6")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12081,7 +12081,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/28249fb8-eb11-4cfe-bc69-9127b0f6ddd3")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12520,7 +12520,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/65867efa-268a-4877-845d-e872b52c9495")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14106,7 +14106,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/b4908be8-4db6-4de6-9370-da77fb488efc")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14264,7 +14264,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/0803f780-7ffd-4458-9841-dd5b3b92fd86")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14580,7 +14580,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/a4ab95ea-aa78-4c43-9189-ce1c7ea13cf0")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14896,7 +14896,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/87b99944-86c9-418e-a4a1-cecfadf8ea5a")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15054,7 +15054,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/eebbfd17-3332-405c-905a-75a8a0d2b398")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15844,7 +15844,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/44be4053-0482-4323-a2bf-ee60b09552c5")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17270,7 +17270,7 @@
 			(uuid "304308ca-96b3-49e7-bb77-0042a8776c1d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/CONN_DF40_100P_F.stp"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40hc-3.0-100ds-0.4v-51.step"
 			(offset
 				(xyz 0.115 0 1.5)
 			)
@@ -17505,7 +17505,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/cc825746-2077-40f6-8c8d-5395c80d2754")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17821,7 +17821,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/cb45b968-284b-4706-b717-e03b8375d34d")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18584,7 +18584,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/cdaae085-c382-4f81-b5a0-7f1b8cdfef79")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19621,7 +19621,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/30b0a6ec-d6e7-480a-8d9e-0eff19739298")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19779,7 +19779,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/c71a4a64-c277-4945-8808-bf0906cf73ab")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19937,7 +19937,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/b6ead390-68e4-4509-a338-3f94d7f7dea4")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20087,7 +20087,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/01970e6d-8a66-4cf5-bb9b-3b8a4e0947ec")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20361,7 +20361,7 @@
 		)
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/7913d31a-50b4-4911-bffc-94c95bdb3fac")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21059,7 +21059,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/9f976724-f0d4-4b89-9598-59807d25aed6")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21509,7 +21509,7 @@
 				(checksum "AE703B44D34F59337D3A97CB8BA04484")
 			)
 		)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/LPS4018.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/coilcraft-lps4018.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21902,7 +21902,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/065df8e0-0a62-434f-a856-4cb33634a148")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23008,7 +23008,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/2aa0d0a0-f7f5-4c8a-a829-7f343555e7c8")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23941,7 +23941,7 @@
 			(uuid "110a0919-9401-40da-9c29-2cf889e3f951")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/downloaded/RTL8211F_C187932.wrl"
+		(model "${KIPRJMOD}/../../lib/3dmodels/downloaded/realtek-rtl8211f-cg.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25124,7 +25124,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/156e84ba-8e90-438b-9b82-da61e9e03612")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25756,7 +25756,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/4e651216-0d81-4655-b206-b9f758ce9026")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25914,7 +25914,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/bc073340-56e1-4f94-8658-601b99ef87a2")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26084,7 +26084,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/5dcba678-af44-4b23-a10d-a4bb84c181f1")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26423,7 +26423,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/c9f37966-76fe-41ca-ab03-18095e876860")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26581,7 +26581,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/8932de62-2abe-4451-b1a9-c390ee5b0c21")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28515,7 +28515,7 @@
 			(uuid "52982760-5671-4d85-814f-61af70801ee0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/RPW0010A.stp"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/ti-rpw0010a.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28592,7 +28592,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/3002c1fd-6376-4cc3-ad42-7d0480c491ec")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28750,7 +28750,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/36fda49b-ba10-4b6f-bb8a-b3bbf1f7eb12")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28921,7 +28921,7 @@
 		(property ki_fp_filters "TSSOP*4.4x5mm*P0.65mm*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/c14c849e-792b-4cc3-96c6-ba0b3b3e7400")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29345,7 +29345,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/ba73c746-c787-433d-b259-059110e02005")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29811,7 +29811,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/db8f1c45-7743-4405-b518-8c3b77c137a7")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30208,7 +30208,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/94eb77b5-34dc-42ed-81d3-b5f6b961466c")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30808,7 +30808,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/eb4180c9-686c-4a27-a741-667748bc777d")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31353,7 +31353,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/1cd3e187-9dd3-49c1-a27c-4048a654f288")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31827,7 +31827,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/673d1ae9-fd28-4b77-9316-65f7e6ec41fc")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32143,7 +32143,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/f7313fd0-1e91-45a3-8d84-d4ec8d554b27")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32301,7 +32301,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/332d9c3c-ca86-4d05-8e8a-fce8ec163fc2")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32617,7 +32617,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/6bf6391d-169e-42ae-962f-c00d7af6107c")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32775,7 +32775,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/35a5a809-55cc-45a6-aabb-3614d7153b5f")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34706,7 +34706,7 @@
 			(uuid "3b90507a-32c5-43ab-91ea-c9e135a25826")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/downloaded/Vishay_PowerPAK_SO-8.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/downloaded/vishay-powerpak-so-8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34884,7 +34884,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/97014295-eb03-4d3b-9de2-389a3102bb4a")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35910,7 +35910,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/418818ca-df0d-4736-a61c-24c86e2c14bf")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36651,7 +36651,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/ab1dc454-1406-4584-bce7-e1c4b189d270")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37246,7 +37246,7 @@
 		)
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/057b0809-0840-43c9-8e78-edab4d4aaa98")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37766,7 +37766,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/c3c0608c-93a7-4f2c-8d3a-6559a45fdf73")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37924,7 +37924,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/cfbd04d5-dffa-4ee2-821e-43589dcaa5f6")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38782,7 +38782,7 @@
 				(checksum "CDE32259A3C63D54A3229FE736F8CF79")
 			)
 		)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/L_Wurth_WE-SL5-744272x.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/wurth-744272251.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39333,7 +39333,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/35b7932b-ad01-4cd2-969c-d502a7e50569")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39649,7 +39649,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/29cb07d4-4934-4143-ad0e-cb2f04cd4d4e")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40074,7 +40074,7 @@
 		(property ki_fp_filters "*WSON*EP*2x2mm*P0.5mm*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/a883be4e-66a8-4eda-b73d-ade8293321f3")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40399,7 +40399,7 @@
 			(uuid "f7d06444-a091-4414-8489-89b77b689332")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/DSG0008A.stp"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/ti-dsg0008a.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40476,7 +40476,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/54d36aab-5e3d-407e-879f-e8bfc59d50b4")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41664,7 +41664,7 @@
 			(uuid "4092c79a-353f-495b-ac4c-c8f4fad3f1b7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/RMT0045A.stp"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/ti-rmt0045a.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41733,7 +41733,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/20a29614-afc7-438b-8fc4-2da487220bb9")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -42009,7 +42009,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/a7bec7bf-9100-4e57-be59-266f0c6867cc")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43711,7 +43711,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/f223bc62-5a77-40f8-aeb5-d6045cc11c3d")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -43961,7 +43961,7 @@
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/44f4f0c2-695c-4160-95ac-7de880b8c550")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45416,7 +45416,7 @@
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x4.9mm*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/a45abe9d-d55d-400b-9fc2-fb60723705f1")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45948,7 +45948,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/33d745ec-bb74-4923-8a09-3e50253323b9")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46600,7 +46600,7 @@
 			(uuid "18a5b980-993a-4288-93c1-f5c37bf789c3")
 		)
 		(pad "10" thru_hole circle
-			(at 0 17.78)
+			(at 2.032 17.78)
 			(size 1.3 1.3)
 			(drill 0.89)
 			(layers "*.Cu" "*.Mask")
@@ -46609,7 +46609,7 @@
 			(uuid "da85449c-100d-4036-8bd1-5e51414baaf0")
 		)
 		(pad "11" thru_hole circle
-			(at 2.032 17.78)
+			(at 4.064 17.78)
 			(size 1.3 1.3)
 			(drill 0.89)
 			(layers "*.Cu" "*.Mask")
@@ -46618,7 +46618,7 @@
 			(uuid "6d423546-4710-4653-a268-5b70e076c31e")
 		)
 		(pad "12" thru_hole circle
-			(at 4.064 17.78)
+			(at 6.096 17.78)
 			(size 1.3 1.3)
 			(drill 0.89)
 			(layers "*.Cu" "*.Mask")
@@ -46741,12 +46741,7 @@
 				(thermal_bridge_width 0.5)
 				(island_removal_mode 0)
 			)
-			(polygon
-				(pts
-					(xy 67.6532 103.739) (xy 70.0154 103.739) (xy 70.0154 110.216) (xy 68.096 110.216) (xy 68.096 109.57)
-					(xy 67.6532 109.57)
-				)
-			)
+			(polygon (pts (xy 67.6532 103.739) (xy 70.0154 103.739) (xy 70.0154 110.216) (xy 68.096 110.216) (xy 68.096 109.57) (xy 67.6532 109.57) (xy 67.6532 108.68) (xy 67.946 108.68) (xy 67.946 107.18) (xy 67.6532 107.18)))
 		)
 		(zone
 			(layer "F.Cu")
@@ -46838,12 +46833,7 @@
 				(thermal_bridge_width 0.5)
 				(island_removal_mode 0)
 			)
-			(polygon
-				(pts
-					(xy 67.6532 103.739) (xy 70.0154 103.739) (xy 70.0154 110.216) (xy 68.096 110.216) (xy 68.096 109.57)
-					(xy 67.6532 109.57)
-				)
-			)
+			(polygon (pts (xy 67.6532 103.739) (xy 70.0154 103.739) (xy 70.0154 110.216) (xy 68.096 110.216) (xy 68.096 109.57) (xy 67.6532 109.57) (xy 67.6532 108.68) (xy 67.946 108.68) (xy 67.946 107.18) (xy 67.6532 107.18)))
 		)
 		(zone
 			(layer "B.Cu")
@@ -46912,11 +46902,11 @@
 		)
 		(embedded_fonts no)
 	
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl"
-			(offset (xyz 0 0 0))
-			(scale (xyz 1 1 1))
-			(rotate (xyz 0 0 0))
-		)
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl"
+  (offset (xyz 0 10.668 0.9906))
+  (scale (xyz 10 10 10))
+  (rotate (xyz 270 0 180))
+)
 )
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -46983,7 +46973,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/c01a1eda-eedb-4673-b9b6-06625238d96c")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47293,7 +47283,7 @@
 			(uuid "348c995b-a29a-4d47-9b7d-02bdb1cd2d40")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/POE51Q-XXX.STEP"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/coilcraft-poe51q-12ed.step"
 			(offset
 				(xyz 0 0 0.2)
 			)
@@ -47362,7 +47352,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/798cd4b1-ec9a-4e55-9e95-0cf651178f9a")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47559,7 +47549,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9e91d675-6b20-558a-b489-8c5d2e022cea/358b853e-7398-40ca-b9e7-a41482c8fefd")
 		(sheetname "/3.3V supply / reset/")
-		(sheetfile "sheets/ethernet-power.kicad_sch")
+		(sheetfile "sheets/ethernet-supplies.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47717,7 +47707,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a4c9235-545b-5ce5-9630-532d00656de9/5daa4cc5-35f8-4598-8924-0ec97b9920f1")
 		(sheetname "/USB JTAG / UART/")
-		(sheetfile "sheets/ftdi.kicad_sch")
+		(sheetfile "sheets/usb-programmer.kicad_sch")
 		(units
 			(unit
 				(name "A")

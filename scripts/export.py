@@ -13,9 +13,9 @@ OUTPUT_DIR = ROOT / "mechanical" / "freecad"
 
 BOARDS = (
     ("01-power", "power"),
-    ("02-fpga-control", "fpga_control"),
+    ("02-fpga-control", "fpga-control"),
     ("03-camera", "camera"),
-    ("04-ir-led", "ir_led"),
+    ("04-ir-led", "ir-led"),
 )
 
 

@@ -4128,7 +4128,7 @@
 			(uuid "9f96954a-65cd-493b-9bf0-657376142a31")
 		)
 		(instances
-			(project "ir_led"
+			(project "ir-led"
 				(path "/25e5a2fb-7c27-4452-a0de-b10148308107"
 					(reference "J1")
 					(unit 1)

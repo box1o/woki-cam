@@ -330,7 +330,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ir_led.kicad_pro",
+    "filename": "ir-led.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -378,8 +378,8 @@
   },
   "project": {
     "files": [
-      "ir_led.kicad_sch",
-      "ir_led.kicad_pcb"
+      "ir-led.kicad_sch",
+      "ir-led.kicad_pcb"
     ]
   },
   "schematic": {
@@ -389,8 +389,8 @@
     "page_layout_descr_file": "",
     "top_level_sheets": [
       {
-        "filename": "ir_led.kicad_sch",
-        "name": "ir_led",
+        "filename": "ir-led.kicad_sch",
+        "name": "ir-led",
         "uuid": "25e5a2fb-7c27-4452-a0de-b10148308107"
       }
     ]

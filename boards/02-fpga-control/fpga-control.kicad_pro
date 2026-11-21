@@ -330,7 +330,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fpga_control.kicad_pro",
+    "filename": "fpga-control.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -378,8 +378,8 @@
   },
   "project": {
     "files": [
-      "fpga_control.kicad_sch",
-      "fpga_control.kicad_pcb"
+      "fpga-control.kicad_sch",
+      "fpga-control.kicad_pcb"
     ]
   },
   "schematic": {
@@ -389,8 +389,8 @@
     "page_layout_descr_file": "",
     "top_level_sheets": [
       {
-        "filename": "fpga_control.kicad_sch",
-        "name": "fpga_control",
+        "filename": "fpga-control.kicad_sch",
+        "name": "fpga-control",
         "uuid": "b1bf42ec-2d0a-4606-82d7-09fc447c57de"
       }
     ]

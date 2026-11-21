@@ -1508,7 +1508,7 @@
 			(uuid "0f1ff522-3dd3-425a-a61e-2be71d733ccf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/CONN_DF40_100P_F.stp"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40hc-3.0-100ds-0.4v-51.step"
 			(offset
 				(xyz 0.115 0 1.5)
 			)
@@ -2558,7 +2558,7 @@
 			(uuid "0244219b-4081-40a3-a306-b3d068feaa11")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/CONN_DF40_100P_M.stp"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40c-100dp-0.4v-51.step"
 			(offset
 				(xyz -6.76 0.855 0.65)
 			)

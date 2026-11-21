@@ -936,7 +936,7 @@
 		(uuid "63675406-5897-417d-94dc-ffd93a927be5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/CONN_DF40_100P_F.stp"
+	(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40hc-3.0-100ds-0.4v-51.step"
 		(offset
 			(xyz 0.115 0 1.5)
 		)

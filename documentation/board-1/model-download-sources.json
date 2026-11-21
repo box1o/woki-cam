@@ -5,7 +5,7 @@
       "parts": [
         "744272251"
       ],
-      "path": "/home/woki/dev/woki-cam/lib/3dmodels/manufacturer/L_Wurth_WE-SL5-744272x.step",
+      "path": "/home/woki/dev/woki-cam/lib/3dmodels/manufacturer/wurth-744272251.step",
       "source_url": "https://raw.githubusercontent.com/WurthElektronik/KiCad-Library/b6fbaf4d70d33a42a96fcc7f4a3c7f4f9ab8b25c/3dmodels/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-SL5-744272x.step",
       "manufacturer_repository": "https://github.com/WurthElektronik/KiCad-Library",
       "manufacturer_commit": "b6fbaf4d70d33a42a96fcc7f4a3c7f4f9ab8b25c",
@@ -21,7 +21,7 @@
         "RTL8211F-CG"
       ],
       "lcsc_code": "C187932",
-      "path": "lib/3dmodels/downloaded/RTL8211F_C187932.wrl",
+      "path": "lib/3dmodels/downloaded/realtek-rtl8211f-cg.wrl",
       "source_url": "https://www.protoflow.ai/library/parts/C187932/files/WQFN-40_L5.0-W5.0-P0.4-BL-EP.wrl",
       "source_page": "https://www.protoflow.ai/library/parts/C187932",
       "source_type": "third-party existing native VRML; JLCEDA/EasyEDA catalog model mirrored/converted by ProtoFlow/FastEDA",
@@ -94,25 +94,6 @@
   "unavailable": [
     {
       "parts": [
-        "RT5-ZZ-0030"
-      ],
-      "reason": "UDE official product catalog supplies SPEC/DRAW, no public original STEP found; third-party compatible parts are not exact original models.",
-      "sources": [
-        "https://www.ude-corp.com/product/category/23",
-        "https://www.lcsc.com/product-detail/C2934914.html"
-      ],
-      "additional_public_source_attempts": [
-        "https://easyeda.com/api/products/C2934914/components?version=6.4.19.5 ->403",
-        "https://easyeda.com/api/components/d16d2a8bf06749618ad7dfb26c002aa9 ->403",
-        "https://lceda.cn/api/products/C2934914/components?version=6.4.19.5 ->418",
-        "https://www.protoflow.ai/library/parts/C2934914 ->404",
-        "GitHub exact RT5-ZZ-0030 code search ->0results",
-        "Public LCSC product HTML readable; exact footprintUUID=d16d2a8bf06749618ad7dfb26c002aa9 but no3DmodelUUID inHTML"
-      ],
-      "status": "No downloadable exact-part STEP or VRML obtained. Do not substitute a differently pinned jack model."
-    },
-    {
-      "parts": [
         "FDMS86252"
       ],
       "reason": "Original onsemi product resource pages return HTTP403; no openly downloadable OEM STEP established.",
@@ -150,23 +131,7 @@
       ]
     }
   ],
-  "rt5_electrical_verification": {
-    "integrated_magnetics": true,
-    "speed": "10/100/1000BASE-T",
-    "manufacturer_marked_power": "PoE60W",
-    "cable_taps": {
-      "R13": "pairs1/2",
-      "R14": "pairs3/6",
-      "R15": "pairs4/5",
-      "R16": "pairs7/8"
-    },
-    "manufacturer_schematic": "datasheets/rt5-zz-0030.pdf manufacturer page7 (PDFpage8)",
-    "isolation": "1500Vac60s or2250Vdc60s, eachdatachannel",
-    "balanced_dc_line_current": "720mA max at57VDCcontinuous permanufacturerpage8",
-    "meaning": "Integrated four-channel Ethernet isolation/magnetics: no separate Ethernet transformer is needed. The LDT flyback transformer remains necessary for custom isolated DC/DC power; it is a different function.",
-    "power_qualification_limit": "60W jack marking does not validate the entire PoE PD circuit or guarantee35Wthermal output."
-  },
-  "scope": "Downloaded existing manufacturer and third-party native CAD only. No model geometry generated, reconstructed or converted by this task. Missing models remain explicitly listed.",
+  "scope": "Existing OEM STEP and downloaded meshes; Bel mesh syntax converted for KiCad without generating replacement geometry. See bel-hs-model-source.json for conversion and placement evidence.",
   "manufacturer_original_still_unavailable": [
     "RTL8211F-CG; third-party native VRML downloaded instead"
   ],
@@ -174,5 +139,6 @@
     "FDMS86252_search_caution": "A distributor alternative query returned original_product_code=C900260, but that code resolves to NTMFS016N06CT1G, not FDMS86252. No wrong part model downloaded.",
     "footprint_edits_performed": false,
     "active_electrical_circuit_edits_performed": false
-  }
+  },
+  "bel_model_provenance": "bel-hs-model-source.json"
 }

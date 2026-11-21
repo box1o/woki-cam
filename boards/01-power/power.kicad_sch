@@ -5943,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Sheetfile" "sheets/ftdi.kicad_sch"
+		(property "Sheetfile" "sheets/usb-programmer.kicad_sch"
 			(at 467.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6116,7 +6116,7 @@
 				)
 			)
 		)
-		(property "Sheetfile" "sheets/ethernet-power.kicad_sch"
+		(property "Sheetfile" "sheets/ethernet-supplies.kicad_sch"
 			(at 340.36 193.04 0)
 			(hide yes)
 			(show_name no)

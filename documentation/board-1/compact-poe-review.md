@@ -20,4 +20,4 @@ Eight unpopulated options and their dead wiring were removed: C521, C522, C546, 
 
 **35 W is a target, not a hardware guarantee.** Verify output regulation, primary current, switch/rectifier overshoot, loop stability, temperatures, EMC and total Class 6 input-power allocation before manufacture.
 
-Sources: [Coilcraft transformer drawing](https://www.coilcraft.com/getmedia/71a3c6d3-d040-4587-8bbd-dd1492f81afc/poexxq.pdf), [TI TPS23730 datasheet](https://www.ti.com/lit/ds/symlink/tps23730.pdf), sections 8.3.7.2–8.3.7.3. Detailed assumptions and verification are in `compact-poe-review.json`.
+Sources: [Coilcraft transformer drawing](https://www.coilcraft.com/getmedia/71a3c6d3-d040-4587-8bbd-dd1492f81afc/poexxq.pdf), [TI TPS23730 datasheet](https://www.ti.com/lit/ds/symlink/tps23730.pdf), sections 8.3.7.2–8.3.7.3.
