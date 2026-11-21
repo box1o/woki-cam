@@ -1,0 +1,663 @@
+(
+  kicad_symbol_lib
+  (version 20251024)
+  (generator "kicad_symbol_editor")
+  (
+    symbol
+    "fdms86252"
+    (
+      pin_names
+      (offset 0.762)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (
+      property
+      "Reference"
+      "Q506"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Value"
+      "FDMS86252"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Footprint"
+      "Woki:fdms86252"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Datasheet"
+      "${KIPRJMOD}/../../datasheets/references/pmp22477-schematic.pdf"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Manufacturer_Part_Number"
+      "FDMS86252"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "TI_Reference"
+      "PMP22477 Q6; Rev D population reconciled"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      symbol
+      "fdms86252_1_1"
+      (
+        pin
+        passive
+        line
+        (at 2.54 7.62 270)
+        (length 5.08)
+        (
+          name
+          "D"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "5"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -7.62 0.0 0)
+        (length 5.08)
+        (
+          name
+          "G"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "4"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 2.54 -7.62 90)
+        (length 5.08)
+        (
+          name
+          "S"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "1"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 1.778)
+          (xy 0.0 1.778)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 0.0)
+          (xy 0.0 0.0)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 -1.778)
+          (xy 0.0 -1.778)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 0.0)
+          (xy 2.54 -2.54)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy -0.508 2.286)
+          (xy -0.508 -2.286)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 0.0 2.286)
+          (xy 0.0 1.27)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 0.0 -0.508)
+          (xy 0.0 0.508)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 0.0 -2.286)
+          (xy 0.0 -1.27)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy -2.54 0.0)
+          (xy -0.508 0.0)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 0.0 0.0)
+          (xy 1.524 -0.508)
+          (xy 1.524 0.508)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 1.778)
+          (xy 2.54 2.54)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 2.54 -7.62 90)
+        (length 5.08)
+        (
+          name
+          "S"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "2"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 2.54 -7.62 90)
+        (length 5.08)
+        (
+          name
+          "S"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "3"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 2.54 7.62 270)
+        (length 5.08)
+        (
+          name
+          "D"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "6"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 2.54 7.62 270)
+        (length 5.08)
+        (
+          name
+          "D"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "7"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        text
+        "7,8"
+        (at 2.032 2.794 0)
+        (
+          effects
+          (
+            font
+            (size 0.95 0.95)
+          )
+        )
+      )
+      (
+        text
+        "1,2,3"
+        (at 2.54 -7.62 0)
+        (
+          effects
+          (
+            font
+            (size 0.95 0.95)
+          )
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 5.08 0.508)
+          (xy 4.318 -0.762)
+          (xy 5.842 -0.762)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 4.318 0.508)
+          (xy 5.842 0.508)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 5.08 -2.54)
+          (xy 5.08 -0.762)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 5.08 2.54)
+          (xy 5.08 0.508)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 2.54 7.62 270)
+        (length 5.08)
+        (
+          name
+          "D"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "8"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 2.54)
+          (xy 5.08 2.54)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        polyline
+        (
+          pts
+          (xy 2.54 -2.54)
+          (xy 5.08 -2.54)
+        )
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type none)
+        )
+      )
+      (
+        text
+        "5,6,"
+        (at -0.508 2.794 0)
+        (
+          effects
+          (
+            font
+            (size 0.95 0.95)
+          )
+        )
+      )
+    )
+  )
+)

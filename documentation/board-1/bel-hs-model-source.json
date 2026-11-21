@@ -10,27 +10,13 @@
   "sha256": "f7866b6b57e61e447ba76ef1bd74a94cb12967e0c7738dad45c13940be59fa67",
   "bytes": 187365,
   "download_method": "Manufacturer embedded Cadenas catalog exact part reverse mapping, STEP AP214 export. No geometry created or edited locally.",
-  "step_geometry": {
-    "valid": true,
-    "solid_count": 21,
-    "bounds_mm": [
-      -6.477000000254,
-      -4.1655999999999995,
-      -19.304000000254,
-      5.7912,
-      4.2418,
-      -14.0462
-    ],
-    "complete_housing": false,
-    "reject_reason": "STEP export omits tessellated housing; do not attach as complete model."
-  },
   "catalog_attributes": {
     "SPEED": "1000BASE-T",
     "PR": "4PPoE 100W",
     "LEDT": "GO/Y"
   },
-  "vrml_model": {
-    "file": "lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl",
+  "archived_incomplete_step_file": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121/removed/lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.stp",
+  "source_mesh": {
     "sha256": "1c5a847d62b3072f1aeee721645294ad27b5987332d34fd086b66c718e50a660",
     "bytes": 4784403,
     "format": "VRML2",
@@ -89,7 +75,56 @@
       "geometry_arrays_identical_to_previous_model": true,
       "validation": "Coin parse and native KiCad high-quality render; model placement unchanged",
       "preview": "documentation/board-1/eth-jack-materials.png"
-    }
+    },
+    "archived_file": "/home/woki/dev/woki-schematic-backups/step-only-20261121/meshes/bel-0826-1x1t-hs-f.wrl"
   },
-  "archived_incomplete_step_file": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121/removed/lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.stp"
+  "rejected_original_step": {
+    "valid": true,
+    "solid_count": 21,
+    "bounds_mm": [
+      -6.477000000254,
+      -4.1655999999999995,
+      -19.304000000254,
+      5.7912,
+      4.2418,
+      -14.0462
+    ],
+    "complete_housing": false,
+    "reject_reason": "STEP export omits tessellated housing; do not attach as complete model."
+  },
+  "step_model": {
+    "file": "lib/3dmodels/manufacturer/0826-1x1t-hs-f.step",
+    "sha256": "103541a8d780bd3c6be44b30e32147d36014de4c45398cb1720145d5d5bab383",
+    "bytes": 74106257,
+    "format": "STEP AP214 faceted B-rep",
+    "triangle_faces": 33817,
+    "source_triangles_preserved": 33817,
+    "discarded_triangles": 0,
+    "material_groups": 6,
+    "units": "mm",
+    "conversion": "Downloaded manufacturer mesh converted to planar STEP faces; no stand-in geometry. Original model scale, orientation and seating offset baked into STEP coordinates.",
+    "kicad_transform": {
+      "offset_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ]
+    },
+    "validation": {
+      "freecad_shape_valid": true,
+      "step_face_count_matches_source": true,
+      "kicad_native_render": true,
+      "preview": "documentation/board-1/eth-jack-materials.png"
+    }
+  }
 }

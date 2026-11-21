@@ -79,6 +79,18 @@ outputs:
             - {layer: B.Paste, color: '#d8dde3'}
             - {layer: B.Silkscreen, color: '#f7f2e8'}
             - {layer: B.Fab, color: '#7f8c99'}
+        - title: Top assembly
+          sheet: Top assembly
+          layers:
+            - {layer: Edge.Cuts, color: '#111111'}
+            - {layer: F.Fab, color: '#111111'}
+        - title: Bottom assembly
+          sheet: Bottom assembly
+          mirror: true
+          mirror_pcb_text: true
+          layers:
+            - {layer: Edge.Cuts, color: '#111111'}
+            - {layer: B.Fab, color: '#111111'}
 
   - name: png_3d_preview
     comment: CI collage source (transparent, no crop)

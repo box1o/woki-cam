@@ -1,0 +1,145 @@
+[
+  {
+    "file": "lib/3dmodels/downloaded/powerpak-so-8.step",
+    "valid": true,
+    "faces": 70,
+    "bounds_mm": [
+      -3.075,
+      -2.575,
+      0.0,
+      3.075,
+      2.575,
+      1.0900000000001355
+    ]
+  },
+  {
+    "file": "lib/3dmodels/downloaded/rtl8211f-cg.step",
+    "valid": true,
+    "faces": 5312,
+    "bounds_mm": [
+      -2.510028022528175,
+      -2.510028022528175,
+      -3.8271122382305123e-13,
+      2.510028022528175,
+      2.510028022528175,
+      0.7609840130811706
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/0826-1x1t-hs-f.step",
+    "valid": true,
+    "faces": 33817,
+    "bounds_mm": [
+      -9.549968194962052,
+      -21.84399927330016,
+      -3.733546145582022,
+      9.549968194962,
+      11.554155182123615,
+      14.960168824768786
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/744272251.step",
+    "valid": true,
+    "faces": 678,
+    "bounds_mm": [
+      -4.432392200292393,
+      -5.082392200292394,
+      -2.136799056780425e-16,
+      4.432392200292396,
+      5.082392200292394,
+      6.0
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/df40c-100dp-0.4v-51.step",
+    "valid": true,
+    "faces": 1323,
+    "bounds_mm": [
+      -2.34000000000001,
+      -0.649999999999999,
+      -4.000000000000001,
+      0.630000000000003,
+      0.4900000000000086,
+      17.520000000000003
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/df40hc-3.0-100ds-0.4v-51.step",
+    "valid": true,
+    "faces": 2147,
+    "bounds_mm": [
+      -1.6900000000000002,
+      -1.5000000000000002,
+      -11.415,
+      1.6900000000000002,
+      1.4000000000000035,
+      11.185
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/lps4018.step",
+    "valid": true,
+    "faces": 74,
+    "bounds_mm": [
+      -2.0530000000000004,
+      0.0,
+      -2.0530000000000004,
+      2.0530000000000017,
+      1.8,
+      2.053
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/poe51q-12ed.step",
+    "valid": true,
+    "faces": 579,
+    "bounds_mm": [
+      -8.5,
+      -0.20000000000000134,
+      -7.250000000000003,
+      8.500000000000002,
+      13.67000000000001,
+      7.249999999999999
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/tps23730rmt.step",
+    "valid": true,
+    "faces": 579,
+    "bounds_mm": [
+      -2.5,
+      -3.5,
+      0.0,
+      2.5,
+      3.5,
+      1.0
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/tps259474arpwr.step",
+    "valid": true,
+    "faces": 130,
+    "bounds_mm": [
+      -1.0,
+      -1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "file": "lib/3dmodels/manufacturer/tps62160dsgr.step",
+    "valid": true,
+    "faces": 135,
+    "bounds_mm": [
+      -1.0,
+      -1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.775
+    ]
+  }
+]

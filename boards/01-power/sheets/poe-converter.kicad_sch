@@ -1337,7 +1337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiPoE:Coilcraft_POE51Q_12ED"
+		(symbol "poe51q-12ed:poe51q-12ed"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -1369,7 +1369,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Woki:POE51Q_12ED"
+			(property "Footprint" "Woki:poe51q-12ed"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1435,7 +1435,7 @@
 					)
 				)
 			)
-			(symbol "Coilcraft_POE51Q_12ED_1_1"
+			(symbol "poe51q-12ed_1_1"
 				(rectangle
 					(start 5.08 -25.4)
 					(end 20.32 2.54)
@@ -2062,7 +2062,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiPoE:PMP_D11"
+		(symbol "fsv1060v:fsv1060v"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2151,7 +2151,7 @@
 					)
 				)
 			)
-			(symbol "PMP_D11_1_1"
+			(symbol "fsv1060v_1_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 5.08)
@@ -2304,7 +2304,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiPoE:PMP_Q6"
+		(symbol "fdms86252:fdms86252"
 			(pin_names
 				(offset 0.762)
 			)
@@ -2335,7 +2335,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Woki:FDMS86252_Power56"
+			(property "Footprint" "Woki:fdms86252"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2390,7 +2390,7 @@
 					)
 				)
 			)
-			(symbol "PMP_Q6_1_1"
+			(symbol "fdms86252_1_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -2766,7 +2766,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiPoE:PMP_U10"
+		(symbol "tps23730rmt:tps23730rmt"
 			(pin_names
 				(offset 0.762)
 			)
@@ -2797,7 +2797,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Woki:TPS23730_RMT0045A"
+			(property "Footprint" "Woki:tps23730rmt"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2852,7 +2852,7 @@
 					)
 				)
 			)
-			(symbol "PMP_U10_1_1"
+			(symbol "tps23730rmt_1_1"
 				(rectangle
 					(start -20.32 -53.34)
 					(end 20.32 53.34)
@@ -9241,12 +9241,12 @@
 	)
 	(hierarchical_label "PRI_TPH_N"
 		(shape output)
-		(at 76.2 213.36 0)
+		(at 76.2 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a745f5b4-2a5b-4676-85aa-70b5441b2852")
 	)
@@ -9263,12 +9263,12 @@
 	)
 	(hierarchical_label "PRI_BT_N"
 		(shape output)
-		(at 76.2 208.28 0)
+		(at 76.2 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e7292eed-8759-4d97-aa01-4b9eddc5a89d")
 	)
@@ -9362,23 +9362,25 @@
 		(dnp no)
 		(uuid "04f9155f-71cc-48e1-8836-b77bbf165a86")
 		(property "Reference" "C553"
-			(at 358.14 115.14 0)
+			(at 359.918 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 358.14 121.08 0)
+			(at 359.918 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -9518,28 +9520,28 @@
 		(dnp no)
 		(uuid "08a527ba-0e6f-48f6-a51a-945d6fefbebe")
 		(property "Reference" "C529"
-			(at 371.602 115.951 0)
+			(at 370.078 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "220uF / 25V"
-			(at 371.602 118.491 0)
+			(at 370.078 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Woki:Panasonic_FK_F_8x10.2"
+		(property "Footprint" "Woki:panasonic_fk_f_8x10.2"
 			(at -20.08 0.32 0)
 			(hide yes)
 			(show_name no)
@@ -9598,23 +9600,25 @@
 		(dnp no)
 		(uuid "0d0e44af-c18e-42dc-b4b6-b7502356eb26")
 		(property "Reference" "C533"
-			(at 317.5 115.14 0)
+			(at 319.278 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 317.5 121.08 0)
+			(at 319.278 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -9910,25 +9914,25 @@
 		(dnp no)
 		(uuid "16de12bc-4b7a-40f4-a979-e5920e5338db")
 		(property "Reference" "R541"
-			(at 80.518 120.65 0)
+			(at 81.28 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "110k"
-			(at 80.518 123.19 0)
+			(at 81.28 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -9991,23 +9995,25 @@
 		(dnp no)
 		(uuid "17246881-35b6-46c9-a4b6-0e5a31dc142d")
 		(property "Reference" "Q505"
-			(at 259.969 198.96 0)
+			(at 267.97 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2N7002-7-F"
-			(at 259.969 207.44 0)
+			(at 267.97 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -10072,7 +10078,7 @@
 		(dnp no)
 		(uuid "1b346d42-4979-473b-8c37-52520c67f8b5")
 		(property "Reference" "R566"
-			(at 138.938 224.79 0)
+			(at 139.7 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10083,7 +10089,7 @@
 			)
 		)
 		(property "Value" "15"
-			(at 138.938 227.33 0)
+			(at 139.7 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10152,28 +10158,28 @@
 		(dnp no)
 		(uuid "1bd488e9-b0af-4aa5-81b7-98ea26547d13")
 		(property "Reference" "C523"
-			(at 102.362 103.251 0)
+			(at 100.838 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "47uF / 80V"
-			(at 102.362 105.791 0)
+			(at 100.838 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Woki:Panasonic_FK_G_10x10.2"
+		(property "Footprint" "Woki:panasonic_fk_g_10x10.2"
 			(at -20.08 0.32 0)
 			(hide yes)
 			(show_name no)
@@ -10299,7 +10305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiPoE:Coilcraft_POE51Q_12ED")
+		(lib_id "poe51q-12ed:poe51q-12ed")
 		(at 210.82 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -10329,7 +10335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:POE51Q_12ED"
+		(property "Footprint" "Woki:poe51q-12ed"
 			(at -20.08 0.32 0)
 			(hide yes)
 			(show_name no)
@@ -10412,7 +10418,7 @@
 		(dnp no)
 		(uuid "26aa4619-09d8-4dbd-9e17-782d59d9a7a8")
 		(property "Reference" "R562"
-			(at 276.098 209.55 0)
+			(at 276.86 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10423,7 +10429,7 @@
 			)
 		)
 		(property "Value" "20.0k"
-			(at 276.098 212.09 0)
+			(at 276.86 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10503,13 +10509,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 198.12 234.95 0)
+			(at 200.66 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10579,13 +10586,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 152.4 237.49 0)
+			(at 154.94 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10655,13 +10663,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 165.1 181.61 0)
+			(at 167.64 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11271,13 +11280,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 124.46 106.68 0)
+			(at 127 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11336,25 +11346,25 @@
 		(dnp no)
 		(uuid "347f4c5a-1a89-4c7d-92d9-da1d03f92af9")
 		(property "Reference" "R545"
-			(at 207.518 140.97 0)
+			(at 208.28 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "3.90"
-			(at 207.518 143.51 0)
+			(at 208.28 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -11416,25 +11426,25 @@
 		(dnp no)
 		(uuid "34d5c134-1e00-477e-aff5-605125ab9cee")
 		(property "Reference" "R550"
-			(at 235.458 179.07 0)
+			(at 236.22 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "24.9k"
-			(at 235.458 181.61 0)
+			(at 236.22 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -11652,23 +11662,25 @@
 		(dnp no)
 		(uuid "3db7af75-11c8-4eb1-9a02-88b0bbd9383a")
 		(property "Reference" "C527"
-			(at 147.32 102.44 0)
+			(at 149.098 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF / 100V"
-			(at 147.32 108.38 0)
+			(at 149.098 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -11730,23 +11742,25 @@
 		(dnp no)
 		(uuid "41721bac-6b73-4230-8e16-27561eef1bdb")
 		(property "Reference" "C544"
-			(at 25.4 171.02 0)
+			(at 27.94 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF / 25V"
-			(at 25.4 176.96 0)
+			(at 27.94 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -11886,23 +11900,25 @@
 		(dnp no)
 		(uuid "4a25ac91-9f6a-45fb-9175-03f32027d5f1")
 		(property "Reference" "C540"
-			(at 205.74 153.24 0)
+			(at 208.28 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF / 25V"
-			(at 205.74 159.18 0)
+			(at 208.28 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -11964,23 +11980,25 @@
 		(dnp no)
 		(uuid "4ca42c3e-c5ba-46b0-934f-7c2b1489ee45")
 		(property "Reference" "C535"
-			(at 337.82 115.14 0)
+			(at 339.598 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 337.82 121.08 0)
+			(at 339.598 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -12042,23 +12060,25 @@
 		(dnp no)
 		(uuid "4d5729e6-98af-484f-9d12-fec8e7d474e2")
 		(property "Reference" "C536"
-			(at 381 115.14 0)
+			(at 382.778 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF / 25V"
-			(at 381 121.08 0)
+			(at 382.778 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -12198,23 +12218,25 @@
 		(dnp no)
 		(uuid "527fa766-0f46-4682-9553-cfd14789d48f")
 		(property "Reference" "C534"
-			(at 327.66 115.14 0)
+			(at 329.438 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 327.66 121.08 0)
+			(at 329.438 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -12287,13 +12309,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 78.74 140.97 0)
+			(at 81.28 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12352,25 +12375,25 @@
 		(dnp no)
 		(uuid "5727b71e-b574-42d1-ba17-1f5b28265730")
 		(property "Reference" "R553"
-			(at 65.278 189.23 0)
+			(at 66.04 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "60.4k"
-			(at 65.278 191.77 0)
+			(at 66.04 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -12443,13 +12466,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 43.18 207.01 0)
+			(at 45.72 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12508,25 +12532,25 @@
 		(dnp no)
 		(uuid "5d6b3ba8-3015-4367-84cc-250f1036eb18")
 		(property "Reference" "C525"
-			(at 123.698 104.14 0)
+			(at 128.778 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF / 100V"
-			(at 123.698 106.68 0)
+			(at 128.778 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -12588,25 +12612,25 @@
 		(dnp no)
 		(uuid "5e3bc52f-d7d7-4d7a-90e8-40113ae55a02")
 		(property "Reference" "R548"
-			(at 235.458 166.37 0)
+			(at 236.22 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0"
-			(at 235.458 168.91 0)
+			(at 236.22 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -12668,23 +12692,25 @@
 		(dnp no)
 		(uuid "5e452667-11bb-4a67-8094-1f089f291f62")
 		(property "Reference" "C550"
-			(at 137.16 214.2 0)
+			(at 139.7 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1000pF / 50V"
-			(at 137.16 220.14 0)
+			(at 139.7 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -12757,13 +12783,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 160.02 194.31 0)
+			(at 162.56 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12811,7 +12838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiPoE:PMP_D11")
+		(lib_id "fsv1060v:fsv1060v")
 		(at 269.24 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -13070,13 +13097,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 175.26 257.81 0)
+			(at 177.8 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13146,13 +13174,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 259.08 217.17 0)
+			(at 261.62 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13211,25 +13240,25 @@
 		(dnp no)
 		(uuid "79b38487-b1ab-492c-b268-402d9b7f39ee")
 		(property "Reference" "R517"
-			(at 164.338 105.41 0)
+			(at 165.1 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "39k"
-			(at 164.338 107.95 0)
+			(at 165.1 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
@@ -13280,7 +13309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiPoE:PMP_Q6")
+		(lib_id "fdms86252:fdms86252")
 		(at 195.58 208.28 0)
 		(unit 1)
 		(body_style 1)
@@ -13310,7 +13339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:FDMS86252_Power56"
+		(property "Footprint" "Woki:fdms86252"
 			(at -20.08 0.32 0)
 			(hide yes)
 			(show_name no)
@@ -13476,13 +13505,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 144.78 140.97 0)
+			(at 147.32 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13552,13 +13582,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 114.3 113.03 0)
+			(at 116.84 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13712,7 +13743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:LPS4018-332MLB"
+		(property "Footprint" "Woki:lps4018-332mlb"
 			(at -20.08 0.32 0)
 			(hide yes)
 			(show_name no)
@@ -13771,23 +13802,25 @@
 		(dnp no)
 		(uuid "9d8963f6-25d1-4a6a-8754-23dcefea9332")
 		(property "Reference" "C524"
-			(at 86.36 102.44 0)
+			(at 88.138 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "0.1uF / 100V"
-			(at 86.36 108.38 0)
+			(at 88.138 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -13860,13 +13893,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 137.16 227.33 0)
+			(at 139.7 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13925,23 +13959,25 @@
 		(dnp no)
 		(uuid "a56d5bf4-8b14-4cc5-bf41-064c14b7657a")
 		(property "Reference" "C532"
-			(at 307.34 115.14 0)
+			(at 309.118 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 307.34 121.08 0)
+			(at 309.118 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -13992,7 +14028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiPoE:PMP_U10")
+		(lib_id "tps23730rmt:tps23730rmt")
 		(at 104.14 210.82 0)
 		(unit 1)
 		(body_style 1)
@@ -14022,7 +14058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:TPS23730_RMT0045A"
+		(property "Footprint" "Woki:tps23730rmt"
 			(at -20.08 0.32 0)
 			(hide yes)
 			(show_name no)
@@ -14227,13 +14263,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 233.68 207.01 0)
+			(at 236.22 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14292,25 +14329,25 @@
 		(dnp no)
 		(uuid "a74d95f2-4899-48b8-a655-f59f3fb57f77")
 		(property "Reference" "R546"
-			(at 220.218 156.21 0)
+			(at 220.98 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "3.0k"
-			(at 220.218 158.75 0)
+			(at 220.98 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
@@ -14383,13 +14420,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 205.74 163.83 0)
+			(at 208.28 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14602,7 +14640,7 @@
 		(dnp no)
 		(uuid "ba6d76ed-793c-48a7-8caa-b83937a1d0de")
 		(property "Reference" "R557"
-			(at 278.638 194.31 0)
+			(at 279.4 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14613,7 +14651,7 @@
 			)
 		)
 		(property "Value" "20.0k"
-			(at 278.638 196.85 0)
+			(at 279.4 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14682,25 +14720,25 @@
 		(dnp no)
 		(uuid "bb8ea8d0-30b7-4c93-a0b0-b1ecce058c78")
 		(property "Reference" "R544"
-			(at 80.518 135.89 0)
+			(at 81.28 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10.0k"
-			(at 80.518 138.43 0)
+			(at 81.28 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -15072,23 +15110,25 @@
 		(dnp no)
 		(uuid "c5d08d9c-f2b1-4215-9599-4c51682bcae9")
 		(property "Reference" "C551"
-			(at 175.26 252.3 0)
+			(at 177.8 254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100pF / 50V"
-			(at 175.26 258.24 0)
+			(at 177.8 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -15150,25 +15190,25 @@
 		(dnp no)
 		(uuid "c629c3f3-abf9-42f1-9203-574860fadc5a")
 		(property "Reference" "R552"
-			(at 44.958 184.15 0)
+			(at 45.72 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0"
-			(at 44.958 186.69 0)
+			(at 45.72 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.95 0.95)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -15230,23 +15270,25 @@
 		(dnp no)
 		(uuid "c79bffe7-3380-467e-8636-2675329e12bf")
 		(property "Reference" "C526"
-			(at 137.16 102.44 0)
+			(at 138.938 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2.2uF / 100V"
-			(at 137.16 108.38 0)
+			(at 138.938 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -15308,23 +15350,25 @@
 		(dnp no)
 		(uuid "d049b709-2636-4568-abd3-000958c519b6")
 		(property "Reference" "C530"
-			(at 287.02 115.14 0)
+			(at 288.798 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 287.02 121.08 0)
+			(at 288.798 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -15464,23 +15508,25 @@
 		(dnp no)
 		(uuid "d592884b-fe65-4d55-8c38-cbb8896212de")
 		(property "Reference" "C552"
-			(at 347.98 115.14 0)
+			(at 349.758 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 347.98 121.08 0)
+			(at 349.758 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -15620,7 +15666,7 @@
 		(dnp no)
 		(uuid "db7afce3-5d2f-43e1-966c-31dabb248210")
 		(property "Reference" "R558"
-			(at 235.458 201.93 0)
+			(at 236.22 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15631,7 +15677,7 @@
 			)
 		)
 		(property "Value" "4.99k"
-			(at 235.458 204.47 0)
+			(at 236.22 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15700,7 +15746,7 @@
 		(dnp no)
 		(uuid "e2819162-ecde-47a3-a138-8dae09907aa6")
 		(property "Reference" "R567"
-			(at 199.898 229.87 0)
+			(at 200.66 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15711,7 +15757,7 @@
 			)
 		)
 		(property "Value" "0.05"
-			(at 199.898 232.41 0)
+			(at 200.66 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15936,23 +15982,25 @@
 		(dnp no)
 		(uuid "e9ed49e5-4a66-4b3a-8d81-7d23869e3511")
 		(property "Reference" "C528"
-			(at 172.72 102.44 0)
+			(at 174.498 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "0.1uF / 100V"
-			(at 172.72 108.38 0)
+			(at 174.498 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -16014,23 +16062,25 @@
 		(dnp no)
 		(uuid "ec6c8465-ce84-4302-be81-577cd3a253c1")
 		(property "Reference" "C531"
-			(at 297.18 115.14 0)
+			(at 298.958 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF / 25V"
-			(at 297.18 121.08 0)
+			(at 298.958 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.95 0.95)
+					(size 0.9 0.9)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
@@ -16103,13 +16153,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 25.4 179.07 0)
+			(at 27.94 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16179,13 +16230,14 @@
 			)
 		)
 		(property "Value" "RTN"
-			(at 60.96 260.35 0)
+			(at 63.5 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

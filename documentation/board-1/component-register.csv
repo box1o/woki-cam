@@ -1,0 +1,233 @@
+reference,value,manufacturer_part_number,sheet,symbol,footprint,side,models,model_source,reference_label_layer
+C101,1u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C102,4.7u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C103,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C104,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C105,15p / C0G,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C106,15p / C0G,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C107,4.7u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C108,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C109,4.7u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C110,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C111,10u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C112,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C113,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C114,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C115,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C116,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C117,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C118,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C119,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C120,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C121,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C122,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C123,100n,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C124,1u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C125,1u / 10V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C126,4.7n / 25V,,/USB JTAG / UART/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C201,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C202,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C203,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C204,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C205,36p / C0G,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C206,36p / C0G,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C207,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C208,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C209,100n / 16V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C210,4.7u / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C211,1u / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C212,100n / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C213,100n / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C214,100n / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C215,100n / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C216,4.7u / 10V,,/Gigabit Ethernet/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C301,10u / 25V,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C302,100n / 25V,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C303,22u / 10V,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C304,1u / 10V,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C305,10u / 10V,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C306,1n / C0G,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C307,100n,,/3.3V supply / reset/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C401,1n / 100V,,/MagJack PoE input/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C402,1n / 100V,,/MagJack PoE input/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C523,47uF / 80V,,/custom isolated 12V converter/,Device:C_Polarized_Small,Woki:panasonic_fk_g_10x10.2,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.5.step,KiCad generic package model,F.Silkscreen
+C524,0.1uF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C525,2.2uF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C526,2.2uF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C527,2.2uF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C528,0.1uF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C529,220uF / 25V,,/custom isolated 12V converter/,Device:C_Polarized_Small,Woki:panasonic_fk_f_8x10.2,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.step,KiCad generic package model,F.Silkscreen
+C530,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C531,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C532,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C533,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C534,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C535,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C536,1uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C537,2200pF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C538,0.047uF / 16V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C539,0.1uF / 100V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C540,1uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C541,0.015uF / 50V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C543,220pF / 50V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C544,1uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C545,0.1uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C547,0.1uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C550,1000pF / 50V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C551,100pF / 50V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+C552,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C553,22uF / 25V,,/custom isolated 12V converter/,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,KiCad generic package model,F.Silkscreen
+C601,10n / 25V,,/integrated stack protection/,Device:C,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C602,1u / 25V,,/integrated stack protection/,Device:C,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C603,10u / 25V,,/integrated stack protection/,Device:C,Capacitor_SMD:C_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,KiCad generic package model,F.Fab
+C644,100n / 10V,,/integrated stack protection/,Device:C,Capacitor_SMD:C_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,KiCad generic package model,F.Fab
+D401,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D402,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D403,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D404,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D405,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D406,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D407,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D408,STPS3H100U,,/MagJack PoE input/,Device:D_Schottky,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D511,FSV1060V,,/custom isolated 12V converter/,fsv1060v:fsv1060v,Package_TO_SOT_SMD:TO-277A,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-277A.step,KiCad generic package model,F.Silkscreen
+D512,ES1D-13-F,,/custom isolated 12V converter/,Device:D_Small,Diode_SMD:D_SMA,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step,KiCad generic package model,F.Silkscreen
+D513,SMBJ58A-13-F,,/custom isolated 12V converter/,Device:D_TVS,Diode_SMD:D_SMB,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,KiCad generic package model,F.Silkscreen
+D514,MMSD4148T1G,,/custom isolated 12V converter/,Device:D_Small,Diode_SMD:D_SOD-123,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step,KiCad generic package model,F.Silkscreen
+D515,MMSD4148T1G,,/custom isolated 12V converter/,Device:D_Small,Diode_SMD:D_SOD-123,front,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step,KiCad generic package model,F.Silkscreen
+F101,0.5A / 6V,,/USB JTAG / UART/,Device:Polyfuse_Small,Fuse:Fuse_1206_3216Metric,front,${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step,KiCad generic package model,F.Silkscreen
+FB101,600R @ 100MHz,,/USB JTAG / UART/,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step,KiCad generic package model,F.Fab
+FB102,600R @ 100MHz,,/USB JTAG / UART/,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step,KiCad generic package model,F.Fab
+H1,M3 / CHASSIS,,PCB mechanical,,Woki:mounting-hole-m3,front,,bare pad or mounting hole; no model needed,not printed
+H2,M3 / CHASSIS,,PCB mechanical,,Woki:mounting-hole-m3,front,,bare pad or mounting hole; no model needed,not printed
+H3,M3 / CHASSIS,,PCB mechanical,,Woki:mounting-hole-m3,front,,bare pad or mounting hole; no model needed,not printed
+H4,M3 / CHASSIS,,PCB mechanical,,Woki:mounting-hole-m3,front,,bare pad or mounting hole; no model needed,not printed
+J1,DF40HC(3.0)-100DS-0.4V(51),,/,df40hc-3.0-100ds-0.4v-51:df40hc-3.0-100ds-0.4v-51,Woki:df40hc-3.0-100ds-0.4v-51,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/df40hc-3.0-100ds-0.4v-51.step,manufacturer CAD,F.Silkscreen
+J2,0826-1X1T-HS-F,,/Gigabit Ethernet/,0826-1x1t-hs-f:0826-1x1t-hs-f,Woki:0826-1x1t-hs-f,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/0826-1x1t-hs-f.step,manufacturer CAD converted from mesh,F.Silkscreen
+J101,USB4105-GF-A,,/USB JTAG / UART/,Connector:USB_C_Receptacle_USB2.0_16P,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,front,${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step,KiCad generic package model,F.Silkscreen
+L201,2.2uH,,/Gigabit Ethernet/,Device:L,Woki:lps4018,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/lps4018.step,manufacturer CAD,F.Silkscreen
+L301,2.2uH / XAL4020-222MEC,,/3.3V supply / reset/,Device:L,Inductor_SMD:L_Coilcraft_XAL4020-XXX,front,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL4020-XXX.step,KiCad generic package model,F.Silkscreen
+L402,744272251 / 250uH,,/MagJack PoE input/,744272251:744272251,Woki:744272251,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/744272251.step,manufacturer CAD,F.Silkscreen
+L507,3.3uH,,/custom isolated 12V converter/,Device:L_Small,Woki:lps4018-332mlb,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/lps4018.step,manufacturer CAD,F.Silkscreen
+Q505,2N7002-7-F,,/custom isolated 12V converter/,Transistor_FET:2N7002,Package_TO_SOT_SMD:SOT-23,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step,KiCad generic package model,F.Silkscreen
+Q506,FDMS86252,,/custom isolated 12V converter/,fdms86252:fdms86252,Woki:fdms86252,front,${KIPRJMOD}/../../lib/3dmodels/downloaded/powerpak-so-8.step,downloaded package CAD,F.Silkscreen
+R101,5.1k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R102,5.1k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R103,12k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R104,1k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R105,2.2k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R106,10k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R107,10k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R108,10k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R109,10k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R110,33R,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R111,33R,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R112,33R,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R113,33R,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R114,10k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R115,4.7k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R116,4.7k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R117,4.7k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R118,100k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R119,4.7k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R120,10k,,/USB JTAG / UART/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R201,22,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R202,22,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R203,22,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R204,22,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R205,22,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R206,22,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R207,2.49k / 1%,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R208,2.2k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R209,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R210,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R211,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R212,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R213,510,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R214,510,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R215,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R216,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R217,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R218,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R219,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R220,4.7k,,/Gigabit Ethernet/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R301,312k / 1%,,/3.3V supply / reset/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R302,100k / 1%,,/3.3V supply / reset/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R303,10k,,/3.3V supply / reset/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R350,0,,/3.3V supply / reset/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R351,0,,/3.3V supply / reset/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R517,39k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_1206_3216Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step,KiCad generic package model,F.Fab
+R541,110k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R542,15,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_2512_6332Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step,KiCad generic package model,F.Silkscreen
+R543,15,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_2512_6332Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step,KiCad generic package model,F.Fab
+R544,10.0k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R545,3.90,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step,KiCad generic package model,F.Fab
+R546,3.0k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_1206_3216Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step,KiCad generic package model,F.Fab
+R547,39.2k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R548,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R549,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R550,24.9k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R552,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R553,60.4k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R554,35.7k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R555,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R557,20.0k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R558,4.99k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R559,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R560,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R561,4.7,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R562,20.0k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R564,49.9k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R566,15,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_1206_3216Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step,KiCad generic package model,F.Silkscreen
+R567,0.05,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_2010_5025Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.step,KiCad generic package model,F.Silkscreen
+R568,31.6,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step,KiCad generic package model,F.Fab
+R569,130,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0805_2012Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step,KiCad generic package model,F.Fab
+R571,25.5k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R572,100,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R573,0,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R574,499k,,/custom isolated 12V converter/,Device:R_Small,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R601,953 / 1%,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R602,1M,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R603,100k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R604,806k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R605,100k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R606,10k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R607,100k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R641,4.99k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R643,4.99k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R644,10k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+R646,10k,,/integrated stack protection/,Device:R,Resistor_SMD:R_0603_1608Metric,front,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,KiCad generic package model,F.Fab
+T502,POE51Q-12ED,,/custom isolated 12V converter/,poe51q-12ed:poe51q-12ed,Woki:poe51q-12ed,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/poe51q-12ed.step,manufacturer CAD,F.Silkscreen
+TP13,ETH_3V3,,/3.3V supply / reset/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.0mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP16,VIO_TARGET,,/3.3V supply / reset/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.0mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP17,PHY_RESET_N,,/3.3V supply / reset/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.0mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP18,GND,,/3.3V supply / reset/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.0mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP19,USB_VBUS,,/USB JTAG / UART/,Connector:TestPoint,Woki:testpoint-pad-1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP20,USB_3V3,,/USB JTAG / UART/,Connector:TestPoint,Woki:testpoint-pad-1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP21,USB_1V8,,/USB JTAG / UART/,Connector:TestPoint,Woki:testpoint-pad-1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP22,USB_PWREN_N,,/USB JTAG / UART/,Connector:TestPoint,Woki:testpoint-pad-1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP23,GND,,/USB JTAG / UART/,Connector:TestPoint,Woki:testpoint-pad-1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP401,POE_VDD,,/MagJack PoE input/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP402,POE_VSS,,/MagJack PoE input/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP601,+12V_STACK,,/integrated stack protection/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP602,POWER_GOOD,,/integrated stack protection/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+TP603,POE_CLASS6_OK,,/integrated stack protection/,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,front,,bare pad or mounting hole; no model needed,F.Silkscreen
+U101,FT2232HL,,/USB JTAG / UART/,Interface_USB:FT2232HL,Package_QFP:LQFP-64_10x10mm_P0.5mm,front,${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.step,KiCad generic package model,F.Silkscreen
+U102,USBLC6-2SC6,,/USB JTAG / UART/,Power_Protection:USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,KiCad generic package model,F.Silkscreen
+U103,AP2112K-3.3TRG1,,/USB JTAG / UART/,Regulator_Linear:AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step,KiCad generic package model,F.Silkscreen
+U104,SN74AXC4T245PWR,,/USB JTAG / UART/,sn74axc4t245pwr:sn74axc4t245pwr,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,front,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step,KiCad generic package model,F.Silkscreen
+U105,SN74AXC4T245PWR,,/USB JTAG / UART/,sn74axc4t245pwr:sn74axc4t245pwr,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,front,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step,KiCad generic package model,F.Silkscreen
+U106,93LC46B-I/SN,,/USB JTAG / UART/,Memory_EEPROM:93LCxxB,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,front,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step,KiCad generic package model,F.Silkscreen
+U107,TPS22918DBVR,,/USB JTAG / UART/,tps22918dbvr:tps22918dbvr,Package_TO_SOT_SMD:SOT-23-6,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,KiCad generic package model,F.Silkscreen
+U201,RTL8211F-CG,,/Gigabit Ethernet/,rtl8211f-cg:rtl8211f-cg,Woki:rtl8211f-cg,front,${KIPRJMOD}/../../lib/3dmodels/downloaded/rtl8211f-cg.step,downloaded third-party CAD converted from mesh,F.Silkscreen
+U202,TPD4E1B06DRLR,,/Gigabit Ethernet/,tpd4e1b06drlr:tpd4e1b06drlr,Package_TO_SOT_SMD:SOT-563,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step,KiCad generic package model,F.Fab
+U203,TPD4E1B06DRLR,,/Gigabit Ethernet/,tpd4e1b06drlr:tpd4e1b06drlr,Package_TO_SOT_SMD:SOT-563,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step,KiCad generic package model,F.Fab
+U301,TPS62160DSGR,,/3.3V supply / reset/,Regulator_Switching:TPS62160DSG,Woki:tps62160dsgr,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/tps62160dsgr.step,manufacturer CAD,F.Silkscreen
+U302,TPS22918DBVR,,/3.3V supply / reset/,tps22918dbvr:tps22918dbvr,Package_TO_SOT_SMD:SOT-23-6,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,KiCad generic package model,F.Silkscreen
+U303,TLV803EA29DBZR,,/3.3V supply / reset/,tlv803ea29dbzr:tlv803ea29dbzr,Package_TO_SOT_SMD:SOT-23,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step,KiCad generic package model,F.Silkscreen
+U510,TPS23730RMT,,/custom isolated 12V converter/,tps23730rmt:tps23730rmt,Woki:tps23730rmt,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/tps23730rmt.step,manufacturer CAD,F.Silkscreen
+U601,TPS259474ARPWR,,/integrated stack protection/,tps259474arpwr:tps259474arpwr,Woki:tps259474arpwr,front,${KIPRJMOD}/../../lib/3dmodels/manufacturer/tps259474arpwr.step,manufacturer CAD,F.Silkscreen
+U641,FOD817DS,,/integrated stack protection/,fod817ds:fod817ds,Woki:fod817ds,front,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,KiCad generic package model,F.Silkscreen
+U643,FOD817DS,,/integrated stack protection/,fod817ds:fod817ds,Woki:fod817ds,front,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,KiCad generic package model,F.Silkscreen
+U644,SN74LVC1G02DBVR,,/integrated stack protection/,74xGxx:74LVC1G02,Package_TO_SOT_SMD:SOT-23-5,front,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step,KiCad generic package model,F.Silkscreen
+Y101,12MHz / CL12pF,,/USB JTAG / UART/,Device:Crystal_GND24,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,front,${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step,KiCad generic package model,F.Silkscreen
+Y201,25MHz / CL20pF,,/Gigabit Ethernet/,Device:Crystal_GND24,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,front,${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step,KiCad generic package model,F.Silkscreen

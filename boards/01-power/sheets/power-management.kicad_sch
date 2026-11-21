@@ -690,7 +690,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiPower:TPS259474ARPW"
+		(symbol "tps259474arpwr:tps259474arpwr"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -760,7 +760,7 @@
 					)
 				)
 			)
-			(symbol "TPS259474ARPW_1_1"
+			(symbol "tps259474arpwr_1_1"
 				(rectangle
 					(start -17.78 25.4)
 					(end 17.78 -25.4)
@@ -955,7 +955,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiProtection:FOD817DS"
+		(symbol "fod817ds:fod817ds"
 			(pin_names
 				(offset 0.762)
 			)
@@ -986,7 +986,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Woki:FOD817DS"
+			(property "Footprint" "Woki:fod817ds"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1041,7 +1041,7 @@
 					)
 				)
 			)
-			(symbol "FOD817DS_1_1"
+			(symbol "fod817ds_1_1"
 				(polyline
 					(pts
 						(xy -10.16 5.08) (xy 10.16 5.08)
@@ -1626,7 +1626,7 @@
 	)
 	(text "03  STACK eFUSE / OVERVOLTAGE / POWER GOOD"
 		(exclude_from_sim no)
-		(at 182.88 82.55 0)
+		(at 182.88 138.43 0)
 		(effects
 			(font
 				(size 1.8 1.8)
@@ -3445,7 +3445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiProtection:FOD817DS")
+		(lib_id "fod817ds:fod817ds")
 		(at 106.68 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3475,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:FOD817DS"
+		(property "Footprint" "Woki:fod817ds"
 			(at 106.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3684,7 +3684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiPower:TPS259474ARPW")
+		(lib_id "tps259474arpwr:tps259474arpwr")
 		(at 274.32 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3714,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:TPS25947_RPW"
+		(property "Footprint" "Woki:tps259474arpwr"
 			(at 274.32 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -5033,7 +5033,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiProtection:FOD817DS")
+		(lib_id "fod817ds:fod817ds")
 		(at 106.68 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -5063,7 +5063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:FOD817DS"
+		(property "Footprint" "Woki:fod817ds"
 			(at 106.68 95.25 0)
 			(hide yes)
 			(show_name no)

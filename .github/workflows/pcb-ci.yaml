@@ -33,26 +33,26 @@ env:
   KIBOT_IMAGE: ghcr.io/inti-cmnb/kicad10_auto_full:dev@sha256:114c9c3cc09d0ebb491d3afafb8995ab180fecbedb55d7ab6667960b8680076a
 
 jobs:
+  inventory:
+    name: Board inventory
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.boards.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - id: boards
+        run: echo "matrix=$(python3 scripts/project.py)" >> "$GITHUB_OUTPUT"
+
   schematic:
     name: Schematic ERC — ${{ matrix.board }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    needs: inventory
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - board: power
-            pcb: boards/01-power/power.kicad_pcb
-            sch: boards/01-power/power.kicad_sch
-          - board: fpga-control
-            pcb: boards/02-fpga-control/fpga-control.kicad_pcb
-            sch: boards/02-fpga-control/fpga-control.kicad_sch
-          - board: camera
-            pcb: boards/03-camera/camera.kicad_pcb
-            sch: boards/03-camera/camera.kicad_sch
-          - board: ir-led
-            pcb: boards/04-ir-led/ir-led.kicad_pcb
-            sch: boards/04-ir-led/ir-led.kicad_sch
+      matrix: ${{ fromJSON(needs.inventory.outputs.matrix) }}
 
     steps:
       - uses: actions/checkout@v5
@@ -99,31 +99,15 @@ jobs:
     name: PCB layout and outputs — ${{ matrix.board }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    needs: inventory
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - board: power
-            pcb: boards/01-power/power.kicad_pcb
-            sch: boards/01-power/power.kicad_sch
-          - board: fpga-control
-            pcb: boards/02-fpga-control/fpga-control.kicad_pcb
-            sch: boards/02-fpga-control/fpga-control.kicad_sch
-          - board: camera
-            pcb: boards/03-camera/camera.kicad_pcb
-            sch: boards/03-camera/camera.kicad_sch
-          - board: ir-led
-            pcb: boards/04-ir-led/ir-led.kicad_pcb
-            sch: boards/04-ir-led/ir-led.kicad_sch
+      matrix: ${{ fromJSON(needs.inventory.outputs.matrix) }}
 
     steps:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
-
-      - name: Verify persistent MagJack 3D model association
-        if: matrix.board == 'power'
-        run: python3 .github/verify-magjack-model.py
 
       - name: Generate PCB design-rule report (DRC)
         if: success() || failure()
@@ -138,7 +122,7 @@ jobs:
 
       - name: Report draft layout status
         if: success() || failure()
-        run: python3 .github/check-layout.py "build/${{ matrix.board }}"
+        run: python3 scripts/check_layout.py "build/${{ matrix.board }}"
 
       - name: Generate board outputs
         if: success() || failure()
@@ -152,8 +136,8 @@ jobs:
             -e BOARD_NAME -e CI -e GITHUB_ACTIONS \
             -v "$PWD:/work" -w /work \
             --entrypoint python3 "$KIBOT_IMAGE" \
-            .github/run-kibot.py -v -c .github/kibot.yaml -d . \
-            -b "$PCB" -e "$SCHEMATIC" -s erc,drc "$OUTPUT_GROUP"
+            scripts/run_kibot.py -v -c .github/kibot.yaml -d . \
+            -b "$PCB" -e "$SCHEMATIC" "$OUTPUT_GROUP"
 
       - if: always()
         run: |
@@ -199,7 +183,7 @@ jobs:
         run: |
           python3 -m venv "$RUNNER_TEMP/woki-packaging"
           "$RUNNER_TEMP/woki-packaging/bin/python" -m pip install --quiet pillow
-          "$RUNNER_TEMP/woki-packaging/bin/python" .github/package.py
+          "$RUNNER_TEMP/woki-packaging/bin/python" scripts/package_outputs.py
 
       - name: Prepare and validate release assets without publishing
         id: prepare-release
@@ -279,7 +263,7 @@ jobs:
           path: build/
 
       - name: Require clean PCB layouts before manufacturing release
-        run: python3 .github/check-layout.py build --strict --expected-reports 4
+        run: python3 scripts/check_layout.py build --strict --expected-reports 4
 
       - name: Publish
         env:

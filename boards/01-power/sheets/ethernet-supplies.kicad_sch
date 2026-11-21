@@ -1013,7 +1013,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiSupplies:TLV803EA29DBZR"
+		(symbol "tlv803ea29dbzr:tlv803ea29dbzr"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1108,7 +1108,7 @@
 					)
 				)
 			)
-			(symbol "TLV803EA29DBZR_1_1"
+			(symbol "tlv803ea29dbzr_1_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -1177,7 +1177,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiSupplies:TPS22918DBVR"
+		(symbol "tps22918dbvr:tps22918dbvr"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1272,7 +1272,7 @@
 					)
 				)
 			)
-			(symbol "TPS22918DBVR_1_1"
+			(symbol "tps22918dbvr_1_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -2726,17 +2726,10 @@
 		(pin "1"
 			(uuid "d50cf646-c85f-4d21-8571-7da132fc682b")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "TP13") (unit 1))))
 	)
 	(symbol
-		(lib_id "WokiSupplies:TPS22918DBVR")
+		(lib_id "tps22918dbvr:tps22918dbvr")
 		(at 251.46 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -2816,14 +2809,7 @@
 		(pin "4"
 			(uuid "1f34abc7-d5d3-42b4-ab75-bc0e7fb86a40")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "U302")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "U302") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2969,14 +2955,7 @@
 		(pin "1"
 			(uuid "9eda7e53-0de6-49f8-91f9-0a28a24e6470")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3605")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3605") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3047,14 +3026,7 @@
 		(pin "2"
 			(uuid "4260cefe-c745-4d56-8533-a99684dc1aba")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C303")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C303") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -3201,14 +3173,7 @@
 		(pin "2"
 			(uuid "ad880e1e-7bac-4371-a196-4666e770c844")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C304")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C304") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3279,14 +3244,7 @@
 		(pin "2"
 			(uuid "78369b81-0867-442a-9ad0-b8f8293c2af2")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "R302")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "R302") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -3513,14 +3471,7 @@
 		(pin "2"
 			(uuid "c5a50b29-7844-4eab-b6a2-b26e42369e39")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "R303")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "R303") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3590,14 +3541,7 @@
 		(pin "1"
 			(uuid "f1cbe489-ab79-4587-a4d2-3e9d8419ed9b")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3612")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3612") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3668,14 +3612,7 @@
 		(pin "2"
 			(uuid "edfe7323-9394-4a9d-a24b-08c65f4cdd6a")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C306")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C306") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3745,14 +3682,7 @@
 		(pin "1"
 			(uuid "0b52399b-0989-4188-8772-7ec9e155bcba")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3611")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3611") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3822,14 +3752,7 @@
 		(pin "1"
 			(uuid "f812db3a-fcf4-4b90-ab0e-f3b54d52843f")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3606")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3606") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3899,14 +3822,7 @@
 		(pin "1"
 			(uuid "c06a2fda-45c0-47b7-b352-7f7e2e5344dc")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3610")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3610") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3977,14 +3893,7 @@
 		(pin "2"
 			(uuid "63eeabec-d767-4106-9d95-7e7136545e69")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C302")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C302") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -4063,7 +3972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiSupplies:TLV803EA29DBZR")
+		(lib_id "tlv803ea29dbzr:tlv803ea29dbzr")
 		(at 81.28 195.58 0)
 		(unit 1)
 		(body_style 1)
@@ -4134,14 +4043,7 @@
 		(pin "2"
 			(uuid "85b7cb12-83a0-4bf9-a778-627ee48acf52")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "U303")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "U303") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4211,14 +4113,7 @@
 		(pin "1"
 			(uuid "11a10b4a-2c9b-49c6-8b3a-a21949d0066f")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3604")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3604") (unit 1))))
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -4286,14 +4181,7 @@
 		(pin "1"
 			(uuid "e00cccc1-4e73-4dc8-bdf0-0f56fd6954a5")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "TP18") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4363,14 +4251,7 @@
 		(pin "1"
 			(uuid "f165ef8f-0e21-47ee-8222-01e9d8e30827")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3603")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3603") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4440,14 +4321,7 @@
 		(pin "1"
 			(uuid "09b37589-e05b-479d-8eb8-294af121892f")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3602")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3602") (unit 1))))
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS62160DSG")
@@ -4480,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:TPS6216x_DSG"
+		(property "Footprint" "Woki:tps62160dsgr"
 			(at 81.28 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4539,14 +4413,7 @@
 		(pin "8"
 			(uuid "c8d688b0-00f5-462f-92da-622b206c7318")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "U301")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "U301") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4617,14 +4484,7 @@
 		(pin "2"
 			(uuid "c34c2d4f-1621-434a-8b96-c644f520be45")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C305")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C305") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4695,14 +4555,7 @@
 		(pin "2"
 			(uuid "4fe12b43-6b3d-4362-a60e-587a991d38b0")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C307")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C307") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4772,14 +4625,7 @@
 		(pin "1"
 			(uuid "c25b3be1-6400-49e7-886f-ee412352fa23")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3607")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3607") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -4925,14 +4771,7 @@
 		(pin "1"
 			(uuid "348cea81-5f75-4216-9354-83cdbe6e1954")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3609")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3609") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5003,14 +4842,7 @@
 		(pin "2"
 			(uuid "a8e8c450-262b-4b22-a5a3-8c2ea40d578e")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "R301")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "R301") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5080,14 +4912,7 @@
 		(pin "1"
 			(uuid "fae96177-e542-424a-8919-56d3b7f11871")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3608")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3608") (unit 1))))
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -5158,14 +4983,7 @@
 		(pin "2"
 			(uuid "c1d8c4f7-f9dd-456c-8328-b2d1df119b53")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "L301")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "L301") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:VDD")
@@ -5385,14 +5203,7 @@
 		(pin "1"
 			(uuid "04eefc69-d4fd-47eb-a387-d4bf8931ce8b")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "TP16") (unit 1))))
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -5460,14 +5271,7 @@
 		(pin "1"
 			(uuid "f57e4785-cd33-49d5-bfb9-5d3903f781f8")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "TP17") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -5690,14 +5494,7 @@
 		(pin "2"
 			(uuid "bea678f7-4beb-47f8-8424-ef25dd5c7b79")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "C301") (unit 1))))
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5767,13 +5564,6 @@
 		(pin "1"
 			(uuid "c482a46f-5edb-4b5f-be62-a5139b195577")
 		)
-		(instances
-			(project ""
-				(path "/9e91d675-6b20-558a-b489-8c5d2e022cea"
-					(reference "#PWR3601")
-					(unit 1)
-				)
-			)
-		)
+		(instances (project "power" (path "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea" (reference "#PWR3601") (unit 1))))
 	)
 )

@@ -1,48 +1,64 @@
 {
   "files": [
     {
+      "file": ".github/kibot.yaml",
+      "sha256": "34bd4bf31797d9d295ffa732b3d036e85233d43659ea4811d9b36b9c1caabef6"
+    },
+    {
+      "file": ".github/release-notes.sh",
+      "sha256": "e12a31904ad3ab7abd82e157bfb884a2584bfbea5fe78074ea59483076da4f7e"
+    },
+    {
+      "file": ".github/workflows/pcb-ci.yaml",
+      "sha256": "b6b7fc2b0d46aaf63abe7a15ff30b3b079bcd6b03646ae7f86bedb8f32e30efc"
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "ec3a4933719110793b7a0d5ec9712dc3e259c266d327b3c6cda1431c14a8af10"
+    },
+    {
       "file": "boards/01-power/fp-lib-table",
       "sha256": "2ce4beebf8301a2d621cca3d9773d78099188783a9a44c78e413ff1fb2ca0bdd"
     },
     {
       "file": "boards/01-power/power.kicad_pcb",
-      "sha256": "791681981a7610cedaaadd5ad99a48dec3611ae38c1339720fc1c4e059a9aad9"
+      "sha256": "e5d5dfc921089fd0822920c8ed18211ed4b75701f0658d434b4a3898a1a7af21"
     },
     {
       "file": "boards/01-power/power.kicad_pro",
-      "sha256": "5fcf669c8dd25691338259ad85bcf11ec15f412cb4d66f4154011bb0a436cad9"
+      "sha256": "aee737de350bd3c480b7eb8d947050c2c52b11f9198369d542c7cbf259af9b62"
     },
     {
       "file": "boards/01-power/power.kicad_sch",
-      "sha256": "a2a7e12dac3801a728ba377aba7b3429e40d7299ed28c9400d06a78e472bbf72"
+      "sha256": "63d2d9d5312052e2065da4e7f6a4dc03c57b3fb0b8b36016f3ec388436601156"
     },
     {
       "file": "boards/01-power/sheets/ethernet-supplies.kicad_sch",
-      "sha256": "c340ad4d35a3109348a8381306d7b92357e292e1ed74bf3fed2879c30b1ca729"
+      "sha256": "e159eac4bb47f20afb4f0b2ff893988e1e6635056175a1b85aa0c31bf93c7059"
     },
     {
       "file": "boards/01-power/sheets/ethernet.kicad_sch",
-      "sha256": "148eefa3f691e5225186f656eaac4fe0632132d387acf75b2d5967dc57434cc5"
+      "sha256": "0a7a6cf14b44affbe9b75d61929c0232f2e8dd10b3cfe18f8f8fb0007384297f"
     },
     {
       "file": "boards/01-power/sheets/poe-converter.kicad_sch",
-      "sha256": "83c9406be496e86ecde67e8c1020d27d92309f951fa5616dcd0b9be6dbff73b9"
+      "sha256": "9780065e7662c358a20b4bb1a957c3b2467dcae08e689377be8521b7446b5c36"
     },
     {
       "file": "boards/01-power/sheets/poe-input.kicad_sch",
-      "sha256": "d6ed6a0a866faef095e95fa66a3bcfbcc05fcb9e36d94456a5c8e2a82ce02b1c"
+      "sha256": "75af17895f83deb7b86bbc45d35ffecb4f77e1ed1c4103f541a8b7404a57c32a"
     },
     {
       "file": "boards/01-power/sheets/power-management.kicad_sch",
-      "sha256": "abeba7f176abf3be19bf0855ac40904bf27b9a4530ccdafe0ed027a4e2295cad"
+      "sha256": "c4d0fdacbbe8139a1f6c8220548def3a46b0eb76bb4feea29a945105d13cd748"
     },
     {
       "file": "boards/01-power/sheets/usb-programmer.kicad_sch",
-      "sha256": "f1883022fa694e5803e40d29e1e4a7675a11212188841fd6eaf9951d46041e7c"
+      "sha256": "b7f543f890731d56e3c1c2857b56c27f8ed5767b0a4e2025aa0b305aa6dca2c5"
     },
     {
       "file": "boards/01-power/sym-lib-table",
-      "sha256": "3ce9b935f5a89c0805976da7d75d9a8f357bda6bc9245149e7c20270c2f17345"
+      "sha256": "e410cc65eff4f9e214a6d5730bbf521e615b2dd64cdb2863b1d78aae532053d3"
     },
     {
       "file": "boards/02-fpga-control/fp-lib-table",
@@ -50,31 +66,31 @@
     },
     {
       "file": "boards/02-fpga-control/fpga-control.kicad_pcb",
-      "sha256": "5eb7d7af2d2ef0ce419836f9c3c01154b2f61d1c3295a5d3891229a72d2a9948"
+      "sha256": "f2ad2da48bddbf358c6231da8c33a264415230f06d51085b9ea42458fa442537"
     },
     {
       "file": "boards/02-fpga-control/fpga-control.kicad_pro",
-      "sha256": "c46694442c27a7c115af99ae091672bd92d35585549b122ccab783313e450cd4"
+      "sha256": "dce9f5ff33e432a7a534ecec222bf7283afbd6ae29b52665993168e08de1b986"
     },
     {
       "file": "boards/02-fpga-control/fpga-control.kicad_sch",
-      "sha256": "aa2148bfebcaae0b39abf735ededd35b5a1e82246fe19b1095a2babe6a9e0cec"
+      "sha256": "4b9a2c06d038dbe2c82c0bd25f506693fe7155dc709aa17e64464fe8c4f7799f"
     },
     {
       "file": "boards/02-fpga-control/sym-lib-table",
-      "sha256": "36679af79aee001664e6c2e30b77216881796f5934d5fc21f5d8c356c9fbd450"
+      "sha256": "e410cc65eff4f9e214a6d5730bbf521e615b2dd64cdb2863b1d78aae532053d3"
     },
     {
       "file": "boards/03-camera/camera.kicad_pcb",
-      "sha256": "ee7fcbf973e361435fd5b991ecd62b993a12bdca6369b3d329cb58f66a463ee9"
+      "sha256": "3d805c8b1d7d914cac35fb0b487c8a48f59b75bf16e1b86b0a0a4dcd92bdb163"
     },
     {
       "file": "boards/03-camera/camera.kicad_pro",
-      "sha256": "f21c0525e69c4e835e494a5e2d98687ff8a2934b1bf6b6857bec388eb7d90d0b"
+      "sha256": "76d2c78ce0b80d1fe8fb8ba18134857420f3d6d1fbeeb7f620bd12b8ba95f341"
     },
     {
       "file": "boards/03-camera/camera.kicad_sch",
-      "sha256": "ded99731875f8478b3b64c4978299ebe75d4b96ea30a5c6d975fe564d5606b3b"
+      "sha256": "36d9cc001ec503c061c3841c82628c2fe575808aa99229a71fbedb84fead6d64"
     },
     {
       "file": "boards/03-camera/fp-lib-table",
@@ -82,7 +98,7 @@
     },
     {
       "file": "boards/03-camera/sym-lib-table",
-      "sha256": "36679af79aee001664e6c2e30b77216881796f5934d5fc21f5d8c356c9fbd450"
+      "sha256": "e410cc65eff4f9e214a6d5730bbf521e615b2dd64cdb2863b1d78aae532053d3"
     },
     {
       "file": "boards/04-ir-led/fp-lib-table",
@@ -90,187 +106,19 @@
     },
     {
       "file": "boards/04-ir-led/ir-led.kicad_pcb",
-      "sha256": "86a8b159864f71160ec4f4e14425a545fa9875b8682ab27909cff925097b7867"
+      "sha256": "64770bc41938b107c714a7e7903eece116bc2e8091a9c36b0680db0c966bf99c"
     },
     {
       "file": "boards/04-ir-led/ir-led.kicad_pro",
-      "sha256": "4e2d665e84404b86a17579c6a83ff497036d5aaa5a307eee9124f24370636c9a"
+      "sha256": "b831abebd21794ca08da30d9f83f9a1b38c63375c6de4f129f58ee2a36c95aca"
     },
     {
       "file": "boards/04-ir-led/ir-led.kicad_sch",
-      "sha256": "c226a7a733daf8d464a975d226ee6e92ad83ba997043d94809a13479714f7e45"
+      "sha256": "8365aa43811499719492f45f9326b5dec30c659cddad93cb3d178921abec6aba"
     },
     {
       "file": "boards/04-ir-led/sym-lib-table",
-      "sha256": "36679af79aee001664e6c2e30b77216881796f5934d5fc21f5d8c356c9fbd450"
-    },
-    {
-      "file": "lib/3dmodels/downloaded/realtek-rtl8211f-cg.wrl",
-      "sha256": "74f6199944f37cf09ae6649cb2417417a8f103baec6608fea3c1e6c7bb7e9299"
-    },
-    {
-      "file": "lib/3dmodels/downloaded/vishay-powerpak-so-8.step",
-      "sha256": "16376facc641c2a425f59889d3c0537fa2d621cac0106c7b2a1fd838289f9230"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl",
-      "sha256": "1c5a847d62b3072f1aeee721645294ad27b5987332d34fd086b66c718e50a660"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/bel-cadenas-terms.txt",
-      "sha256": "0d3980027acd81106c169b1136d3621e119bc3183d1124c8665eba35e64a2858"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/coilcraft-lps4018.step",
-      "sha256": "3db3c55c9f8a07e05df6d9afea52efba8f6861537f52cb9d88771165e96a31a0"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/coilcraft-poe51q-12ed.step",
-      "sha256": "a030157723f80ed5d0c07adc916515949414ca57bba5aa461c6580a886358f94"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/hirose-df40c-100dp-0.4v-51.step",
-      "sha256": "61481841bbda71f9ca2915f3b443a7425d65441469ea214e3ec61f0873dd2f1c"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/hirose-df40hc-3.0-100ds-0.4v-51.step",
-      "sha256": "98e9fb7a7c29b98ce5f4c7697ae1204568ef6706b4c466818d28e65c9762ddd2"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/index.csv",
-      "sha256": "d5e55b5d2f141c4c26859ebc1aaa66299bdd3210d9edd520932ccfd654b58140"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/ti-dsg0008a.step",
-      "sha256": "036e69d19652968e88d5228d04ed57885bb35118ebae21352052a94129402c36"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/ti-rmt0045a.step",
-      "sha256": "5806f3fb8313c9220b096a3ba64e007785049e6fb02b3008557d28c9b8bbfc0e"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/ti-rpw0010a.step",
-      "sha256": "2029d0f916eac768a3ace06740626b4f94870f7d4dc7618a735de478dabdd596"
-    },
-    {
-      "file": "lib/3dmodels/manufacturer/wurth-744272251.step",
-      "sha256": "e0d390267f66cfabc00019620ad2ec6e36da7cffab9fbbe3d9004276a184e3dd"
-    },
-    {
-      "file": "lib/3dmodels/model-coverage.csv",
-      "sha256": "07460a1726e19599ece028200d7e6c989584e09ff0b96d860cb78ce52f910349"
-    },
-    {
-      "file": "lib/SOURCES.md",
-      "sha256": "aa71f3656ecec8187463661696885f9dbb45f3cac1d19b4611fdb27bec99821b"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/744272251.kicad_mod",
-      "sha256": "4aa9d4828554ce5699ad58c2244c5002b257c11efc07eeefcbcbbae19a5ae97d"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/Bel_0826_1X1T_HS_F.kicad_mod",
-      "sha256": "f1ae31398bc1fd80902d4994d335c95ecd127da2f76f2e61571989122f0bd0f1"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/CONN_DF40_100P_F.kicad_mod",
-      "sha256": "ba70b5342ed3217955b14b2cc5ca73e6f42b88c6d1144be9d9163481dd1e0a8c"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/CONN_DF40_100P_M.kicad_mod",
-      "sha256": "ae5bdf0ce03c64a866731b538e8ede2c56b5184f20d6e4520d4253cef404f54c"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/FDMS86252_Power56.kicad_mod",
-      "sha256": "f669d882a4fb39a00c2257d2004231ddd0f05d5320fba8534ea21000eaad19e9"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/FOD817DS.kicad_mod",
-      "sha256": "8c1433ecaeb64c8a401feda3dead31fd87f811c2d5a39a36996dcfbbc0be00d2"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/LPS4018-332MLB.kicad_mod",
-      "sha256": "6fba8406795361d88e50ca6f895f78bb1daeac6f7df2c1bc6e37fc006578f5c3"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/L_Coilcraft_LPS4018.kicad_mod",
-      "sha256": "e52b14d34f230cb59cd7c36e0e30f8d399b909ccf8bb8c8eafdda7258c36a1ae"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/MNT_HOLE_M3.kicad_mod",
-      "sha256": "ce64d1efda6eed382629292e5e86692a56cc293060f10a8a5d5db6a8591d836a"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/POE51Q_12ED.kicad_mod",
-      "sha256": "379f3c905c549e17359453a2d974c7c3b3d27fc010f8c7441259e4e0e86e4feb"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/Panasonic_FK_F_8x10.2.kicad_mod",
-      "sha256": "48d500bda5c6cc286c3a3d63b8b87007e0d8d251096a4ac770fe5b30793425d6"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/Panasonic_FK_G_10x10.2.kicad_mod",
-      "sha256": "b0baa06229e31374e15809d02d5fb3672087717f01bd553c012b6baa34243ee9"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/RTL8211F_QFN40.kicad_mod",
-      "sha256": "33b95d6819b8cee0ab5a87b8be5475de2a0892da77fd5f3f3769e7a37e3bb4ac"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/TPS23730_RMT0045A.kicad_mod",
-      "sha256": "4a9eb8648c320a138e09e1863b3f4825287d740555f845ba88271983a195ecd1"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/TPS25947_RPW.kicad_mod",
-      "sha256": "28cd998f16a6953dd253c5a5ef44a56ef345a72c786abcb0077d33c35cb31c44"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/TPS6216x_DSG.kicad_mod",
-      "sha256": "2dd689cf9ecaf5da86820d23bdf9957c75b5b8195e80246d1c24da8ef5c5404c"
-    },
-    {
-      "file": "lib/footprints/woki.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
-      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042"
-    },
-    {
-      "file": "lib/symbols/CONN_DF40_100P_F.kicad_sym",
-      "sha256": "a2138a9ee03dd16b1097b35347d80cd3f8d47178f826ad68af307777b50f5056"
-    },
-    {
-      "file": "lib/symbols/CONN_DF40_100P_M.kicad_sym",
-      "sha256": "532e946225063d8ed6ee375f6b961ba905e6cf7fa5ee7727e9424acc1d6dcff1"
-    },
-    {
-      "file": "lib/symbols/WokiBoard1.kicad_sym",
-      "sha256": "f8e3bc7b80f13042f89c2314c06e9da9fbd56e671edd96bdb5966160daebb0d0"
-    },
-    {
-      "file": "lib/symbols/WokiEthernet.kicad_sym",
-      "sha256": "155198901eb8f7c28b2bf8d068eb9ea7f751dbd1a42d62aef15a171f1e5cb69d"
-    },
-    {
-      "file": "lib/symbols/WokiFTDI.kicad_sym",
-      "sha256": "4a6db50299c8f7fa6f4e9d0daa19dba00605914ff42793b67000e42b7c206df4"
-    },
-    {
-      "file": "lib/symbols/WokiPoE.kicad_sym",
-      "sha256": "bcf2524068924641e8ef6fe2d1c91cf7f54027e056bc031d24f128301a4d7d93"
-    },
-    {
-      "file": "lib/symbols/WokiPower.kicad_sym",
-      "sha256": "95d5f5712ade4d046b78d00fcea347975dd8acb3337b84490d6a83d60e75758c"
-    },
-    {
-      "file": "lib/symbols/WokiProtection.kicad_sym",
-      "sha256": "264b05e80b96aa03baad238559684e90dae4f785d24556f3eefabcb903e49c3c"
-    },
-    {
-      "file": "lib/symbols/WokiSupplies.kicad_sym",
-      "sha256": "e145ec10526feb7ec174656793a6ad9296d489524d991cc105436e985b5c0123"
-    },
-    {
-      "file": "lib/symbols/magjack-pinout.csv",
-      "sha256": "08897575b5cd6c897778950607a7ff324a62ac131ccfbab618b7b7ee534186b2"
+      "sha256": "e410cc65eff4f9e214a6d5730bbf521e615b2dd64cdb2863b1d78aae532053d3"
     },
     {
       "file": "datasheets/2n7002.pdf",
@@ -425,8 +273,296 @@
       "sha256": "b26cf975bd56a807173b05665bddd49ed49323400330eb8f6fa63e24ff6d7d15"
     },
     {
-      "file": "mechanical/dxf/.gitkeep",
-      "sha256": "5aff1a420247484f85df7590229d767268b334443c4b2e50e39e2545a8e8d6f9"
+      "file": "documentation/board-1-assembly.pdf",
+      "sha256": "d8b4034102ebcca6c36a2a1318363b1aafb98da846fb66bcf1e3985dba56c584"
+    },
+    {
+      "file": "documentation/board-1.pdf",
+      "sha256": "bb68a551e403d4703140089ce6ac68f305c3cd04b440d86913b0f7c18f26137a"
+    },
+    {
+      "file": "documentation/board-1/bel-hs-model-alignment.json",
+      "sha256": "67d5576f96e0a1ed050a2186487276e06e55386755516e38e51cb6ec725d206f"
+    },
+    {
+      "file": "documentation/board-1/bel-hs-model-source.json",
+      "sha256": "797fccd93d1b957aa761cdc01238ccdf94131ed4f619004de339651a0fca544d"
+    },
+    {
+      "file": "documentation/board-1/cleanup-verification.json",
+      "sha256": "45bc1e712d0031ba564cc013e387eefcfee225a5c6bcf694bbfefae43cc72d46"
+    },
+    {
+      "file": "documentation/board-1/compact-poe-review.md",
+      "sha256": "446028c5479440c9330def6afb89d28592c0a9ad1ae0c2d943a66a9f7169ba98"
+    },
+    {
+      "file": "documentation/board-1/component-register.csv",
+      "sha256": "d126c54a41acdbb3c73bc12778ad9d99117bbc32d2de61465d0596eaa916e2fe"
+    },
+    {
+      "file": "documentation/board-1/components.csv",
+      "sha256": "b0b7731c0b96ec6591de10b2400d481531622d7c01377f04803c3bf53dfb23ac"
+    },
+    {
+      "file": "documentation/board-1/connections.csv",
+      "sha256": "25ce1c1fff4d317ee930bf1ab3b53be930f9321c1b9ea6a62b35617a487a5585"
+    },
+    {
+      "file": "documentation/board-1/connector-pinout.csv",
+      "sha256": "f926a7117d90c4c41d174310e7140b4e87f75b39e8827f34d2c1623ce9600cfd"
+    },
+    {
+      "file": "documentation/board-1/datasheet-fix-verification.json",
+      "sha256": "ad5ad2a99f1c267a3320c696d26181b3ecceb848f58574ac3cb789aade33c4fb"
+    },
+    {
+      "file": "documentation/board-1/erc.json",
+      "sha256": "938e5d05b1617b4f9312a8ab97068efd491ce3c83b93b0c35da22f45af7a57b1"
+    },
+    {
+      "file": "documentation/board-1/eth-jack-materials.png",
+      "sha256": "2dabb66b244f5829b724fe583d5844b002534d603e09864f23a7521078836693"
+    },
+    {
+      "file": "documentation/board-1/jack-footprint-coordinates.json",
+      "sha256": "51a38e6e579c285a1452eb6944779129d7162b01a5eb2f9a8d1e31d6a4e62b5c"
+    },
+    {
+      "file": "documentation/board-1/jack-swap-verification.json",
+      "sha256": "5582f4957169fadd17f8c75af18dac11f28bb8c7e5fb504261350491906078c4"
+    },
+    {
+      "file": "documentation/board-1/model-download-sources.json",
+      "sha256": "0d70a765e639da2f2cbae70e15b45ae60dc65e12b85117e083797028581cd86a"
+    },
+    {
+      "file": "documentation/board-1/phy-model-alignment.png",
+      "sha256": "ff7c801f208765528a5c9602618c5bf0a302fd704cc9cecba45ff08430e2d2e1"
+    },
+    {
+      "file": "documentation/board-1/power.net",
+      "sha256": "95d68416fdfdbf461e32ecfdad4978fefd5092feb5581ef751be2cfd70018eb4"
+    },
+    {
+      "file": "documentation/board-1/review.md",
+      "sha256": "abd09da583811fa3152ea8229cc370a7cadfcc468a8cd71b3cbff908976eeec4"
+    },
+    {
+      "file": "documentation/board-1/stack-pin-allocation.json",
+      "sha256": "988751a7afd4e8f62389ba172657d9d20d08ac42931011be57a01b9c2ccdcc62"
+    },
+    {
+      "file": "documentation/board-1/step-models.json",
+      "sha256": "91dc1353802d22e2221d82549ac1281ee6eaebbbc00cf6945372f019735b9fab"
+    },
+    {
+      "file": "documentation/board-1/testpoints.csv",
+      "sha256": "b44eac1c02af6b1e9de3319d6a9444bd95f5df40383e53cebe52c60391381d35"
+    },
+    {
+      "file": "documentation/board-1/verification.json",
+      "sha256": "f138cbb7e2ca3071a757b281a95e2b37b99159baf4e4bb74cf1d4b344077abcf"
+    },
+    {
+      "file": "images/woki-cam-3d.png",
+      "sha256": "4ab9725dea3ada746f93d839a479effd1220e42c3d71a40ab144db1db3df76ba"
+    },
+    {
+      "file": "lib/3dmodels/downloaded/powerpak-so-8.step",
+      "sha256": "16376facc641c2a425f59889d3c0537fa2d621cac0106c7b2a1fd838289f9230"
+    },
+    {
+      "file": "lib/3dmodels/downloaded/rtl8211f-cg.step",
+      "sha256": "f5334fa7acbc71e209036d178c6b2c9e291bd1617952894dec7d63223b6c8e8b"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/0826-1x1t-hs-f.step",
+      "sha256": "103541a8d780bd3c6be44b30e32147d36014de4c45398cb1720145d5d5bab383"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/744272251.step",
+      "sha256": "e0d390267f66cfabc00019620ad2ec6e36da7cffab9fbbe3d9004276a184e3dd"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/bel-cadenas-terms.txt",
+      "sha256": "0d3980027acd81106c169b1136d3621e119bc3183d1124c8665eba35e64a2858"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/df40c-100dp-0.4v-51.step",
+      "sha256": "61481841bbda71f9ca2915f3b443a7425d65441469ea214e3ec61f0873dd2f1c"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/df40hc-3.0-100ds-0.4v-51.step",
+      "sha256": "98e9fb7a7c29b98ce5f4c7697ae1204568ef6706b4c466818d28e65c9762ddd2"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/index.csv",
+      "sha256": "23b580ad9541d77531eed9c3f5c698ccddb9c30ace99f11b848060f8038df3d2"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/lps4018.step",
+      "sha256": "3db3c55c9f8a07e05df6d9afea52efba8f6861537f52cb9d88771165e96a31a0"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/poe51q-12ed.step",
+      "sha256": "a030157723f80ed5d0c07adc916515949414ca57bba5aa461c6580a886358f94"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/tps23730rmt.step",
+      "sha256": "5806f3fb8313c9220b096a3ba64e007785049e6fb02b3008557d28c9b8bbfc0e"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/tps259474arpwr.step",
+      "sha256": "2029d0f916eac768a3ace06740626b4f94870f7d4dc7618a735de478dabdd596"
+    },
+    {
+      "file": "lib/3dmodels/manufacturer/tps62160dsgr.step",
+      "sha256": "036e69d19652968e88d5228d04ed57885bb35118ebae21352052a94129402c36"
+    },
+    {
+      "file": "lib/3dmodels/model-coverage.csv",
+      "sha256": "ee98c1f6694fea5da1bec7c12971161e6684c192fa6a0e54948c03ee9ed4d745"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/0826-1x1t-hs-f.kicad_mod",
+      "sha256": "57c4fd6dfdbea9f670860b3f07785bde8e15ed437b015cbcc3cf765b40d1fc4c"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/744272251.kicad_mod",
+      "sha256": "cb9b3d506f72a89f59f8bdd3e39aa56f2f90dd20a51490e6a084e6ec8ad2d351"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/df40c-100dp-0.4v-51.kicad_mod",
+      "sha256": "666da75280a5356904705f533216b5cfdd9a55076274e4a6add93ba1d758df1e"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/df40hc-3.0-100ds-0.4v-51.kicad_mod",
+      "sha256": "d9cfb83056d8faec25798ae52df7b004f3ae1e4048764af4087b433511220d22"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/fdms86252.kicad_mod",
+      "sha256": "ece95f1a0af2431c5fd5b28ceb5e8ed2e10825ad97cab54cfc5affcdf809eb7d"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/fod817ds.kicad_mod",
+      "sha256": "56ad6a2ac5cb84fe5405ff777b7d096d5bab90a243b69c1f72002f75e09bd0fa"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/lps4018-332mlb.kicad_mod",
+      "sha256": "098ff0e472fa608e1b3f53e63246d54cfc3af4c1bef969a4f88f23876e3a845d"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/lps4018.kicad_mod",
+      "sha256": "93e9fd5b203899c260d68b118256bf3deeabd03fd764088d486204e0e6792cd2"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/mounting-hole-m3.kicad_mod",
+      "sha256": "cd5e2361bc93df695a1bcb6d20dbb5877b755e944ddcb5cb11eedfc41155f730"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/panasonic_fk_f_8x10.2.kicad_mod",
+      "sha256": "8f501f6117b929786e34796bb464bf9c56113daaea46639f0d65c7e6d18fa458"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/panasonic_fk_g_10x10.2.kicad_mod",
+      "sha256": "da2fa96dcd3449ef468bf4df0a1d2332e64138bff54eb3528903f60300481f40"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/poe51q-12ed.kicad_mod",
+      "sha256": "7e184f66882481e39d09fe7eb9414ba3087caf76a7145a43758c548fa43dada0"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/rtl8211f-cg.kicad_mod",
+      "sha256": "f2fb94e1af4cff5d7976dfff9b3581c342604f9a086f9b9ff120424b0ed1d2d6"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/testpoint-pad-1.5mm.kicad_mod",
+      "sha256": "9543ee4d0bba4a2251043a3f4232920f03676e6b15f9d722b3f9868ca940d7b7"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/tps23730rmt.kicad_mod",
+      "sha256": "297293dc820448db1fbc2bfd0627ecbb262a4e8d7fb15b44779d22c30775c50c"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/tps259474arpwr.kicad_mod",
+      "sha256": "45b3ebb7f0286c9f8717865a9c0541089ccd45bc92297ae1abf1b66beca4b63b"
+    },
+    {
+      "file": "lib/footprints/woki.pretty/tps62160dsgr.kicad_mod",
+      "sha256": "7334a672457a7fca716d5a5fb83a64edb413c0d780e4f5faedbdf864285cc615"
+    },
+    {
+      "file": "lib/sources.md",
+      "sha256": "fc3257bb3c5140acd01c1da5197e2fb50e2685b4e1fd4df21bb7a398c21a23fd"
+    },
+    {
+      "file": "lib/symbols/0826-1x1t-hs-f.kicad_sym",
+      "sha256": "f7ab674a7bb37c00fb9e6a06dab9da9151d635e36d71e5dad96ed8bcc96ba0e4"
+    },
+    {
+      "file": "lib/symbols/744272251.kicad_sym",
+      "sha256": "5fd561bbb4aba252cfa454a9fcfe3f2940072727b05c3ed6b427ca542bf2871d"
+    },
+    {
+      "file": "lib/symbols/df40c-100dp-0.4v-51.kicad_sym",
+      "sha256": "8c931de6f8b6927e16c47eb38637967120e68a81bf065cd77940038673f55982"
+    },
+    {
+      "file": "lib/symbols/df40hc-3.0-100ds-0.4v-51.kicad_sym",
+      "sha256": "ecd0627b95b37398ae12bcb88b7e8e832829cecff2cad09977a23162a6f24267"
+    },
+    {
+      "file": "lib/symbols/fdms86252.kicad_sym",
+      "sha256": "303bc428b150f9d822e609fbe726b4db7ce4bb9e3d49fff0343d253956beba1c"
+    },
+    {
+      "file": "lib/symbols/fod817ds.kicad_sym",
+      "sha256": "bbe593159ad03db694ff7ee079eb5e2e341686c813353d704d4b3e0a56ff3051"
+    },
+    {
+      "file": "lib/symbols/fsv1060v.kicad_sym",
+      "sha256": "a0174fadbf78972c97799adb17b511ad60c1e4e1bf220a648a1de851c1d3eca4"
+    },
+    {
+      "file": "lib/symbols/magjack-pinout.csv",
+      "sha256": "08897575b5cd6c897778950607a7ff324a62ac131ccfbab618b7b7ee534186b2"
+    },
+    {
+      "file": "lib/symbols/poe51q-12ed.kicad_sym",
+      "sha256": "dabb7adacfc20a88db3acffb41c65e5c278c9828b02eb3cd43a21956fa5b41e8"
+    },
+    {
+      "file": "lib/symbols/rtl8211f-cg.kicad_sym",
+      "sha256": "b61f37890ea18b59469ec61299f87a7d6e35b5d3c379bfc56f9ad8e02dcf4513"
+    },
+    {
+      "file": "lib/symbols/sn74axc4t245pwr.kicad_sym",
+      "sha256": "a7e951237875c643dc62c41d32251b59656c4309f696acddd3fe6d54fc8ddcde"
+    },
+    {
+      "file": "lib/symbols/tlv803ea29dbzr.kicad_sym",
+      "sha256": "8b0f8f2337b508897b488d2fd818181fd5e7ce03222c164290e41a98cf170059"
+    },
+    {
+      "file": "lib/symbols/tpd4e1b06drlr.kicad_sym",
+      "sha256": "cc1db25f524fad9a3bece7d339c7d254d83b6bfe0e37b36a67f90c6ece6b46e8"
+    },
+    {
+      "file": "lib/symbols/tps22918dbvr.kicad_sym",
+      "sha256": "cddc80d590de21adfabe670e1741dde71114bd57b99a4c59ddc69806c5c2f103"
+    },
+    {
+      "file": "lib/symbols/tps23730rmt.kicad_sym",
+      "sha256": "03e5633d822ba3cf872c5c7c867f5bc4c46e8e6b7d28c3f0189303de0ff8e426"
+    },
+    {
+      "file": "lib/symbols/tps259474arpwr.kicad_sym",
+      "sha256": "cbafe28fed4920e03fa3f499f677f1852a56bc02f2e298aa430481f9b297761b"
+    },
+    {
+      "file": "license",
+      "sha256": "177a1a73cfaa21698602e1910c48b7a374119cd1bdb36c1cb1d44cc7d34d253b"
     },
     {
       "file": "mechanical/dxf/outline.dxf",
@@ -481,40 +617,36 @@
       "sha256": "61c5828e433ce22ee6c3185dbd8a90d8ea7027fff68762a9700b867cb1b19179"
     },
     {
-      "file": "scripts/export.py",
-      "sha256": "281959bf829524572fc1a078143581aaa254d02a57ff51dcf6ffb57f6ed7613d"
+      "file": "readme.md",
+      "sha256": "15c356d89442b83147bb2f73d39525b5a9455ed6a5362237178cb8ae1199ad9c"
     },
     {
-      "file": ".github/check-layout.py",
-      "sha256": "f6189e727b28e27dcd4f8ac6fa6a666d0903386b18f9badba79ab5b099a86e0d"
+      "file": "scripts/check_layout.py",
+      "sha256": "d9975abf4eb01d54fd4032b69cc1fe18e3b15c475f695e8701329f7f1501504e"
     },
     {
-      "file": ".github/collage.py",
-      "sha256": "f38ef16c6aabc120d58e6b9977cf024a08e7c2a4619ee6701104222e2013bfe7"
+      "file": "scripts/export_step.py",
+      "sha256": "a3992c6fd0176041a7c034864481ed6292d7bfc4fa124ab35c60fa1c63429302"
     },
     {
-      "file": ".github/kibot.yaml",
-      "sha256": "3da2777c5726ab8f9c175e046ddc59c6a060ff0c6b5f18f85c346fc695f5d974"
+      "file": "scripts/package_outputs.py",
+      "sha256": "302ea19aae915eef9abd353f0f6be13523f0dbcce167a864d049899fc7f7b538"
     },
     {
-      "file": ".github/package.py",
-      "sha256": "7438f7f2e3d2f11e6e526335ceb8dbdd0a2ef6d9091fc9f5ba5a8385b8971a2c"
+      "file": "scripts/project.py",
+      "sha256": "3e056ed3350e3e2a014f4a42de160fa23fbe8aea94c6d33dd954807019890d18"
     },
     {
-      "file": ".github/release-notes.sh",
-      "sha256": "e12a31904ad3ab7abd82e157bfb884a2584bfbea5fe78074ea59483076da4f7e"
+      "file": "scripts/render_collage.py",
+      "sha256": "3e41b2eac0dbec520a10869ada11e85306846fc8f0f560fb4a8f26dd02510199"
     },
     {
-      "file": ".github/run-kibot.py",
-      "sha256": "67810bf1c65f895329274808b2359ead9cdca448bfb3b049c4034eb19519f988"
+      "file": "scripts/run_kibot.py",
+      "sha256": "3c24ac1d01a10709f4c5b2a5ac042b467bbb31b8b47b512cf3804c7fd948f67d"
     },
     {
-      "file": ".github/verify-magjack-model.py",
-      "sha256": "584a9939d4f719d0083c3173b93a4443aee05a914d6aee9fe73c09dba02afae8"
-    },
-    {
-      "file": ".github/workflows/pcb-ci.yaml",
-      "sha256": "a3fdb8c174590d36620984621606787ed8869a77f047387a08c68d7ccc2718e0"
+      "file": "settings.env",
+      "sha256": "b6e51335feb590aeda60667c79eb1fdeae949ede8a095a3257caef8a256258c0"
     }
   ]
 }

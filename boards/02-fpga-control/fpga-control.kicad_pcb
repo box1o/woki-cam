@@ -196,7 +196,7 @@
 		)
 	)
 	(property "PROJECT_TITLE" "Board 2 - FPGA and Control")
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "1038c8b7-71d7-48bd-88eb-cbcaa5a2edc4")
@@ -272,7 +272,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "4addb236-2088-4a8f-accf-fc846bd3ea2c")
@@ -348,7 +348,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7b840863-d8d3-4925-8a37-904de4cc3c98")
@@ -424,7 +424,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:CONN_DF40_100P_F"
+	(footprint "Woki:df40hc-3.0-100ds-0.4v-51"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7ed9a033-57fd-4f81-bb8c-8a5897c4b372")
@@ -1432,7 +1432,7 @@
 			(uuid "86486381-0fe3-4dec-b545-0feae1b313a6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40hc-3.0-100ds-0.4v-51.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/df40hc-3.0-100ds-0.4v-51.step"
 			(offset
 				(xyz 0.115 0 1.5)
 			)
@@ -1444,7 +1444,7 @@
 			)
 		)
 	)
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "c87c4c79-0c93-4e09-bac5-47ea5edccd52")
@@ -1520,7 +1520,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:CONN_DF40_100P_M"
+	(footprint "Woki:df40c-100dp-0.4v-51"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "8efcfecb-642a-4da9-b502-f3334366c6c6")
@@ -2558,7 +2558,7 @@
 			(uuid "cd601ef7-bec2-4e5b-a1e1-04996bef092a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40c-100dp-0.4v-51.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/df40c-100dp-0.4v-51.step"
 			(offset
 				(xyz -6.76 0.855 0.65)
 			)

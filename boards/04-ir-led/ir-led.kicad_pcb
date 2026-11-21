@@ -196,7 +196,7 @@
 		)
 	)
 	(property "PROJECT_TITLE" "Board 4 - IR LED")
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "679fa337-50a7-4221-ab4e-c16565cc20eb")
@@ -272,7 +272,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "87a7fece-8e50-45fa-b29e-f96f45383c73")
@@ -348,7 +348,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "9f1c22b9-359c-4af9-a834-96f3ef7640a2")
@@ -424,7 +424,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:MNT_HOLE_M3"
+	(footprint "Woki:mounting-hole-m3"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "f25563b8-b215-4f8f-abbe-c28ccb7d2b4a")
@@ -500,7 +500,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Woki:CONN_DF40_100P_M"
+	(footprint "Woki:df40c-100dp-0.4v-51"
 		(locked yes)
 		(layer "B.Cu")
 		(uuid "9476e110-104d-47cb-bd89-a090eb78851e")
@@ -1522,7 +1522,7 @@
 			(uuid "367a705c-a7cc-4edb-9331-759137769818")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40c-100dp-0.4v-51.step"
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/df40c-100dp-0.4v-51.step"
 			(offset
 				(xyz -6.76 0.855 0.65)
 			)

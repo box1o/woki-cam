@@ -1,0 +1,1391 @@
+(
+  kicad_symbol_lib
+  (version 20251024)
+  (generator "kicad_symbol_editor")
+  (generator_version "10.0")
+  (
+    symbol
+    "rtl8211f-cg"
+    (
+      pin_names
+      (offset 0.762)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (in_pos_files yes)
+    (duplicate_pin_numbers_are_jumpers no)
+    (
+      property
+      "Reference"
+      "U"
+      (at 0 16.51 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      property
+      "Value"
+      "RTL8211F-CG"
+      (at 0 13.97 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      property
+      "Footprint"
+      "Woki:rtl8211f-cg"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      property
+      "Datasheet"
+      "${KIPRJMOD}/../../datasheets/rtl8211f.pdf"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      property
+      "Description"
+      "Gigabit RGMII PHY; data / RGMII / management-clock / power"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      property
+      "Manufacturer_URL"
+      "https://www.realtek.com/"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      property
+      "LCSC"
+      "C187932"
+      (at 0 0 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1 1)
+        )
+      )
+    )
+    (
+      symbol
+      "rtl8211f-cg_1_1"
+      (
+        rectangle
+        (start -12.7 13.97)
+        (end 12.7 -13.97)
+        (
+          stroke
+          (width 0.254)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 7.62 180)
+        (length 2.54)
+        (
+          name
+          "MDIP0"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "1"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 5.08 180)
+        (length 2.54)
+        (
+          name
+          "MDIN0"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "2"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 2.54 180)
+        (length 2.54)
+        (
+          name
+          "MDIP1"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "4"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 0 180)
+        (length 2.54)
+        (
+          name
+          "MDIN1"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "5"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 -2.54 180)
+        (length 2.54)
+        (
+          name
+          "MDIP2"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "6"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 -5.08 180)
+        (length 2.54)
+        (
+          name
+          "MDIN2"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "7"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 -7.62 180)
+        (length 2.54)
+        (
+          name
+          "MDIP3"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "9"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 15.24 -10.16 180)
+        (length 2.54)
+        (
+          name
+          "MDIN3"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "10"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+    )
+    (
+      symbol
+      "rtl8211f-cg_2_1"
+      (
+        rectangle
+        (start -19.05 21.59)
+        (end 19.05 -21.59)
+        (
+          stroke
+          (width 0.254)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -21.59 -12.7 0)
+        (length 2.54)
+        (
+          name
+          "TXD3"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "15"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -21.59 -7.62 0)
+        (length 2.54)
+        (
+          name
+          "TXD2"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "16"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -21.59 -2.54 0)
+        (length 2.54)
+        (
+          name
+          "TXD1"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "17"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -21.59 2.54 0)
+        (length 2.54)
+        (
+          name
+          "TXD0"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "18"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -21.59 7.62 0)
+        (length 2.54)
+        (
+          name
+          "TXCTL"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "19"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -21.59 12.7 0)
+        (length 2.54)
+        (
+          name
+          "TXC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "20"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 21.59 -12.7 180)
+        (length 2.54)
+        (
+          name
+          "RXD3/PHYAD0"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "22"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 21.59 -7.62 180)
+        (length 2.54)
+        (
+          name
+          "RXD2/PLLOFF"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "23"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 21.59 -2.54 180)
+        (length 2.54)
+        (
+          name
+          "RXD1/TXDLY"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "24"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 21.59 2.54 180)
+        (length 2.54)
+        (
+          name
+          "RXD0/RXDLY"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "25"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 21.59 7.62 180)
+        (length 2.54)
+        (
+          name
+          "RXCTL/PHYAD2"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "26"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 21.59 12.7 180)
+        (length 2.54)
+        (
+          name
+          "RXC/PHYAD1"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "27"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+    )
+    (
+      symbol
+      "rtl8211f-cg_3_1"
+      (
+        rectangle
+        (start -22.86 19.05)
+        (end 22.86 -19.05)
+        (
+          stroke
+          (width 0.254)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -25.4 10.16 0)
+        (length 2.54)
+        (
+          name
+          "PHYRSTB"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "12"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -25.4 5.08 0)
+        (length 2.54)
+        (
+          name
+          "MDC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "13"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at -25.4 0 0)
+        (length 2.54)
+        (
+          name
+          "MDIO"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "14"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        open_collector
+        line
+        (at -25.4 -5.08 0)
+        (length 2.54)
+        (
+          name
+          "INTB/PMEB"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "31"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 25.4 -5.08 180)
+        (length 2.54)
+        (
+          name
+          "LED0/CFG_EXT"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "32"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 25.4 -10.16 180)
+        (length 2.54)
+        (
+          name
+          "LED1/CFG_LDO0"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "33"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        bidirectional
+        line
+        (at 25.4 -15.24 180)
+        (length 2.54)
+        (
+          name
+          "LED2/CFG_LDO1"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "34"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        output
+        line
+        (at 25.4 0 180)
+        (length 2.54)
+        (
+          name
+          "CLKOUT"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "35"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at 25.4 10.16 180)
+        (length 2.54)
+        (
+          name
+          "XTAL_IN"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "36"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 5.08 180)
+        (length 2.54)
+        (
+          name
+          "XTAL_OUT/EXT_CLK"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "37"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -10.16 0)
+        (length 2.54)
+        (
+          name
+          "RSET"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "39"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+    )
+    (
+      symbol
+      "rtl8211f-cg_4_1"
+      (
+        rectangle
+        (start -15.24 10.16)
+        (end 15.24 -10.16)
+        (
+          stroke
+          (width 0.254)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 17.78 -1.27 180)
+        (length 2.54)
+        (
+          name
+          "AVDD10"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "3"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 17.78 -3.81 180)
+        (length 2.54)
+        (
+          name
+          "AVDD10"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "8"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -17.78 3.81 0)
+        (length 2.54)
+        (
+          name
+          "AVDD33"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "11"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 17.78 1.27 180)
+        (length 2.54)
+        (
+          name
+          "DVDD10"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "21"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -17.78 -3.81 0)
+        (length 2.54)
+        (
+          name
+          "DVDD_RG"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "28"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -17.78 -1.27 0)
+        (length 2.54)
+        (
+          name
+          "DVDD33"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "29"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_out
+        line
+        (at 17.78 3.81 180)
+        (length 2.54)
+        (
+          name
+          "REG_OUT"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "30"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 17.78 -6.35 180)
+        (length 2.54)
+        (
+          name
+          "AVDD10"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "38"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -17.78 1.27 0)
+        (length 2.54)
+        (
+          name
+          "AVDD33"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "40"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -17.78 -6.35 0)
+        (length 2.54)
+        (
+          name
+          "GND/EP"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "41"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+    )
+    (embedded_fonts no)
+  )
+)

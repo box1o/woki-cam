@@ -50,13 +50,13 @@ C306,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMOD
 C307,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
 C401,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1n / 100V,exists
 C402,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1n / 100V,exists
-C523,Woki:Panasonic_FK_G_10x10.2,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.5.step,47uF / 80V,exists
+C523,Woki:panasonic_fk_g_10x10.2,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.5.step,47uF / 80V,exists
 C524,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,0.1uF / 100V,exists
 C525,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,2.2uF / 100V,exists
 C526,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,2.2uF / 100V,exists
 C527,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,2.2uF / 100V,exists
 C528,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,0.1uF / 100V,exists
-C529,Woki:Panasonic_FK_F_8x10.2,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.step,220uF / 25V,exists
+C529,Woki:panasonic_fk_f_8x10.2,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.step,220uF / 25V,exists
 C530,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
 C531,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
 C532,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
@@ -97,15 +97,15 @@ D515,Diode_SMD:D_SOD-123,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diod
 F101,Fuse:Fuse_1206_3216Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step,0.5A / 6V,exists
 FB101,Inductor_SMD:L_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step,600R @ 100MHz,exists
 FB102,Inductor_SMD:L_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step,600R @ 100MHz,exists
-J1,Woki:CONN_DF40_100P_F,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/hirose-df40hc-3.0-100ds-0.4v-51.step,DF40HC(3.0)-100DS-0.4V(51),exists
+J1,Woki:df40hc-3.0-100ds-0.4v-51,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/df40hc-3.0-100ds-0.4v-51.step,DF40HC(3.0)-100DS-0.4V(51),exists
+J2,Woki:0826-1x1t-hs-f,manufacturer CAD converted from mesh,${KIPRJMOD}/../../lib/3dmodels/manufacturer/0826-1x1t-hs-f.step,0826-1X1T-HS-F,exists
 J101,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step,USB4105-GF-A,exists
-J2,Woki:Bel_0826_1X1T_HS_F,downloaded manufacturer mesh,${KIPRJMOD}/../../lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl,0826-1X1T-HS-F,exists
-L201,Woki:L_Coilcraft_LPS4018,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/coilcraft-lps4018.step,2.2uH,exists
+L201,Woki:lps4018,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/lps4018.step,2.2uH,exists
 L301,Inductor_SMD:L_Coilcraft_XAL4020-XXX,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL4020-XXX.step,2.2uH / XAL4020-222MEC,exists
-L402,Woki:744272251,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/wurth-744272251.step,744272251 / 250uH,exists
-L507,Woki:LPS4018-332MLB,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/coilcraft-lps4018.step,3.3uH,exists
+L402,Woki:744272251,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/744272251.step,744272251 / 250uH,exists
+L507,Woki:lps4018-332mlb,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/lps4018.step,3.3uH,exists
 Q505,Package_TO_SOT_SMD:SOT-23,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step,2N7002-7-F,exists
-Q506,Woki:FDMS86252_Power56,KiCad generic package model,${KIPRJMOD}/../../lib/3dmodels/downloaded/vishay-powerpak-so-8.step,FDMS86252,exists
+Q506,Woki:fdms86252,downloaded package CAD,${KIPRJMOD}/../../lib/3dmodels/downloaded/powerpak-so-8.step,FDMS86252,exists
 R101,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,5.1k,exists
 R102,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,5.1k,exists
 R103,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,12k,exists
@@ -192,21 +192,21 @@ R641,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODE
 R643,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.99k,exists
 R644,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
 R646,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
-T502,Woki:POE51Q_12ED,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/coilcraft-poe51q-12ed.step,POE51Q-12ED,exists
-TP13,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,ETH_3V3,
-TP16,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,VIO_TARGET,
-TP17,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,PHY_RESET_N,
-TP18,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,GND,
-TP19,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_VBUS,
-TP20,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_3V3,
-TP21,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_1V8,
-TP22,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_PWREN_N,
-TP23,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,GND,
-TP401,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POE_VDD,
-TP402,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POE_VSS,
-TP601,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,+12V_STACK,
-TP602,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POWER_GOOD,
-TP603,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POE_CLASS6_OK,
+T502,Woki:poe51q-12ed,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/poe51q-12ed.step,POE51Q-12ED,exists
+TP13,TestPoint:TestPoint_Pad_D1.0mm,bare pad or mounting hole; no model needed,,ETH_3V3,not needed
+TP16,TestPoint:TestPoint_Pad_D1.0mm,bare pad or mounting hole; no model needed,,VIO_TARGET,not needed
+TP17,TestPoint:TestPoint_Pad_D1.0mm,bare pad or mounting hole; no model needed,,PHY_RESET_N,not needed
+TP18,TestPoint:TestPoint_Pad_D1.0mm,bare pad or mounting hole; no model needed,,GND,not needed
+TP19,Woki:testpoint-pad-1.5mm,bare pad or mounting hole; no model needed,,USB_VBUS,not needed
+TP20,Woki:testpoint-pad-1.5mm,bare pad or mounting hole; no model needed,,USB_3V3,not needed
+TP21,Woki:testpoint-pad-1.5mm,bare pad or mounting hole; no model needed,,USB_1V8,not needed
+TP22,Woki:testpoint-pad-1.5mm,bare pad or mounting hole; no model needed,,USB_PWREN_N,not needed
+TP23,Woki:testpoint-pad-1.5mm,bare pad or mounting hole; no model needed,,GND,not needed
+TP401,TestPoint:TestPoint_Pad_D1.5mm,bare pad or mounting hole; no model needed,,POE_VDD,not needed
+TP402,TestPoint:TestPoint_Pad_D1.5mm,bare pad or mounting hole; no model needed,,POE_VSS,not needed
+TP601,TestPoint:TestPoint_Pad_D1.5mm,bare pad or mounting hole; no model needed,,+12V_STACK,not needed
+TP602,TestPoint:TestPoint_Pad_D1.5mm,bare pad or mounting hole; no model needed,,POWER_GOOD,not needed
+TP603,TestPoint:TestPoint_Pad_D1.5mm,bare pad or mounting hole; no model needed,,POE_CLASS6_OK,not needed
 U101,Package_QFP:LQFP-64_10x10mm_P0.5mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.step,FT2232HL,exists
 U102,Package_TO_SOT_SMD:SOT-23-6,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,USBLC6-2SC6,exists
 U103,Package_TO_SOT_SMD:SOT-23-5,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step,AP2112K-3.3TRG1,exists
@@ -214,16 +214,16 @@ U104,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,KiCad generic package model,${KICAD10_3
 U105,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step,SN74AXC4T245PWR,exists
 U106,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step,93LC46B-I/SN,exists
 U107,Package_TO_SOT_SMD:SOT-23-6,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,TPS22918DBVR,exists
-U201,Woki:RTL8211F_QFN40,downloaded third-party part model,${KIPRJMOD}/../../lib/3dmodels/downloaded/realtek-rtl8211f-cg.wrl,RTL8211F-CG,exists
+U201,Woki:rtl8211f-cg,downloaded third-party CAD converted from mesh,${KIPRJMOD}/../../lib/3dmodels/downloaded/rtl8211f-cg.step,RTL8211F-CG,exists
 U202,Package_TO_SOT_SMD:SOT-563,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step,TPD4E1B06DRLR,exists
 U203,Package_TO_SOT_SMD:SOT-563,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step,TPD4E1B06DRLR,exists
-U301,Woki:TPS6216x_DSG,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/ti-dsg0008a.step,TPS62160DSGR,exists
+U301,Woki:tps62160dsgr,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/tps62160dsgr.step,TPS62160DSGR,exists
 U302,Package_TO_SOT_SMD:SOT-23-6,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,TPS22918DBVR,exists
 U303,Package_TO_SOT_SMD:SOT-23,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step,TLV803EA29DBZR,exists
-U510,Woki:TPS23730_RMT0045A,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/ti-rmt0045a.step,TPS23730RMT,exists
-U601,Woki:TPS25947_RPW,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/ti-rpw0010a.step,TPS259474ARPWR,exists
-U641,Woki:FOD817DS,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,FOD817DS,exists
-U643,Woki:FOD817DS,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,FOD817DS,exists
+U510,Woki:tps23730rmt,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/tps23730rmt.step,TPS23730RMT,exists
+U601,Woki:tps259474arpwr,manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/tps259474arpwr.step,TPS259474ARPWR,exists
+U641,Woki:fod817ds,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,FOD817DS,exists
+U643,Woki:fod817ds,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,FOD817DS,exists
 U644,Package_TO_SOT_SMD:SOT-23-5,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step,SN74LVC1G02DBVR,exists
 Y101,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step,12MHz / CL12pF,exists
 Y201,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step,25MHz / CL20pF,exists

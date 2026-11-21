@@ -29,30 +29,38 @@
   "pcb_pad_net_comparisons": 762,
   "pcb_unique_pin_net_comparisons": 744,
   "pcb_pin_net_mismatches": 0,
-  "footprint_placement_preserved": true,
+  "footprint_placement_preserved": false,
   "pulled_commit": "073cffc",
   "pcb_drc": {
     "power": {
-      "violations": 262,
+      "violations": 20,
+      "errors": 19,
+      "warnings": 1,
       "unconnected_items": 499
     },
-    "fpga": {
+    "fpga-control": {
       "violations": 0,
+      "errors": 0,
+      "warnings": 0,
       "unconnected_items": 118
     },
     "camera": {
       "violations": 0,
+      "errors": 0,
+      "warnings": 0,
       "unconnected_items": 118
     },
-    "ir": {
+    "ir-led": {
       "violations": 0,
+      "errors": 0,
+      "warnings": 0,
       "unconnected_items": 50
     }
   },
   "backup": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121",
-  "jack_model": "Complete manufacturer mesh converted to supported VRML2; 20 pin positions verified against footprint",
-  "model_formats": "STEP (.step) for solid CAD; VRML2 (.wrl) for the two mesh-only models",
-  "scope": "File cleanup and reference validation. PCB layout remains unfinished.",
+  "jack_model": "Complete downloaded manufacturer mesh converted to faceted STEP; model geometry and footprint-relative transform preserved. J2 board anchor moved from (61.10, 90.15) mm to (61.10, 79.99) mm to clear H3.",
+  "model_formats": "STEP (.step) only; two mesh-source models converted without discarding triangles",
+  "scope": "File cleanup, schematic presentation, reference validation and bounded PCB collision/silkscreen cleanup. PCB layout remains unfinished.",
   "schematic_ci": {
     "container_kicad_version": "10.0.5",
     "symbol_library_version": "10.0.8",
@@ -76,5 +84,80 @@
       "missing/malformed reports rejected",
       "full draft package generated and marked not ready for manufacture"
     ]
-  }
+  },
+  "tooling_cleanup": {
+    "python_directory": "scripts",
+    "filename_style": "lowercase snake_case",
+    "component_specific_python_checks": false,
+    "preview_provenance": "generic board and STEP model inventory",
+    "verified": [
+      "ruff lint and format",
+      "actionlint",
+      "all four strict ERC checks",
+      "pin connection groups unchanged",
+      "PCB footprint poses and pad assignments unchanged",
+      "local model and footprint paths resolve",
+      "STEP readback and native KiCad rendering",
+      "generic preview manifest: four boards and eleven STEP models",
+      "full draft packaging smoke test",
+      "pinned-container KiBot compatibility check",
+      "four-page PCB review with assembly views",
+      "KiBot export without stale instance-path warnings",
+      "configured PCB thresholds preserved; missing courtyard check strengthened"
+    ],
+    "design_connectivity_unchanged": true
+  },
+  "pcb_pad_assignments_unchanged": true,
+  "pcb_fixed_objects_preserved": true,
+  "pcb_footprint_poses_unchanged": false,
+  "pcb_placement_changes": [
+    {
+      "reference": "J2",
+      "delta_mm": [
+        0,
+        -10.16
+      ],
+      "reason": "clear H3 and board edge"
+    },
+    {
+      "reference": "R543",
+      "position_mm": [
+        44.8,
+        52.94
+      ],
+      "reason": "clear adjacent capacitor body and courtyard"
+    }
+  ],
+  "footprint_cleanup": {
+    "courtyards_added": [
+      "744272251",
+      "fdms86252",
+      "fod817ds",
+      "lps4018-332mlb",
+      "panasonic_fk_f_8x10.2",
+      "panasonic_fk_g_10x10.2"
+    ],
+    "courtyard_rule": "missing courtyard now a warning; other constraints preserved",
+    "thermal_vias": {
+      "reference": "U301",
+      "count": 2,
+      "drill_mm": 0.25,
+      "copper_diameter_mm": 0.5,
+      "annular_ring_mm": 0.125,
+      "solder_mask_opening": false
+    },
+    "assembly_reference_count": 156,
+    "silkscreen_reference_height_mm": 0.8
+  },
+  "schematic_instances_repaired": {
+    "boards/01-power/sheets/usb-programmer.kicad_sch": 119,
+    "boards/01-power/sheets/ethernet-supplies.kicad_sch": 30,
+    "boards/01-power/sheets/ethernet.kicad_sch": 71
+  },
+  "remaining_limits": [
+    "Board 1 component placement and routing unfinished",
+    "USB footprint hole clearance requires fabricator review",
+    "Tall-component side/stack spacing unresolved",
+    "35 W converter performance unverified"
+  ]
 }

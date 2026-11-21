@@ -455,7 +455,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiBoard1:Bel_0826_1X1T_HS_F"
+		(symbol "0826-1x1t-hs-f:0826-1x1t-hs-f"
 			(pin_names
 				(offset 0.762)
 			)
@@ -484,7 +484,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Woki:Bel_0826_1X1T_HS_F"
+			(property "Footprint" "Woki:0826-1x1t-hs-f"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -539,7 +539,7 @@
 					)
 				)
 			)
-			(symbol "Bel_0826_1X1T_HS_F_1_1"
+			(symbol "0826-1x1t-hs-f_1_1"
 				(rectangle
 					(start -15.24 13.97)
 					(end 15.24 -13.97)
@@ -776,7 +776,7 @@
 					)
 				)
 			)
-			(symbol "Bel_0826_1X1T_HS_F_2_1"
+			(symbol "0826-1x1t-hs-f_2_1"
 				(rectangle
 					(start -15.24 8.89)
 					(end 15.24 -8.89)
@@ -905,7 +905,7 @@
 					)
 				)
 			)
-			(symbol "Bel_0826_1X1T_HS_F_3_1"
+			(symbol "0826-1x1t-hs-f_3_1"
 				(polyline
 					(pts
 						(xy -7.62 1.27) (xy -2.54 1.27)
@@ -1023,7 +1023,7 @@
 					)
 				)
 			)
-			(symbol "Bel_0826_1X1T_HS_F_4_1"
+			(symbol "0826-1x1t-hs-f_4_1"
 				(polyline
 					(pts
 						(xy -10.16 0) (xy -7.62 0) (xy -7.62 3.81) (xy -1.27 3.81)
@@ -1191,7 +1191,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WokiProtection:CM_744272251"
+		(symbol "744272251:744272251"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1255,7 +1255,7 @@
 					)
 				)
 			)
-			(symbol "CM_744272251_1_1"
+			(symbol "744272251_1_1"
 				(polyline
 					(pts
 						(xy -7.62 5.08) (xy 7.62 5.08) (xy 7.62 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08)
@@ -2542,7 +2542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiBoard1:Bel_0826_1X1T_HS_F")
+		(lib_id "0826-1x1t-hs-f:0826-1x1t-hs-f")
 		(at 66.04 93.98 0)
 		(unit 2)
 		(body_style 1)
@@ -2572,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Woki:Bel_0826_1X1T_HS_F"
+		(property "Footprint" "Woki:0826-1x1t-hs-f"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -2680,7 +2680,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WokiProtection:CM_744272251")
+		(lib_id "744272251:744272251")
 		(at 294.64 96.52 0)
 		(unit 1)
 		(body_style 1)

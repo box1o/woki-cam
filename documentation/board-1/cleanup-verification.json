@@ -1,56 +1,127 @@
 {
   "connectivity": {
     "power": {
-      "groups": 229,
+      "connection_groups": 229,
       "unchanged": true
     },
-    "fpga": {
-      "groups": 82,
+    "fpga-control": {
+      "connection_groups": 82,
       "unchanged": true
     },
     "camera": {
-      "groups": 82,
+      "connection_groups": 82,
       "unchanged": true
     },
-    "ir": {
-      "groups": 50,
+    "ir-led": {
+      "connection_groups": 50,
       "unchanged": true
     }
   },
-  "missing_sheet_files": [],
   "missing_local_models": [],
-  "model_associations": 234,
-  "erc": {
-    "power": 0,
-    "fpga": 0,
-    "camera": 0,
-    "ir": 0
+  "non_step_models": [],
+  "missing_footprints": [],
+  "pcb_footprint_poses_unchanged": false,
+  "pcb_pad_assignments_unchanged": true,
+  "component_register": {
+    "board": "power",
+    "schematic_components": 228,
+    "pcb_components_including_existing_mounting_holes": 232
   },
-  "pcb_pad_net_comparisons": 762,
-  "pcb_unique_pin_net_comparisons": 744,
-  "pcb_pin_net_mismatches": 0,
-  "footprint_placement_preserved": true,
-  "pulled_commit": "073cffc",
+  "strict_erc": {
+    "power": 0,
+    "fpga-control": 0,
+    "camera": 0,
+    "ir-led": 0
+  },
+  "filenames_lowercase": true,
+  "component_specific_python_checks": false,
+  "model_format": "STEP only; two existing downloaded meshes converted to faceted STEP without changing triangles",
+  "phy_model_pin1_alignment": "Corrected model Z rotation from -90 to +90 degrees; native KiCad rendering confirms alignment. Footprint pads and placement unchanged.",
+  "pcb_layers_setup_outline_routing_unchanged": true,
   "pcb_drc": {
     "power": {
-      "violations": 262,
+      "violations": 20,
+      "errors": 19,
+      "warnings": 1,
       "unconnected_items": 499
     },
-    "fpga": {
+    "fpga-control": {
       "violations": 0,
+      "errors": 0,
+      "warnings": 0,
       "unconnected_items": 118
     },
     "camera": {
       "violations": 0,
+      "errors": 0,
+      "warnings": 0,
       "unconnected_items": 118
     },
-    "ir": {
+    "ir-led": {
       "violations": 0,
+      "errors": 0,
+      "warnings": 0,
       "unconnected_items": 50
     }
   },
-  "backup": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121",
-  "jack_model": "Complete manufacturer mesh converted to supported VRML2; 20 pin positions verified against footprint",
-  "model_formats": "STEP (.step) for solid CAD; VRML2 (.wrl) for the two mesh-only models",
-  "scope": "File cleanup and reference validation. PCB layout remains unfinished."
+  "presentation": {
+    "overview_sheet_size": "A3",
+    "schematic_symbol_ids_unchanged": true,
+    "board1_reference_silkscreen_mm": {
+      "height": 0.8,
+      "stroke": 0.12
+    },
+    "all_four_strict_erc_violations": 0
+  },
+  "pcb_fixed_objects_preserved": true,
+  "pcb_placement_changes": [
+    {
+      "reference": "J2",
+      "delta_mm": [
+        0,
+        -10.16
+      ],
+      "reason": "clear H3 and board edge"
+    },
+    {
+      "reference": "R543",
+      "position_mm": [
+        44.8,
+        52.94
+      ],
+      "reason": "clear adjacent capacitor body and courtyard"
+    }
+  ],
+  "footprint_cleanup": {
+    "courtyards_added": [
+      "744272251",
+      "fdms86252",
+      "fod817ds",
+      "lps4018-332mlb",
+      "panasonic_fk_f_8x10.2",
+      "panasonic_fk_g_10x10.2"
+    ],
+    "courtyard_rule": "missing courtyard now a warning; other constraints preserved",
+    "thermal_vias": {
+      "reference": "U301",
+      "count": 2,
+      "drill_mm": 0.25,
+      "copper_diameter_mm": 0.5,
+      "annular_ring_mm": 0.125,
+      "solder_mask_opening": false
+    },
+    "assembly_reference_count": 156,
+    "silkscreen_reference_height_mm": 0.8
+  },
+  "schematic_instances_repaired": {
+    "boards/01-power/sheets/usb-programmer.kicad_sch": 119,
+    "boards/01-power/sheets/ethernet-supplies.kicad_sch": 30,
+    "boards/01-power/sheets/ethernet.kicad_sch": 71
+  },
+  "remaining_limits": [
+    "Board 1 component placement and routing unfinished",
+    "USB footprint hole clearance requires fabricator review",
+    "Tall-component side/stack spacing unresolved",
+    "35 W converter performance unverified"
+  ]
 }

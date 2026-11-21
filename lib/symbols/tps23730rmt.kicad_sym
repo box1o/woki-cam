@@ -1,0 +1,1481 @@
+(
+  kicad_symbol_lib
+  (version 20251024)
+  (generator "kicad_symbol_editor")
+  (
+    symbol
+    "tps23730rmt"
+    (
+      pin_names
+      (offset 0.762)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (
+      property
+      "Reference"
+      "U510"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Value"
+      "TPS23730RMT"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Footprint"
+      "Woki:tps23730rmt"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Datasheet"
+      "${KIPRJMOD}/../../datasheets/references/pmp22477-schematic.pdf"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "Manufacturer_Part_Number"
+      "TPS23730RMT"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      property
+      "TI_Reference"
+      "PMP22477 U10; Rev D population reconciled"
+      (at 0 0 0)
+      (hide yes)
+      (
+        effects
+        (
+          font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (
+      symbol
+      "tps23730rmt_1_1"
+      (
+        rectangle
+        (start -20.32 -53.34)
+        (end 20.32 53.34)
+        (
+          stroke
+          (width 0.1524)
+          (type default)
+        )
+        (
+          fill
+          (type background)
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at -25.4 38.1 0)
+        (length 5.08)
+        (
+          name
+          "CS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "1"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 25.4 -30.48 180)
+        (length 5.08)
+        (
+          name
+          "AGND"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "2"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 33.02 0)
+        (length 5.08)
+        (
+          name
+          "DTHR"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "3"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 27.94 0)
+        (length 5.08)
+        (
+          name
+          "FRS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "4"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 22.86 0)
+        (length 5.08)
+        (
+          name
+          "APD"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "5"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -7.62 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "6"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -25.4 17.78 0)
+        (length 5.08)
+        (
+          name
+          "RTN"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "7"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -25.4 15.24 0)
+        (length 5.08)
+        (
+          name
+          "RTN"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "8"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -25.4 12.7 0)
+        (length 5.08)
+        (
+          name
+          "RTN"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "9"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -10.16 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "10"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 7.62 0)
+        (length 5.08)
+        (
+          name
+          "EMPS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "11"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 2.54 0)
+        (length 5.08)
+        (
+          name
+          "~BT"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "12"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -2.54 0)
+        (length 5.08)
+        (
+          name
+          "TPH"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "13"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -5.08 0)
+        (length 5.08)
+        (
+          name
+          "TPL"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "14"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -12.7 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "15"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -15.24 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "16"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -10.16 0)
+        (length 5.08)
+        (
+          name
+          "REF"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "17"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -15.24 0)
+        (length 5.08)
+        (
+          name
+          "SCDIS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "18"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -20.32 0)
+        (length 5.08)
+        (
+          name
+          "PPD"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "19"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -30.48 0)
+        (length 5.08)
+        (
+          name
+          "CLSB"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "20"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -25.4 0)
+        (length 5.08)
+        (
+          name
+          "CLSA"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "21"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -17.78 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "22"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -25.4 48.26 0)
+        (length 5.08)
+        (
+          name
+          "VDD"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "23"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -35.56 0)
+        (length 5.08)
+        (
+          name
+          "DEN"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "24"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -20.32 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "25"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -22.86 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "26"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 25.4 -40.64 180)
+        (length 5.08)
+        (
+          name
+          "VSS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "27"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 25.4 -43.18 180)
+        (length 5.08)
+        (
+          name
+          "VSS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "28"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at 25.4 -25.4 180)
+        (length 5.08)
+        (
+          name
+          "NC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "29"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        no_connect
+        line
+        (at -25.4 -40.64 0)
+        (length 5.08)
+        (
+          name
+          "TEST (PG)"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "30"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -45.72 0)
+        (length 5.08)
+        (
+          name
+          "DT"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "31"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at -25.4 -50.8 0)
+        (length 5.08)
+        (
+          name
+          "I_STP"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "32"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 48.26 180)
+        (length 5.08)
+        (
+          name
+          "SST"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "33"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        input
+        line
+        (at 25.4 43.18 180)
+        (length 5.08)
+        (
+          name
+          "FB"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "34"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 38.1 180)
+        (length 5.08)
+        (
+          name
+          "COMP"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "35"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 33.02 180)
+        (length 5.08)
+        (
+          name
+          "EA_DIS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "36"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_out
+        line
+        (at 25.4 27.94 180)
+        (length 5.08)
+        (
+          name
+          "VB"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "37"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 22.86 180)
+        (length 5.08)
+        (
+          name
+          "LINEUV"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "38"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 17.78 180)
+        (length 5.08)
+        (
+          name
+          "PSRS"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "39"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_out
+        line
+        (at 25.4 12.7 180)
+        (length 5.08)
+        (
+          name
+          "VBG"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "40"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 7.62 180)
+        (length 5.08)
+        (
+          name
+          "GAT2"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "41"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at -25.4 43.18 0)
+        (length 5.08)
+        (
+          name
+          "VCC"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "42"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 2.54 180)
+        (length 5.08)
+        (
+          name
+          "GATE"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "43"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        passive
+        line
+        (at 25.4 -2.54 180)
+        (length 5.08)
+        (
+          name
+          "CP"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "44"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 25.4 -35.56 180)
+        (length 5.08)
+        (
+          name
+          "GND"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "45"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 25.4 -48.26 180)
+        (length 5.08)
+        (
+          name
+          "PAD_G"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "46"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+      (
+        pin
+        power_in
+        line
+        (at 25.4 -50.8 180)
+        (length 5.08)
+        (
+          name
+          "PAD_S"
+          (
+            effects
+            (
+              font
+              (size 0.95 0.95)
+            )
+          )
+        )
+        (
+          number
+          "47"
+          (
+            effects
+            (
+              font
+              (size 0.85 0.85)
+            )
+          )
+        )
+      )
+    )
+  )
+)
