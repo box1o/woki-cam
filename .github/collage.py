@@ -97,7 +97,7 @@ def main() -> None:
     bottom_h = box_h - split_gap - iso_h
 
     iso_path = hero_dir / f"{name}-3d-iso.png"
-    bottom_path = hero_dir / f"{name}-3d-bottom.png"
+    bottom_path = hero_dir / f"{name}-3d-preview-bottom.png"
 
     paste_center(
         canvas,
@@ -126,7 +126,7 @@ def main() -> None:
         y = top + i * row_h + i * GAP
         paste_center(
             canvas,
-            fit(load(BUILD / board / "images" / f"{board}-3d.png"), right_w, img_h, SIDE_FILL),
+            fit(load(BUILD / board / "images" / f"{board}-3d.png", required=True), right_w, img_h, SIDE_FILL),
             right_x,
             y,
             right_w,

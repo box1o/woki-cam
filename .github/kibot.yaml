@@ -134,7 +134,7 @@ outputs:
     dir: build/${BOARD_NAME}/images
     category: images
     options:
-      output: '${BOARD_NAME}-3d-bottom.%x'
+      output: '${BOARD_NAME}-3d-preview-bottom.%x'
       view: bottom
       rotate_x: 3
       rotate_z: -3

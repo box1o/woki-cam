@@ -3,6 +3,8 @@ name: PCB CI
 on:
   push:
     branches: [main, dev, release]
+  pull_request:
+    branches: [main, dev, release]
   workflow_dispatch:
     inputs:
       full_outputs:
@@ -23,7 +25,8 @@ permissions:
 
 env:
   SETTINGS_FILE: settings.env
-  KIBOT_CONFIG: .github/kibot.yaml
+  # Pin the KiCad 10 / KiBot build used to validate the compatibility shim.
+  KIBOT_IMAGE: ghcr.io/inti-cmnb/kicad10_auto_full:dev@sha256:114c9c3cc09d0ebb491d3afafb8995ab180fecbedb55d7ab6667960b8680076a
 
 jobs:
   kibot:
@@ -48,34 +51,27 @@ jobs:
             sch: boards/04-ir-led/ir_led.kicad_sch
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
-      - id: target
-        run: |
-          if [[ "${{ github.ref }}" == "refs/heads/main" || "${{ github.ref }}" == "refs/heads/release" ]]; then
-            echo "group=release" >> "$GITHUB_OUTPUT"
-          elif [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.full_outputs }}" == "true" ]]; then
-            echo "group=release" >> "$GITHUB_OUTPUT"
-          else
-            echo "group=ci" >> "$GITHUB_OUTPUT"
-          fi
-
-      - uses: INTI-CMNB/KiBot@v2_dk10
+      - name: Generate board outputs
         env:
           BOARD_NAME: ${{ matrix.board }}
-        with:
-          config: ${{ env.KIBOT_CONFIG }}
-          board: ${{ matrix.pcb }}
-          schema: ${{ matrix.sch }}
-          dir: .
-          skip: erc,drc
-          targets: ${{ steps.target.outputs.group }}
-          cache3D: NO
+          PCB: ${{ matrix.pcb }}
+          SCHEMATIC: ${{ matrix.sch }}
+          OUTPUT_GROUP: ${{ (github.event_name == 'pull_request' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/release' || inputs.full_outputs || inputs.publish_release) && 'release' || 'ci' }}
+        run: |
+          docker run --rm \
+            -e BOARD_NAME -e CI -e GITHUB_ACTIONS \
+            -v "$PWD:/work" -w /work \
+            --entrypoint python3 "$KIBOT_IMAGE" \
+            .github/run-kibot.py -v -c .github/kibot.yaml -d . \
+            -b "$PCB" -e "$SCHEMATIC" -s erc,drc "$OUTPUT_GROUP"
 
       - run: sudo chown -R "$USER:$USER" build
-        if: success()
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: board-${{ matrix.board }}
           path: build/
@@ -87,21 +83,40 @@ jobs:
     needs: kibot
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      tag: ${{ steps.prepare-release.outputs.tag }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
         with:
           pattern: board-*
           path: build
           merge-multiple: true
 
-      - run: python3 -m pip install --quiet pillow
+      - name: Build manufacturing ZIP and previews
+        run: |
+          python3 -m venv "$RUNNER_TEMP/woki-packaging"
+          "$RUNNER_TEMP/woki-packaging/bin/python" -m pip install --quiet pillow
+          "$RUNNER_TEMP/woki-packaging/bin/python" .github/package.py
 
-      - run: python3 .github/package.py
+      - name: Prepare and validate release assets without publishing
+        id: prepare-release
+        run: |
+          source "$SETTINGS_FILE"
+          tag="${RELEASE_TAG_PREFIX}-$(date -u +%Y%m%d)-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}"
+          test -s "build/release/${PACKAGE_NAME}.zip"
+          test -s build/docs/woki-cam-schematic.pdf
+          test -s build/images/woki-cam-3d.png
+          RELEASE_TAG="$tag" PACKAGE_NAME="$PACKAGE_NAME" \
+            RELEASE_NOTES=build/release/release-notes.md bash .github/release-notes.sh
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: woki-cam-outputs
           path: build/
@@ -112,50 +127,32 @@ jobs:
     name: Release
     needs: package
     if: >-
-      github.ref == 'refs/heads/main' ||
-      github.ref == 'refs/heads/release' ||
+      (github.event_name == 'push' &&
+        (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/release')) ||
       (github.event_name == 'workflow_dispatch' && inputs.publish_release)
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
-    env:
-      RELEASE_ZIP: build/release/woki-cam.zip
-      SCHEMATIC_PDF: build/docs/woki-cam-schematic.pdf
-      RENDER_COLLAGE: build/images/woki-cam-3d.png
-      RELEASE_NOTES: build/release/release-notes.md
-
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
-          fetch-depth: 0
+          persist-credentials: false
 
-      - run: set -a && source settings.env && set +a && env >> "$GITHUB_ENV"
-
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
         with:
           name: woki-cam-outputs
           path: build/
 
-      - id: tag
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          tag="${RELEASE_TAG_PREFIX}-$(date -u +%Y%m%d)-${GITHUB_RUN_NUMBER}.${GITHUB_RUN_ATTEMPT}"
-          git tag "$tag" && git push origin "$tag"
-          echo "tag=$tag" >> "$GITHUB_OUTPUT"
-
-      - name: Release notes
-        env:
-          RELEASE_TAG: ${{ steps.tag.outputs.tag }}
-        run: bash .github/release-notes.sh
-
       - name: Publish
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ needs.package.outputs.tag }}
         run: |
-          files=("${RELEASE_ZIP}#Manufacturing package")
-          [[ -s "${SCHEMATIC_PDF}" ]] && files+=("${SCHEMATIC_PDF}#Schematic PDF")
-          [[ -s "${RENDER_COLLAGE}" ]] && files+=("${RENDER_COLLAGE}#3D collage")
-          gh release create "${{ steps.tag.outputs.tag }}" "${files[@]}" \
-            --title "${RELEASE_TITLE}" --notes-file "${RELEASE_NOTES}"
+          source "$SETTINGS_FILE"
+          gh release create "$RELEASE_TAG" \
+            "build/release/${PACKAGE_NAME}.zip#Manufacturing package" \
+            "build/docs/woki-cam-schematic.pdf#Schematic PDF" \
+            "build/images/woki-cam-3d.png#3D collage" \
+            --target "$GITHUB_SHA" --title "$RELEASE_TITLE" \
+            --notes-file build/release/release-notes.md
