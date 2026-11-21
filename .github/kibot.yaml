@@ -34,7 +34,6 @@ groups:
       - gbr_gerbers
       - drl_excellon
       - html_ibom
-      - step_3d_model
 
 outputs:
   - name: pdf_schematic
