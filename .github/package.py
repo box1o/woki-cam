@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import os
+import hashlib
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -71,6 +73,24 @@ def main() -> None:
     dest.write_bytes(schematic.read_bytes())
     print(f"COPY: {dest}")
 
+    # Bind the published preview to its exact board/model sources.
+    preview = BUILD / "images" / "woki-cam-3d.png"
+    model = ROOT / "lib" / "3dmodels" / "manufacturer" / "Bel_0826-1X1T-HS-F.wrl"
+    board = ROOT / "boards" / "01-power" / "power.kicad_pcb"
+    def digest(path: Path) -> str:
+        return hashlib.sha256(path.read_bytes()).hexdigest()
+    if not model.is_file() or not board.is_file() or not preview.is_file():
+        sys.exit("Missing MagJack model, board, or generated preview")
+    manifest = {
+        "source_commit": os.environ.get("GITHUB_SHA", "local"),
+        "preview": {"path": "images/woki-cam-3d.png", "sha256": digest(preview)},
+        "power_board": {"path": "boards/01-power/power.kicad_pcb", "sha256": digest(board)},
+        "magjack_model": {"path": "lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl", "sha256": digest(model)},
+        "note": "Preview is a KiBot-rendered four-board collage; the MagJack is part of the power-board source."
+    }
+    manifest_path = BUILD / "release" / "preview-sources.json"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\\n")
     zip_build(package_name)
 
 
