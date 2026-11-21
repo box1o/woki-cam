@@ -68,6 +68,13 @@ jobs:
             --entrypoint python3 "$KIBOT_IMAGE" \
             .github/run-kibot.py -v -c .github/kibot.yaml -d . \
             -b "$PCB" -e "$SCHEMATIC" -s erc,drc "$OUTPUT_GROUP"
+          if [[ "$OUTPUT_GROUP" == "release" ]]; then
+            docker run --rm \
+              -e CI -e GITHUB_ACTIONS \
+              -v "$PWD:/work" -w /work \
+              --entrypoint python3 "$KIBOT_IMAGE" \
+              .github/export-step.py "$PCB" "build/$BOARD_NAME/models/$BOARD_NAME-3d.step"
+          fi
 
       - run: sudo chown -R "$USER:$USER" build
 
