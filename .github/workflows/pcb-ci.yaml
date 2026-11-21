@@ -57,9 +57,9 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Attach MagJack 3D model to power PCB
+      - name: Verify persistent MagJack 3D model association
         if: matrix.board == 'power'
-        run: python3 .github/attach-magjack-model.py
+        run: python3 .github/verify-magjack-model.py
 
       - name: Generate board outputs
         env:
