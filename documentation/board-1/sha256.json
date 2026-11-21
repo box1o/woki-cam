@@ -120,11 +120,12 @@
   "mechanical/icons/woki-sad.svg": "2fbb5ec64b5247d61e5f0ef05e17fca6806f08b14fa9d828efd2c5b5cef52ad6",
   "mechanical/icons/woki.svg": "61c5828e433ce22ee6c3185dbd8a90d8ea7027fff68762a9700b867cb1b19179",
   "scripts/export.py": "281959bf829524572fc1a078143581aaa254d02a57ff51dcf6ffb57f6ed7613d",
+  ".github/check-layout.py": "f6189e727b28e27dcd4f8ac6fa6a666d0903386b18f9badba79ab5b099a86e0d",
   ".github/collage.py": "f38ef16c6aabc120d58e6b9977cf024a08e7c2a4619ee6701104222e2013bfe7",
   ".github/kibot.yaml": "3da2777c5726ab8f9c175e046ddc59c6a060ff0c6b5f18f85c346fc695f5d974",
-  ".github/package.py": "9653660144d6b1bdd2e70b3394b343dfab4676cccd6f38f93c111c8e9280c857",
+  ".github/package.py": "7438f7f2e3d2f11e6e526335ceb8dbdd0a2ef6d9091fc9f5ba5a8385b8971a2c",
   ".github/release-notes.sh": "e12a31904ad3ab7abd82e157bfb884a2584bfbea5fe78074ea59483076da4f7e",
   ".github/run-kibot.py": "67810bf1c65f895329274808b2359ead9cdca448bfb3b049c4034eb19519f988",
   ".github/verify-magjack-model.py": "584a9939d4f719d0083c3173b93a4443aee05a914d6aee9fe73c09dba02afae8",
-  ".github/workflows/pcb-ci.yaml": "5617fa8a6196fb7fdc785cf473f87c101c57e03cfef7584b1944a2ef1acc68a8"
+  ".github/workflows/pcb-ci.yaml": "a3fdb8c174590d36620984621606787ed8869a77f047387a08c68d7ccc2718e0"
 }

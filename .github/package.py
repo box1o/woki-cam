@@ -73,6 +73,14 @@ def main() -> None:
     dest.write_bytes(schematic.read_bytes())
     print(f"COPY: {dest}")
 
+    subprocess.run([sys.executable, str(ROOT / ".github/check-layout.py"),
+                    str(BUILD), "--expected-reports", "4"], check=True)
+    layout = json.loads((BUILD / "layout-status.json").read_text())
+    status_text = ("PCB layout checks passed.\n" if layout["manufacturing_ready"] else
+                   "DRAFT PCB PACKAGE — NOT READY FOR MANUFACTURE.\n"
+                   "Resolve DRC issues and unrouted connections first.\n")
+    (BUILD / "README.txt").write_text(status_text + "See layout-status.json and per-board checks/.\n")
+
     # Bind the published preview to its exact board/model sources.
     preview = BUILD / "images" / "woki-cam-3d.png"
     model = ROOT / "lib" / "3dmodels" / "manufacturer" / "bel-0826-1x1t-hs-f.wrl"

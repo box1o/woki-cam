@@ -125,7 +125,7 @@ jobs:
         if: matrix.board == 'power'
         run: python3 .github/verify-magjack-model.py
 
-      - name: Check PCB design rules (DRC)
+      - name: Generate PCB design-rule report (DRC)
         if: success() || failure()
         env:
           PCB: ${{ matrix.pcb }}
@@ -133,8 +133,12 @@ jobs:
           mkdir -p "build/${{ matrix.board }}/checks"
           docker run --rm -v "$PWD:/work" -w /work \
             --entrypoint kicad-cli "$KIBOT_IMAGE" \
-            pcb drc --exit-code-violations --format json \
+            pcb drc --format json \
             -o "build/${{ matrix.board }}/checks/drc.json" "$PCB"
+
+      - name: Report draft layout status
+        if: success() || failure()
+        run: python3 .github/check-layout.py "build/${{ matrix.board }}"
 
       - name: Generate board outputs
         if: success() || failure()
@@ -191,7 +195,7 @@ jobs:
           path: build
           merge-multiple: true
 
-      - name: Build manufacturing ZIP and previews
+      - name: Build draft ZIP and previews
         run: |
           python3 -m venv "$RUNNER_TEMP/woki-packaging"
           "$RUNNER_TEMP/woki-packaging/bin/python" -m pip install --quiet pillow
@@ -273,6 +277,9 @@ jobs:
         with:
           name: woki-cam-outputs
           path: build/
+
+      - name: Require clean PCB layouts before manufacturing release
+        run: python3 .github/check-layout.py build --strict --expected-reports 4
 
       - name: Publish
         env:

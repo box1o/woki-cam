@@ -64,5 +64,17 @@
       "camera": 0,
       "ir-led": 0
     }
+  },
+  "ci_policy": {
+    "schematic_erc": "strict; errors and warnings block normal builds",
+    "pcb_drc": "reported for draft builds; strict for manufacturing releases",
+    "release_requires_clean_layout_reports": 4,
+    "tested": [
+      "existing draft reports accepted",
+      "dirty manufacturing release rejected",
+      "clean release accepted",
+      "missing/malformed reports rejected",
+      "full draft package generated and marked not ready for manufacture"
+    ]
   }
 }

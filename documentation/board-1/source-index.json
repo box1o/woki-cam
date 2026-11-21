@@ -485,6 +485,10 @@
       "sha256": "281959bf829524572fc1a078143581aaa254d02a57ff51dcf6ffb57f6ed7613d"
     },
     {
+      "file": ".github/check-layout.py",
+      "sha256": "f6189e727b28e27dcd4f8ac6fa6a666d0903386b18f9badba79ab5b099a86e0d"
+    },
+    {
       "file": ".github/collage.py",
       "sha256": "f38ef16c6aabc120d58e6b9977cf024a08e7c2a4619ee6701104222e2013bfe7"
     },
@@ -494,7 +498,7 @@
     },
     {
       "file": ".github/package.py",
-      "sha256": "9653660144d6b1bdd2e70b3394b343dfab4676cccd6f38f93c111c8e9280c857"
+      "sha256": "7438f7f2e3d2f11e6e526335ceb8dbdd0a2ef6d9091fc9f5ba5a8385b8971a2c"
     },
     {
       "file": ".github/release-notes.sh",
@@ -510,7 +514,7 @@
     },
     {
       "file": ".github/workflows/pcb-ci.yaml",
-      "sha256": "5617fa8a6196fb7fdc785cf473f87c101c57e03cfef7584b1944a2ef1acc68a8"
+      "sha256": "a3fdb8c174590d36620984621606787ed8869a77f047387a08c68d7ccc2718e0"
     }
   ]
 }
