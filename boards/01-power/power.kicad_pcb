@@ -46911,7 +46911,13 @@
 			)
 		)
 		(embedded_fonts no)
-	)
+	
+		(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fd2d678e-b01f-4853-8b7d-d0fe31262af3")
