@@ -114,7 +114,7 @@
     },
     {
       "file": "lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl",
-      "sha256": "19ea0beb22a4cca895e43aeee0ca29d6c344998702ce9921d7b4ba1781bc0e12"
+      "sha256": "1c5a847d62b3072f1aeee721645294ad27b5987332d34fd086b66c718e50a660"
     },
     {
       "file": "lib/3dmodels/manufacturer/bel-cadenas-terms.txt",
@@ -138,7 +138,7 @@
     },
     {
       "file": "lib/3dmodels/manufacturer/index.csv",
-      "sha256": "07703ecc7d48e67d2bf270da0db05e74e2ea92c126842bc60f32fb8bb75a2300"
+      "sha256": "d5e55b5d2f141c4c26859ebc1aaa66299bdd3210d9edd520932ccfd654b58140"
     },
     {
       "file": "lib/3dmodels/manufacturer/ti-dsg0008a.step",
@@ -162,7 +162,7 @@
     },
     {
       "file": "lib/SOURCES.md",
-      "sha256": "406226cf20640ecc5e0ff77d290b3699270d0ce757bcb057eb145027d0a760e1"
+      "sha256": "aa71f3656ecec8187463661696885f9dbb45f3cac1d19b4611fdb27bec99821b"
     },
     {
       "file": "lib/footprints/woki.pretty/744272251.kicad_mod",

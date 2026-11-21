@@ -31,8 +31,8 @@
   },
   "vrml_model": {
     "file": "lib/3dmodels/manufacturer/bel-0826-1x1t-hs-f.wrl",
-    "sha256": "19ea0beb22a4cca895e43aeee0ca29d6c344998702ce9921d7b4ba1781bc0e12",
-    "bytes": 4716800,
+    "sha256": "1c5a847d62b3072f1aeee721645294ad27b5987332d34fd086b66c718e50a660",
+    "bytes": 4784403,
     "format": "VRML2",
     "native_units": "inch",
     "raw_bounds": [
@@ -78,6 +78,17 @@
       "all_20_external_pin_centers_match_footprint": true,
       "max_pin_center_error_mm": 0.0008001000000001923,
       "all_pcb_footprint_poses_and_pad_net_assignments_unchanged": true
+    },
+    "visual_materials": {
+      "shell": "silver nickel appearance",
+      "housing": "matte black plastic",
+      "terminals": "tin/silver appearance",
+      "mating_contacts": "gold appearance",
+      "led_lenses": "green and yellow, unlit appearance",
+      "scope": "Visualization materials assigned to existing manufacturer mesh; no geometry added or removed. Face colors use existing surfaces.",
+      "geometry_arrays_identical_to_previous_model": true,
+      "validation": "Coin parse and native KiCad high-quality render; model placement unchanged",
+      "preview": "documentation/board-1/eth-jack-materials.png"
     }
   },
   "archived_incomplete_step_file": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121/removed/lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.stp"
