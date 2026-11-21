@@ -5,7 +5,7 @@ set -euo pipefail
 
 mkdir -p build/release
 url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/${RELEASE_TAG}"
-prev="$(git describe --tags --abbrev=0 "${RELEASE_TAG}^" 2>/dev/null || true)"
+prev="$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || true)"
 
 {
   echo "## Downloads"

@@ -64,11 +64,12 @@ def main() -> None:
     subprocess.run([sys.executable, str(ROOT / ".github/collage.py")], check=True)
 
     schematic = BUILD / release_board / "docs" / f"{release_board}-schematic.pdf"
-    if schematic.is_file() and schematic.stat().st_size > 0:
-        dest = BUILD / "docs" / "woki-cam-schematic.pdf"
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(schematic.read_bytes())
-        print(f"COPY: {dest}")
+    if not schematic.is_file() or schematic.stat().st_size == 0:
+        sys.exit(f"Missing required schematic PDF: {schematic}")
+    dest = BUILD / "docs" / "woki-cam-schematic.pdf"
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(schematic.read_bytes())
+    print(f"COPY: {dest}")
 
     zip_build(package_name)
 
