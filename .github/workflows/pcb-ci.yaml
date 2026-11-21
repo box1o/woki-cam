@@ -3,6 +3,8 @@ name: PCB CI
 on:
   push:
     branches: [main, dev, release]
+    paths-ignore:
+      - 'images/woki-cam-3d.png'
   pull_request:
     branches: [main, dev, release]
   workflow_dispatch:
@@ -122,6 +124,45 @@ jobs:
           path: build/
           compression-level: 1
           if-no-files-found: error
+
+  update-preview:
+    name: Update README 3D preview
+    needs: package
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/download-artifact@v7
+        with:
+          name: woki-cam-outputs
+          path: build/
+      - name: Publish latest successful main preview
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          test -s build/images/woki-cam-3d.png
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$SOURCE_SHA" ]; then
+            echo "Main advanced since this run; skip stale preview."
+            exit 0
+          fi
+          mkdir -p images
+          cp build/images/woki-cam-3d.png images/woki-cam-3d.png
+          if git diff --quiet -- images/woki-cam-3d.png; then
+            echo "Preview unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/woki-cam-3d.png
+          git commit -m "docs: refresh 3D preview from latest main build"
+          git push origin HEAD:main
 
   release:
     name: Release
