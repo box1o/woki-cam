@@ -95,9 +95,11 @@ jobs:
             .github/run-kibot.py -v -c .github/kibot.yaml -d . \
             -b "$PCB" -e "$SCHEMATIC" -s erc,drc "$OUTPUT_GROUP"
 
-      - run: sudo chown -R "$USER:$USER" build
+      - if: always()
+        run: sudo chown -R "$USER:$USER" build
 
       - uses: actions/upload-artifact@v6
+        if: always()
         with:
           name: board-${{ matrix.board }}
           path: build/
