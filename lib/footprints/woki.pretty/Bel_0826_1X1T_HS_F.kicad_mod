@@ -47,5 +47,10 @@
 (zone (layer "B.Cu") (uuid "ce79e773-f8d1-4603-9f2c-bef04dfb5bd7") (name "Bel shell contact - no additional pads or vias") (hatch edge 0.5) (connect_pads (clearance 0)) (min_thickness 0.25) (keepout (tracks allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed)) (fill (thermal_gap 0.5) (thermal_bridge_width 0.5)) (polygon (pts (xy -8.9154 -10.922) (xy 8.9154 -10.922) (xy 8.9154 -4.525) (xy 6.7145 -4.525) (xy 6.7145 -3.556) (xy 5.9944 -3.556) (xy 5.9944 -7.874) (xy -5.9944 -7.874) (xy -5.9944 -3.556) (xy -6.7145 -3.556) (xy -6.7145 -4.525) (xy -8.9154 -4.525))))
 (zone (layer "B.Cu") (uuid "35cc0dff-ffdd-4068-b1d6-d139b4aa5790") (name "Bel shell contact - no additional pads or vias") (hatch edge 0.5) (connect_pads (clearance 0)) (min_thickness 0.25) (keepout (tracks allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed)) (fill (thermal_gap 0.5) (thermal_bridge_width 0.5)) (polygon (pts (xy -8.9154 13.589) (xy -6.5532 13.589) (xy -6.5532 17.03) (xy -6.846 17.03) (xy -6.846 18.53) (xy -6.5532 18.53) (xy -6.5532 19.42) (xy -6.996 19.42) (xy -6.996 20.066) (xy -8.9154 20.066))))
 (zone (layer "B.Cu") (uuid "2610be1a-c28e-4028-b29b-1cf6acdeff2c") (name "Bel shell contact - no additional pads or vias") (hatch edge 0.5) (connect_pads (clearance 0)) (min_thickness 0.25) (keepout (tracks allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed)) (fill (thermal_gap 0.5) (thermal_bridge_width 0.5)) (polygon (pts (xy 6.5532 13.589) (xy 8.9154 13.589) (xy 8.9154 20.066) (xy 6.996 20.066) (xy 6.996 19.42) (xy 6.5532 19.42))))
+(model "${KIPRJMOD}/../../lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl"
+  (offset (xyz 0 0 0))
+  (scale (xyz 1 1 1))
+  (rotate (xyz 0 0 0))
+)
 (embedded_fonts no)
 )
