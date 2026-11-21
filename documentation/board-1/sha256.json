@@ -126,5 +126,5 @@
   ".github/release-notes.sh": "e12a31904ad3ab7abd82e157bfb884a2584bfbea5fe78074ea59483076da4f7e",
   ".github/run-kibot.py": "67810bf1c65f895329274808b2359ead9cdca448bfb3b049c4034eb19519f988",
   ".github/verify-magjack-model.py": "584a9939d4f719d0083c3173b93a4443aee05a914d6aee9fe73c09dba02afae8",
-  ".github/workflows/pcb-ci.yaml": "e0d4998aa27cdac54e34a4281df56e4992f949243c223cbf6e4788415f0e04fd"
+  ".github/workflows/pcb-ci.yaml": "5617fa8a6196fb7fdc785cf473f87c101c57e03cfef7584b1944a2ef1acc68a8"
 }

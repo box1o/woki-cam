@@ -52,5 +52,17 @@
   "backup": "/home/woki/dev/woki-schematic-backups/project-cleanup-20261121",
   "jack_model": "Complete manufacturer mesh converted to supported VRML2; 20 pin positions verified against footprint",
   "model_formats": "STEP (.step) for solid CAD; VRML2 (.wrl) for the two mesh-only models",
-  "scope": "File cleanup and reference validation. PCB layout remains unfinished."
+  "scope": "File cleanup and reference validation. PCB layout remains unfinished.",
+  "schematic_ci": {
+    "container_kicad_version": "10.0.5",
+    "symbol_library_version": "10.0.8",
+    "official_symbol_commit": "45efbd93be87e365a21d743daf9b8a07e6414df6",
+    "symbols_packed_with_official_tool": true,
+    "strict_erc_violations": {
+      "power": 0,
+      "fpga-control": 0,
+      "camera": 0,
+      "ir-led": 0
+    }
+  }
 }

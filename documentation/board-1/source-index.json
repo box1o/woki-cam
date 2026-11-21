@@ -510,7 +510,7 @@
     },
     {
       "file": ".github/workflows/pcb-ci.yaml",
-      "sha256": "e0d4998aa27cdac54e34a4281df56e4992f949243c223cbf6e4788415f0e04fd"
+      "sha256": "5617fa8a6196fb7fdc785cf473f87c101c57e03cfef7584b1944a2ef1acc68a8"
     }
   ]
 }

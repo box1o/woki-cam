@@ -27,12 +27,76 @@ permissions:
 
 env:
   SETTINGS_FILE: settings.env
+  # Official KiCad symbol libraries 10.0.8, matching the project editor.
+  KICAD_SYMBOLS_COMMIT: 45efbd93be87e365a21d743daf9b8a07e6414df6
   # Pin the KiCad 10 / KiBot build used to validate the compatibility shim.
   KIBOT_IMAGE: ghcr.io/inti-cmnb/kicad10_auto_full:dev@sha256:114c9c3cc09d0ebb491d3afafb8995ab180fecbedb55d7ab6667960b8680076a
 
 jobs:
+  schematic:
+    name: Schematic ERC — ${{ matrix.board }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - board: power
+            pcb: boards/01-power/power.kicad_pcb
+            sch: boards/01-power/power.kicad_sch
+          - board: fpga-control
+            pcb: boards/02-fpga-control/fpga-control.kicad_pcb
+            sch: boards/02-fpga-control/fpga-control.kicad_sch
+          - board: camera
+            pcb: boards/03-camera/camera.kicad_pcb
+            sch: boards/03-camera/camera.kicad_sch
+          - board: ir-led
+            pcb: boards/04-ir-led/ir-led.kicad_pcb
+            sch: boards/04-ir-led/ir-led.kicad_sch
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Prepare matching official symbol libraries
+        run: |
+          symbol_source="$RUNNER_TEMP/kicad-symbols-source"
+          git init --quiet "$symbol_source"
+          git -C "$symbol_source" remote add origin https://gitlab.com/kicad/libraries/kicad-symbols.git
+          git -C "$symbol_source" fetch --quiet --depth 1 origin "$KICAD_SYMBOLS_COMMIT"
+          git -C "$symbol_source" checkout --quiet --detach FETCH_HEAD
+          test "$(git -C "$symbol_source" rev-parse HEAD)" = "$KICAD_SYMBOLS_COMMIT"
+          python3 "$symbol_source/tools/kicad_lib_pack.py" \
+            -i "$symbol_source" -o "$RUNNER_TEMP/kicad-symbols-packed"
+
+      - name: Check schematic electrical rules (ERC)
+        env:
+          SCHEMATIC: ${{ matrix.sch }}
+        run: |
+          mkdir -p "build/${{ matrix.board }}/checks"
+          docker run --rm -v "$PWD:/work" -w /work \
+            -v "$RUNNER_TEMP/kicad-symbols-packed:/usr/share/kicad/symbols:ro" \
+            --entrypoint kicad-cli "$KIBOT_IMAGE" \
+            sch erc --exit-code-violations --format json \
+            -o "build/${{ matrix.board }}/checks/erc.json" "$SCHEMATIC"
+
+      - name: Restore report ownership
+        if: always()
+        run: |
+          if [ -d build ]; then
+            sudo chown -R "$USER:$USER" build
+          fi
+
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: schematic-${{ matrix.board }}
+          path: build/
+          if-no-files-found: error
+
   kibot:
-    name: KiBot — ${{ matrix.board }}
+    name: PCB layout and outputs — ${{ matrix.board }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
     strategy:
@@ -60,16 +124,6 @@ jobs:
       - name: Verify persistent MagJack 3D model association
         if: matrix.board == 'power'
         run: python3 .github/verify-magjack-model.py
-
-      - name: Check schematic electrical rules (ERC)
-        env:
-          SCHEMATIC: ${{ matrix.sch }}
-        run: |
-          mkdir -p "build/${{ matrix.board }}/checks"
-          docker run --rm -v "$PWD:/work" -w /work \
-            --entrypoint kicad-cli "$KIBOT_IMAGE" \
-            sch erc --exit-code-violations --format json \
-            -o "build/${{ matrix.board }}/checks/erc.json" "$SCHEMATIC"
 
       - name: Check PCB design rules (DRC)
         if: success() || failure()
@@ -113,7 +167,7 @@ jobs:
 
   package:
     name: Package
-    needs: kibot
+    needs: [schematic, kibot]
     runs-on: ubuntu-latest
     timeout-minutes: 15
     outputs:
@@ -128,6 +182,12 @@ jobs:
       - uses: actions/download-artifact@v7
         with:
           pattern: board-*
+          path: build
+          merge-multiple: true
+
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: schematic-*
           path: build
           merge-multiple: true
 
