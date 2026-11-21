@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-21",
+  "mpn": "0826-1X1T-HS-F",
+  "manufacturer": "Bel / TRP",
+  "source_product": "https://www.belfuse.com/products/ethernet/magjacks-icms/0826-1x1t-hs-f",
+  "source_service": "https://webapi.partcommunity.com",
+  "service_catalog": "belfuse",
+  "model_url": "https://webapi.partcommunity.com/partserver/preview/0202611210759339034916510e898ce/PARTserver0202611210759339034916510e898ce.zip",
+  "original_archive_entry": "0826-1X1T-HS-F.stp",
+  "model_file": "lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.stp",
+  "sha256": "f7866b6b57e61e447ba76ef1bd74a94cb12967e0c7738dad45c13940be59fa67",
+  "bytes": 187365,
+  "download_method": "Manufacturer embedded Cadenas catalog exact part reverse mapping, STEP AP214 export. No geometry created or edited locally.",
+  "step_geometry": {
+    "valid": true,
+    "solid_count": 21,
+    "bounds_mm": [
+      -6.477000000254,
+      -4.1655999999999995,
+      -19.304000000254,
+      5.7912,
+      4.2418,
+      -14.0462
+    ],
+    "complete_housing": false,
+    "reject_reason": "STEP export omits tessellated housing; do not attach as complete model."
+  },
+  "catalog_attributes": {
+    "SPEED": "1000BASE-T",
+    "PR": "4PPoE 100W",
+    "LEDT": "GO/Y"
+  },
+  "vrml_model": {
+    "file": "lib/3dmodels/manufacturer/Bel_0826-1X1T-HS-F.wrl",
+    "sha256": "37d4484b1947d7eacea772d5904db46e08fdd749091c355e34a099e95c2e45ea",
+    "bytes": 3096048,
+    "format": "VRML1",
+    "native_units": "inch",
+    "raw_bounds": [
+      -0.375983,
+      -0.18599,
+      -1.28,
+      0.375983,
+      0.549983,
+      0.034888
+    ],
+    "full_housing_present": true,
+    "terms_file": "lib/3dmodels/manufacturer/Bel_CADENAS_terms.txt"
+  }
+}

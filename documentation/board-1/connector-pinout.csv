@@ -1,0 +1,101 @@
+pin,block,signal,board_1,route,notes
+1,01 power,+12V_STACK,connected,shared control / power stack,
+2,01 power,+12V_STACK,connected,shared control / power stack,
+3,01 power,+12V_STACK,connected,shared control / power stack,
+4,01 power,+12V_STACK,connected,shared control / power stack,
+5,01 power,+12V_STACK,connected,shared control / power stack,
+6,01 power,+12V_STACK,connected,shared control / power stack,
+7,01 power,+12V_STACK,connected,shared control / power stack,
+8,01 power,+12V_STACK,connected,shared control / power stack,
+9,01 power,+12V_STACK,connected,shared control / power stack,
+10,01 power,+12V_STACK,connected,shared control / power stack,
+11,01 power,+12V_STACK,connected,shared control / power stack,
+12,01 power,+12V_STACK,connected,shared control / power stack,
+13,01 power,+12V_STACK,connected,shared control / power stack,
+14,01 power,+12V_STACK,connected,shared control / power stack,
+15,01 power,GND,connected,shared control / power stack,
+16,01 power,GND,connected,shared control / power stack,
+17,01 power,GND,connected,shared control / power stack,
+18,01 power,GND,connected,shared control / power stack,
+19,01 power,GND,connected,shared control / power stack,
+20,01 power,GND,connected,shared control / power stack,
+21,01 power,GND,connected,shared control / power stack,
+22,01 power,GND,connected,shared control / power stack,
+23,01 power,GND,connected,shared control / power stack,
+24,01 power,GND,connected,shared control / power stack,
+25,01 power,GND,connected,shared control / power stack,
+26,01 power,GND,connected,shared control / power stack,
+27,02 system,VIO_TARGET,connected,shared control / power stack,limited 3.3 V interface rail; single contact 0.3 A nominal
+28,02 system,GND,connected,shared control / power stack,
+29,02 system,POWER_GOOD,connected,shared control / power stack,
+30,02 system,SYS_RESET_N,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+31,03 Ethernet,RGMII_TXC,connected,board 1 <-> board 2 bottom only; higher boards NC,
+32,03 Ethernet,GND,connected,shared control / power stack,
+33,03 Ethernet,RGMII_TX_CTL,connected,board 1 <-> board 2 bottom only; higher boards NC,
+34,03 Ethernet,RGMII_TXD0,connected,board 1 <-> board 2 bottom only; higher boards NC,
+35,03 Ethernet,RGMII_TXD1,connected,board 1 <-> board 2 bottom only; higher boards NC,
+36,03 Ethernet,GND,connected,shared control / power stack,
+37,03 Ethernet,RGMII_TXD2,connected,board 1 <-> board 2 bottom only; higher boards NC,
+38,03 Ethernet,RGMII_TXD3,connected,board 1 <-> board 2 bottom only; higher boards NC,
+39,03 Ethernet,RGMII_RXC,connected,board 1 <-> board 2 bottom only; higher boards NC,
+40,03 Ethernet,GND,connected,shared control / power stack,
+41,03 Ethernet,RGMII_RX_CTL,connected,board 1 <-> board 2 bottom only; higher boards NC,
+42,03 Ethernet,RGMII_RXD0,connected,board 1 <-> board 2 bottom only; higher boards NC,
+43,03 Ethernet,RGMII_RXD1,connected,board 1 <-> board 2 bottom only; higher boards NC,
+44,03 Ethernet,GND,connected,shared control / power stack,
+45,03 Ethernet,RGMII_RXD2,connected,board 1 <-> board 2 bottom only; higher boards NC,
+46,03 Ethernet,RGMII_RXD3,connected,board 1 <-> board 2 bottom only; higher boards NC,
+47,03 Ethernet,GND,connected,shared control / power stack,
+48,03 Ethernet,GND,connected,shared control / power stack,
+49,03 Ethernet,MDC,connected,board 1 <-> board 2 bottom only; higher boards NC,
+50,03 Ethernet,MDIO,connected,board 1 <-> board 2 bottom only; higher boards NC,
+51,03 Ethernet,PHY_RESET_REQ_N,connected,board 1 <-> board 2 bottom only; higher boards NC,
+52,03 Ethernet,PHY_INT_N,connected,board 1 <-> board 2 bottom only; higher boards NC,
+53,03 Ethernet,GND,connected,shared control / power stack,
+54,03 Ethernet,GND,connected,shared control / power stack,
+55,04 JTAG,JTAG_TCK,connected,board 1 <-> board 2 bottom only; higher boards NC,
+56,04 JTAG,JTAG_TMS,connected,board 1 <-> board 2 bottom only; higher boards NC,
+57,04 JTAG,JTAG_TDI,connected,board 1 <-> board 2 bottom only; higher boards NC,
+58,04 JTAG,JTAG_TDO,connected,board 1 <-> board 2 bottom only; higher boards NC,
+59,04 JTAG,GND,connected,shared control / power stack,
+60,04 JTAG,GND,connected,shared control / power stack,
+61,05 UART / GPIO,UART_TO_FPGA,connected,board 1 <-> board 2 bottom only; higher boards NC,
+62,05 UART / GPIO,UART_FROM_FPGA,connected,board 1 <-> board 2 bottom only; higher boards NC,
+63,05 UART / GPIO,GND,connected,shared control / power stack,
+64,05 UART / GPIO,GPIO0,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+65,06 I2C,I2C_SCL,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+66,06 I2C,I2C_SDA,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+67,06 I2C,GND,connected,shared control / power stack,
+68,06 I2C,GND,connected,shared control / power stack,
+69,07 SPI,SPI_SCK,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+70,07 SPI,SPI_MOSI,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+71,07 SPI,SPI_MISO,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+72,07 SPI,SPI_CS0_N,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+73,07 SPI,SPI_CS1_N,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+74,07 SPI,GND,connected,shared control / power stack,
+75,07 SPI,SPI_CS2_N,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+76,07 SPI,GND,connected,shared control / power stack,
+77,08 CSI-2 reservation,CSI_CLK_P,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+78,08 CSI-2 reservation,GND,connected,shared control / power stack,
+79,08 CSI-2 reservation,CSI_CLK_N,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+80,08 CSI-2 reservation,GND,connected,shared control / power stack,
+81,08 CSI-2 reservation,GND,connected,shared control / power stack,
+82,08 CSI-2 reservation,CSI_D0_P,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+83,08 CSI-2 reservation,GND,connected,shared control / power stack,
+84,08 CSI-2 reservation,CSI_D0_N,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+85,08 CSI-2 reservation,CSI_D1_P,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+86,08 CSI-2 reservation,GND,connected,shared control / power stack,
+87,08 CSI-2 reservation,CSI_D1_N,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+88,08 CSI-2 reservation,GND,connected,shared control / power stack,
+89,08 CSI-2 reservation,GND,connected,shared control / power stack,
+90,08 CSI-2 reservation,CSI_D2_P,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+91,08 CSI-2 reservation,GND,connected,shared control / power stack,
+92,08 CSI-2 reservation,CSI_D2_N,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+93,08 CSI-2 reservation,CSI_D3_P,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+94,08 CSI-2 reservation,GND,connected,shared control / power stack,
+95,08 CSI-2 reservation,CSI_D3_N,reserved; NC,board 2 top <-> board 3 bottom only; reserved endpoints NC until sensor/FPGA design,future endpoint; no bus drivers or pull-ups fitted
+96,08 CSI-2 reservation,GND,connected,shared control / power stack,
+97,09 camera / user I/O,CAM_RESET_N,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+98,09 camera / user I/O,CAM_PWDN,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+99,09 camera / user I/O,FRAME_SYNC,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted
+100,09 camera / user I/O,GPIO1,reserved; NC,shared control / power stack,future endpoint; no bus drivers or pull-ups fitted

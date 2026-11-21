@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-21",
+  "scope": "research only; no part substitution made",
+  "requirements": [
+    "1000BASE-T integrated magnetics",
+    "four pair Class 6 current",
+    "downloaded exact existing 3D",
+    "economical"
+  ],
+  "candidates": [
+    {
+      "mpn": "7499510443",
+      "model_file": "lib/3dmodels/manufacturer/T_Wurth_WE-RJ45LAN_7499510443.step",
+      "model_url": "https://raw.githubusercontent.com/WurthElektronik/KiCad-Library/master/3dmodels/Transformer_THT_Wurth.3dshapes/T_Wurth_WE-RJ45LAN_7499510443.step",
+      "sha256": "eb3521c777ad7912556498df1142bb614c7460c43612f01818d23f2a8079225c",
+      "bytes": 1608710,
+      "manufacturer_model": true,
+      "datasheet": "https://www.we-online.com/components/products/datasheet/7499510443.pdf",
+      "power_specification": "600 mA per centre tap; all four cable centre taps separately exposed; datasheet lists 802.3at only; formal 802.3bt qualification unconfirmed",
+      "selected": false,
+      "dimensions_mm": [
+        21.35,
+        15.9,
+        13.65
+      ],
+      "price_usd_qty1": null,
+      "phy_mode": "current; PHY compatibility requires review",
+      "step_geometry": {
+        "solid_count": 6,
+        "valid": true,
+        "bounds_mm": [
+          -2.4350000000000005,
+          -19.845126302170726,
+          -3.5500000000000016,
+          13.865,
+          1.7651263021707262,
+          13.90373391483886
+        ]
+      }
+    },
+    {
+      "mpn": "7499511443",
+      "model_file": "lib/3dmodels/manufacturer/T_Wurth_WE-RJ45LAN_7499511443.step",
+      "model_url": "https://raw.githubusercontent.com/WurthElektronik/KiCad-Library/master/3dmodels/Transformer_THT_Wurth.3dshapes/T_Wurth_WE-RJ45LAN_7499511443.step",
+      "sha256": "8d588f46318366d00a5b2a88bbbf3f72c12e0c7eb13150a223dff551c1d36c69",
+      "bytes": 1895171,
+      "manufacturer_model": true,
+      "datasheet": "https://www.we-online.com/components/products/datasheet/7499511443.pdf",
+      "power_specification": "600 mA per centre tap; all four cable centre taps separately exposed; datasheet lists 802.3at only; formal 802.3bt qualification unconfirmed",
+      "selected": false,
+      "dimensions_mm": [
+        21.35,
+        15.9,
+        13.65
+      ],
+      "price_usd_qty1": null,
+      "phy_mode": "current; PHY compatibility requires review",
+      "step_geometry": {
+        "solid_count": 6,
+        "valid": true,
+        "bounds_mm": [
+          -4.2392685136844985,
+          -19.845126302170726,
+          -3.780000000000001,
+          15.669268513684514,
+          1.7651263021707262,
+          15.67786736723818
+        ]
+      }
+    },
+    {
+      "mpn": "7499511002A",
+      "model_file": "lib/3dmodels/manufacturer/T_Wurth_WE-RJ45LAN_7499511002A.step",
+      "model_url": "https://raw.githubusercontent.com/WurthElektronik/KiCad-Library/master/3dmodels/Transformer_THT_Wurth.3dshapes/T_Wurth_WE-RJ45LAN_7499511002A.step",
+      "sha256": "3a09dc4efc113cdc95699ed6a5db549f756e58d602496652a26c9f1c5219f1db",
+      "bytes": 1545257,
+      "manufacturer_model": true,
+      "datasheet": "https://www.we-online.com/components/products/datasheet/7499511002A.pdf",
+      "power_specification": "600 mA per centre tap; all four cable centre taps separately exposed; datasheet lists 802.3at only; formal 802.3bt qualification unconfirmed",
+      "selected": false,
+      "dimensions_mm": [
+        32.8,
+        16.6,
+        13.6
+      ],
+      "price_usd_qty1": 11.98,
+      "price_source": "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7499511002A/5300373",
+      "leds": "none",
+      "phy_mode": "current and voltage",
+      "step_geometry": {
+        "solid_count": 1,
+        "valid": true,
+        "bounds_mm": [
+          -15.025000000000002,
+          -26.140000000000008,
+          -4.149999999999989,
+          4.875000000000002,
+          6.660000000000005,
+          14.860000000000024
+        ]
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "mpn": "0826-1X1T-GH-F",
+      "reason": "Current official product page 30 W contradicts older 60 W family brochure; qualification unresolved",
+      "source": "https://www.belfuse.com/products/ethernet/magjacks-icms/0826-1x1t-gh-f"
+    }
+  ]
+}

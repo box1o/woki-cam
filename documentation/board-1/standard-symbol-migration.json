@@ -1,0 +1,1602 @@
+[
+  {
+    "reference": "#PWR111",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C103",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR102",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R115",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C106",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR141",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R113",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR136",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR112",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG66",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "C123",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "TP23",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "#PWR128",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "TP22",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "R118",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R112",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR105",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "TP21",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "C105",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C110",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R110",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C111",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R107",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C126",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C112",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "TP19",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "R117",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C120",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C119",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C118",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C114",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C101",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "Y101",
+    "old": "WokiFTDI:Crystal_GND24",
+    "standard": "Device:Crystal_GND24"
+  },
+  {
+    "reference": "#PWR126",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG103",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "R101",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "F101",
+    "old": "WokiFTDI:Polyfuse_Small",
+    "standard": "Device:Polyfuse_Small"
+  },
+  {
+    "reference": "#PWR142",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR103",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG72",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "TP20",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "#PWR139",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR116",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR107",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR108",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R109",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "FB102",
+    "old": "WokiFTDI:FerriteBead_Small",
+    "standard": "Device:FerriteBead_Small"
+  },
+  {
+    "reference": "#PWR143",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR125",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG98",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "FB101",
+    "old": "WokiFTDI:FerriteBead_Small",
+    "standard": "Device:FerriteBead_Small"
+  },
+  {
+    "reference": "#PWR144",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R103",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R106",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C102",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R111",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR127",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR133",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R108",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R114",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C125",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C107",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C108",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R119",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C104",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR129",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C113",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C117",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR118",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C115",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R116",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C109",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R105",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR115",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R120",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R104",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "U103",
+    "old": "WokiFTDI:AP2112K-3.3",
+    "standard": "Regulator_Linear:AP2112K-3.3"
+  },
+  {
+    "reference": "C122",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C124",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR138",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C121",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR117",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C116",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#FLG75",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "#PWR132",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R102",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C543",
+    "old": "WokiPoE:PMP_C43",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C553",
+    "old": "WokiPoE:PMP_C53",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C538",
+    "old": "WokiPoE:PMP_C38",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C529",
+    "old": "WokiPoE:PMP_C29",
+    "standard": "Device:C_Polarized_Small"
+  },
+  {
+    "reference": "C533",
+    "old": "WokiPoE:PMP_C33",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R568",
+    "old": "WokiPoE:PMP_R68",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R569",
+    "old": "WokiPoE:PMP_R69",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R571",
+    "old": "WokiPoE:PMP_R71",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R541",
+    "old": "WokiPoE:PMP_R41",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R566",
+    "old": "WokiPoE:PMP_R66",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C523",
+    "old": "WokiPoE:PMP_C23",
+    "standard": "Device:C_Polarized_Small"
+  },
+  {
+    "reference": "D513",
+    "old": "WokiPoE:PMP_D13",
+    "standard": "Device:D_TVS"
+  },
+  {
+    "reference": "R562",
+    "old": "WokiPoE:PMP_R62",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R559",
+    "old": "WokiPoE:PMP_R59",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R543",
+    "old": "WokiPoE:PMP_R43",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R547",
+    "old": "WokiPoE:PMP_R47",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C541",
+    "old": "WokiPoE:PMP_C41",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR5520",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R545",
+    "old": "WokiPoE:PMP_R45",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R550",
+    "old": "WokiPoE:PMP_R50",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C547",
+    "old": "WokiPoE:PMP_C47",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C545",
+    "old": "WokiPoE:PMP_C45",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C527",
+    "old": "WokiPoE:PMP_C27",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C544",
+    "old": "WokiPoE:PMP_C44",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R555",
+    "old": "WokiPoE:PMP_R55",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R565",
+    "old": "WokiPoE:PMP_R65",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C521",
+    "old": "WokiPoE:PMP_C21",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C540",
+    "old": "WokiPoE:PMP_C40",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C535",
+    "old": "WokiPoE:PMP_C35",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C536",
+    "old": "WokiPoE:PMP_C36",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "D512",
+    "old": "WokiPoE:PMP_D12",
+    "standard": "Device:D_Small"
+  },
+  {
+    "reference": "C534",
+    "old": "WokiPoE:PMP_C34",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R553",
+    "old": "WokiPoE:PMP_R53",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C525",
+    "old": "WokiPoE:PMP_C25",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R548",
+    "old": "WokiPoE:PMP_R48",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C550",
+    "old": "WokiPoE:PMP_C50",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R563",
+    "old": "WokiPoE:PMP_R63",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R572",
+    "old": "WokiPoE:PMP_R72",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C549",
+    "old": "WokiPoE:PMP_C49",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R549",
+    "old": "WokiPoE:PMP_R49",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C522",
+    "old": "WokiPoE:PMP_C22",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R517",
+    "old": "WokiPoE:PMP_R17",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R574",
+    "old": "WokiPoE:PMP_R74",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR5505",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR5507",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R570",
+    "old": "WokiPoE:PMP_R70",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "L507",
+    "old": "WokiPoE:PMP_L7",
+    "standard": "Device:L_Small"
+  },
+  {
+    "reference": "C524",
+    "old": "WokiPoE:PMP_C24",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C546",
+    "old": "WokiPoE:PMP_C46",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C532",
+    "old": "WokiPoE:PMP_C32",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R546",
+    "old": "WokiPoE:PMP_R46",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR5504",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C539",
+    "old": "WokiPoE:PMP_C39",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R551",
+    "old": "WokiPoE:PMP_R51",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R557",
+    "old": "WokiPoE:PMP_R57",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R544",
+    "old": "WokiPoE:PMP_R44",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C537",
+    "old": "WokiPoE:PMP_C37",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R561",
+    "old": "WokiPoE:PMP_R61",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R554",
+    "old": "WokiPoE:PMP_R54",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C551",
+    "old": "WokiPoE:PMP_C51",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R552",
+    "old": "WokiPoE:PMP_R52",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C526",
+    "old": "WokiPoE:PMP_C26",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C530",
+    "old": "WokiPoE:PMP_C30",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R560",
+    "old": "WokiPoE:PMP_R60",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C552",
+    "old": "WokiPoE:PMP_C52",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "D514",
+    "old": "WokiPoE:PMP_D14",
+    "standard": "Device:D_Small"
+  },
+  {
+    "reference": "R558",
+    "old": "WokiPoE:PMP_R58",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R567",
+    "old": "WokiPoE:PMP_R67",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R573",
+    "old": "WokiPoE:PMP_R73",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R564",
+    "old": "WokiPoE:PMP_R64",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C528",
+    "old": "WokiPoE:PMP_C28",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C531",
+    "old": "WokiPoE:PMP_C31",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "D515",
+    "old": "WokiPoE:PMP_D15",
+    "standard": "Device:D_Small"
+  },
+  {
+    "reference": "R542",
+    "old": "WokiPoE:PMP_R42",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C543",
+    "old": "WokiPoE:PMP_C43",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C553",
+    "old": "WokiPoE:PMP_C53",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C538",
+    "old": "WokiPoE:PMP_C38",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C529",
+    "old": "WokiPoE:PMP_C29",
+    "standard": "Device:C_Polarized_Small"
+  },
+  {
+    "reference": "C533",
+    "old": "WokiPoE:PMP_C33",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R568",
+    "old": "WokiPoE:PMP_R68",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R569",
+    "old": "WokiPoE:PMP_R69",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R571",
+    "old": "WokiPoE:PMP_R71",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R541",
+    "old": "WokiPoE:PMP_R41",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R566",
+    "old": "WokiPoE:PMP_R66",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C523",
+    "old": "WokiPoE:PMP_C23",
+    "standard": "Device:C_Polarized_Small"
+  },
+  {
+    "reference": "D513",
+    "old": "WokiPoE:PMP_D13",
+    "standard": "Device:D_TVS"
+  },
+  {
+    "reference": "R562",
+    "old": "WokiPoE:PMP_R62",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R559",
+    "old": "WokiPoE:PMP_R59",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R543",
+    "old": "WokiPoE:PMP_R43",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R547",
+    "old": "WokiPoE:PMP_R47",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C541",
+    "old": "WokiPoE:PMP_C41",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR5520",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R545",
+    "old": "WokiPoE:PMP_R45",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R550",
+    "old": "WokiPoE:PMP_R50",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C547",
+    "old": "WokiPoE:PMP_C47",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C545",
+    "old": "WokiPoE:PMP_C45",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C527",
+    "old": "WokiPoE:PMP_C27",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C544",
+    "old": "WokiPoE:PMP_C44",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R555",
+    "old": "WokiPoE:PMP_R55",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R565",
+    "old": "WokiPoE:PMP_R65",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C521",
+    "old": "WokiPoE:PMP_C21",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C540",
+    "old": "WokiPoE:PMP_C40",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C535",
+    "old": "WokiPoE:PMP_C35",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C536",
+    "old": "WokiPoE:PMP_C36",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "D512",
+    "old": "WokiPoE:PMP_D12",
+    "standard": "Device:D_Small"
+  },
+  {
+    "reference": "C534",
+    "old": "WokiPoE:PMP_C34",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R553",
+    "old": "WokiPoE:PMP_R53",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C525",
+    "old": "WokiPoE:PMP_C25",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R548",
+    "old": "WokiPoE:PMP_R48",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C550",
+    "old": "WokiPoE:PMP_C50",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R563",
+    "old": "WokiPoE:PMP_R63",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R572",
+    "old": "WokiPoE:PMP_R72",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C549",
+    "old": "WokiPoE:PMP_C49",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R549",
+    "old": "WokiPoE:PMP_R49",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C522",
+    "old": "WokiPoE:PMP_C22",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R517",
+    "old": "WokiPoE:PMP_R17",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R574",
+    "old": "WokiPoE:PMP_R74",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR5505",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR5507",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R570",
+    "old": "WokiPoE:PMP_R70",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "L507",
+    "old": "WokiPoE:PMP_L7",
+    "standard": "Device:L_Small"
+  },
+  {
+    "reference": "C524",
+    "old": "WokiPoE:PMP_C24",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C546",
+    "old": "WokiPoE:PMP_C46",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C532",
+    "old": "WokiPoE:PMP_C32",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R546",
+    "old": "WokiPoE:PMP_R46",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR5504",
+    "old": "WokiPower:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C539",
+    "old": "WokiPoE:PMP_C39",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R551",
+    "old": "WokiPoE:PMP_R51",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R557",
+    "old": "WokiPoE:PMP_R57",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R544",
+    "old": "WokiPoE:PMP_R44",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C537",
+    "old": "WokiPoE:PMP_C37",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R561",
+    "old": "WokiPoE:PMP_R61",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R554",
+    "old": "WokiPoE:PMP_R54",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C551",
+    "old": "WokiPoE:PMP_C51",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R552",
+    "old": "WokiPoE:PMP_R52",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C526",
+    "old": "WokiPoE:PMP_C26",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C530",
+    "old": "WokiPoE:PMP_C30",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R560",
+    "old": "WokiPoE:PMP_R60",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C552",
+    "old": "WokiPoE:PMP_C52",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "D514",
+    "old": "WokiPoE:PMP_D14",
+    "standard": "Device:D_Small"
+  },
+  {
+    "reference": "R558",
+    "old": "WokiPoE:PMP_R58",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R567",
+    "old": "WokiPoE:PMP_R67",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R573",
+    "old": "WokiPoE:PMP_R73",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R564",
+    "old": "WokiPoE:PMP_R64",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C528",
+    "old": "WokiPoE:PMP_C28",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C531",
+    "old": "WokiPoE:PMP_C31",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "D515",
+    "old": "WokiPoE:PMP_D15",
+    "standard": "Device:D_Small"
+  },
+  {
+    "reference": "R542",
+    "old": "WokiPoE:PMP_R42",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR111",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C103",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR102",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R115",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C106",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR141",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R113",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR136",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR112",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG66",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "C123",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "TP23",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "#PWR128",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "TP22",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "R118",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R112",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR105",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "TP21",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "C105",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C110",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R110",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C111",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R107",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C126",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C112",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "TP19",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "R117",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C120",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C119",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C118",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C114",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C101",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "Y101",
+    "old": "WokiFTDI:Crystal_GND24",
+    "standard": "Device:Crystal_GND24"
+  },
+  {
+    "reference": "#PWR126",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG103",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "R101",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "F101",
+    "old": "WokiFTDI:Polyfuse_Small",
+    "standard": "Device:Polyfuse_Small"
+  },
+  {
+    "reference": "#PWR142",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR103",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG72",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "TP20",
+    "old": "WokiPower:TestPoint",
+    "standard": "Connector:TestPoint"
+  },
+  {
+    "reference": "#PWR139",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR116",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR107",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR108",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R109",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "FB102",
+    "old": "WokiFTDI:FerriteBead_Small",
+    "standard": "Device:FerriteBead_Small"
+  },
+  {
+    "reference": "#PWR143",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR125",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#FLG98",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "FB101",
+    "old": "WokiFTDI:FerriteBead_Small",
+    "standard": "Device:FerriteBead_Small"
+  },
+  {
+    "reference": "#PWR144",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R103",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R106",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C102",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R111",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR127",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "#PWR133",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R108",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R114",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C125",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C107",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C108",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R119",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C104",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR129",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C113",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C117",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR118",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C115",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R116",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "C109",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "R105",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "#PWR115",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R120",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "R104",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  },
+  {
+    "reference": "U103",
+    "old": "WokiFTDI:AP2112K-3.3",
+    "standard": "Regulator_Linear:AP2112K-3.3"
+  },
+  {
+    "reference": "C122",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "C124",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR138",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C121",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#PWR117",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "C116",
+    "old": "WokiFTDI:C_Small",
+    "standard": "Device:C_Small"
+  },
+  {
+    "reference": "#FLG75",
+    "old": "WokiFTDI:PWR_FLAG",
+    "standard": "power:PWR_FLAG"
+  },
+  {
+    "reference": "#PWR132",
+    "old": "WokiFTDI:GND",
+    "standard": "power:GND"
+  },
+  {
+    "reference": "R102",
+    "old": "WokiFTDI:R_Small",
+    "standard": "Device:R_Small"
+  }
+]

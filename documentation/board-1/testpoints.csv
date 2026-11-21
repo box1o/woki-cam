@@ -1,0 +1,15 @@
+net,reference,pin,function,type
++12V_STACK,TP601,1,1_1,passive
+/PHY_RESET_N,TP17,1,1_1,passive
+/POE_VDD,TP401,1,1_1,passive
+/POE_VSS,TP402,1,1_1,passive
+/POWER_GOOD,TP602,1,1_1,passive
+/USB JTAG / UART/USB_1V8,TP21,1,1_1,passive
+/USB JTAG / UART/USB_PWREN_N,TP22,1,1_1,passive
+/integrated stack protection/POE_CLASS6_OK,TP603,1,1_1,passive
+ETH_3V3,TP13,1,1_1,passive
+GND,TP18,1,1_1,passive
+GND,TP23,1,1_1,passive
+USB_3V3,TP20,1,1_1,passive
+USB_VBUS,TP19,1,1_1,passive
+VIO_TARGET,TP16,1,1_1,passive

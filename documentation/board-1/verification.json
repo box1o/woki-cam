@@ -1,0 +1,43 @@
+{
+  "physical_components": 228,
+  "net_groups": 229,
+  "erc_violations": 0,
+  "physical_components_by_sheet": {
+    "/": 1,
+    "/Gigabit Ethernet/": 42,
+    "/3.3V supply / reset/": 20,
+    "/custom isolated 12V converter/": 67,
+    "/USB JTAG / UART/": 63,
+    "/MagJack PoE input/": 13,
+    "/integrated stack protection/": 22
+  },
+  "stack_contacts_accounted": 100,
+  "stack_pinout_revision": 2,
+  "dnp_options": 0,
+  "converter": "TPS23730 + Coilcraft POE51Q-12ED; adapted TI PMP22477 reference",
+  "scope": "Schematic checks only; no routed layout, prototype, thermal, EMI, safety or full BOM cost validation",
+  "pcb_scope": "Board 1 electronics imported by user during cleanup; placement incomplete, 0 tracks. Boards2-4 connector-only templates.",
+  "erc_exclusions": [],
+  "datasheet_audits": [
+    "audit-power.md",
+    "audit-ethernet-usb.md",
+    "audit-pcb-cost.md"
+  ],
+  "datasheet_fixes": "datasheet-fix-verification.json",
+  "board1_live_pcb": {
+    "footprints": 232,
+    "tracks": 0,
+    "drc_by_type": {
+      "drill_out_of_range": 2,
+      "copper_edge_clearance": 15,
+      "courtyards_overlap": 1,
+      "hole_clearance": 4,
+      "silk_overlap": 61,
+      "silk_over_copper": 151,
+      "text_height": 7,
+      "silk_edge_clearance": 1
+    },
+    "unconnected_items": 499,
+    "duplicate_references": []
+  }
+}

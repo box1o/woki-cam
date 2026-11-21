@@ -1,0 +1,53 @@
+{
+  "removed_unused_symbols": [
+    "WokiEthernet:AP2112K_2V5",
+    "WokiEthernet:Crystal",
+    "WokiEthernet:DP83867IRRGZ",
+    "WokiEthernet:L_Small",
+    "WokiEthernet:P_ETH_1V1",
+    "WokiEthernet:P_ETH_2V5",
+    "WokiEthernet:TPS3808G01DBV",
+    "WokiEthernet:TPS389025DSE",
+    "WokiEthernet:TPS62160DSG",
+    "WokiEthernet:TPS62162DSG",
+    "WokiEthernet:C_Small",
+    "WokiEthernet:GND",
+    "WokiEthernet:PWR_FLAG",
+    "WokiEthernet:P_ETH_3V3",
+    "WokiEthernet:P_VIO_TARGET",
+    "WokiEthernet:R_Small",
+    "WokiEthernet:MMBT3904",
+    "WokiPower:74LVC3G07",
+    "WokiPower:CHS604812",
+    "WokiPower:C_Polarized_Small",
+    "WokiPower:C_Small",
+    "WokiPower:D_Schottky_Small",
+    "WokiPower:D_Small",
+    "WokiPower:D_Zener_Small",
+    "WokiPower:Fuse",
+    "WokiPower:INA238DGS",
+    "WokiPower:LED_Small",
+    "WokiPower:MMBT3904",
+    "WokiPower:MountingHole_Pad",
+    "WokiPower:PWR_FLAG",
+    "WokiPower:P_CHASSIS",
+    "WokiPower:P_POE_VDD",
+    "WokiPower:P_POE_VSS",
+    "WokiPower:R_Small",
+    "WokiPower:TPS2372_4RGWR"
+  ],
+  "removed_unused_libraries": [
+    "eth"
+  ],
+  "removed_unused_footprints": [
+    "Woki:CHS604812",
+    "Woki:CP_Radial_D12.5mm_P5.00mm",
+    "Woki:Crystal_ABM3_5032",
+    "Woki:Fuse_Nano2_451",
+    "Woki:MON_INA238AIDGSR",
+    "Woki:PMIC_TPS2372_4RGWR",
+    "eth:Bel_0826_1X1T_KH_F"
+  ],
+  "backup_outside_project": "/home/woki/dev/woki-schematic-backups/unused-library-assets-20261121",
+  "scope": "reference trace across all four active schematic sets and four mechanical PCB templates"
+}

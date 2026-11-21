@@ -1,0 +1,158 @@
+{
+  "source": "08261X1THS-F rev A 2020-05-20, page 4 recommended PCB footprint, component-side view",
+  "origin": "midpoint of two 3.25 mm NPTH pegs; positive y toward signal/LED rows",
+  "pin_7_row_stagger_mm": -1.016,
+  "body_mm": {
+    "width": 16.3068,
+    "length": 32.766,
+    "front_y": -10.922,
+    "back_y": 21.844
+  },
+  "pads": {
+    "1": {
+      "x": -5.08,
+      "y": 15.24,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "2": {
+      "x": -3.048,
+      "y": 15.24,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "3": {
+      "x": -1.016,
+      "y": 15.24,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "4": {
+      "x": 1.016,
+      "y": 15.24,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "5": {
+      "x": 3.048,
+      "y": 15.24,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "6": {
+      "x": 5.08,
+      "y": 15.24,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "7": {
+      "x": -6.096,
+      "y": 17.78,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "8": {
+      "x": -4.064,
+      "y": 17.78,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "9": {
+      "x": -2.032,
+      "y": 17.78,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "10": {
+      "x": 0.0,
+      "y": 17.78,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "11": {
+      "x": 2.032,
+      "y": 17.78,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "12": {
+      "x": 4.064,
+      "y": 17.78,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "13": {
+      "x": -5.588,
+      "y": 8.128,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "14": {
+      "x": 5.588,
+      "y": 8.128,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "15": {
+      "x": -5.588,
+      "y": 6.604,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "16": {
+      "x": 5.588,
+      "y": 6.604,
+      "drill": 0.89,
+      "diameter": 1.3
+    },
+    "17": {
+      "x": -6.096,
+      "y": 20.32,
+      "drill": 1.02,
+      "diameter": 1.6
+    },
+    "18": {
+      "x": -3.556,
+      "y": 20.32,
+      "drill": 1.02,
+      "diameter": 1.6
+    },
+    "19": {
+      "x": 3.556,
+      "y": 20.32,
+      "drill": 1.02,
+      "diameter": 1.6
+    },
+    "20": {
+      "x": 6.096,
+      "y": 20.32,
+      "drill": 1.02,
+      "diameter": 1.6
+    },
+    "SH1": {
+      "x": -8.0645,
+      "y": -3.175,
+      "drill": 1.57,
+      "diameter": 2.5
+    },
+    "SH2": {
+      "x": 8.0645,
+      "y": -3.175,
+      "drill": 1.57,
+      "diameter": 2.5
+    },
+    "NPTH22": {
+      "x": -6.35,
+      "y": 0,
+      "drill": 3.25,
+      "diameter": 3.25
+    },
+    "NPTH23": {
+      "x": 6.35,
+      "y": 0,
+      "drill": 3.25,
+      "diameter": 3.25
+    }
+  },
+  "keepout_note": "manufacturer shaded shell contact areas; no additional pads/vias, 0.1 mm exclusion around this jack own shield/signal/LED pads prevents self-violations; not an electrical isolation boundary"
+}

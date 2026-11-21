@@ -1,0 +1,23 @@
+{
+  "power": {
+    "connector_net_mismatches": [],
+    "drc_violations": 242,
+    "unrouted_items": 499,
+    "status": "electronics imported; placement incomplete; supersedes earlier connector-only zero-geometric-error result"
+  },
+  "fpga_control": {
+    "connector_net_mismatches": [],
+    "geometric_drc_violations": 0,
+    "unrouted_items": 118
+  },
+  "camera": {
+    "connector_net_mismatches": [],
+    "geometric_drc_violations": 0,
+    "unrouted_items": 118
+  },
+  "ir_led": {
+    "connector_net_mismatches": [],
+    "geometric_drc_violations": 0,
+    "unrouted_items": 50
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "all_other_physical_pin_groups_preserved": true,
+  "EEPROM_DO_pullup_nodes": [
+    [
+      "R105",
+      "1"
+    ],
+    [
+      "R108",
+      "2"
+    ],
+    [
+      "U106",
+      "4"
+    ]
+  ],
+  "updated_values": {
+    "R601": "953 / 1%",
+    "Y101": "12MHz / CL12pF",
+    "C105": "15p / C0G",
+    "C106": "15p / C0G"
+  },
+  "erc_violations": 0,
+  "footprint_pad_number_issues": 0,
+  "USB_crystal_limits": {
+    "part": "ABM8-12.000MHZ-12-B1U-T",
+    "temperature_C": [
+      -20,
+      70
+    ],
+    "initial_ppm": 10,
+    "stability_ppm": 10,
+    "first_year_aging_ppm": 2,
+    "remaining_FTDI_30ppm_budget_for_load_ppm": 8,
+    "load_caps_pF": 15,
+    "assumed_stray_pF": 4.5,
+    "physical_validation": "measure frequency, startup and drive level; calculated load is initial only"
+  },
+  "output_breaker_limits": {
+    "R601_ohm": 953,
+    "resistor_tolerance_percent": 1,
+    "threshold_A_min_nom_max": [
+      3.117,
+      3.498,
+      3.887
+    ],
+    "purpose": "reduce nuisance trip risk at 35W / 11.4V; not a constant-power limiter or converter qualification"
+  }
+}

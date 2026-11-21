@@ -1,0 +1,10 @@
+{
+  "status": "superseded by compact-poe-review.json",
+  "reference": "TI PMP22477 Rev C",
+  "changes": [
+    "Coilcraft POE51Q-12ED transformer and auxiliary pin swap",
+    "R572 100 ohm current-sense filter",
+    "eight unused DNP options removed"
+  ],
+  "qualification": "prototype tests required; original TI board results do not validate this adaptation"
+}

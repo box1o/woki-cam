@@ -1,0 +1,201 @@
+{
+  "revision": 2,
+  "blocks": [
+    [
+      "01 power",
+      1,
+      26
+    ],
+    [
+      "02 system",
+      27,
+      30
+    ],
+    [
+      "03 Ethernet",
+      31,
+      54
+    ],
+    [
+      "04 JTAG",
+      55,
+      60
+    ],
+    [
+      "05 UART / GPIO",
+      61,
+      64
+    ],
+    [
+      "06 I2C",
+      65,
+      68
+    ],
+    [
+      "07 SPI",
+      69,
+      76
+    ],
+    [
+      "08 CSI-2 reservation",
+      77,
+      96
+    ],
+    [
+      "09 camera / user I/O",
+      97,
+      100
+    ]
+  ],
+  "pins": {
+    "1": "+12V_STACK",
+    "2": "+12V_STACK",
+    "3": "+12V_STACK",
+    "4": "+12V_STACK",
+    "5": "+12V_STACK",
+    "6": "+12V_STACK",
+    "7": "+12V_STACK",
+    "8": "+12V_STACK",
+    "9": "+12V_STACK",
+    "10": "+12V_STACK",
+    "11": "+12V_STACK",
+    "12": "+12V_STACK",
+    "13": "+12V_STACK",
+    "14": "+12V_STACK",
+    "15": "GND",
+    "16": "GND",
+    "17": "GND",
+    "18": "GND",
+    "19": "GND",
+    "20": "GND",
+    "21": "GND",
+    "22": "GND",
+    "23": "GND",
+    "24": "GND",
+    "25": "GND",
+    "26": "GND",
+    "27": "VIO_TARGET",
+    "28": "GND",
+    "29": "POWER_GOOD",
+    "30": "SYS_RESET_N",
+    "31": "RGMII_TXC",
+    "32": "GND",
+    "33": "RGMII_TX_CTL",
+    "34": "RGMII_TXD0",
+    "35": "RGMII_TXD1",
+    "36": "GND",
+    "37": "RGMII_TXD2",
+    "38": "RGMII_TXD3",
+    "39": "RGMII_RXC",
+    "40": "GND",
+    "41": "RGMII_RX_CTL",
+    "42": "RGMII_RXD0",
+    "43": "RGMII_RXD1",
+    "44": "GND",
+    "45": "RGMII_RXD2",
+    "46": "RGMII_RXD3",
+    "47": "GND",
+    "48": "GND",
+    "49": "MDC",
+    "50": "MDIO",
+    "51": "PHY_RESET_REQ_N",
+    "52": "PHY_INT_N",
+    "53": "GND",
+    "54": "GND",
+    "55": "JTAG_TCK",
+    "56": "JTAG_TMS",
+    "57": "JTAG_TDI",
+    "58": "JTAG_TDO",
+    "59": "GND",
+    "60": "GND",
+    "61": "UART_TO_FPGA",
+    "62": "UART_FROM_FPGA",
+    "63": "GND",
+    "64": "GPIO0",
+    "65": "I2C_SCL",
+    "66": "I2C_SDA",
+    "67": "GND",
+    "68": "GND",
+    "69": "SPI_SCK",
+    "70": "SPI_MOSI",
+    "71": "SPI_MISO",
+    "72": "SPI_CS0_N",
+    "73": "SPI_CS1_N",
+    "74": "GND",
+    "75": "SPI_CS2_N",
+    "76": "GND",
+    "77": "CSI_CLK_P",
+    "78": "GND",
+    "79": "CSI_CLK_N",
+    "80": "GND",
+    "81": "GND",
+    "82": "CSI_D0_P",
+    "83": "GND",
+    "84": "CSI_D0_N",
+    "85": "CSI_D1_P",
+    "86": "GND",
+    "87": "CSI_D1_N",
+    "88": "GND",
+    "89": "GND",
+    "90": "CSI_D2_P",
+    "91": "GND",
+    "92": "CSI_D2_N",
+    "93": "CSI_D3_P",
+    "94": "GND",
+    "95": "CSI_D3_N",
+    "96": "GND",
+    "97": "CAM_RESET_N",
+    "98": "CAM_PWDN",
+    "99": "FRAME_SYNC",
+    "100": "GPIO1"
+  },
+  "shared_reservations": [
+    "+12V_STACK",
+    "CAM_PWDN",
+    "CAM_RESET_N",
+    "FRAME_SYNC",
+    "GND",
+    "GPIO0",
+    "GPIO1",
+    "I2C_SCL",
+    "I2C_SDA",
+    "POWER_GOOD",
+    "SPI_CS0_N",
+    "SPI_CS1_N",
+    "SPI_CS2_N",
+    "SPI_MISO",
+    "SPI_MOSI",
+    "SPI_SCK",
+    "SYS_RESET_N",
+    "VIO_TARGET"
+  ],
+  "point_to_point": {
+    "Ethernet_JTAG_UART": "board1to2bottom",
+    "CSI": "board2topto3bottom;NCelsewhere"
+  },
+  "csi_pairs": {
+    "CLK": [
+      77,
+      79
+    ],
+    "D0": [
+      82,
+      84
+    ],
+    "D1": [
+      85,
+      87
+    ],
+    "D2": [
+      90,
+      92
+    ],
+    "D3": [
+      93,
+      95
+    ]
+  },
+  "physical_rule": "differential pair adjacent contacts on same row; alternating rows for inter-pair ground separation",
+  "endpoint_electronics": "boards2/3/4notdesigned; namedNCpinsarereservationsnotqualifiedinterfaces",
+  "symbol_presentation": "one complete 100-pin symbol per physical connector; blocks describe consecutive pin ranges only"
+}

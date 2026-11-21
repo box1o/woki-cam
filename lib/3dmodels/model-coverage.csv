@@ -1,0 +1,229 @@
+reference,footprint,model_status,models,value,model_files
+C101,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1u / 10V,exists
+C102,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,4.7u / 10V,exists
+C103,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C104,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C105,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,15p / C0G,exists
+C106,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,15p / C0G,exists
+C107,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,4.7u / 10V,exists
+C108,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C109,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,4.7u / 10V,exists
+C110,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C111,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,10u / 10V,exists
+C112,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C113,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C114,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C115,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C116,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C117,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C118,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C119,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C120,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C121,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C122,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C123,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C124,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1u / 10V,exists
+C125,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1u / 10V,exists
+C126,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,4.7n / 25V,exists
+C201,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C202,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C203,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C204,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C205,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,36p / C0G,exists
+C206,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,36p / C0G,exists
+C207,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C208,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C209,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 16V,exists
+C210,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,4.7u / 10V,exists
+C211,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1u / 10V,exists
+C212,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 10V,exists
+C213,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 10V,exists
+C214,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 10V,exists
+C215,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 10V,exists
+C216,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,4.7u / 10V,exists
+C301,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,10u / 25V,exists
+C302,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 25V,exists
+C303,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,22u / 10V,exists
+C304,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1u / 10V,exists
+C305,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,10u / 10V,exists
+C306,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1n / C0G,exists
+C307,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n,exists
+C401,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1n / 100V,exists
+C402,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1n / 100V,exists
+C523,Woki:Panasonic_FK_G_10x10.2,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.5.step,47uF / 80V,exists
+C524,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,0.1uF / 100V,exists
+C525,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,2.2uF / 100V,exists
+C526,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,2.2uF / 100V,exists
+C527,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,2.2uF / 100V,exists
+C528,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,0.1uF / 100V,exists
+C529,Woki:Panasonic_FK_F_8x10.2,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_8x10.5.step,220uF / 25V,exists
+C530,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C531,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C532,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C533,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C534,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C535,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C536,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1uF / 25V,exists
+C537,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,2200pF / 100V,exists
+C538,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,0.047uF / 16V,exists
+C539,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,0.1uF / 100V,exists
+C540,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1uF / 25V,exists
+C541,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,0.015uF / 50V,exists
+C543,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,220pF / 50V,exists
+C544,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1uF / 25V,exists
+C545,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,0.1uF / 25V,exists
+C547,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,0.1uF / 25V,exists
+C550,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,1000pF / 50V,exists
+C551,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100pF / 50V,exists
+C552,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C553,Capacitor_SMD:C_1210_3225Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step,22uF / 25V,exists
+C601,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,10n / 25V,exists
+C602,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,1u / 25V,exists
+C603,Capacitor_SMD:C_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step,10u / 25V,exists
+C644,Capacitor_SMD:C_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step,100n / 10V,exists
+D401,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D402,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D403,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D404,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D405,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D406,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D407,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D408,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,STPS3H100U,exists
+D511,Package_TO_SOT_SMD:TO-277A,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-277A.step,FSV1060V,exists
+D512,Diode_SMD:D_SMA,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step,ES1D-13-F,exists
+D513,Diode_SMD:D_SMB,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMB.step,SMBJ58A-13-F,exists
+D514,Diode_SMD:D_SOD-123,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step,MMSD4148T1G,exists
+D515,Diode_SMD:D_SOD-123,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step,MMSD4148T1G,exists
+F101,Fuse:Fuse_1206_3216Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step,0.5A / 6V,exists
+FB101,Inductor_SMD:L_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step,600R @ 100MHz,exists
+FB102,Inductor_SMD:L_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step,600R @ 100MHz,exists
+J1,Woki:CONN_DF40_100P_F,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/CONN_DF40_100P_F.stp,DF40HC(3.0)-100DS-0.4V(51),exists
+J101,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step,USB4105-GF-A,exists
+J2,Woki:RT5-ZZ-0030,missing model,,RT5-ZZ-0030,
+L201,Woki:L_Coilcraft_LPS4018,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/LPS4018.step,2.2uH,exists
+L301,Inductor_SMD:L_Coilcraft_XAL4020-XXX,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL4020-XXX.step,2.2uH / XAL4020-222MEC,exists
+L402,Woki:744272251,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/L_Wurth_WE-SL5-744272x.step,744272251 / 250uH,exists
+L507,Woki:LPS4018-332MLB,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/LPS4018.step,3.3uH,exists
+Q505,Package_TO_SOT_SMD:SOT-23,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step,2N7002-7-F,exists
+Q506,Woki:FDMS86252_Power56,KiCad generic package model,${KIPRJMOD}/../../lib/3dmodels/downloaded/Vishay_PowerPAK_SO-8.step,FDMS86252,exists
+R101,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,5.1k,exists
+R102,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,5.1k,exists
+R103,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,12k,exists
+R104,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,1k,exists
+R105,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,2.2k,exists
+R106,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R107,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R108,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R109,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R110,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,33R,exists
+R111,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,33R,exists
+R112,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,33R,exists
+R113,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,33R,exists
+R114,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R115,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R116,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R117,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R118,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,100k,exists
+R119,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R120,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R201,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,22,exists
+R202,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,22,exists
+R203,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,22,exists
+R204,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,22,exists
+R205,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,22,exists
+R206,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,22,exists
+R207,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,2.49k / 1%,exists
+R208,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,2.2k,exists
+R209,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R210,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R211,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R212,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R213,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,510,exists
+R214,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,510,exists
+R215,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R216,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R217,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R218,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R219,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R220,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7k,exists
+R301,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,312k / 1%,exists
+R302,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,100k / 1%,exists
+R303,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R350,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R351,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R517,Resistor_SMD:R_1206_3216Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step,39k,exists
+R541,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,110k,exists
+R542,Resistor_SMD:R_2512_6332Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step,15,exists
+R543,Resistor_SMD:R_2512_6332Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step,15,exists
+R544,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10.0k,exists
+R545,Resistor_SMD:R_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step,3.90,exists
+R546,Resistor_SMD:R_1206_3216Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step,3.0k,exists
+R547,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,39.2k,exists
+R548,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R549,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R550,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,24.9k,exists
+R552,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R553,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,60.4k,exists
+R554,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,35.7k,exists
+R555,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R557,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,20.0k,exists
+R558,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.99k,exists
+R559,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R560,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R561,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.7,exists
+R562,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,20.0k,exists
+R564,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,49.9k,exists
+R566,Resistor_SMD:R_1206_3216Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step,15,exists
+R567,Resistor_SMD:R_2010_5025Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.step,0.05,exists
+R568,Resistor_SMD:R_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step,31.6,exists
+R569,Resistor_SMD:R_0805_2012Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step,130,exists
+R571,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,25.5k,exists
+R572,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,100,exists
+R573,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,0,exists
+R574,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,499k,exists
+R601,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,953 / 1%,exists
+R602,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,1M,exists
+R603,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,100k,exists
+R604,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,806k,exists
+R605,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,100k,exists
+R606,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R607,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,100k,exists
+R641,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.99k,exists
+R643,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,4.99k,exists
+R644,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+R646,Resistor_SMD:R_0603_1608Metric,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step,10k,exists
+T502,Woki:POE51Q_12ED,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/POE51Q-XXX.STEP,POE51Q-12ED,exists
+TP13,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,ETH_3V3,
+TP16,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,VIO_TARGET,
+TP17,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,PHY_RESET_N,
+TP18,TestPoint:TestPoint_Pad_D1.0mm,bare pad; model not required,,GND,
+TP19,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_VBUS,
+TP20,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_3V3,
+TP21,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_1V8,
+TP22,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,USB_PWREN_N,
+TP23,Woki:TestPoint_Pad_D1.5mm,bare pad; model not required,,GND,
+TP401,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POE_VDD,
+TP402,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POE_VSS,
+TP601,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,+12V_STACK,
+TP602,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POWER_GOOD,
+TP603,TestPoint:TestPoint_Pad_D1.5mm,bare pad; model not required,,POE_CLASS6_OK,
+U101,Package_QFP:LQFP-64_10x10mm_P0.5mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.step,FT2232HL,exists
+U102,Package_TO_SOT_SMD:SOT-23-6,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,USBLC6-2SC6,exists
+U103,Package_TO_SOT_SMD:SOT-23-5,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step,AP2112K-3.3TRG1,exists
+U104,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step,SN74AXC4T245PWR,exists
+U105,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step,SN74AXC4T245PWR,exists
+U106,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step,93LC46B-I/SN,exists
+U107,Package_TO_SOT_SMD:SOT-23-6,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,TPS22918DBVR,exists
+U201,Woki:RTL8211F_QFN40,downloaded third-party part model,${KIPRJMOD}/../../lib/3dmodels/downloaded/RTL8211F_C187932.wrl,RTL8211F-CG,exists
+U202,Package_TO_SOT_SMD:SOT-563,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step,TPD4E1B06DRLR,exists
+U203,Package_TO_SOT_SMD:SOT-563,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step,TPD4E1B06DRLR,exists
+U301,Woki:TPS6216x_DSG,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/DSG0008A.stp,TPS62160DSGR,exists
+U302,Package_TO_SOT_SMD:SOT-23-6,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step,TPS22918DBVR,exists
+U303,Package_TO_SOT_SMD:SOT-23,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step,TLV803EA29DBZR,exists
+U510,Woki:TPS23730_RMT0045A,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/RMT0045A.stp,TPS23730RMT,exists
+U601,Woki:TPS25947_RPW,original manufacturer CAD,${KIPRJMOD}/../../lib/3dmodels/manufacturer/RPW0010A.stp,TPS259474ARPWR,exists
+U641,Woki:FOD817DS,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,FOD817DS,exists
+U643,Woki:FOD817DS,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-4_W7.62mm.step,FOD817DS,exists
+U644,Package_TO_SOT_SMD:SOT-23-5,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step,SN74LVC1G02DBVR,exists
+Y101,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step,12MHz / CL12pF,exists
+Y201,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,KiCad generic package model,${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step,25MHz / CL20pF,exists

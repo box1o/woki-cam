@@ -1,0 +1,135 @@
+{
+  "status": "prototype engineering draft; not fabrication qualified",
+  "replacement": {
+    "reference": "T502",
+    "old_part": "LDT9055-51R",
+    "new_part": "POE51Q-12ED",
+    "symbol": "WokiPoE:Coilcraft_POE51Q_12ED",
+    "footprint": "Woki:POE51Q_12ED",
+    "auxiliary_pin_remap": {
+      "old4": "new5",
+      "old5": "new4"
+    },
+    "primary_inductance_uH": 22.2,
+    "inductance_tolerance_percent": 10,
+    "Np_Ns_Naux": [
+      1,
+      0.5,
+      0.5
+    ],
+    "current_at_15_percent_L_drop_A_at_25C": 4.7,
+    "auxiliary_connections": {
+      "pin4": "CP: U510 pin44 and C550 pin1",
+      "pin5": "R545 pin2; R545 3.90ohm pin1 feeds D514 anode/C540/R546/R548 bias and feedback network; not directly RTN",
+      "reference": "TI PMP22477 Rev C sheet2 T2 pin5 CP and pin4 R45/D14 network; remapped to Coilcraft4/5"
+    }
+  },
+  "other_change": {
+    "reference": "R572",
+    "old_ohms": 1000,
+    "new_ohms": 100,
+    "reason": "reduce external slope compensation while retaining internal blanking and a short CS filter time constant"
+  },
+  "retained": {
+    "frequency_kHz": 250,
+    "R553_ohms": 60400,
+    "R567_ohms": 0.05,
+    "C551_pF": 100,
+    "PSR_setpoint_and_compensation": "unchanged as initial prototype values; feedback auxiliary/secondary ratio remains1:1"
+  },
+  "assumptions": {
+    "stack_output_W": 35,
+    "local_output_W": 2,
+    "estimated_efficiency": 0.87,
+    "primary_input_after_bridge_V": 35,
+    "output_V": 12,
+    "rectifier_drop_V": 0.5,
+    "CS_min_V": 0.227,
+    "CS_max_V": 0.273,
+    "CS_resistor_tolerance_percent": 1
+  },
+  "first_order_estimates": {
+    "nominal": {
+      "inductance_uH": 22.2,
+      "duty": 0.4166666666666667,
+      "primary_peak_A": 4.230069971449282
+    },
+    "minus_10_percent": {
+      "inductance_uH": 19.979999999999997,
+      "duty": 0.4166666666666667,
+      "primary_peak_A": 4.376049284095261
+    },
+    "biased_example": {
+      "inductance_uH": 18.0,
+      "duty": 0.4166666666666667,
+      "primary_peak_A": 4.536626528005838
+    },
+    "minimum_CS_trip_A_with_100ohm_series": 4.4616061606160615
+  },
+  "required_validation": [
+    "low-line full-load and no-load output regulation",
+    "hot-core current and winding temperature",
+    "startup and hotplug",
+    "primary current during overload and hiccup",
+    "switch/rectifier voltage overshoot",
+    "loop gain/phase margin",
+    "EMC",
+    "total Class6 input-power allocation compliance"
+  ],
+  "sources": [
+    "https://www.coilcraft.com/getmedia/71a3c6d3-d040-4587-8bbd-dd1492f81afc/poexxq.pdf",
+    "https://www.ti.com/lit/ds/symlink/tps23730.pdf"
+  ],
+  "simplification": {
+    "removed_components": [
+      "C521",
+      "C522",
+      "C546",
+      "C549",
+      "R551",
+      "R563",
+      "R565",
+      "R570"
+    ],
+    "old_wire_count": 451,
+    "new_wire_count": 413,
+    "TPL_pin_explicit_NC": [
+      78.74,
+      215.9
+    ],
+    "Q505_uses_default_symbol": "Transistor_FET:2N7002",
+    "removed_redundant_GND_flag": [
+      "#FLG552",
+      "#PWR90043"
+    ]
+  },
+  "verification": {
+    "physical_pin_net_groups_preserved_after_auxiliary_remap_and_optional_part_removal": true,
+    "connection_group_count": 58,
+    "component_value_footprint_exceptions": {
+      "R572": {
+        "before": [
+          "1.00k",
+          "Resistor_SMD:R_0603_1608Metric"
+        ],
+        "after": [
+          "100",
+          "Resistor_SMD:R_0603_1608Metric"
+        ]
+      },
+      "T502": {
+        "before": [
+          "LDT9055-51R",
+          "Woki:LDT9055-51R"
+        ],
+        "after": [
+          "POE51Q-12ED",
+          "Woki:POE51Q_12ED"
+        ]
+      }
+    },
+    "TPL_pin14_and_SCDIS_pin18_explicit_NC": true,
+    "Q505_terminal_functions_preserved": true,
+    "ERC_at_review": "0 electrical violations; footprint registration pending parent integration"
+  }
+}

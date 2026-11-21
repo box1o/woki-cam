@@ -1,0 +1,111 @@
+symbol,unit,unit_name,pin,name,electrical_type
+RT5-ZZ-0030,1,data + center taps,R11,DA+,passive
+RT5-ZZ-0030,1,data + center taps,R10,DA-,passive
+RT5-ZZ-0030,1,data + center taps,R4,DB+,passive
+RT5-ZZ-0030,1,data + center taps,R5,DB-,passive
+RT5-ZZ-0030,1,data + center taps,R3,DC+,passive
+RT5-ZZ-0030,1,data + center taps,R2,DC-,passive
+RT5-ZZ-0030,1,data + center taps,R8,DD+,passive
+RT5-ZZ-0030,1,data + center taps,R9,DD-,passive
+RT5-ZZ-0030,1,data + center taps,R12,CT_A,passive
+RT5-ZZ-0030,1,data + center taps,R6,CT_B,passive
+RT5-ZZ-0030,1,data + center taps,R1,CT_C,passive
+RT5-ZZ-0030,1,data + center taps,R7,CT_D,passive
+RT5-ZZ-0030,2,cable-side PoE,R13,VC12,passive
+RT5-ZZ-0030,2,cable-side PoE,R14,VC36,passive
+RT5-ZZ-0030,2,cable-side PoE,R15,VC45,passive
+RT5-ZZ-0030,2,cable-side PoE,R16,VC78,passive
+RT5-ZZ-0030,2,cable-side PoE,SH1,SHIELD_1,passive
+RT5-ZZ-0030,2,cable-side PoE,SH2,SHIELD_2,passive
+RT5-ZZ-0030,3,right green LED,L1,K,passive
+RT5-ZZ-0030,3,right green LED,L2,A,passive
+RT5-ZZ-0030,4,left yellow green LED,L3,A_Y / K_G,passive
+RT5-ZZ-0030,4,left yellow green LED,L4,K_Y / A_G,passive
+RTL8211F-CG,1,MDI,1,MDIP0,bidirectional
+RTL8211F-CG,1,MDI,2,MDIN0,bidirectional
+RTL8211F-CG,1,MDI,4,MDIP1,bidirectional
+RTL8211F-CG,1,MDI,5,MDIN1,bidirectional
+RTL8211F-CG,1,MDI,6,MDIP2,bidirectional
+RTL8211F-CG,1,MDI,7,MDIN2,bidirectional
+RTL8211F-CG,1,MDI,9,MDIP3,bidirectional
+RTL8211F-CG,1,MDI,10,MDIN3,bidirectional
+RTL8211F-CG,2,RGMII / boot straps,20,TXC,input
+RTL8211F-CG,2,RGMII / boot straps,19,TXCTL,input
+RTL8211F-CG,2,RGMII / boot straps,18,TXD0,input
+RTL8211F-CG,2,RGMII / boot straps,17,TXD1,input
+RTL8211F-CG,2,RGMII / boot straps,16,TXD2,input
+RTL8211F-CG,2,RGMII / boot straps,15,TXD3,input
+RTL8211F-CG,2,RGMII / boot straps,27,RXC / PHYAD1,output
+RTL8211F-CG,2,RGMII / boot straps,26,RXCTL / PHYAD2,output
+RTL8211F-CG,2,RGMII / boot straps,25,RXD0 / RXDLY,output
+RTL8211F-CG,2,RGMII / boot straps,24,RXD1 / TXDLY,output
+RTL8211F-CG,2,RGMII / boot straps,23,RXD2 / PLLOFF,output
+RTL8211F-CG,2,RGMII / boot straps,22,RXD3 / PHYAD0,output
+RTL8211F-CG,3,management / clock,12,PHYRSTB,input
+RTL8211F-CG,3,management / clock,13,MDC,input
+RTL8211F-CG,3,management / clock,14,MDIO,bidirectional
+RTL8211F-CG,3,management / clock,31,INTB / PMEB,open_collector
+RTL8211F-CG,3,management / clock,39,RSET,passive
+RTL8211F-CG,3,management / clock,36,XTAL_IN,input
+RTL8211F-CG,3,management / clock,37,XTAL_OUT / EXT_CLK,passive
+RTL8211F-CG,3,management / clock,35,CLKOUT,output
+RTL8211F-CG,3,management / clock,32,LED0 / CFG_EXT,bidirectional
+RTL8211F-CG,3,management / clock,33,LED1 / CFG_LDO0,bidirectional
+RTL8211F-CG,3,management / clock,34,LED2 / CFG_LDO1,bidirectional
+RTL8211F-CG,4,power,11,AVDD33,power_in
+RTL8211F-CG,4,power,40,AVDD33,power_in
+RTL8211F-CG,4,power,29,DVDD33,power_in
+RTL8211F-CG,4,power,28,DVDD_RG,power_in
+RTL8211F-CG,4,power,41,GND / EP,power_in
+RTL8211F-CG,4,power,30,REG_OUT,power_out
+RTL8211F-CG,4,power,21,DVDD10,power_in
+RTL8211F-CG,4,power,3,AVDD10,power_in
+RTL8211F-CG,4,power,8,AVDD10,power_in
+RTL8211F-CG,4,power,38,AVDD10,power_in
+TPS23730RMTR,1,PoE detection / class,23,VDD,power_in
+TPS23730RMTR,1,PoE detection / class,24,DEN,bidirectional
+TPS23730RMTR,1,PoE detection / class,21,CLSA,passive
+TPS23730RMTR,1,PoE detection / class,20,CLSB,passive
+TPS23730RMTR,1,PoE detection / class,17,REF,output
+TPS23730RMTR,1,PoE detection / class,18,SCDIS,input
+TPS23730RMTR,1,PoE detection / class,19,PPD,input
+TPS23730RMTR,1,PoE detection / class,5,APD,input
+TPS23730RMTR,1,PoE detection / class,11,EMPS,input
+TPS23730RMTR,1,PoE detection / class,12,~{BT},open_collector
+TPS23730RMTR,1,PoE detection / class,13,TPH,open_collector
+TPS23730RMTR,1,PoE detection / class,14,TPL,open_collector
+TPS23730RMTR,1,PoE detection / class,6,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,10,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,15,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,16,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,22,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,25,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,26,NC,no_connect
+TPS23730RMTR,1,PoE detection / class,29,NC,no_connect
+TPS23730RMTR,2,PWM / regulation,1,CS,bidirectional
+TPS23730RMTR,2,PWM / regulation,3,DTHR,output
+TPS23730RMTR,2,PWM / regulation,4,FRS,input
+TPS23730RMTR,2,PWM / regulation,31,DT,input
+TPS23730RMTR,2,PWM / regulation,32,I_STP,input
+TPS23730RMTR,2,PWM / regulation,38,LINEUV,input
+TPS23730RMTR,2,PWM / regulation,39,PSRS,input
+TPS23730RMTR,2,PWM / regulation,43,GATE,output
+TPS23730RMTR,2,PWM / regulation,41,GAT2,output
+TPS23730RMTR,2,PWM / regulation,44,CP,passive
+TPS23730RMTR,2,PWM / regulation,33,SST,passive
+TPS23730RMTR,2,PWM / regulation,34,FB,input
+TPS23730RMTR,2,PWM / regulation,35,COMP,passive
+TPS23730RMTR,2,PWM / regulation,36,EA_DIS,input
+TPS23730RMTR,2,PWM / regulation,30,TEST,no_connect
+TPS23730RMTR,3,supplies / exposed pads,42,VCC,power_in
+TPS23730RMTR,3,supplies / exposed pads,37,VB,power_out
+TPS23730RMTR,3,supplies / exposed pads,40,VBG,power_out
+TPS23730RMTR,3,supplies / exposed pads,27,VSS,power_in
+TPS23730RMTR,3,supplies / exposed pads,28,VSS,power_in
+TPS23730RMTR,3,supplies / exposed pads,47,PAD_S / VSS,power_in
+TPS23730RMTR,3,supplies / exposed pads,7,RTN,power_out
+TPS23730RMTR,3,supplies / exposed pads,8,RTN,power_out
+TPS23730RMTR,3,supplies / exposed pads,9,RTN,power_out
+TPS23730RMTR,3,supplies / exposed pads,2,AGND,power_in
+TPS23730RMTR,3,supplies / exposed pads,45,GND,power_in
+TPS23730RMTR,3,supplies / exposed pads,46,PAD_G / RTN,power_in

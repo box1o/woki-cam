@@ -278,7 +278,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "B - review"
     },
     "layer_pairs": [],
     "layer_presets": [
@@ -726,7 +726,7 @@
         "uuid": "de291139-592d-56bb-a3cc-5961c2880226"
       }
     ],
-    "used_designators": "C19,D5-12,P1,R16",
+    "used_designators": "#PWR1-7,#PWR8003,#PWR8005-8006,C19,D5-12,J2-3,P1,R16",
     "variants": []
   },
   "sheets": [
@@ -735,8 +735,28 @@
       "01-power"
     ],
     [
-      "19ebe678-2677-4192-98af-316caef3c347",
-      "ETH_POE"
+      "7f14a5bc-34ab-5798-b008-d3888450f2ea",
+      "Gigabit Ethernet PHY"
+    ],
+    [
+      "8b545e0c-5400-5cc9-a49c-e497406539cb",
+      "PoE detection / Class 8"
+    ],
+    [
+      "f3b506fe-51d1-5909-91cc-a527037f4bbf",
+      "Isolated 12 V supply"
+    ],
+    [
+      "97386660-1132-58ee-ab30-e9eb0169d604",
+      "Stack protection / monitoring"
+    ],
+    [
+      "59f05382-2135-5433-a27d-e6bba349e9cd",
+      "PHY supplies / reset"
+    ],
+    [
+      "6195e5fa-e864-53a0-bab4-52eeccb07cfe",
+      "USB JTAG / UART"
     ]
   ],
   "text_variables": {

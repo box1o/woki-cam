@@ -1,0 +1,9 @@
+file,parts,source_url,status,sha256
+CONN_DF40_100P_F.stp,DF40HC(3.0)-100DS-0.4V(51),https://www.hirose.com/en/product/p/CL0684-4151-0-51,original CAD reused unchanged from existing reference archive; placement configured in footprint,98e9fb7a7c29b98ce5f4c7697ae1204568ef6706b4c466818d28e65c9762ddd2
+CONN_DF40_100P_M.stp,DF40C-100DP-0.4V(51),https://www.hirose.com/en/product/p/CL0684-4032-1-51,original CAD reused unchanged from existing reference archive; placement configured in footprint,61481841bbda71f9ca2915f3b443a7425d65441469ea214e3ec61f0873dd2f1c
+RMT0045A.stp,TPS23730RMTR,https://webench.ti.com/cad/dlbxl.cgi/newstep/RMT0045A.stp,original manufacturer CAD; model file unchanged; placement transforms only,5806f3fb8313c9220b096a3ba64e007785049e6fb02b3008557d28c9b8bbfc0e
+RPW0010A.stp,TPS259474ARPWR,https://webench.ti.com/cad/dlbxl.cgi/newstep/RPW0010A.stp,original manufacturer CAD; model file unchanged; placement transforms only,2029d0f916eac768a3ace06740626b4f94870f7d4dc7618a735de478dabdd596
+DSG0008A.stp,TPS62160DSGR,https://webench.ti.com/cad/dlbxl.cgi/newstep/DSG0008A.stp,original manufacturer CAD; model file unchanged; placement transforms only,036e69d19652968e88d5228d04ed57885bb35118ebae21352052a94129402c36
+LPS4018.step,LPS4018-332MLB,https://www.coilcraft.com/getmedia/45c2de10-31ad-483a-b509-cc00a8e5cc42/CoilcraftPCB.zip,original manufacturer CAD; model file unchanged; placement transforms only,3db3c55c9f8a07e05df6d9afea52efba8f6861537f52cb9d88771165e96a31a0
+POE51Q-XXX.STEP,POE51Q-12ED,https://www.coilcraft.com/getmedia/c7a2278b-0457-444c-9bb5-f34bc7221581/POE51Q-XXX.STEP,original manufacturer CAD; model file unchanged; placement transforms only,a030157723f80ed5d0c07adc916515949414ca57bba5aa461c6580a886358f94
+L_Wurth_WE-SL5-744272x.step,744272251,https://github.com/WurthElektronik/KiCad-Library,original manufacturer CAD; model file unchanged; placement transforms only,e0d390267f66cfabc00019620ad2ec6e36da7cffab9fbbe3d9004276a184e3dd

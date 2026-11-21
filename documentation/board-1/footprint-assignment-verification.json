@@ -1,0 +1,53 @@
+{
+  "connectors": [
+    {
+      "file": "boards/01-power/power.kicad_sch",
+      "reference": "J1",
+      "units": [
+        1,
+        1
+      ]
+    },
+    {
+      "file": "boards/02-fpga-control/fpga_control.kicad_sch",
+      "reference": "J1",
+      "units": [
+        1,
+        1
+      ]
+    },
+    {
+      "file": "boards/02-fpga-control/fpga_control.kicad_sch",
+      "reference": "J2",
+      "units": [
+        1,
+        1
+      ]
+    },
+    {
+      "file": "boards/03-camera/camera.kicad_sch",
+      "reference": "J1",
+      "units": [
+        1,
+        1
+      ]
+    },
+    {
+      "file": "boards/03-camera/camera.kicad_sch",
+      "reference": "J2",
+      "units": [
+        1,
+        1
+      ]
+    },
+    {
+      "file": "boards/04-ir-led/ir_led.kicad_sch",
+      "reference": "J1",
+      "units": [
+        1,
+        1
+      ]
+    }
+  ],
+  "footprint_issues": []
+}

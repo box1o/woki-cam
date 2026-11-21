@@ -1,0 +1,1127 @@
+[
+  {
+    "sheet": 2,
+    "source_ref": "C39",
+    "reference": "C539",
+    "mpn": "C2012X7R2A104K125AA",
+    "value": "0.1uF / 100V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "D15",
+    "reference": "D515",
+    "mpn": "MMSD4148T1G",
+    "value": "100V",
+    "footprint": "Diode_SMD:D_SOD-123",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "D14",
+    "reference": "D514",
+    "mpn": "MMSD4148T1G",
+    "value": "100V",
+    "footprint": "Diode_SMD:D_SOD-123",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C28",
+    "reference": "C528",
+    "mpn": "C2012X7R2A104K125AA",
+    "value": "0.1uF / 100V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R17",
+    "reference": "R517",
+    "mpn": "CRCW120639K0JNEA",
+    "value": "39k",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "D12",
+    "reference": "D512",
+    "mpn": "ES1D-13-F",
+    "value": "200V",
+    "footprint": "Diode_SMD:D_SMA",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C26",
+    "reference": "C526",
+    "mpn": "GRM32ER72A225KA35L",
+    "value": "2.2uF / 100V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C25",
+    "reference": "C525",
+    "mpn": "GRM32ER72A225KA35L",
+    "value": "2.2uF / 100V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C21",
+    "reference": "C521",
+    "mpn": "C4532X7R3D222K130KA",
+    "value": "2200pF / 2kV",
+    "footprint": "Capacitor_SMD:C_1812_4532Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C22",
+    "reference": "C522",
+    "mpn": "C4532X7R3D222K130KA",
+    "value": "2200pF / 2kV",
+    "footprint": "Capacitor_SMD:C_1812_4532Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R64",
+    "reference": "R564",
+    "mpn": "CRCW060349K9FKEA",
+    "value": "49.9k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "U10",
+    "reference": "U510",
+    "mpn": "TPS23730RMT",
+    "value": "TPS23730RMT",
+    "footprint": "Woki:TPS23730_RMT0045A",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C44",
+    "reference": "C544",
+    "mpn": "GRJ188R71E105KE11D",
+    "value": "1uF / 25V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C46",
+    "reference": "C546",
+    "mpn": "C0603C222K5RAC",
+    "value": "2200pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R51",
+    "reference": "R551",
+    "mpn": "RC0603FR-07237KL",
+    "value": "237k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R53",
+    "reference": "R553",
+    "mpn": "CRCW060360K4FKEA",
+    "value": "60.4k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R73",
+    "reference": "R573",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C45",
+    "reference": "C545",
+    "mpn": "C0603C104J3RACTU",
+    "value": "0.1uF / 25V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R74",
+    "reference": "R574",
+    "mpn": "CRCW0603499KFKEA",
+    "value": "499k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C47",
+    "reference": "C547",
+    "mpn": "C0603C104J3RACTU",
+    "value": "0.1uF / 25V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R71",
+    "reference": "R571",
+    "mpn": "RC0603FR-0725K5L",
+    "value": "25.5k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R41",
+    "reference": "R541",
+    "mpn": "CRCW0603110KFKEA",
+    "value": "110k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R45",
+    "reference": "R545",
+    "mpn": "ERJ-6RQF3R9V",
+    "value": "3.90",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C38",
+    "reference": "C538",
+    "mpn": "GRM188R71C473KA01D",
+    "value": "0.047uF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R50",
+    "reference": "R550",
+    "mpn": "RC0603FR-0724K9L",
+    "value": "24.9k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C41",
+    "reference": "C541",
+    "mpn": "C1608X7R1H153K080AA",
+    "value": "0.015uF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C43",
+    "reference": "C543",
+    "mpn": "GRM188R71H221KA01D",
+    "value": "220pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R61",
+    "reference": "R561",
+    "mpn": "CRCW06034R70JNEA",
+    "value": "4.7",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R49",
+    "reference": "R549",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "Q6",
+    "reference": "Q506",
+    "mpn": "FDMS86252",
+    "value": "150V",
+    "footprint": "Woki:FDMS86252_Power56",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R68",
+    "reference": "R568",
+    "mpn": "CRCW080531R6FKEA",
+    "value": "31.6",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C24",
+    "reference": "C524",
+    "mpn": "C2012X7R2A104K125AA",
+    "value": "0.1uF / 100V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R70",
+    "reference": "R570",
+    "mpn": "CRCW0603750KJNEA",
+    "value": "750k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "D13",
+    "reference": "D513",
+    "mpn": "SMBJ58A-13-F",
+    "value": "58V",
+    "footprint": "Diode_SMD:D_SMB",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R48",
+    "reference": "R548",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R60",
+    "reference": "R560",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R55",
+    "reference": "R555",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C23",
+    "reference": "C523",
+    "mpn": "EEE-FK1K470P",
+    "value": "47uF / 80V",
+    "footprint": "Capacitor_SMD:CP_Elec_10x10.2",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "D11",
+    "reference": "D511",
+    "mpn": "FSV1060V",
+    "value": "60V",
+    "footprint": "Package_TO_SOT_SMD:TO-277A",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R42",
+    "reference": "R542",
+    "mpn": "CRCW251215R0JNEG",
+    "value": "15",
+    "footprint": "Resistor_SMD:R_2512_6332Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R43",
+    "reference": "R543",
+    "mpn": "CRCW251215R0JNEG",
+    "value": "15",
+    "footprint": "Resistor_SMD:R_2512_6332Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C30",
+    "reference": "C530",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C31",
+    "reference": "C531",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C32",
+    "reference": "C532",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C36",
+    "reference": "C536",
+    "mpn": "GRJ188R71E105KE11D",
+    "value": "1uF / 25V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C27",
+    "reference": "C527",
+    "mpn": "GRM32ER72A225KA35L",
+    "value": "2.2uF / 100V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R65",
+    "reference": "R565",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R52",
+    "reference": "R552",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "Q5",
+    "reference": "Q505",
+    "mpn": "2N7002-7-F",
+    "value": "60V",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R54",
+    "reference": "R554",
+    "mpn": "RC0603FR-0735K7L",
+    "value": "35.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "L7",
+    "reference": "L507",
+    "mpn": "LPS4018-332MLB",
+    "value": "3.3uH",
+    "footprint": "Inductor_SMD:L_Coilcraft_LPS4018",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C40",
+    "reference": "C540",
+    "mpn": "GRJ188R71E105KE11D",
+    "value": "1uF / 25V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R59",
+    "reference": "R559",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C33",
+    "reference": "C533",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C35",
+    "reference": "C535",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C34",
+    "reference": "C534",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C50",
+    "reference": "C550",
+    "mpn": "885012206083",
+    "value": "1000pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R72",
+    "reference": "R572",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R44",
+    "reference": "R544",
+    "mpn": "CRCW060310K0FKEA",
+    "value": "10.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C49",
+    "reference": "C549",
+    "mpn": "GRM21A5C2E101JW01D",
+    "value": "100pF / 250V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R63",
+    "reference": "R563",
+    "mpn": "CRCW201075R0JNEF",
+    "value": "75",
+    "footprint": "Resistor_SMD:R_2010_5025Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R67",
+    "reference": "R567",
+    "mpn": "CSRN2010FK50L0",
+    "value": "0.05",
+    "footprint": "Resistor_SMD:R_2010_5025Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "T2",
+    "reference": "T502",
+    "mpn": "LDT9055-51R",
+    "value": "LDT9055-51R",
+    "footprint": "Woki:LDT9055-51R",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C52",
+    "reference": "C552",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C53",
+    "reference": "C553",
+    "mpn": "GRM32ER71E226KE15L",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C29",
+    "reference": "C529",
+    "mpn": "EEE-FK1E221P",
+    "value": "220uF / 25V",
+    "footprint": "Capacitor_SMD:CP_Elec_8x10.2",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R46",
+    "reference": "R546",
+    "mpn": "CRCW12063K00JNEA",
+    "value": "3.0k",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C37",
+    "reference": "C537",
+    "mpn": "06031C222KAT2A",
+    "value": "2200pF / 100V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R57",
+    "reference": "R557",
+    "mpn": "CRCW060320K0FKEA",
+    "value": "20.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R62",
+    "reference": "R562",
+    "mpn": "CRCW060320K0FKEA",
+    "value": "20.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R58",
+    "reference": "R558",
+    "mpn": "CRCW06034K99FKEA",
+    "value": "4.99k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "C51",
+    "reference": "C551",
+    "mpn": "885012006057",
+    "value": "100pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R47",
+    "reference": "R547",
+    "mpn": "CRCW060339K2FKEA",
+    "value": "39.2k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R66",
+    "reference": "R566",
+    "mpn": "CRCW120615R0JNEA",
+    "value": "15",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 2,
+    "source_ref": "R69",
+    "reference": "R569",
+    "mpn": "CRCW0805130RFKEA",
+    "value": "130",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C13",
+    "reference": "C613",
+    "mpn": "GRM1885C1H471JA01D",
+    "value": "470pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C17",
+    "reference": "C617",
+    "mpn": "GRM1885C1H271JA01D",
+    "value": "270pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R34",
+    "reference": "R634",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R39",
+    "reference": "R639",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R38",
+    "reference": "R638",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R40",
+    "reference": "R640",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R20",
+    "reference": "R620",
+    "mpn": "CRCW060310K0FKEA",
+    "value": "10.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R35",
+    "reference": "R635",
+    "mpn": "CRCW060310K0FKEA",
+    "value": "10.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R32",
+    "reference": "R632",
+    "mpn": "CRCW0603100RFKEA",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R33",
+    "reference": "R633",
+    "mpn": "CRCW0603100RFKEA",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R23",
+    "reference": "R623",
+    "mpn": "CRCW06031M00FKEA",
+    "value": "1.00Meg",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 3,
+    "source_ref": "Q2",
+    "reference": "Q602",
+    "mpn": "2N7002-7-F",
+    "value": "60V",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "Q1",
+    "reference": "Q601",
+    "mpn": "2N7002-7-F",
+    "value": "60V",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "D9",
+    "reference": "D609",
+    "mpn": "BAS316,115",
+    "value": "100V",
+    "footprint": "Diode_SMD:D_SOD-323",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C9",
+    "reference": "C609",
+    "mpn": "885012206083",
+    "value": "1000pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C10",
+    "reference": "C610",
+    "mpn": "885012206083",
+    "value": "1000pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C18",
+    "reference": "C618",
+    "mpn": "885012206083",
+    "value": "1000pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R19",
+    "reference": "R619",
+    "mpn": "CRCW0603100KFKEA",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C14",
+    "reference": "C614",
+    "mpn": "GRM188R71H103KA01D",
+    "value": "0.01uF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R26",
+    "reference": "R626",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "1.00k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R27",
+    "reference": "R627",
+    "mpn": "CRCW06034K22FKEA",
+    "value": "4.22k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "Q3",
+    "reference": "Q603",
+    "mpn": "2N7002-7-F",
+    "value": "60V",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "Q4",
+    "reference": "Q604",
+    "mpn": "2N7002-7-F",
+    "value": "60V",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C11",
+    "reference": "C611",
+    "mpn": "885012206083",
+    "value": "1000pF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U3",
+    "reference": "U603",
+    "mpn": "FOD817DS",
+    "value": "FOD817DS",
+    "footprint": "Package_DIP:SMDIP-4_W7.62mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R9",
+    "reference": "R609",
+    "mpn": "CRCW060310K0FKEA",
+    "value": "10.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U4",
+    "reference": "U604",
+    "mpn": "FOD817DS",
+    "value": "FOD817DS",
+    "footprint": "Package_DIP:SMDIP-4_W7.62mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R10",
+    "reference": "R610",
+    "mpn": "CRCW060310K0FKEA",
+    "value": "10.0k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U6",
+    "reference": "U606",
+    "mpn": "FOD817DS",
+    "value": "FOD817DS",
+    "footprint": "Package_DIP:SMDIP-4_W7.62mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U9",
+    "reference": "U609",
+    "mpn": "LM4040DIM3-5.0/NOPB",
+    "value": "LM4040DIM3-5.0/NOPB",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R36",
+    "reference": "R636",
+    "mpn": "CRCW06031M00FKEA",
+    "value": "1.00Meg",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": true
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C12",
+    "reference": "C612",
+    "mpn": "GRM188R71C473KA01D",
+    "value": "0.047uF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "C16",
+    "reference": "C616",
+    "mpn": "GRM188R71H103KA01D",
+    "value": "0.01uF / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R100",
+    "reference": "R700",
+    "mpn": "CRCW06033K01FKEA",
+    "value": "3.01k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R101",
+    "reference": "R701",
+    "mpn": "ERJ-3GEY0R00V",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R14",
+    "reference": "R614",
+    "mpn": "CRCW06034K99FKEA",
+    "value": "4.99k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U8",
+    "reference": "U608",
+    "mpn": "TLV4376IPWR",
+    "value": "TLV4376IPWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U8",
+    "reference": "U608",
+    "mpn": "TLV4376IPWR",
+    "value": "TLV4376IPWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U8",
+    "reference": "U608",
+    "mpn": "TLV4376IPWR",
+    "value": "TLV4376IPWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "U8",
+    "reference": "U608",
+    "mpn": "TLV4376IPWR",
+    "value": "TLV4376IPWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R25",
+    "reference": "R625",
+    "mpn": "CRCW060340K2FKEA",
+    "value": "40.2k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R21",
+    "reference": "R621",
+    "mpn": "CRCW0603196KFKEA",
+    "value": "196k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R22",
+    "reference": "R622",
+    "mpn": "CRCW06038K06FKEA",
+    "value": "8.06k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R24",
+    "reference": "R624",
+    "mpn": "CRCW06032K94FKEA",
+    "value": "2.94k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R28",
+    "reference": "R628",
+    "mpn": "CRCW0603280KFKEA",
+    "value": "280k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R29",
+    "reference": "R629",
+    "mpn": "CRCW06033K92FKEA",
+    "value": "3.92k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R30",
+    "reference": "R630",
+    "mpn": "CRCW060340K2FKEA",
+    "value": "40.2k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R31",
+    "reference": "R631",
+    "mpn": "CRCW06031K69FKEA",
+    "value": "1.69k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R37",
+    "reference": "R637",
+    "mpn": "CRCW060340K2FKEA",
+    "value": "40.2k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  },
+  {
+    "sheet": 3,
+    "source_ref": "R18",
+    "reference": "R618",
+    "mpn": "CRCW06031K00FKEA",
+    "value": "499",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "dnp": false
+  }
+]

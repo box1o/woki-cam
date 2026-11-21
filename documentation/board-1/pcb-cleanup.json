@@ -1,0 +1,49 @@
+{
+  "removed_unused_footprint_table_entries": [
+    "boards/01-power/fp-lib-table",
+    "boards/02-fpga-control/fp-lib-table",
+    "boards/03-camera/fp-lib-table",
+    "boards/04-ir-led/fp-lib-table"
+  ],
+  "boards": {
+    "boards/01-power/power.kicad_pcb": {
+      "duplicate_UUIDs": [],
+      "geometry_unchanged": true,
+      "reason": "no stray drawings or unused copper objects found; no geometry cleanup required"
+    },
+    "boards/02-fpga-control/fpga_control.kicad_pcb": {
+      "duplicate_UUIDs": [],
+      "geometry_unchanged": true,
+      "reason": "no stray drawings or unused copper objects found; no geometry cleanup required"
+    },
+    "boards/03-camera/camera.kicad_pcb": {
+      "duplicate_UUIDs": [],
+      "geometry_unchanged": true,
+      "reason": "no stray drawings or unused copper objects found; no geometry cleanup required"
+    },
+    "boards/04-ir-led/ir_led.kicad_pcb": {
+      "duplicate_UUIDs": [],
+      "geometry_unchanged": true,
+      "reason": "no stray drawings or unused copper objects found; no geometry cleanup required"
+    }
+  },
+  "live_import_followup": {
+    "Board1": "electronics imported during cleanup; now 232 footprints, no tracks",
+    "removed": "one duplicate unlocked J1; preserved original locked connector at (80,55)",
+    "R543": {
+      "before_mm": [
+        48.195,
+        52.94
+      ],
+      "after_mm": [
+        38.195,
+        52.94
+      ],
+      "reason": "separate unplaced resistor from locked H1; removes physical copper short to CHASSIS"
+    },
+    "other_electronics_positions": "preserved pending placement preference",
+    "jack_model": "exact original/public model not obtained; see jack-model-search.json",
+    "pad_net_validation": "762 physical pad connections checked; no mismatches after KiCad hierarchy-escape normalization",
+    "current_drc": "242 placement/footprint-constraint violations and 499 unrouted items; not fabrication ready"
+  }
+}

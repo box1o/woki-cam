@@ -1,0 +1,824 @@
+net,reference,pin,function,type
++12V_ISO,C301,1,,passive
++12V_ISO,C302,1,,passive
++12V_ISO,C529,1,,passive
++12V_ISO,C530,2,,passive
++12V_ISO,C531,2,,passive
++12V_ISO,C532,2,,passive
++12V_ISO,C533,2,,passive
++12V_ISO,C534,2,,passive
++12V_ISO,C535,2,,passive
++12V_ISO,C536,1,,passive
++12V_ISO,C537,1,,passive
++12V_ISO,C552,2,,passive
++12V_ISO,C553,2,,passive
++12V_ISO,C602,1,,passive
++12V_ISO,D511,3,~_3,passive
++12V_ISO,R602,1,,passive
++12V_ISO,U301,2,VIN_2,power_in
++12V_ISO,U301,3,EN_3,input
++12V_ISO,U601,5,IN_5,power_in
++12V_STACK,C603,1,,passive
++12V_STACK,J1,1,+12V_STACK_1,passive
++12V_STACK,J1,10,+12V_STACK_10,passive
++12V_STACK,J1,11,+12V_STACK_11,passive
++12V_STACK,J1,12,+12V_STACK_12,passive
++12V_STACK,J1,13,+12V_STACK_13,passive
++12V_STACK,J1,14,+12V_STACK_14,passive
++12V_STACK,J1,2,+12V_STACK_2,passive
++12V_STACK,J1,3,+12V_STACK_3,passive
++12V_STACK,J1,4,+12V_STACK_4,passive
++12V_STACK,J1,5,+12V_STACK_5,passive
++12V_STACK,J1,6,+12V_STACK_6,passive
++12V_STACK,J1,7,+12V_STACK_7,passive
++12V_STACK,J1,8,+12V_STACK_8,passive
++12V_STACK,J1,9,+12V_STACK_9,passive
++12V_STACK,R604,1,,passive
++12V_STACK,TP601,1,1_1,passive
++12V_STACK,U601,6,OUT_6,power_out
+/+3V3_LOCAL,C303,1,,passive
+/+3V3_LOCAL,C304,1,,passive
+/+3V3_LOCAL,C644,1,,passive
+/+3V3_LOCAL,L301,2,2_2,passive
+/+3V3_LOCAL,R301,1,,passive
+/+3V3_LOCAL,R606,1,,passive
+/+3V3_LOCAL,R644,1,,passive
+/+3V3_LOCAL,R646,1,,passive
+/+3V3_LOCAL,U301,6,VOS_6,input
+/+3V3_LOCAL,U302,1,VIN_1,power_in
+/+3V3_LOCAL,U302,3,ON_3,input
+/+3V3_LOCAL,U644,5,VCC_5,power_in
+/Gigabit Ethernet/CFG_EXT,R210,2,,passive
+/Gigabit Ethernet/CFG_EXT,U201,32,LED0/CFG_EXT_32,bidirectional
+/Gigabit Ethernet/CT_A,C201,1,,passive
+/Gigabit Ethernet/CT_A,J2,12,CT_A_12,passive
+/Gigabit Ethernet/CT_B,C202,1,,passive
+/Gigabit Ethernet/CT_B,J2,6,CT_B_6,passive
+/Gigabit Ethernet/CT_C,C203,1,,passive
+/Gigabit Ethernet/CT_C,J2,1,CT_C_1,passive
+/Gigabit Ethernet/CT_D,C204,1,,passive
+/Gigabit Ethernet/CT_D,J2,7,CT_D_7,passive
+/Gigabit Ethernet/ETH_CORE_1V,C212,1,,passive
+/Gigabit Ethernet/ETH_CORE_1V,C213,1,,passive
+/Gigabit Ethernet/ETH_CORE_1V,C214,1,,passive
+/Gigabit Ethernet/ETH_CORE_1V,C215,1,,passive
+/Gigabit Ethernet/ETH_CORE_1V,C216,1,,passive
+/Gigabit Ethernet/ETH_CORE_1V,L201,2,2_2,passive
+/Gigabit Ethernet/ETH_CORE_1V,U201,21,DVDD10_21,power_in
+/Gigabit Ethernet/ETH_CORE_1V,U201,3,AVDD10_3,power_in
+/Gigabit Ethernet/ETH_CORE_1V,U201,38,AVDD10_38,power_in
+/Gigabit Ethernet/ETH_CORE_1V,U201,8,AVDD10_8,power_in
+/Gigabit Ethernet/GLED_A,J2,18,~_18,passive
+/Gigabit Ethernet/GLED_A,R213,2,,passive
+/Gigabit Ethernet/LED_100M,R211,1,,passive
+/Gigabit Ethernet/LED_100M,R214,1,,passive
+/Gigabit Ethernet/LED_100M,U201,33,LED1/CFG_LDO0_33,bidirectional
+/Gigabit Ethernet/LED_1000M,R212,1,,passive
+/Gigabit Ethernet/LED_1000M,R213,1,,passive
+/Gigabit Ethernet/LED_1000M,U201,34,LED2/CFG_LDO1_34,bidirectional
+/Gigabit Ethernet/MDI_A_N,J2,10,DA-_10,passive
+/Gigabit Ethernet/MDI_A_N,U201,2,MDIN0_2,bidirectional
+/Gigabit Ethernet/MDI_A_N,U202,3,IO2_3,passive
+/Gigabit Ethernet/MDI_A_P,J2,11,DA+_11,passive
+/Gigabit Ethernet/MDI_A_P,U201,1,MDIP0_1,bidirectional
+/Gigabit Ethernet/MDI_A_P,U202,1,IO1_1,passive
+/Gigabit Ethernet/MDI_B_N,J2,5,DB-_5,passive
+/Gigabit Ethernet/MDI_B_N,U201,5,MDIN1_5,bidirectional
+/Gigabit Ethernet/MDI_B_N,U202,6,IO4_6,passive
+/Gigabit Ethernet/MDI_B_P,J2,4,DB+_4,passive
+/Gigabit Ethernet/MDI_B_P,U201,4,MDIP1_4,bidirectional
+/Gigabit Ethernet/MDI_B_P,U202,4,IO3_4,passive
+/Gigabit Ethernet/MDI_C_N,J2,2,DC-_2,passive
+/Gigabit Ethernet/MDI_C_N,U201,7,MDIN2_7,bidirectional
+/Gigabit Ethernet/MDI_C_N,U203,3,IO2_3,passive
+/Gigabit Ethernet/MDI_C_P,J2,3,DC+_3,passive
+/Gigabit Ethernet/MDI_C_P,U201,6,MDIP2_6,bidirectional
+/Gigabit Ethernet/MDI_C_P,U203,1,IO1_1,passive
+/Gigabit Ethernet/MDI_D_N,J2,9,DD-_9,passive
+/Gigabit Ethernet/MDI_D_N,U201,10,MDIN3_10,bidirectional
+/Gigabit Ethernet/MDI_D_N,U203,6,IO4_6,passive
+/Gigabit Ethernet/MDI_D_P,J2,8,DD+_8,passive
+/Gigabit Ethernet/MDI_D_P,U201,9,MDIP3_9,bidirectional
+/Gigabit Ethernet/MDI_D_P,U203,4,IO3_4,passive
+/Gigabit Ethernet/PHY_RGMII_RXC,R201,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXC,R216,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXC,U201,27,RXC/PHYAD1_27,output
+/Gigabit Ethernet/PHY_RGMII_RXD0,R203,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD0,R220,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD0,U201,25,RXD0/RXDLY_25,output
+/Gigabit Ethernet/PHY_RGMII_RXD1,R204,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD1,R219,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD1,U201,24,RXD1/TXDLY_24,output
+/Gigabit Ethernet/PHY_RGMII_RXD2,R205,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD2,R218,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD2,U201,23,RXD2/PLLOFF_23,output
+/Gigabit Ethernet/PHY_RGMII_RXD3,R206,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD3,R215,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RXD3,U201,22,RXD3/PHYAD0_22,output
+/Gigabit Ethernet/PHY_RGMII_RX_CTL,R202,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RX_CTL,R217,1,,passive
+/Gigabit Ethernet/PHY_RGMII_RX_CTL,U201,26,RXCTL/PHYAD2_26,output
+/Gigabit Ethernet/REG_SW,L201,1,1_1,passive
+/Gigabit Ethernet/REG_SW,U201,30,REG_OUT_30,power_out
+/Gigabit Ethernet/RSET,R207,1,,passive
+/Gigabit Ethernet/RSET,U201,39,RSET_39,passive
+/Gigabit Ethernet/XTAL_IN,C205,1,,passive
+/Gigabit Ethernet/XTAL_IN,U201,36,XTAL_IN_36,input
+/Gigabit Ethernet/XTAL_IN,Y201,1,1_1,passive
+/Gigabit Ethernet/XTAL_OUT,C206,1,,passive
+/Gigabit Ethernet/XTAL_OUT,U201,37,XTAL_OUT/EXT_CLK_37,passive
+/Gigabit Ethernet/XTAL_OUT,Y201,3,3_3,passive
+/Gigabit Ethernet/YLED_A,J2,19,~_19,passive
+/Gigabit Ethernet/YLED_A,R214,2,,passive
+/JTAG_TCK,J1,55,JTAG_TCK_55,passive
+/JTAG_TCK,R110,2,,passive
+/JTAG_TCK,R114,2,,passive
+/JTAG_TDI,J1,57,JTAG_TDI_57,passive
+/JTAG_TDI,R111,2,,passive
+/JTAG_TDI,R116,2,,passive
+/JTAG_TDO,J1,58,JTAG_TDO_58,passive
+/JTAG_TDO,R118,2,,passive
+/JTAG_TDO,U105,13,B1_13,bidirectional
+/JTAG_TMS,J1,56,JTAG_TMS_56,passive
+/JTAG_TMS,R112,2,,passive
+/JTAG_TMS,R115,2,,passive
+/MDC,J1,49,MDC_49,passive
+/MDC,U201,13,MDC_13,input
+/MDIO,J1,50,MDIO_50,passive
+/MDIO,R208,2,,passive
+/MDIO,U201,14,MDIO_14,bidirectional
+/MagJack PoE input/BRIDGE_NEG,D402,2,A_2,passive
+/MagJack PoE input/BRIDGE_NEG,D404,2,A_2,passive
+/MagJack PoE input/BRIDGE_NEG,D406,2,A_2,passive
+/MagJack PoE input/BRIDGE_NEG,D408,2,A_2,passive
+/MagJack PoE input/BRIDGE_NEG,L402,3,IN-_3,passive
+/MagJack PoE input/BRIDGE_POS,D401,1,K_1,passive
+/MagJack PoE input/BRIDGE_POS,D403,1,K_1,passive
+/MagJack PoE input/BRIDGE_POS,D405,1,K_1,passive
+/MagJack PoE input/BRIDGE_POS,D407,1,K_1,passive
+/MagJack PoE input/BRIDGE_POS,L402,2,IN+_2,passive
+/MagJack PoE input/POE_VC12,D401,2,A_2,passive
+/MagJack PoE input/POE_VC12,D402,1,K_1,passive
+/MagJack PoE input/POE_VC12,J2,13,VC12_13,passive
+/MagJack PoE input/POE_VC36,D403,2,A_2,passive
+/MagJack PoE input/POE_VC36,D404,1,K_1,passive
+/MagJack PoE input/POE_VC36,J2,14,VC36_14,passive
+/MagJack PoE input/POE_VC45,D405,2,A_2,passive
+/MagJack PoE input/POE_VC45,D406,1,K_1,passive
+/MagJack PoE input/POE_VC45,J2,15,VC45_15,passive
+/MagJack PoE input/POE_VC78,D407,2,A_2,passive
+/MagJack PoE input/POE_VC78,D408,1,K_1,passive
+/MagJack PoE input/POE_VC78,J2,16,VC78_16,passive
+/PHY_INT_N,J1,52,PHY_INT_N_52,passive
+/PHY_INT_N,R209,2,,passive
+/PHY_INT_N,U201,31,INTB/PMEB_31,open_collector
+/PHY_RESET_N,R303,2,,passive
+/PHY_RESET_N,R351,1,,passive
+/PHY_RESET_N,TP17,1,1_1,passive
+/PHY_RESET_N,U201,12,PHYRSTB_12,input
+/PHY_RESET_N,U303,2,~{RESET}_2,open_collector
+/PHY_RESET_REQ_N,J1,51,PHY_RESET_REQ_N_51,passive
+/PHY_RESET_REQ_N,R351,2,,passive
+/POE_VDD,C401,1,,passive
+/POE_VDD,C402,1,,passive
+/POE_VDD,C523,1,,passive
+/POE_VDD,C524,1,,passive
+/POE_VDD,C539,1,,passive
+/POE_VDD,D513,1,A1_1,passive
+/POE_VDD,L402,1,OUT+_1,passive
+/POE_VDD,L507,1,,passive
+/POE_VDD,R541,2,,passive
+/POE_VDD,R571,1,,passive
+/POE_VDD,TP401,1,1_1,passive
+/POE_VDD,U510,23,VDD_23,power_in
+/POE_VSS,C401,2,,passive
+/POE_VSS,C402,2,,passive
+/POE_VSS,C539,2,,passive
+/POE_VSS,D513,2,A2_2,passive
+/POE_VSS,L402,4,OUT-_4,passive
+/POE_VSS,R564,1,,passive
+/POE_VSS,R568,1,,passive
+/POE_VSS,R569,1,,passive
+/POE_VSS,TP402,1,1_1,passive
+/POE_VSS,U510,27,VSS_27,power_in
+/POE_VSS,U510,28,VSS_28,power_in
+/POE_VSS,U510,47,PAD_S_47,power_in
+/POWER_GOOD,J1,29,POWER_GOOD_29,passive
+/POWER_GOOD,R606,2,,passive
+/POWER_GOOD,TP602,1,1_1,passive
+/POWER_GOOD,U601,3,PG_3,open_collector
+/PRI_BT_N,U510,12,~BT_12,passive
+/PRI_BT_N,U643,2,K_2,passive
+/PRI_TPH_N,U510,13,TPH_13,passive
+/PRI_TPH_N,U641,2,K_2,passive
+/PRI_VCC,C544,1,,passive
+/PRI_VCC,D514,1,K_1,passive
+/PRI_VCC,R557,1,,passive
+/PRI_VCC,R641,1,,passive
+/PRI_VCC,R643,1,,passive
+/PRI_VCC,U510,42,VCC_42,power_in
+/RGMII_RXC,J1,39,RGMII_RXC_39,passive
+/RGMII_RXC,R201,2,,passive
+/RGMII_RXD0,J1,42,RGMII_RXD0_42,passive
+/RGMII_RXD0,R203,2,,passive
+/RGMII_RXD1,J1,43,RGMII_RXD1_43,passive
+/RGMII_RXD1,R204,2,,passive
+/RGMII_RXD2,J1,45,RGMII_RXD2_45,passive
+/RGMII_RXD2,R205,2,,passive
+/RGMII_RXD3,J1,46,RGMII_RXD3_46,passive
+/RGMII_RXD3,R206,2,,passive
+/RGMII_RX_CTL,J1,41,RGMII_RX_CTL_41,passive
+/RGMII_RX_CTL,R202,2,,passive
+/RGMII_TXC,J1,31,RGMII_TXC_31,passive
+/RGMII_TXC,U201,20,TXC_20,input
+/RGMII_TXD0,J1,34,RGMII_TXD0_34,passive
+/RGMII_TXD0,U201,18,TXD0_18,input
+/RGMII_TXD1,J1,35,RGMII_TXD1_35,passive
+/RGMII_TXD1,U201,17,TXD1_17,input
+/RGMII_TXD2,J1,37,RGMII_TXD2_37,passive
+/RGMII_TXD2,U201,16,TXD2_16,input
+/RGMII_TXD3,J1,38,RGMII_TXD3_38,passive
+/RGMII_TXD3,U201,15,TXD3_15,input
+/RGMII_TX_CTL,J1,33,RGMII_TX_CTL_33,passive
+/RGMII_TX_CTL,U201,19,TXCTL_19,input
+/UART_FROM_FPGA,J1,62,UART_FROM_FPGA_62,passive
+/UART_FROM_FPGA,R119,2,,passive
+/UART_FROM_FPGA,U105,12,B2_12,bidirectional
+/UART_TO_FPGA,J1,61,UART_TO_FPGA_61,passive
+/UART_TO_FPGA,R113,2,,passive
+/UART_TO_FPGA,R117,2,,passive
+/USB JTAG / UART/USB_1V8,C111,1,,passive
+/USB JTAG / UART/USB_1V8,C112,1,,passive
+/USB JTAG / UART/USB_1V8,C113,1,,passive
+/USB JTAG / UART/USB_1V8,C114,1,,passive
+/USB JTAG / UART/USB_1V8,TP21,1,1_1,passive
+/USB JTAG / UART/USB_1V8,U101,12,VCORE_12,power_in
+/USB JTAG / UART/USB_1V8,U101,37,VCORE_37,power_in
+/USB JTAG / UART/USB_1V8,U101,49,VREGOUT_49,power_out
+/USB JTAG / UART/USB_1V8,U101,64,VCORE_64,power_in
+/USB JTAG / UART/USB_DM,J101,A7,D-_A7,bidirectional
+/USB JTAG / UART/USB_DM,J101,B7,D-_B7,bidirectional
+/USB JTAG / UART/USB_DM,U101,7,DM_7,bidirectional
+/USB JTAG / UART/USB_DM,U102,1,I/O1_1,passive
+/USB JTAG / UART/USB_DM,U102,6,I/O1_6,passive
+/USB JTAG / UART/USB_DP,J101,A6,D+_A6,bidirectional
+/USB JTAG / UART/USB_DP,J101,B6,D+_B6,bidirectional
+/USB JTAG / UART/USB_DP,U101,8,DP_8,bidirectional
+/USB JTAG / UART/USB_DP,U102,3,I/O2_3,passive
+/USB JTAG / UART/USB_DP,U102,4,I/O2_4,passive
+/USB JTAG / UART/USB_EE_CLK,R107,2,,passive
+/USB JTAG / UART/USB_EE_CLK,U101,62,EECLK_62,output
+/USB JTAG / UART/USB_EE_CLK,U106,2,SCLK_2,input
+/USB JTAG / UART/USB_EE_CS,R106,2,,passive
+/USB JTAG / UART/USB_EE_CS,U101,63,EECS_63,output
+/USB JTAG / UART/USB_EE_CS,U106,1,CS_1,input
+/USB JTAG / UART/USB_EE_DATA,R105,2,,passive
+/USB JTAG / UART/USB_EE_DATA,U101,61,EEDATA_61,bidirectional
+/USB JTAG / UART/USB_EE_DATA,U106,3,DI_3,input
+/USB JTAG / UART/USB_EE_DO,R105,1,,passive
+/USB JTAG / UART/USB_EE_DO,R108,2,,passive
+/USB JTAG / UART/USB_EE_DO,U106,4,DO_4,tri_state
+/USB JTAG / UART/USB_PWREN_N,R109,2,,passive
+/USB JTAG / UART/USB_PWREN_N,TP22,1,1_1,passive
+/USB JTAG / UART/USB_PWREN_N,U101,60,~{PWREN}_60,output
+/USB JTAG / UART/USB_PWREN_N,U104,14,OE2#_14,input
+/USB JTAG / UART/USB_PWREN_N,U104,15,OE1#_15,input
+/USB JTAG / UART/USB_PWREN_N,U105,14,OE2#_14,input
+/USB JTAG / UART/USB_PWREN_N,U105,15,OE1#_15,input
+/USB JTAG / UART/USB_REF,R103,1,,passive
+/USB JTAG / UART/USB_REF,U101,6,REF_6,output
+/USB JTAG / UART/USB_RESET_N,C103,1,,passive
+/USB JTAG / UART/USB_RESET_N,R104,2,,passive
+/USB JTAG / UART/USB_RESET_N,U101,14,~{RESET}_14,input
+/USB JTAG / UART/USB_TCK_SRC,U101,16,ADBUS0_16,bidirectional
+/USB JTAG / UART/USB_TCK_SRC,U104,4,A1/TCK_4,bidirectional
+/USB JTAG / UART/USB_TDI_SRC,U101,17,ADBUS1_17,bidirectional
+/USB JTAG / UART/USB_TDI_SRC,U104,5,A2/TDI_5,bidirectional
+/USB JTAG / UART/USB_TDO_DST,U101,18,ADBUS2_18,bidirectional
+/USB JTAG / UART/USB_TDO_DST,U105,4,A1/TDO_4,bidirectional
+/USB JTAG / UART/USB_TMS_SRC,U101,19,ADBUS3_19,bidirectional
+/USB JTAG / UART/USB_TMS_SRC,U104,6,A3/TMS_6,bidirectional
+/USB JTAG / UART/USB_UART_RX,U101,39,BDBUS1_39,bidirectional
+/USB JTAG / UART/USB_UART_RX,U105,5,A2/RXD_5,bidirectional
+/USB JTAG / UART/USB_UART_TX,U101,38,BDBUS0_38,bidirectional
+/USB JTAG / UART/USB_UART_TX,U104,7,A4/TXD_7,bidirectional
+/USB JTAG / UART/USB_VPHY,C107,1,,passive
+/USB JTAG / UART/USB_VPHY,C108,1,,passive
+/USB JTAG / UART/USB_VPHY,FB101,2,,passive
+/USB JTAG / UART/USB_VPHY,U101,4,VPHY_4,power_in
+/USB JTAG / UART/USB_VPLL,C109,1,,passive
+/USB JTAG / UART/USB_VPLL,C110,1,,passive
+/USB JTAG / UART/USB_VPLL,FB102,2,,passive
+/USB JTAG / UART/USB_VPLL,U101,9,VPLL_9,input
+/USB JTAG / UART/USB_XIN,C105,1,,passive
+/USB JTAG / UART/USB_XIN,U101,2,OSCI_2,input
+/USB JTAG / UART/USB_XIN,Y101,1,1_1,passive
+/USB JTAG / UART/USB_XOUT,C106,1,,passive
+/USB JTAG / UART/USB_XOUT,U101,3,OSCO_3,output
+/USB JTAG / UART/USB_XOUT,Y101,3,3_3,passive
+/custom isolated 12V converter/CP,C550,1,,passive
+/custom isolated 12V converter/CP,T502,4,4_4,passive
+/custom isolated 12V converter/CP,U510,44,CP_44,passive
+/custom isolated 12V converter/CS,C551,2,,passive
+/custom isolated 12V converter/CS,R572,1,,passive
+/custom isolated 12V converter/CS,U510,1,CS_1,input
+/custom isolated 12V converter/PRI_COMP,C541,2,,passive
+/custom isolated 12V converter/PRI_COMP,C543,2,,passive
+/custom isolated 12V converter/PRI_COMP,U510,35,COMP_35,passive
+/custom isolated 12V converter/PRI_RSEN,Q506,1,S_1,passive
+/custom isolated 12V converter/PRI_RSEN,Q506,2,S_2,passive
+/custom isolated 12V converter/PRI_RSEN,Q506,3,S_3,passive
+/custom isolated 12V converter/PRI_RSEN,R567,1,,passive
+/custom isolated 12V converter/PRI_RSEN,R572,2,,passive
+/custom isolated 12V converter/SS,C538,1,,passive
+/custom isolated 12V converter/SS,U510,33,SST_33,passive
+/custom isolated 12V converter/UV,R541,1,,passive
+/custom isolated 12V converter/UV,R544,2,,passive
+/custom isolated 12V converter/UV,U510,38,LINEUV_38,passive
+/custom isolated 12V converter/VB,C545,1,,passive
+/custom isolated 12V converter/VB,R552,1,,passive
+/custom isolated 12V converter/VB,R573,1,,passive
+/custom isolated 12V converter/VB,U510,37,VB_37,power_out
+/integrated stack protection/POE_BT_ISO_N,R646,2,,passive
+/integrated stack protection/POE_BT_ISO_N,U643,4,C_4,passive
+/integrated stack protection/POE_BT_ISO_N,U644,2,,input
+/integrated stack protection/POE_CLASS6_OK,R607,1,,passive
+/integrated stack protection/POE_CLASS6_OK,TP603,1,1_1,passive
+/integrated stack protection/POE_CLASS6_OK,U601,1,EN/UVLO_1,input
+/integrated stack protection/POE_CLASS6_OK,U644,4,,output
+/integrated stack protection/POE_TPH_ISO_N,R644,2,,passive
+/integrated stack protection/POE_TPH_ISO_N,U641,4,C_4,passive
+/integrated stack protection/POE_TPH_ISO_N,U644,1,,input
+CHASSIS,J2,SH1,SHIELD_1_SH1,passive
+CHASSIS,J2,SH2,SHIELD_2_SH2,passive
+ETH_3V3,C207,1,,passive
+ETH_3V3,C208,1,,passive
+ETH_3V3,C209,1,,passive
+ETH_3V3,C210,1,,passive
+ETH_3V3,C305,1,,passive
+ETH_3V3,C307,1,,passive
+ETH_3V3,R210,1,,passive
+ETH_3V3,R303,1,,passive
+ETH_3V3,R350,1,,passive
+ETH_3V3,TP13,1,1_1,passive
+ETH_3V3,U201,11,AVDD33_11,power_in
+ETH_3V3,U201,29,DVDD33_29,power_in
+ETH_3V3,U201,40,AVDD33_40,power_in
+ETH_3V3,U302,5,QOD_5,passive
+ETH_3V3,U302,6,VOUT_6,power_out
+ETH_3V3,U303,3,VDD_3,power_in
+GND,C101,2,,passive
+GND,C102,2,,passive
+GND,C103,2,,passive
+GND,C104,2,,passive
+GND,C105,2,,passive
+GND,C106,2,,passive
+GND,C107,2,,passive
+GND,C108,2,,passive
+GND,C109,2,,passive
+GND,C110,2,,passive
+GND,C111,2,,passive
+GND,C112,2,,passive
+GND,C113,2,,passive
+GND,C114,2,,passive
+GND,C115,2,,passive
+GND,C116,2,,passive
+GND,C117,2,,passive
+GND,C118,2,,passive
+GND,C119,2,,passive
+GND,C120,2,,passive
+GND,C121,2,,passive
+GND,C122,2,,passive
+GND,C123,2,,passive
+GND,C124,2,,passive
+GND,C125,2,,passive
+GND,C126,2,,passive
+GND,C201,2,,passive
+GND,C202,2,,passive
+GND,C203,2,,passive
+GND,C204,2,,passive
+GND,C205,2,,passive
+GND,C206,2,,passive
+GND,C207,2,,passive
+GND,C208,2,,passive
+GND,C209,2,,passive
+GND,C210,2,,passive
+GND,C211,2,,passive
+GND,C212,2,,passive
+GND,C213,2,,passive
+GND,C214,2,,passive
+GND,C215,2,,passive
+GND,C216,2,,passive
+GND,C301,2,,passive
+GND,C302,2,,passive
+GND,C303,2,,passive
+GND,C304,2,,passive
+GND,C305,2,,passive
+GND,C306,2,,passive
+GND,C307,2,,passive
+GND,C529,2,,passive
+GND,C530,1,,passive
+GND,C531,1,,passive
+GND,C532,1,,passive
+GND,C533,1,,passive
+GND,C534,1,,passive
+GND,C535,1,,passive
+GND,C536,2,,passive
+GND,C552,1,,passive
+GND,C553,1,,passive
+GND,C601,2,,passive
+GND,C602,2,,passive
+GND,C603,2,,passive
+GND,C644,2,,passive
+GND,J1,15,GND_15,passive
+GND,J1,16,GND_16,passive
+GND,J1,17,GND_17,passive
+GND,J1,18,GND_18,passive
+GND,J1,19,GND_19,passive
+GND,J1,20,GND_20,passive
+GND,J1,21,GND_21,passive
+GND,J1,22,GND_22,passive
+GND,J1,23,GND_23,passive
+GND,J1,24,GND_24,passive
+GND,J1,25,GND_25,passive
+GND,J1,26,GND_26,passive
+GND,J1,28,GND_28,passive
+GND,J1,32,GND_32,passive
+GND,J1,36,GND_36,passive
+GND,J1,40,GND_40,passive
+GND,J1,44,GND_44,passive
+GND,J1,47,GND_47,passive
+GND,J1,48,GND_48,passive
+GND,J1,53,GND_53,passive
+GND,J1,54,GND_54,passive
+GND,J1,59,GND_59,passive
+GND,J1,60,GND_60,passive
+GND,J1,63,GND_63,passive
+GND,J1,67,GND_67,passive
+GND,J1,68,GND_68,passive
+GND,J1,74,GND_74,passive
+GND,J1,76,GND_76,passive
+GND,J1,78,GND_78,passive
+GND,J1,80,GND_80,passive
+GND,J1,81,GND_81,passive
+GND,J1,83,GND_83,passive
+GND,J1,86,GND_86,passive
+GND,J1,88,GND_88,passive
+GND,J1,89,GND_89,passive
+GND,J1,91,GND_91,passive
+GND,J1,94,GND_94,passive
+GND,J1,96,GND_96,passive
+GND,J101,A1,GND_A1,passive
+GND,J101,A12,GND_A12,passive
+GND,J101,B1,GND_B1,passive
+GND,J101,B12,GND_B12,passive
+GND,J101,SH,SHIELD_SH,passive
+GND,J2,17,~_17,passive
+GND,J2,20,~_20,passive
+GND,R101,2,,passive
+GND,R102,2,,passive
+GND,R103,2,,passive
+GND,R114,1,,passive
+GND,R118,1,,passive
+GND,R120,2,,passive
+GND,R207,2,,passive
+GND,R211,2,,passive
+GND,R212,2,,passive
+GND,R216,2,,passive
+GND,R217,2,,passive
+GND,R218,2,,passive
+GND,R302,2,,passive
+GND,R601,2,,passive
+GND,R603,2,,passive
+GND,R605,2,,passive
+GND,R607,2,,passive
+GND,T502,10,10_10,passive
+GND,T502,9,9_9,passive
+GND,TP18,1,1_1,passive
+GND,TP23,1,1_1,passive
+GND,U101,1,GND_1,power_in
+GND,U101,10,AGND_10,power_in
+GND,U101,11,GND_11,power_in
+GND,U101,13,TEST_13,input
+GND,U101,15,GND_15,power_in
+GND,U101,25,GND_25,power_in
+GND,U101,35,GND_35,power_in
+GND,U101,47,GND_47,power_in
+GND,U101,5,GND_5,power_in
+GND,U101,51,GND_51,power_in
+GND,U102,2,GND_2,passive
+GND,U103,2,GND_2,power_in
+GND,U104,8,GND_8,power_in
+GND,U104,9,GND_9,passive
+GND,U105,2,DIR1_2,input
+GND,U105,3,DIR2_3,input
+GND,U105,8,GND_8,power_in
+GND,U105,9,GND_9,passive
+GND,U106,5,GND_5,power_in
+GND,U107,2,GND_2,power_in
+GND,U201,41,GND/EP_41,power_in
+GND,U202,2,GND_2,passive
+GND,U203,2,GND_2,passive
+GND,U301,1,PGND_1,power_in
+GND,U301,4,AGND_4,power_in
+GND,U301,9,PAD_9,power_in
+GND,U302,2,GND_2,power_in
+GND,U303,1,GND_1,power_in
+GND,U601,8,GND_8,power_in
+GND,U641,3,E_3,passive
+GND,U643,3,E_3,passive
+GND,U644,3,GND_3,power_in
+GND,Y101,2,G_2,passive
+GND,Y101,4,G_4,passive
+GND,Y201,2,G_2,passive
+GND,Y201,4,G_4,passive
+Net-(C525-Pad1),C525,1,,passive
+Net-(C525-Pad1),C526,1,,passive
+Net-(C525-Pad1),C527,1,,passive
+Net-(C525-Pad1),C528,2,,passive
+Net-(C525-Pad1),L507,2,,passive
+Net-(C525-Pad1),R517,2,,passive
+Net-(C525-Pad1),T502,1,1_1,passive
+Net-(C537-Pad2),C537,2,,passive
+Net-(C537-Pad2),R542,2,,passive
+Net-(C537-Pad2),R543,2,,passive
+Net-(C541-Pad1),C541,1,,passive
+Net-(C541-Pad1),R547,1,,passive
+Net-(C550-Pad2),C550,2,,passive
+Net-(C550-Pad2),R566,1,,passive
+Net-(D511-~-Pad1),D511,1,~_1,passive
+Net-(D511-~-Pad1),D511,2,~_2,passive
+Net-(D511-~-Pad1),R542,1,,passive
+Net-(D511-~-Pad1),R543,1,,passive
+Net-(D511-~-Pad1),T502,6,6_6,passive
+Net-(D511-~-Pad1),T502,7,7_7,passive
+Net-(D512-A),D512,2,A_2,passive
+Net-(D512-A),Q506,5,D_5,passive
+Net-(D512-A),Q506,6,D_6,passive
+Net-(D512-A),Q506,7,D_7,passive
+Net-(D512-A),Q506,8,D_8,passive
+Net-(D512-A),T502,3,3_3,passive
+Net-(D512-K),C528,1,,passive
+Net-(D512-K),D512,1,K_1,passive
+Net-(D512-K),R517,1,,passive
+Net-(D514-A),C540,1,,passive
+Net-(D514-A),D514,2,A_2,passive
+Net-(D514-A),R545,1,,passive
+Net-(D514-A),R546,2,,passive
+Net-(D514-A),R548,2,,passive
+Net-(D515-A),D515,2,A_2,passive
+Net-(D515-A),Q506,4,G_4,passive
+Net-(D515-A),R561,2,,passive
+Net-(D515-K),D515,1,K_1,passive
+Net-(D515-K),R561,1,,passive
+Net-(D515-K),U510,43,GATE_43,passive
+Net-(J101-CC1),J101,A5,CC1_A5,bidirectional
+Net-(J101-CC1),R101,1,,passive
+Net-(J101-CC2),J101,B5,CC2_B5,bidirectional
+Net-(J101-CC2),R102,1,,passive
+Net-(Q505-D),Q505,3,D_3,passive
+Net-(Q505-D),R554,2,,passive
+Net-(Q505-G),Q505,1,G_1,input
+Net-(Q505-G),R557,2,,passive
+Net-(Q505-G),R562,1,,passive
+Net-(R545-Pad2),R545,2,,passive
+Net-(R545-Pad2),T502,5,5_5,passive
+Net-(R548-Pad1),R548,1,,passive
+Net-(R548-Pad1),R550,2,,passive
+Net-(U103-EN),C101,1,,passive
+Net-(U103-EN),U103,1,VIN_1,power_in
+Net-(U103-EN),U103,3,EN_3,input
+Net-(U103-EN),U107,6,VOUT_6,power_out
+Net-(U104-B1),R110,1,,passive
+Net-(U104-B1),U104,13,B1_13,bidirectional
+Net-(U104-B2),R111,1,,passive
+Net-(U104-B2),U104,12,B2_12,bidirectional
+Net-(U104-B3),R112,1,,passive
+Net-(U104-B3),U104,11,B3_11,bidirectional
+Net-(U104-B4),R113,1,,passive
+Net-(U104-B4),U104,10,B4_10,bidirectional
+Net-(U105-B3),R120,1,,passive
+Net-(U105-B3),U105,10,B4_10,bidirectional
+Net-(U105-B3),U105,11,B3_11,bidirectional
+Net-(U107-CT),C126,1,,passive
+Net-(U107-CT),U107,4,CT_4,passive
+Net-(U107-ON),C125,1,,passive
+Net-(U107-ON),F101,2,,passive
+Net-(U107-ON),U107,1,VIN_1,power_in
+Net-(U107-ON),U107,3,ON_3,input
+Net-(U301-FB),R301,2,,passive
+Net-(U301-FB),R302,1,,passive
+Net-(U301-FB),U301,5,FB_5,input
+Net-(U301-SW),L301,1,1_1,passive
+Net-(U301-SW),U301,7,SW_7,output
+Net-(U302-CT),C306,1,,passive
+Net-(U302-CT),U302,4,CT_4,passive
+Net-(U510-APD),R559,2,,passive
+Net-(U510-APD),U510,5,APD_5,passive
+Net-(U510-CLSA),R568,2,,passive
+Net-(U510-CLSA),U510,21,CLSA_21,passive
+Net-(U510-CLSB),R569,2,,passive
+Net-(U510-CLSB),U510,20,CLSB_20,passive
+Net-(U510-DEN),R571,2,,passive
+Net-(U510-DEN),U510,24,DEN_24,passive
+Net-(U510-DT),R573,2,,passive
+Net-(U510-DT),U510,31,DT_31,passive
+Net-(U510-DTHR),R552,2,,passive
+Net-(U510-DTHR),U510,3,DTHR_3,passive
+Net-(U510-EA_DIS),R549,1,,passive
+Net-(U510-EA_DIS),U510,36,EA_DIS_36,passive
+Net-(U510-EMPS),R560,2,,passive
+Net-(U510-EMPS),U510,11,EMPS_11,passive
+Net-(U510-FB),C543,1,,passive
+Net-(U510-FB),R547,2,,passive
+Net-(U510-FB),R550,1,,passive
+Net-(U510-FB),R554,1,,passive
+Net-(U510-FB),R558,1,,passive
+Net-(U510-FB),U510,34,FB_34,input
+Net-(U510-FRS),R553,2,,passive
+Net-(U510-FRS),U510,4,FRS_4,passive
+Net-(U510-I_STP),R574,2,,passive
+Net-(U510-I_STP),U510,32,I_STP_32,passive
+Net-(U510-PSRS),R555,1,,passive
+Net-(U510-PSRS),U510,39,PSRS_39,passive
+Net-(U510-REF),R564,2,,passive
+Net-(U510-REF),U510,17,REF_17,passive
+Net-(U510-VBG),C547,2,,passive
+Net-(U510-VBG),U510,40,VBG_40,power_out
+Net-(U601-DVDT),C601,1,,passive
+Net-(U601-DVDT),U601,7,DVDT_7,passive
+Net-(U601-ILM),R601,1,,passive
+Net-(U601-ILM),U601,9,ILM_9,passive
+Net-(U601-OVLO),R602,2,,passive
+Net-(U601-OVLO),R603,1,,passive
+Net-(U601-OVLO),U601,2,OVLO_2,input
+Net-(U601-PGTH),R604,2,,passive
+Net-(U601-PGTH),R605,1,,passive
+Net-(U601-PGTH),U601,4,PGTH_4,input
+Net-(U641-A),R641,2,,passive
+Net-(U641-A),U641,1,A_1,passive
+Net-(U643-A),R643,2,,passive
+Net-(U643-A),U643,1,A_1,passive
+RTN,C523,2,,passive
+RTN,C524,2,,passive
+RTN,C525,2,,passive
+RTN,C526,2,,passive
+RTN,C527,2,,passive
+RTN,C538,2,,passive
+RTN,C540,2,,passive
+RTN,C544,2,,passive
+RTN,C545,2,,passive
+RTN,C547,1,,passive
+RTN,C551,1,,passive
+RTN,Q505,2,S_2,passive
+RTN,R544,1,,passive
+RTN,R546,1,,passive
+RTN,R549,2,,passive
+RTN,R553,1,,passive
+RTN,R555,2,,passive
+RTN,R558,2,,passive
+RTN,R559,1,,passive
+RTN,R560,1,,passive
+RTN,R562,2,,passive
+RTN,R566,2,,passive
+RTN,R567,2,,passive
+RTN,R574,1,,passive
+RTN,U510,2,AGND_2,power_in
+RTN,U510,45,GND_45,power_in
+RTN,U510,46,PAD_G_46,power_in
+RTN,U510,7,RTN_7,power_in
+RTN,U510,8,RTN_8,power_in
+RTN,U510,9,RTN_9,power_in
+USB_3V3,C102,1,,passive
+USB_3V3,C104,1,,passive
+USB_3V3,C115,1,,passive
+USB_3V3,C116,1,,passive
+USB_3V3,C117,1,,passive
+USB_3V3,C118,1,,passive
+USB_3V3,C119,1,,passive
+USB_3V3,C120,1,,passive
+USB_3V3,C122,1,,passive
+USB_3V3,FB101,1,,passive
+USB_3V3,FB102,1,,passive
+USB_3V3,R104,1,,passive
+USB_3V3,R106,1,,passive
+USB_3V3,R107,1,,passive
+USB_3V3,R108,1,,passive
+USB_3V3,R109,1,,passive
+USB_3V3,TP20,1,1_1,passive
+USB_3V3,U101,20,VCCIO_20,power_in
+USB_3V3,U101,31,VCCIO_31,power_in
+USB_3V3,U101,42,VCCIO_42,power_in
+USB_3V3,U101,50,VREGIN_50,power_in
+USB_3V3,U101,56,VCCIO_56,power_in
+USB_3V3,U103,5,VOUT_5,power_out
+USB_3V3,U104,1,VCCA_1,power_in
+USB_3V3,U104,2,DIR1_2,input
+USB_3V3,U104,3,DIR2_3,input
+USB_3V3,U105,1,VCCA_1,power_in
+USB_3V3,U106,8,VCC_8,power_in
+USB_VBUS,F101,1,,passive
+USB_VBUS,J101,A4,VBUS_A4,passive
+USB_VBUS,J101,A9,VBUS_A9,passive
+USB_VBUS,J101,B4,VBUS_B4,passive
+USB_VBUS,J101,B9,VBUS_B9,passive
+USB_VBUS,TP19,1,1_1,passive
+USB_VBUS,U102,5,VBUS_5,passive
+VIO_TARGET,C121,1,,passive
+VIO_TARGET,C123,1,,passive
+VIO_TARGET,C124,1,,passive
+VIO_TARGET,C211,1,,passive
+VIO_TARGET,J1,27,VIO_TARGET_27,passive
+VIO_TARGET,R115,1,,passive
+VIO_TARGET,R116,1,,passive
+VIO_TARGET,R117,1,,passive
+VIO_TARGET,R119,1,,passive
+VIO_TARGET,R208,1,,passive
+VIO_TARGET,R209,1,,passive
+VIO_TARGET,R215,2,,passive
+VIO_TARGET,R219,2,,passive
+VIO_TARGET,R220,2,,passive
+VIO_TARGET,R350,2,,passive
+VIO_TARGET,TP16,1,1_1,passive
+VIO_TARGET,U104,16,VCCB_16,power_in
+VIO_TARGET,U105,16,VCCB_16,power_in
+VIO_TARGET,U201,28,DVDD_RG_28,power_in
+unconnected-(J1-CAM_PWDN-Pad98),J1,98,CAM_PWDN_98,passive+no_connect
+unconnected-(J1-CAM_RESET_N-Pad97),J1,97,CAM_RESET_N_97,passive+no_connect
+unconnected-(J1-CSI_CLK_N-Pad79),J1,79,CSI_CLK_N_79,passive+no_connect
+unconnected-(J1-CSI_CLK_P-Pad77),J1,77,CSI_CLK_P_77,passive+no_connect
+unconnected-(J1-CSI_D0_N-Pad84),J1,84,CSI_D0_N_84,passive+no_connect
+unconnected-(J1-CSI_D0_P-Pad82),J1,82,CSI_D0_P_82,passive+no_connect
+unconnected-(J1-CSI_D1_N-Pad87),J1,87,CSI_D1_N_87,passive+no_connect
+unconnected-(J1-CSI_D1_P-Pad85),J1,85,CSI_D1_P_85,passive+no_connect
+unconnected-(J1-CSI_D2_N-Pad92),J1,92,CSI_D2_N_92,passive+no_connect
+unconnected-(J1-CSI_D2_P-Pad90),J1,90,CSI_D2_P_90,passive+no_connect
+unconnected-(J1-CSI_D3_N-Pad95),J1,95,CSI_D3_N_95,passive+no_connect
+unconnected-(J1-CSI_D3_P-Pad93),J1,93,CSI_D3_P_93,passive+no_connect
+unconnected-(J1-FRAME_SYNC-Pad99),J1,99,FRAME_SYNC_99,passive+no_connect
+unconnected-(J1-GPIO0-Pad64),J1,64,GPIO0_64,passive+no_connect
+unconnected-(J1-GPIO1-Pad100),J1,100,GPIO1_100,passive+no_connect
+unconnected-(J1-I2C_SCL-Pad65),J1,65,I2C_SCL_65,passive+no_connect
+unconnected-(J1-I2C_SDA-Pad66),J1,66,I2C_SDA_66,passive+no_connect
+unconnected-(J1-SPI_CS0_N-Pad72),J1,72,SPI_CS0_N_72,passive+no_connect
+unconnected-(J1-SPI_CS1_N-Pad73),J1,73,SPI_CS1_N_73,passive+no_connect
+unconnected-(J1-SPI_CS2_N-Pad75),J1,75,SPI_CS2_N_75,passive+no_connect
+unconnected-(J1-SPI_MISO-Pad71),J1,71,SPI_MISO_71,passive+no_connect
+unconnected-(J1-SPI_MOSI-Pad70),J1,70,SPI_MOSI_70,passive+no_connect
+unconnected-(J1-SPI_SCK-Pad69),J1,69,SPI_SCK_69,passive+no_connect
+unconnected-(J1-SYS_RESET_N-Pad30),J1,30,SYS_RESET_N_30,passive+no_connect
+unconnected-(J101-SBU1-PadA8),J101,A8,SBU1_A8,bidirectional+no_connect
+unconnected-(J101-SBU2-PadB8),J101,B8,SBU2_B8,bidirectional+no_connect
+unconnected-(T502-NC-Pad2),T502,2,NC_2,passive+no_connect
+unconnected-(T502-NC-Pad8),T502,8,NC_8,passive+no_connect
+unconnected-(U101-ACBUS0-Pad26),U101,26,ACBUS0_26,bidirectional+no_connect
+unconnected-(U101-ACBUS1-Pad27),U101,27,ACBUS1_27,bidirectional+no_connect
+unconnected-(U101-ACBUS2-Pad28),U101,28,ACBUS2_28,bidirectional+no_connect
+unconnected-(U101-ACBUS3-Pad29),U101,29,ACBUS3_29,bidirectional+no_connect
+unconnected-(U101-ACBUS4-Pad30),U101,30,ACBUS4_30,bidirectional+no_connect
+unconnected-(U101-ACBUS5-Pad32),U101,32,ACBUS5_32,bidirectional+no_connect
+unconnected-(U101-ACBUS6-Pad33),U101,33,ACBUS6_33,bidirectional+no_connect
+unconnected-(U101-ACBUS7-Pad34),U101,34,ACBUS7_34,bidirectional+no_connect
+unconnected-(U101-ADBUS4-Pad21),U101,21,ADBUS4_21,bidirectional+no_connect
+unconnected-(U101-ADBUS5-Pad22),U101,22,ADBUS5_22,bidirectional+no_connect
+unconnected-(U101-ADBUS6-Pad23),U101,23,ADBUS6_23,bidirectional+no_connect
+unconnected-(U101-ADBUS7-Pad24),U101,24,ADBUS7_24,bidirectional+no_connect
+unconnected-(U101-BCBUS0-Pad48),U101,48,BCBUS0_48,bidirectional+no_connect
+unconnected-(U101-BCBUS1-Pad52),U101,52,BCBUS1_52,bidirectional+no_connect
+unconnected-(U101-BCBUS2-Pad53),U101,53,BCBUS2_53,bidirectional+no_connect
+unconnected-(U101-BCBUS3-Pad54),U101,54,BCBUS3_54,bidirectional+no_connect
+unconnected-(U101-BCBUS4-Pad55),U101,55,BCBUS4_55,bidirectional+no_connect
+unconnected-(U101-BCBUS5-Pad57),U101,57,BCBUS5_57,bidirectional+no_connect
+unconnected-(U101-BCBUS6-Pad58),U101,58,BCBUS6_58,bidirectional+no_connect
+unconnected-(U101-BCBUS7-Pad59),U101,59,BCBUS7_59,bidirectional+no_connect
+unconnected-(U101-BDBUS2-Pad40),U101,40,BDBUS2_40,bidirectional+no_connect
+unconnected-(U101-BDBUS3-Pad41),U101,41,BDBUS3_41,bidirectional+no_connect
+unconnected-(U101-BDBUS4-Pad43),U101,43,BDBUS4_43,bidirectional+no_connect
+unconnected-(U101-BDBUS5-Pad44),U101,44,BDBUS5_44,bidirectional+no_connect
+unconnected-(U101-BDBUS6-Pad45),U101,45,BDBUS6_45,bidirectional+no_connect
+unconnected-(U101-BDBUS7-Pad46),U101,46,BDBUS7_46,bidirectional+no_connect
+unconnected-(U101-~{SUSPEND}-Pad36),U101,36,~{SUSPEND}_36,output+no_connect
+unconnected-(U103-NC-Pad4),U103,4,NC_4,no_connect
+unconnected-(U105-A3-Pad6),U105,6,A3_6,bidirectional+no_connect
+unconnected-(U105-A4-Pad7),U105,7,A4_7,bidirectional+no_connect
+unconnected-(U106-NC-Pad6),U106,6,NC_6,no_connect
+unconnected-(U106-NC-Pad7),U106,7,NC_7,no_connect
+unconnected-(U107-QOD-Pad5),U107,5,QOD_5,passive+no_connect
+unconnected-(U201C-CLKOUT-Pad35),U201,35,CLKOUT_35,output+no_connect
+unconnected-(U202-NC-Pad5),U202,5,NC_5,no_connect
+unconnected-(U203-NC-Pad5),U203,5,NC_5,no_connect
+unconnected-(U301-PG-Pad8),U301,8,PG_8,open_collector+no_connect
+unconnected-(U510-GAT2-Pad41),U510,41,GAT2_41,passive+no_connect
+unconnected-(U510-NC-Pad6),U510,6,NC_6,no_connect
+unconnected-(U510-NC-Pad10),U510,10,NC_10,no_connect
+unconnected-(U510-NC-Pad15),U510,15,NC_15,no_connect
+unconnected-(U510-NC-Pad16),U510,16,NC_16,no_connect
+unconnected-(U510-NC-Pad22),U510,22,NC_22,no_connect
+unconnected-(U510-NC-Pad25),U510,25,NC_25,no_connect
+unconnected-(U510-NC-Pad26),U510,26,NC_26,no_connect
+unconnected-(U510-NC-Pad29),U510,29,NC_29,no_connect
+unconnected-(U510-PPD-Pad19),U510,19,PPD_19,passive+no_connect
+unconnected-(U510-SCDIS-Pad18),U510,18,SCDIS_18,passive+no_connect
+unconnected-(U510-TEST_(PG)-Pad30),U510,30,TEST_(PG)_30,no_connect
+unconnected-(U510-TPL-Pad14),U510,14,TPL_14,passive+no_connect
+unconnected-(U601-ITIMER-Pad10),U601,10,ITIMER_10,passive+no_connect

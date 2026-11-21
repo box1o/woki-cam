@@ -1,0 +1,13 @@
+{
+  "removed_unused_status_channel": [
+    "U642",
+    "R642",
+    "R645"
+  ],
+  "reason": "Class6enableusesTPHplusBT;TPLwasnotconsumedanywhere",
+  "retained_optocouplers": [
+    "U641",
+    "U643"
+  ],
+  "TPL": "controllerpinNC;noextraisolatedstatuschannel"
+}

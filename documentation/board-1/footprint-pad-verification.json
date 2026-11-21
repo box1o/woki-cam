@@ -1,0 +1,1602 @@
+{
+  "components_checked": 228,
+  "issues": [],
+  "components": [
+    {
+      "reference": "J1",
+      "footprint": "Woki:CONN_DF40_100P_F",
+      "schematic_pin_count": 100,
+      "numbered_pad_count": 100,
+      "missing_pads": []
+    },
+    {
+      "reference": "C201",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C202",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C203",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C204",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C205",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C206",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C207",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C208",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C209",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C210",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C211",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C212",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C213",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C214",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C215",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C216",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "J2",
+      "footprint": "Woki:RT5-ZZ-0030",
+      "schematic_pin_count": 22,
+      "numbered_pad_count": 22,
+      "missing_pads": []
+    },
+    {
+      "reference": "L201",
+      "footprint": "Woki:L_Coilcraft_LPS4018",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R201",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R202",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R203",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R204",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R205",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R206",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R207",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R208",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R209",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R210",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R211",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R212",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R213",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R214",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R215",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R216",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R217",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R218",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R219",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R220",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "U201",
+      "footprint": "Woki:RTL8211F_QFN40",
+      "schematic_pin_count": 41,
+      "numbered_pad_count": 41,
+      "missing_pads": []
+    },
+    {
+      "reference": "U202",
+      "footprint": "Package_TO_SOT_SMD:SOT-563",
+      "schematic_pin_count": 6,
+      "numbered_pad_count": 6,
+      "missing_pads": []
+    },
+    {
+      "reference": "U203",
+      "footprint": "Package_TO_SOT_SMD:SOT-563",
+      "schematic_pin_count": 6,
+      "numbered_pad_count": 6,
+      "missing_pads": []
+    },
+    {
+      "reference": "Y201",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "schematic_pin_count": 4,
+      "numbered_pad_count": 4,
+      "missing_pads": []
+    },
+    {
+      "reference": "C301",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C302",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C303",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C304",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C305",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C306",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C307",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "L301",
+      "footprint": "Inductor_SMD:L_Coilcraft_XAL4020-XXX",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R301",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R302",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R303",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R350",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R351",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP13",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP16",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP17",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP18",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "U301",
+      "footprint": "Woki:TPS6216x_DSG",
+      "schematic_pin_count": 9,
+      "numbered_pad_count": 9,
+      "missing_pads": []
+    },
+    {
+      "reference": "U302",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "schematic_pin_count": 6,
+      "numbered_pad_count": 6,
+      "missing_pads": []
+    },
+    {
+      "reference": "U303",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "schematic_pin_count": 3,
+      "numbered_pad_count": 3,
+      "missing_pads": []
+    },
+    {
+      "reference": "C523",
+      "footprint": "Woki:Panasonic_FK_G_10x10.2",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C524",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C525",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C526",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C527",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C528",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C529",
+      "footprint": "Woki:Panasonic_FK_F_8x10.2",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C530",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C531",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C532",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C533",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C534",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C535",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C536",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C537",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C538",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C539",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C540",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C541",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C543",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C544",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C545",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C547",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C550",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C551",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C552",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C553",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D511",
+      "footprint": "Package_TO_SOT_SMD:TO-277A",
+      "schematic_pin_count": 3,
+      "numbered_pad_count": 3,
+      "missing_pads": []
+    },
+    {
+      "reference": "D512",
+      "footprint": "Diode_SMD:D_SMA",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D513",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D514",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D515",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "L507",
+      "footprint": "Woki:LPS4018-332MLB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "Q505",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "schematic_pin_count": 3,
+      "numbered_pad_count": 3,
+      "missing_pads": []
+    },
+    {
+      "reference": "Q506",
+      "footprint": "Woki:FDMS86252_Power56",
+      "schematic_pin_count": 8,
+      "numbered_pad_count": 8,
+      "missing_pads": []
+    },
+    {
+      "reference": "R517",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R541",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R542",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R543",
+      "footprint": "Resistor_SMD:R_2512_6332Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R544",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R545",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R546",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R547",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R548",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R549",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R550",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R552",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R553",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R554",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R555",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R557",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R558",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R559",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R560",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R561",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R562",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R564",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R566",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R567",
+      "footprint": "Resistor_SMD:R_2010_5025Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R568",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R569",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R571",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R572",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R573",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R574",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "T502",
+      "footprint": "Woki:POE51Q_12ED",
+      "schematic_pin_count": 10,
+      "numbered_pad_count": 10,
+      "missing_pads": []
+    },
+    {
+      "reference": "U510",
+      "footprint": "Woki:TPS23730_RMT0045A",
+      "schematic_pin_count": 47,
+      "numbered_pad_count": 47,
+      "missing_pads": []
+    },
+    {
+      "reference": "C101",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C102",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C103",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C105",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C106",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C107",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C108",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C109",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C110",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C111",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C112",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C113",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C114",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C115",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C116",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C117",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C118",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C119",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C120",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C121",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C122",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C123",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C124",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C125",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C126",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "F101",
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "FB101",
+      "footprint": "Inductor_SMD:L_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "FB102",
+      "footprint": "Inductor_SMD:L_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "J101",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "schematic_pin_count": 17,
+      "numbered_pad_count": 17,
+      "missing_pads": []
+    },
+    {
+      "reference": "R101",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R102",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R103",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R104",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R105",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R106",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R107",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R108",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R109",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R110",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R111",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R112",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R113",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R114",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R115",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R116",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R117",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R118",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R119",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R120",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP19",
+      "footprint": "Woki:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP20",
+      "footprint": "Woki:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP21",
+      "footprint": "Woki:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP22",
+      "footprint": "Woki:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP23",
+      "footprint": "Woki:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "U101",
+      "footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "schematic_pin_count": 64,
+      "numbered_pad_count": 64,
+      "missing_pads": []
+    },
+    {
+      "reference": "U102",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "schematic_pin_count": 6,
+      "numbered_pad_count": 6,
+      "missing_pads": []
+    },
+    {
+      "reference": "U103",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "schematic_pin_count": 5,
+      "numbered_pad_count": 5,
+      "missing_pads": []
+    },
+    {
+      "reference": "U104",
+      "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "schematic_pin_count": 16,
+      "numbered_pad_count": 16,
+      "missing_pads": []
+    },
+    {
+      "reference": "U105",
+      "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "schematic_pin_count": 16,
+      "numbered_pad_count": 16,
+      "missing_pads": []
+    },
+    {
+      "reference": "U106",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "schematic_pin_count": 8,
+      "numbered_pad_count": 8,
+      "missing_pads": []
+    },
+    {
+      "reference": "U107",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "schematic_pin_count": 6,
+      "numbered_pad_count": 6,
+      "missing_pads": []
+    },
+    {
+      "reference": "Y101",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "schematic_pin_count": 4,
+      "numbered_pad_count": 4,
+      "missing_pads": []
+    },
+    {
+      "reference": "C401",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C402",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D401",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D402",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D403",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D404",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D405",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D406",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D407",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "D408",
+      "footprint": "Diode_SMD:D_SMB",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "L402",
+      "footprint": "Woki:744272251",
+      "schematic_pin_count": 4,
+      "numbered_pad_count": 4,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP401",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP402",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "C601",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C602",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C603",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "C644",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R601",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R602",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R603",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R604",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R605",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R606",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R607",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R641",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R643",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R644",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "R646",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "schematic_pin_count": 2,
+      "numbered_pad_count": 2,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP601",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP602",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "TP603",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "schematic_pin_count": 1,
+      "numbered_pad_count": 1,
+      "missing_pads": []
+    },
+    {
+      "reference": "U601",
+      "footprint": "Woki:TPS25947_RPW",
+      "schematic_pin_count": 10,
+      "numbered_pad_count": 10,
+      "missing_pads": []
+    },
+    {
+      "reference": "U641",
+      "footprint": "Woki:FOD817DS",
+      "schematic_pin_count": 4,
+      "numbered_pad_count": 4,
+      "missing_pads": []
+    },
+    {
+      "reference": "U643",
+      "footprint": "Woki:FOD817DS",
+      "schematic_pin_count": 4,
+      "numbered_pad_count": 4,
+      "missing_pads": []
+    },
+    {
+      "reference": "U644",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "schematic_pin_count": 5,
+      "numbered_pad_count": 5,
+      "missing_pads": []
+    }
+  ]
+}

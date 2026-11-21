@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/woki/dev/woki-cam/boards/04-ir-led/ir_led.kicad_sch</source>
+    <date>2026-11-21T08:17:03</date>
+    <tool>Eeschema 10.0.8</tool>
+    <textvar name="PROJECT_TITLE">Board 4 - IR LED</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Board 4 - IR LED</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ir_led.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>DF40C-100DP-0.4V(51)</value>
+      <footprint>Woki:CONN_DF40_100P_M</footprint>
+      <datasheet>https://www.hirose.com/product/series/DF40</datasheet>
+      <fields>
+        <field name="Footprint">Woki:CONN_DF40_100P_M</field>
+        <field name="Datasheet">https://www.hirose.com/product/series/DF40</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CONN_DF40_100P_M" part="CONN_DF40_100P_M" description=""/>
+      <property name="Sheetname" value="ir_led"/>
+      <property name="Sheetfile" value="ir_led.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e7e5548-a2a0-4d64-9bb2-aeedc79a643e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="51"/>
+            <pin num="53"/>
+            <pin num="55"/>
+            <pin num="57"/>
+            <pin num="59"/>
+            <pin num="61"/>
+            <pin num="63"/>
+            <pin num="65"/>
+            <pin num="67"/>
+            <pin num="69"/>
+            <pin num="71"/>
+            <pin num="73"/>
+            <pin num="75"/>
+            <pin num="77"/>
+            <pin num="79"/>
+            <pin num="81"/>
+            <pin num="83"/>
+            <pin num="85"/>
+            <pin num="87"/>
+            <pin num="89"/>
+            <pin num="91"/>
+            <pin num="93"/>
+            <pin num="95"/>
+            <pin num="97"/>
+            <pin num="99"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+            <pin num="52"/>
+            <pin num="54"/>
+            <pin num="56"/>
+            <pin num="58"/>
+            <pin num="60"/>
+            <pin num="62"/>
+            <pin num="64"/>
+            <pin num="66"/>
+            <pin num="68"/>
+            <pin num="70"/>
+            <pin num="72"/>
+            <pin num="74"/>
+            <pin num="76"/>
+            <pin num="78"/>
+            <pin num="80"/>
+            <pin num="82"/>
+            <pin num="84"/>
+            <pin num="86"/>
+            <pin num="88"/>
+            <pin num="90"/>
+            <pin num="92"/>
+            <pin num="94"/>
+            <pin num="96"/>
+            <pin num="98"/>
+            <pin num="100"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CONN_DF40_100P_M" part="CONN_DF40_100P_M">
+      <docs>https://www.hirose.com/product/series/DF40</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DF40 100p</field>
+        <field name="Footprint">Woki:CONN_DF40_100P_M</field>
+        <field name="Datasheet">https://www.hirose.com/product/series/DF40</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V_STACK" type="passive"/>
+        <pin num="2" name="+12V_STACK" type="passive"/>
+        <pin num="3" name="+12V_STACK" type="passive"/>
+        <pin num="4" name="+12V_STACK" type="passive"/>
+        <pin num="5" name="+12V_STACK" type="passive"/>
+        <pin num="6" name="+12V_STACK" type="passive"/>
+        <pin num="7" name="+12V_STACK" type="passive"/>
+        <pin num="8" name="+12V_STACK" type="passive"/>
+        <pin num="9" name="+12V_STACK" type="passive"/>
+        <pin num="10" name="+12V_STACK" type="passive"/>
+        <pin num="11" name="+12V_STACK" type="passive"/>
+        <pin num="12" name="+12V_STACK" type="passive"/>
+        <pin num="13" name="+12V_STACK" type="passive"/>
+        <pin num="14" name="+12V_STACK" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="VIO_TARGET" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="POWER_GOOD" type="passive"/>
+        <pin num="30" name="SYS_RESET_N" type="passive"/>
+        <pin num="31" name="RGMII_TXC" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+        <pin num="33" name="RGMII_TX_CTL" type="passive"/>
+        <pin num="34" name="RGMII_TXD0" type="passive"/>
+        <pin num="35" name="RGMII_TXD1" type="passive"/>
+        <pin num="36" name="GND" type="passive"/>
+        <pin num="37" name="RGMII_TXD2" type="passive"/>
+        <pin num="38" name="RGMII_TXD3" type="passive"/>
+        <pin num="39" name="RGMII_RXC" type="passive"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="RGMII_RX_CTL" type="passive"/>
+        <pin num="42" name="RGMII_RXD0" type="passive"/>
+        <pin num="43" name="RGMII_RXD1" type="passive"/>
+        <pin num="44" name="GND" type="passive"/>
+        <pin num="45" name="RGMII_RXD2" type="passive"/>
+        <pin num="46" name="RGMII_RXD3" type="passive"/>
+        <pin num="47" name="GND" type="passive"/>
+        <pin num="48" name="GND" type="passive"/>
+        <pin num="49" name="MDC" type="passive"/>
+        <pin num="50" name="MDIO" type="passive"/>
+        <pin num="51" name="PHY_RESET_REQ_N" type="passive"/>
+        <pin num="52" name="PHY_INT_N" type="passive"/>
+        <pin num="53" name="GND" type="passive"/>
+        <pin num="54" name="GND" type="passive"/>
+        <pin num="55" name="JTAG_TCK" type="passive"/>
+        <pin num="56" name="JTAG_TMS" type="passive"/>
+        <pin num="57" name="JTAG_TDI" type="passive"/>
+        <pin num="58" name="JTAG_TDO" type="passive"/>
+        <pin num="59" name="GND" type="passive"/>
+        <pin num="60" name="GND" type="passive"/>
+        <pin num="61" name="UART_TO_FPGA" type="passive"/>
+        <pin num="62" name="UART_FROM_FPGA" type="passive"/>
+        <pin num="63" name="GND" type="passive"/>
+        <pin num="64" name="GPIO0" type="passive"/>
+        <pin num="65" name="I2C_SCL" type="passive"/>
+        <pin num="66" name="I2C_SDA" type="passive"/>
+        <pin num="67" name="GND" type="passive"/>
+        <pin num="68" name="GND" type="passive"/>
+        <pin num="69" name="SPI_SCK" type="passive"/>
+        <pin num="70" name="SPI_MOSI" type="passive"/>
+        <pin num="71" name="SPI_MISO" type="passive"/>
+        <pin num="72" name="SPI_CS0_N" type="passive"/>
+        <pin num="73" name="SPI_CS1_N" type="passive"/>
+        <pin num="74" name="GND" type="passive"/>
+        <pin num="75" name="SPI_CS2_N" type="passive"/>
+        <pin num="76" name="GND" type="passive"/>
+        <pin num="77" name="CSI_CLK_P" type="passive"/>
+        <pin num="78" name="GND" type="passive"/>
+        <pin num="79" name="CSI_CLK_N" type="passive"/>
+        <pin num="80" name="GND" type="passive"/>
+        <pin num="81" name="GND" type="passive"/>
+        <pin num="82" name="CSI_D0_P" type="passive"/>
+        <pin num="83" name="GND" type="passive"/>
+        <pin num="84" name="CSI_D0_N" type="passive"/>
+        <pin num="85" name="CSI_D1_P" type="passive"/>
+        <pin num="86" name="GND" type="passive"/>
+        <pin num="87" name="CSI_D1_N" type="passive"/>
+        <pin num="88" name="GND" type="passive"/>
+        <pin num="89" name="GND" type="passive"/>
+        <pin num="90" name="CSI_D2_P" type="passive"/>
+        <pin num="91" name="GND" type="passive"/>
+        <pin num="92" name="CSI_D2_N" type="passive"/>
+        <pin num="93" name="CSI_D3_P" type="passive"/>
+        <pin num="94" name="GND" type="passive"/>
+        <pin num="95" name="CSI_D3_N" type="passive"/>
+        <pin num="96" name="GND" type="passive"/>
+        <pin num="97" name="CAM_RESET_N" type="passive"/>
+        <pin num="98" name="CAM_PWDN" type="passive"/>
+        <pin num="99" name="FRAME_SYNC" type="passive"/>
+        <pin num="100" name="GPIO1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CONN_DF40_100P_M">
+      <uri>${KIPRJMOD}/../../lib/symbols/CONN_DF40_100P_M.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V_STACK" class="Default">
+      <node ref="J1" pin="1" pinfunction="+12V_STACK_1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="+12V_STACK_10" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="+12V_STACK_11" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="+12V_STACK_12" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="+12V_STACK_13" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="+12V_STACK_14" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="+12V_STACK_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="+12V_STACK_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="+12V_STACK_4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="+12V_STACK_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="+12V_STACK_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="+12V_STACK_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="+12V_STACK_8" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="+12V_STACK_9" pintype="passive"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="J1" pin="15" pinfunction="GND_15" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="GND_16" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="GND_17" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="GND_20" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="J1" pin="22" pinfunction="GND_22" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="GND_24" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="GND_25" pintype="passive"/>
+      <node ref="J1" pin="26" pinfunction="GND_26" pintype="passive"/>
+      <node ref="J1" pin="28" pinfunction="GND_28" pintype="passive"/>
+      <node ref="J1" pin="32" pinfunction="GND_32" pintype="passive"/>
+      <node ref="J1" pin="36" pinfunction="GND_36" pintype="passive"/>
+      <node ref="J1" pin="40" pinfunction="GND_40" pintype="passive"/>
+      <node ref="J1" pin="44" pinfunction="GND_44" pintype="passive"/>
+      <node ref="J1" pin="47" pinfunction="GND_47" pintype="passive"/>
+      <node ref="J1" pin="48" pinfunction="GND_48" pintype="passive"/>
+      <node ref="J1" pin="53" pinfunction="GND_53" pintype="passive"/>
+      <node ref="J1" pin="54" pinfunction="GND_54" pintype="passive"/>
+      <node ref="J1" pin="59" pinfunction="GND_59" pintype="passive"/>
+      <node ref="J1" pin="60" pinfunction="GND_60" pintype="passive"/>
+      <node ref="J1" pin="63" pinfunction="GND_63" pintype="passive"/>
+      <node ref="J1" pin="67" pinfunction="GND_67" pintype="passive"/>
+      <node ref="J1" pin="68" pinfunction="GND_68" pintype="passive"/>
+      <node ref="J1" pin="74" pinfunction="GND_74" pintype="passive"/>
+      <node ref="J1" pin="76" pinfunction="GND_76" pintype="passive"/>
+      <node ref="J1" pin="78" pinfunction="GND_78" pintype="passive"/>
+      <node ref="J1" pin="80" pinfunction="GND_80" pintype="passive"/>
+      <node ref="J1" pin="81" pinfunction="GND_81" pintype="passive"/>
+      <node ref="J1" pin="83" pinfunction="GND_83" pintype="passive"/>
+      <node ref="J1" pin="86" pinfunction="GND_86" pintype="passive"/>
+      <node ref="J1" pin="88" pinfunction="GND_88" pintype="passive"/>
+      <node ref="J1" pin="89" pinfunction="GND_89" pintype="passive"/>
+      <node ref="J1" pin="91" pinfunction="GND_91" pintype="passive"/>
+      <node ref="J1" pin="94" pinfunction="GND_94" pintype="passive"/>
+      <node ref="J1" pin="96" pinfunction="GND_96" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(J1-CAM_PWDN-Pad98)" class="Default">
+      <node ref="J1" pin="98" pinfunction="CAM_PWDN_98" pintype="passive+no_connect"/>
+    </net>
+    <net code="4" name="unconnected-(J1-CAM_RESET_N-Pad97)" class="Default">
+      <node ref="J1" pin="97" pinfunction="CAM_RESET_N_97" pintype="passive+no_connect"/>
+    </net>
+    <net code="5" name="unconnected-(J1-CSI_CLK_N-Pad79)" class="Default">
+      <node ref="J1" pin="79" pinfunction="CSI_CLK_N_79" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(J1-CSI_CLK_P-Pad77)" class="Default">
+      <node ref="J1" pin="77" pinfunction="CSI_CLK_P_77" pintype="passive+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(J1-CSI_D0_N-Pad84)" class="Default">
+      <node ref="J1" pin="84" pinfunction="CSI_D0_N_84" pintype="passive+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(J1-CSI_D0_P-Pad82)" class="Default">
+      <node ref="J1" pin="82" pinfunction="CSI_D0_P_82" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(J1-CSI_D1_N-Pad87)" class="Default">
+      <node ref="J1" pin="87" pinfunction="CSI_D1_N_87" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(J1-CSI_D1_P-Pad85)" class="Default">
+      <node ref="J1" pin="85" pinfunction="CSI_D1_P_85" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J1-CSI_D2_N-Pad92)" class="Default">
+      <node ref="J1" pin="92" pinfunction="CSI_D2_N_92" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-CSI_D2_P-Pad90)" class="Default">
+      <node ref="J1" pin="90" pinfunction="CSI_D2_P_90" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-CSI_D3_N-Pad95)" class="Default">
+      <node ref="J1" pin="95" pinfunction="CSI_D3_N_95" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J1-CSI_D3_P-Pad93)" class="Default">
+      <node ref="J1" pin="93" pinfunction="CSI_D3_P_93" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-FRAME_SYNC-Pad99)" class="Default">
+      <node ref="J1" pin="99" pinfunction="FRAME_SYNC_99" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(J1-GPIO0-Pad64)" class="Default">
+      <node ref="J1" pin="64" pinfunction="GPIO0_64" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J1-GPIO1-Pad100)" class="Default">
+      <node ref="J1" pin="100" pinfunction="GPIO1_100" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J1-I2C_SCL-Pad65)" class="Default">
+      <node ref="J1" pin="65" pinfunction="I2C_SCL_65" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J1-I2C_SDA-Pad66)" class="Default">
+      <node ref="J1" pin="66" pinfunction="I2C_SDA_66" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J1-JTAG_TCK-Pad55)" class="Default">
+      <node ref="J1" pin="55" pinfunction="JTAG_TCK_55" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-JTAG_TDI-Pad57)" class="Default">
+      <node ref="J1" pin="57" pinfunction="JTAG_TDI_57" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-JTAG_TDO-Pad58)" class="Default">
+      <node ref="J1" pin="58" pinfunction="JTAG_TDO_58" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-JTAG_TMS-Pad56)" class="Default">
+      <node ref="J1" pin="56" pinfunction="JTAG_TMS_56" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J1-MDC-Pad49)" class="Default">
+      <node ref="J1" pin="49" pinfunction="MDC_49" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-MDIO-Pad50)" class="Default">
+      <node ref="J1" pin="50" pinfunction="MDIO_50" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J1-PHY_INT_N-Pad52)" class="Default">
+      <node ref="J1" pin="52" pinfunction="PHY_INT_N_52" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J1-PHY_RESET_REQ_N-Pad51)" class="Default">
+      <node ref="J1" pin="51" pinfunction="PHY_RESET_REQ_N_51" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J1-POWER_GOOD-Pad29)" class="Default">
+      <node ref="J1" pin="29" pinfunction="POWER_GOOD_29" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J1-RGMII_RXC-Pad39)" class="Default">
+      <node ref="J1" pin="39" pinfunction="RGMII_RXC_39" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J1-RGMII_RXD0-Pad42)" class="Default">
+      <node ref="J1" pin="42" pinfunction="RGMII_RXD0_42" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J1-RGMII_RXD1-Pad43)" class="Default">
+      <node ref="J1" pin="43" pinfunction="RGMII_RXD1_43" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J1-RGMII_RXD2-Pad45)" class="Default">
+      <node ref="J1" pin="45" pinfunction="RGMII_RXD2_45" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J1-RGMII_RXD3-Pad46)" class="Default">
+      <node ref="J1" pin="46" pinfunction="RGMII_RXD3_46" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J1-RGMII_RX_CTL-Pad41)" class="Default">
+      <node ref="J1" pin="41" pinfunction="RGMII_RX_CTL_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J1-RGMII_TXC-Pad31)" class="Default">
+      <node ref="J1" pin="31" pinfunction="RGMII_TXC_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J1-RGMII_TXD0-Pad34)" class="Default">
+      <node ref="J1" pin="34" pinfunction="RGMII_TXD0_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J1-RGMII_TXD1-Pad35)" class="Default">
+      <node ref="J1" pin="35" pinfunction="RGMII_TXD1_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J1-RGMII_TXD2-Pad37)" class="Default">
+      <node ref="J1" pin="37" pinfunction="RGMII_TXD2_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J1-RGMII_TXD3-Pad38)" class="Default">
+      <node ref="J1" pin="38" pinfunction="RGMII_TXD3_38" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J1-RGMII_TX_CTL-Pad33)" class="Default">
+      <node ref="J1" pin="33" pinfunction="RGMII_TX_CTL_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J1-SPI_CS0_N-Pad72)" class="Default">
+      <node ref="J1" pin="72" pinfunction="SPI_CS0_N_72" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J1-SPI_CS1_N-Pad73)" class="Default">
+      <node ref="J1" pin="73" pinfunction="SPI_CS1_N_73" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J1-SPI_CS2_N-Pad75)" class="Default">
+      <node ref="J1" pin="75" pinfunction="SPI_CS2_N_75" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J1-SPI_MISO-Pad71)" class="Default">
+      <node ref="J1" pin="71" pinfunction="SPI_MISO_71" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J1-SPI_MOSI-Pad70)" class="Default">
+      <node ref="J1" pin="70" pinfunction="SPI_MOSI_70" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J1-SPI_SCK-Pad69)" class="Default">
+      <node ref="J1" pin="69" pinfunction="SPI_SCK_69" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J1-SYS_RESET_N-Pad30)" class="Default">
+      <node ref="J1" pin="30" pinfunction="SYS_RESET_N_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J1-UART_FROM_FPGA-Pad62)" class="Default">
+      <node ref="J1" pin="62" pinfunction="UART_FROM_FPGA_62" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J1-UART_TO_FPGA-Pad61)" class="Default">
+      <node ref="J1" pin="61" pinfunction="UART_TO_FPGA_61" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J1-VIO_TARGET-Pad27)" class="Default">
+      <node ref="J1" pin="27" pinfunction="VIO_TARGET_27" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

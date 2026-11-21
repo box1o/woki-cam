@@ -1,0 +1,62 @@
+file,parts,status,pages,sha256,source_url
+0826-1X1T-KH-F-datasheet.pdf,0826-1X1T-KH-F,verified PDF,2,24c29ef2929e11ac6f801cdce0e2e49bcc0af072894799c02b09c42cc0b766a0,https://www.belfuse.com/media/datasheets/products/magjack%20ICMs/ds-mag-1g_2gbase-t-100w-poe-icms.pdf
+0826-1X1T-KH-F-drawing.pdf,0826-1X1T-KH-F,verified PDF,4,daef24dea66ebb82056588e33186b9489db66bdad890621371a05f95b9037462,https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-0826-1x1t-kh-f.pdf
+1n4148w.pdf,1N4148W,verified PDF; planned redesign source,5,f3bdb7a3d28c04d0148c300ddb0307000291dfce3a1deef62b3906383371a3f1,https://www.diodes.com/assets/Datasheets/ds30086.pdf
+2n7002.pdf,2N7002-7-F,verified PDF; planned redesign source,5,3984debf5b29376201b1042ba3d174c38f6dc6023ffec218d2f95ea843dc4d20,https://www.diodes.com/assets/Datasheets/ds11303.pdf
+93lc46b.pdf,93LC46B-I/SN,verified PDF; planned redesign source,41,b394de0bacf533cbccaf3e8fb6259f6bd709c35ea27150e591e0a7b527093816,https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/93AA46A-B-C-93LC46A-B-C-93C46A-B-C-1-Kbit-Microwire-Compatible-Serial-EEPROM-Data-Sheet-DS20001749.pdf
+abm3.pdf,ABM3-25.000MHZ-D2W-T (proposed Y201),verified PDF,5,74a42fd33b5a0226229acd1657bdeb9c391711058c9dcdd391021d49506e9f23,https://abracon.com/Resonators/abm3.pdf
+abm8.pdf,ABM8-12.000MHZ-B2-T (proposed Y101),verified PDF; planned redesign source,2,564ac331d8bf38b4ae1222444b0d9cfea3a6ba29148a8be906b2e0ffe40471d8,https://abracon.com/Resonators/ABM8.pdf
+ap2112.pdf,AP2112K-3.3TRG1; AP2112K-2.5TRG1,verified PDF; planned redesign source,18,ef8d376f2ec356e29172eb9e053819a0ebdcc576dba7fc9ab0505c568427920f,https://www.diodes.com/datasheet/download/AP2112.pdf
+bas316.pdf,"BAS316,115",verified PDF; planned redesign source,10,a394a3ebda87022981f82bed5c312415f722a2bce0cad17e6cabb6eed469d038,https://datasheet.lcsc.com/datasheet/pdf/83f4a10e0f07af632db1427d46854f8e.pdf?productCode=C109218
+chs-application.pdf,CHS604812,verified PDF,115,f10943c0498b0bf2c5a6279b3107fa218baf114e0826d56b103edcc088a892d1,https://www.cosel.com/tool/tag/pdf/CHS_manual.pdf
+chs-instructions.pdf,CHS604812,verified PDF,13,0b3a934a5dc015ed5ddb524020dc02bfd4fd8ebdec98778012222aecf580305d,https://www.cosel.com/tool/tag/pdf/CME_CHS.pdf
+chs-series.pdf,CHS604812,verified PDF,37,00ddd35b616117446a6e5f43df8585b6a9a45fc9e7da2adbbf3094030a0edecd,https://www.cosel.com/tool/tag/pdf/SFE_CHS.pdf
+df40-catalog.pdf,DF40HC(3.0)-100DS-0.4V(51); DF40C-100DP-0.4V(51),download blocked; see manufacturer URL,,,https://www.hirose.com/api/v1/series/DF40/documents/product_series_catalog/content?lang=EN
+df40-female-drawing.pdf,DF40HC(3.0)-100DS-0.4V(51),download blocked; see manufacturer URL,,,https://www.hirose.com/api/v1/products/CL0684-4151-0-51/documents/drawing_2d/content?lang=EN
+df40-male-drawing.pdf,DF40C-100DP-0.4V(51),download blocked; see manufacturer URL,,,https://www.hirose.com/api/v1/products/CL0684-4032-1-51/documents/drawing_2d/content?lang=EN
+df40.pdf,DF40HC(3.0)-100DS-0.4V(51),verified PDF; planned redesign source,20,b806e4a9a488507525fbc3174b2ad9273a08efcd24d151c45a3ccb3db540e19f,https://datasheet.lcsc.com/datasheet/pdf/1bc3798b3f2b73ba5fac135b6f4f3547.pdf?productCode=C424649
+dp83867ir.pdf,DP83867IRRGZR,verified PDF,138,f990ea98eb8339bace34f64f4a55cea057502ed1c8728d3f400b9374bd0976c0,https://www.ti.com/lit/ds/symlink/dp83867ir.pdf
+es1d.pdf,ES1D-13-F,verified PDF; planned redesign source,5,df6a87ab1e4d8794665e79490619a9fc4b03198f6c0345d215acfec7242a4f62,https://datasheet.lcsc.com/datasheet/pdf/607d8eee536691278abe8cb54d4f3c4d.pdf?productCode=C110541
+fdms86252.pdf,FDMS86252,verified PDF; planned redesign source,9,0d7dea8196631e0742b4a9072fbd9cc0c0db7a611eda63a0962a50266c34a962,https://www.onsemi.com/pdf/datasheet/fdms86252-d.pdf
+fod817.pdf,FOD817DS,verified PDF; planned redesign source,12,4cd56a9a09f63267245a6571b0b82be6704802c1e38b6f631fa2f1e2a5669618,https://www.onsemi.com/pdf/datasheet/fod814-d.pdf
+fsv1060v.pdf,FSV1060V,verified PDF; planned redesign source,6,e8962fffefca8f62fc76cce1981cdd909bed2df349f26f9b066313fe8fdf5f47,https://www.onsemi.com/download/data-sheet/pdf/fsv1060v-d.pdf
+ft2232h.pdf,FT2232HL,verified PDF; planned redesign source,70,e2c6745b2c5eab03e41e81d7b0b0cbc4c2dcddc3d0af3802897bc73f0483ac4f,https://www.ftdichip.cn/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
+ina238.pdf,INA238AIDGSR,verified PDF,46,66d47e5eec628369772c7a545c32420c2a0e31225efce08f9fd82aa37640f61d,https://www.ti.com/lit/ds/symlink/ina238.pdf
+ldt9055-51r.pdf,LDT9055-51R,verified PDF; planned redesign source,1,e9b779ec99a60b7a48fbd1c5df791e2b93234016e04f560bf74452c99df8d9f4,https://www.linkcom.com.tw/data/goods/spec/file/1667291413675512843.pdf
+littelfuse-1206l.pdf,1206L050YR (proposed F101 example),verified PDF; planned redesign source,5,cf25c8b5c0af69508944d89e12352d80561365c17142d664153083afd5a7313c,https://www.littelfuse.com/assetdocs/resettable-ptcs-1206l-datasheet?assetguid=2b6a1515-d4ee-4c83-8bd4-152b4901b8f5
+littelfuse-451-453.pdf,0451004.MRL,download blocked; see manufacturer URL,,,https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1
+lm4040-n.pdf,LM4040DIM3-5.0/NOPB,verified PDF; planned redesign source,86,c06c6337438bd950ee514ddd863070ab505f5d90e2dabf9ffc4c4a0843058ff6,https://www.ti.com/lit/ds/symlink/lm4040-n.pdf
+lps4018.pdf,LPS4018-332MLB,verified PDF; planned redesign source,2,0165e2a53524b2518b7367b6613b3b4ccc4ffc4ed8cdab5e267101581584eeac,https://www.coilcraft.com/getmedia/31b05c96-4c4c-4498-8dbb-fe092de76bad/lps4018.pdf
+mmbt3904lt1.pdf,MMBT3904LT1G; MMBT3904,verified PDF; planned redesign source,11,2426f26e487c92a6c6a6bed805950f9c5bdb1a8a6b0e26a9fff607ebcd3ee5a8,https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf
+mmsd4148t1.pdf,MMSD4148T1G,verified PDF; planned redesign source,6,4d4bc31f5c6e2e82a4971303a6f79be14f96fb28cc612de0b574acc5b0a5494a,https://www.onsemi.com/pdf/datasheet/mmsd4148t1-d.pdf
+murata-blm18.pdf,BLM18AG601SN1D,download blocked; see manufacturer URL,,,https://www.murata.com/en-us/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM18AG601SN1%23
+murata-uls.pdf,ULS-12/5-D48N-C,"verified PDF; former U501 module, retained reference",24,a76632c2150fcf3f72331029562939c79f2167d114b6bc2db4ef2a3ba5e070d2,https://www.murata.com/-/media/webrenewal/products/power/datasheet/uls.pdf
+nichicon-uhw.pdf,UHW2A101MHD6,verified PDF,6,e2d077e81944507025911a29cafb5e2530f7bdbf0983d847a71474e772892d82,https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uhw.pdf
+panasonic-fr.pdf,EEUFR2A101 (alternative only; not selected),verified PDF,13,47cf18461482e03270f72e475f855080e11e2154e3f343f735e5cb0e61e27df7,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+references/pmp22477-bom.pdf,PMP22477 Rev D,verified PDF; planned redesign source,4,bb853eeecbc834066f5bb926bba27f8bdb489873443139f4ab3d4360bf6a5010,https://www.ti.com/lit/df/tidma49a/tidma49a.pdf
+references/pmp22477-schematic.pdf,PMP22477 Rev D,verified PDF; planned redesign source,4,fd9c32014b5ba40e73083382c8a99cf1745ccbc1f00aca17ecbbad56ea04286a,https://www.ti.com/lit/df/tidma48a/tidma48a.pdf
+references/pmp22477-test-report.pdf,PMP22477,verified PDF; planned redesign source,18,07701aec179eb1d30bf5ff8de0229f73f1665458ca2a09fb2d9ea4f4c5358d9a,https://www.ti.com/lit/ug/tidt259/tidt259.pdf
+references/poe-layout-review.pdf,PoE design,verified PDF; planned redesign source,8,12570c7b5ba613bf1fc66e76de1d5b9b256d1f95133431fddfa264b1d5065ea3,https://www.ti.com/lit/pdf/slvaf83
+references/poe-schematic-review.pdf,PoE design,verified PDF; planned redesign source,29,d3328db1a41f93f43a7fe827bdee8bef6d6014584720da6a4a2320e75636b64c,https://www.ti.com/lit/pdf/slvaf59
+rt5-zz-0030.pdf,RT5-ZZ-0030,verified PDF; planned redesign source,11,ddbd7f2c3822fed8bb20297e4c85ca9a759862b97c7634c2772e0c75654d1c5a,https://datasheet.lcsc.com/datasheet/pdf/f47e1624b47c6daa046dab3e9174a7f8.pdf?productCode=C2934914
+rtl8211f.pdf,RTL8211F-CG,verified PDF; planned redesign source,69,107ed3bf788468be666cc4320f7e92ba587a91ba585758b2b5fa510b810dc07e,https://datasheet.lcsc.com/datasheet/pdf/7023c5bb6713a670a415e3c449e0d974.pdf?productCode=C187932
+smaj.pdf,SMAJ58A,verified PDF,6,b8617e715805bb3293892c4636279eac57c1ef18e8c87a481cec1b802731b72d,https://www.vishay.com/docs/88390/smaj50a.pdf
+smbj58a.pdf,SMBJ58A-13-F,verified PDF; planned redesign source,6,752945fa3acaf46947c4f9ffdca98027af4ffb4845c5250713f0b608a547d97f,https://datasheet.lcsc.com/datasheet/pdf/a98dcba2e58a9f9a1a005c1c0c468785.pdf?productCode=C135085
+sn74axc4t245.pdf,SN74AXC4T245PWR,verified PDF; planned redesign source,41,d78a0a3479d912aa2c59579788283835d4ecf64b9f7836c7c594ef38e570bb5c,https://www.ti.com/lit/ds/symlink/sn74axc4t245.pdf
+sn74lvc3g07.pdf,SN74LVC3G07DCTR,verified PDF,20,d4098f1b5ea6e2ae8f038b228100415b29917bf21a07540488e43845c17e0c78,https://www.ti.com/lit/ds/symlink/sn74lvc3g07.pdf
+stps3h100.pdf,STPS3H100U,verified PDF; planned redesign source,9,bedf117f9bce9cc86a4d86bb851d3618d89ed6c8ac997ab87ad4fc066f4c047b,https://media.digikey.com/pdf/Data%20Sheets/ST%20Microelectronics%20PDFS/STPS3H100.pdf
+tlv4376.pdf,TLV4376IPWR,verified PDF; planned redesign source,39,2757667a76578b596aa0e8b8eb1fae7882fc9061b250d2373d92439310f86f9c,https://www.ti.com/lit/ds/symlink/tlv4376.pdf
+tlv803e.pdf,TLV803EA30DBZR,verified PDF; planned redesign source,52,63952e401ebc990645372b4c55ca3a5235da84aa004d68fd91d1d9c42bf96a18,https://www.ti.com/lit/ds/symlink/tlv803e.pdf
+tpd4e1b06.pdf,TPD4E1B06DRLR,verified PDF; planned redesign source,24,aedcd32565788c952ea393d591bbd4f5f68310fba6a9abf171e39da009c13596,https://www.ti.com/lit/ds/symlink/tpd4e1b06.pdf
+tps22918.pdf,TPS22918DBVR,verified PDF; planned redesign source,30,1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c,https://www.ti.com/lit/ds/symlink/tps22918.pdf
+tps2372.pdf,TPS2372-4RGWR,verified PDF,44,7463b49495782f01232a55536a783a8c13e9c923dfa90f8119b5aa428ebcd207,https://www.ti.com/lit/ds/symlink/tps2372.pdf
+tps23730.pdf,TPS23730RMTR,verified PDF; planned redesign source,59,abc53c26a24d6a13fc99c82a96c16fc10538e2c4ba55d4499a472888ba074769,https://www.ti.com/lit/ds/symlink/tps23730.pdf
+tps25947.pdf,TPS259474ARPWR,verified PDF; planned redesign source,75,8f96de389903091650d4f462dcfad3210071c3ae7093623a7978f34baf8a65b4,https://www.ti.com/lit/ds/symlink/tps25947.pdf
+tps3808.pdf,TPS3808G01DBVR,verified PDF,36,cd6bd8562a0075227947033b69a71d06140787ebe8fe4d37e3fa2e83bc65621a,https://www.ti.com/lit/ds/symlink/tps3808.pdf
+tps3890.pdf,TPS389025DSER,verified PDF,27,ee79599730e7606ba9718d9820b411020e3dcd9ff7d44572f8ee63fead15b9d0,https://www.ti.com/lit/ds/symlink/tps3890.pdf
+tps62160.pdf,TPS62160DSGR; TPS62162DSGR,verified PDF; planned redesign source,42,abc824ca04ee985ede3a513172ccdd2a42c8e1fdcfc3af5acdbe2c1af31aaa72,https://www.ti.com/lit/ds/symlink/tps62160.pdf
+usb4105-drawing.pdf,USB4105-GF-A,verified PDF; planned redesign source,2,fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5,https://gct.co/files/drawings/usb4105.pdf
+usblc6-2.pdf,USBLC6-2SC6,verified PDF; planned redesign source,14,8ba7ab4ec1781b7f6052f5999a2304bd611c0ed2b5e8f36ffa5092552932a42e,https://datasheet.lcsc.com/datasheet/pdf/0d3a2ab954b34651a0695e7ccf534db0.pdf?productCode=C7519
+x322525msb4si.pdf,X322525MSB4SI,verified PDF; planned redesign source,1,7bc18549e407d8e381075b0f5fc696e48cf0fa060aeee67971925f43cfdfbb8b,https://datasheet.lcsc.com/datasheet/pdf/a84bd8d530dd46e4b0f6d0ee59d8a89c.pdf?productCode=C13740
+xal40xx.pdf,XAL4020-222MEC,verified PDF,4,b26cf975bd56a807173b05665bddd49ed49323400330eb8f6fa63e24ff6d7d15,https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf
+panasonic-fk.pdf,EEE-FK1K470P;EEE-FK1E221P,downloaded; readable PDF,12,b36857d089adaddf3042b33bf11d0f7d83bf70734e983f33b7827152e11854e3,https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf

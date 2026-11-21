@@ -1,0 +1,30 @@
+{
+  "symbol": "Regulator_Switching:TPS62160DSG",
+  "physical_components_preserved": 20,
+  "component_pin_connection_partition_preserved": true,
+  "net_names_preserved": true,
+  "values_and_footprints_preserved": true,
+  "global_full_groups_comparison_scope": "restricted tolocalphysicalrefs becauseotheragentsareeditingother sheets concurrently",
+  "physicalrefs": [
+    "C301",
+    "C302",
+    "C303",
+    "C304",
+    "C305",
+    "C306",
+    "C307",
+    "L301",
+    "R301",
+    "R302",
+    "R303",
+    "R350",
+    "R351",
+    "TP13",
+    "TP16",
+    "TP17",
+    "TP18",
+    "U301",
+    "U302",
+    "U303"
+  ]
+}

@@ -1,3 +1,56 @@
 (sym_lib_table
-  (lib (name "eth") (type "KiCad") (uri "${KIPRJMOD}/../../lib/symbols/eth.kicad_sym") (options "") (descr "Ethernet MagJack symbols"))
-)
+  (version 7)
+  (lib
+    (name "CONN_DF40_100P_F")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/CONN_DF40_100P_F.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "CONN_DF40_100P_M")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/CONN_DF40_100P_M.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiEthernet")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiEthernet.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiFTDI")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiFTDI.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiPower")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiPower.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiBoard1")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiBoard1.kicad_sym")
+    (options "")
+    (descr "Board 1 replacement parts; datasheet-derived logical units"))
+  (lib
+    (name "WokiSupplies")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiSupplies.kicad_sym")
+    (options "")
+    (descr "Board 1 custom design"))
+  (lib
+    (name "WokiPoE")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiPoE.kicad_sym")
+    (options "")
+    (descr "Board 1 custom design"))
+  (lib
+    (name "WokiProtection")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiProtection.kicad_sym")
+    (options "")
+    (descr "Board 1 custom design")))

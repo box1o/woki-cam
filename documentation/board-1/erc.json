@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-21T09:01:26",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226",
+            "violations": []
+        },
+        {
+            "path": "/Gigabit Ethernet/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226/abf471d5-85a4-5268-9f35-779cdee2be26",
+            "violations": []
+        },
+        {
+            "path": "/3.3V supply / reset/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226/9e91d675-6b20-558a-b489-8c5d2e022cea",
+            "violations": []
+        },
+        {
+            "path": "/custom isolated 12V converter/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226/de74ca5d-b231-47e1-8d1b-23c7c3085f27",
+            "violations": []
+        },
+        {
+            "path": "/USB JTAG / UART/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226/8a4c9235-545b-5ce5-9630-532d00656de9",
+            "violations": []
+        },
+        {
+            "path": "/MagJack PoE input/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226/9ade8f54-be9c-4c5e-bbfe-51311006a148",
+            "violations": []
+        },
+        {
+            "path": "/integrated stack protection/",
+            "uuid_path": "/de291139-592d-56bb-a3cc-5961c2880226/055af7d2-6bdb-4c7b-bf1c-5faf6e1d0919",
+            "violations": []
+        }
+    ],
+    "source": "power.kicad_sch"
+}

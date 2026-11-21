@@ -1,3 +1,9 @@
 (fp_lib_table
-  (lib (name "eth") (type "KiCad") (uri "${KIPRJMOD}/../../lib/footprints/eth.pretty") (options "") (descr "Ethernet MagJack footprints"))
+  (lib
+    (name "Woki")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/footprints/woki.pretty")
+    (options "")
+    (descr "Project library")
+  )
 )

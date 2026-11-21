@@ -1,1 +1,31 @@
-(sym_lib_table)
+(sym_lib_table
+  (lib
+    (name "CONN_DF40_100P_F")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/CONN_DF40_100P_F.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "CONN_DF40_100P_M")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/CONN_DF40_100P_M.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiEthernet")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiEthernet.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiFTDI")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiFTDI.kicad_sym")
+    (options "")
+    (descr "Project library"))
+  (lib
+    (name "WokiPower")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/symbols/WokiPower.kicad_sym")
+    (options "")
+    (descr "Project library")))

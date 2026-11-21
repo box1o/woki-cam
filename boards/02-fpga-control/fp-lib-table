@@ -1,1 +1,9 @@
-(fp_lib_table)
+(fp_lib_table
+  (lib
+    (name "Woki")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../lib/footprints/woki.pretty")
+    (options "")
+    (descr "Project library")
+  )
+)
